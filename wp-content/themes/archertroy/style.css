@@ -574,7 +574,7 @@ img.wp-post-image {
 .proyectos-recientes > div, .proyectos-recientes > a {
     display: inline-block;
     float: left;
-    margin: 0 5px;
+    margin: 0 8px;
     max-width: 131px;
     vertical-align: top;
     width: 131px;
@@ -736,13 +736,11 @@ max-width: auto;
 }
 
 .clientes > img {
-  width: 84px;
-	max-width: 84px;
 	display: inline-block;
 	vertical-align: top;
 	*display: inline;
 	zoom: 1;
-	margin: 0.5rem 0;
+  margin-bottom: 10px;
 }
 
 .clientes:after  {
@@ -10370,10 +10368,19 @@ max-width: auto !important;
   #menu-item-658, #menu-item-31, #menu-item-30, #menu-item-443 {
      float: right;
   }
+  #menu-item-658 {
+    padding-right: 0 !important;
+    text-align: right;
+  }
+  #menu-item-658 a {
+    padding-right: 0 !important;
+    text-align: right;
+  }
 
   /* Se ha modificado este elemento */
   #menu-item-443 {
     float: left;
+    margin-left: 0;
     margin-top: 12px;
     width: 200px;
   }

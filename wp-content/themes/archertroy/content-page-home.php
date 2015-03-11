@@ -6,6 +6,7 @@
  * @subpackage Twenty_Twelve
  * @since Twenty Twelve 1.0
  */
+
 ?>
 
 	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -17,7 +18,7 @@
 		</header>
 
 		<div class="entry-content">
-			<p><img class="alignnone size-full wp-image-34" src="wp-content/uploads/2014/11/header1.jpg" alt="header1" width="1920" height="455"></p>
+			<img class="alignnone wp-image-34" src="wp-content/uploads/2014/11/header1.jpg" alt="header1" width="1920" height="455">
       <h1>PROYECTOS RECIENTES</h1>
       <div class='proyectos-recientes'>     
       <?php
@@ -63,7 +64,7 @@
       h1>NOTICIAS</h1 
       div class="noticias"
       -->
-      <h1>BLOG</h1>      
+      <h1>Noticias</h1>      
       <div class="proyectos-recientes">
           <?php
           /****

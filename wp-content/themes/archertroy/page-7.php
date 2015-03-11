@@ -43,7 +43,15 @@
 </head>
 <body <?php body_class(); ?>>
   <!-- Landing Page Content -->
+  <?php
+
+  if($_SESSION["entro"] == 1){
+
+  }else{
+
+  ?>
   <div class='landing'></div>
+
   <script>
     if ($(window).outerWidth() < 959) {
         $('.landing').html("<img src='/wp-content/uploads/2014/12/320-preloader.png' class='mobile-landing-preloader' alt='Landing preloader'>" +          
@@ -60,9 +68,16 @@
       "</div>");
     }
   </script>
+
+  <?php
+
+  }
+
+
+  ?>
   <!-- Landing Page Content -->
   <!-- Home Page Content -->
-<div id="page" class="hfeed site" style="display: none;">
+<div id="page" class="hfeed site" style="display:none">
 	<header id="masthead" class="site-header" role="banner">
 		<hgroup>
 			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
@@ -169,22 +184,42 @@
           $footer.show();
       }
       
+      <?php
+
+      if($_SESSION["entro"] == 1){
+
+      ?>
+        $div_page.css('display',"block");
+        show_footer();
+      <?php
+
+      }else{
+
+      ?>
+     
       $div_page.css({'opacity': 0}).show();
   
-      function cargar_home() {
-        //ajustar_noticias_proyectos_recientes();
-        $landing.fadeOut(600, function() {
-          $(this).remove();
-           $div_page.animate({'opacity': 1 }, 600);
-        });  
-        resize_header($full_width_header);                    
-        show_footer();
+        function cargar_home() {
+          //ajustar_noticias_proyectos_recientes();
+          $landing.fadeOut(600, function() {
+            $(this).remove();
+             $div_page.animate({'opacity': 1 }, 600);
+          });  
+          //resize_header($full_width_header);                    
+          show_footer();
+        }
+    
+        $landing_start.click(function (e) {
+          e.preventDefault();        
+          cargar_home();
+        });
+
+      <?php
+
       }
-  
-      $landing_start.click(function (e) {
-        e.preventDefault();        
-        cargar_home();
-      });
+        
+      ?>
+      
       
       $mobile_landing_start.click(function (e) {
         cargar_home();        
@@ -246,8 +281,9 @@
       }
       
       $(window).on('resize', function () {
-        resize_header($full_width_header);
+        //resize_header($full_width_header);
       });       
 </script>
+<?php $_SESSION["entro"] = 0; ?>
 </body>
 </html>

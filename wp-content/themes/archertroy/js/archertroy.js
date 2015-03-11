@@ -318,7 +318,8 @@ var $full_width_header = $('.entry-content p:first-child img:first'),
         }
     } else if ($('.clientes').length > 0) {
         opts = {
-          gutter: 10,      
+          gutter: 10,   
+          columnWidth: 171,   
           itemSelector: 'img',
           transitionDuration: '1s'          
         }
@@ -488,7 +489,7 @@ var $full_width_header = $('.entry-content p:first-child img:first'),
   /* Asociamos la función resize_header al método resize de la ventana.  De esta manera la imagen del header conserva todo el ancho de la ventana  del documento y se ajusta la posición vertical de los demás elementos */
   
   $(window).on('resize', function () {
-    resize_header($full_width_header);
+    //resize_header($full_width_header);
   }); 
 
   /* Al momento en que se cargan la ventana mandamos ejecutar las siguientes funciones. */
@@ -502,7 +503,7 @@ var $full_width_header = $('.entry-content p:first-child img:first'),
     } 
     
     
-    resize_header($full_width_header);
+    //resize_header($full_width_header);
     asignar_clase_a_iconos_sociales();
     ajustar_footer();  
     build_msnry_opts();
@@ -817,6 +818,22 @@ $('.mensaje-derecha-1, .mensaje-derecha-2, .mensaje-derecha-3, .mensaje-izquierd
     } /*  if (window.location.pathname.search("legion") !== -1 && !es_movil()) */
   } /* animaciones_legion() */
   
+
+  /*
+   * Menu override de loading or front page
+   */
+   $("#menu-item-443").click(function (e) {
+      e.preventDefault();
+      $.ajax({
+          method: "POST",
+          url: "wp-content/themes/archertroy/overrideLoading.php",
+          data: { entro: "1"}
+        })
+        .done(function( msg ) {
+          window.location = "/";
+      });
+   });
+
   $('body').on('mouseenter', '.post-content .wp-caption:not(:first-child)', mostrar_leyenda);
   $('body').on('mouseleave', '.post-content .wp-caption:not(:first-child)', ocultar_leyenda);
   $('body').on('mouseenter', '.blog-grid .blog-wp-caption', mostrar_leyenda_grid);
