@@ -574,7 +574,6 @@ img.wp-post-image {
 .proyectos-recientes > div, .proyectos-recientes > a {
     display: inline-block;
     float: left;
-    margin: 0 8px;
     max-width: 131px;
     vertical-align: top;
     width: 131px;
@@ -586,18 +585,6 @@ img.wp-post-image {
     vertical-align: top;
     max-width: 211px;
     width: 211px;
-}
-.proyectos-recientes .wp-caption:first-child {
-    margin-left: 0;
-}
-.proyectos-recientes .wp-caption:last-child {
-    margin-right: 0;
-}
-.proyectos-Inner:first-child, .grid > div:first-child {
-    margin-left: 0;
-}
-.proyectos-Inner:last-child, .grid > div:last-child {
-    margin-right: 0;
 }
 img.attachment-post-thumbnail.wp-post-image {
 max-width: auto;
@@ -675,7 +662,9 @@ max-width: auto;
 .gente div img {
   margin: 0;
 }
-
+.gente .wp-caption-text{
+  padding:5px 0 !important;
+}
 .gente:after  {
 	content: "";
 	width: 100%;
@@ -9863,6 +9852,7 @@ max-width: auto !important;
   .gente > div {
     width: 340px;
     max-width: 340px;
+    margin: 0 0 10px;
     
     /*
     width: 434px;
@@ -9881,14 +9871,13 @@ max-width: auto !important;
   .datos-persona .persona {
     width: 55%;  
     text-align: left;
-    padding-left: 1em;
+    padding-left: 5%;
   }
 
   .datos-persona .handler {
     width: 35%;   
-    padding-right: 1em;
+    padding-right: 5%;
   }
-
 
   .datos-persona .persona .puesto-persona, .datos-persona .handler {
     text-transform: none;
@@ -9909,6 +9898,7 @@ max-width: auto !important;
     color: #252425;
     font-size: 16px;
     text-align: right;
+    margin: 0px;
   }
   
   /*  Ajustar título y párrafos en los proyectos   */

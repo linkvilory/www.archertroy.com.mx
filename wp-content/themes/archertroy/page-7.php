@@ -200,7 +200,7 @@
       $div_page.css({'opacity': 0}).show();
   
         function cargar_home() {
-          //ajustar_noticias_proyectos_recientes();
+          ajustar_noticias_proyectos_recientes();
           $landing.fadeOut(600, function() {
             $(this).remove();
              $div_page.animate({'opacity': 1 }, 600);
@@ -233,7 +233,7 @@
             transitionDuration: '1s'
           },
           opciones_noticias = {
-            gutter: 16, 
+            gutter: 10, 
             itemSelector: 'div',
             transitionDuration: '1s'
           }

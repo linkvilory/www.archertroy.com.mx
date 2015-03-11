@@ -319,14 +319,13 @@ var $full_width_header = $('.entry-content p:first-child img:first'),
     } else if ($('.clientes').length > 0) {
         opts = {
           gutter: 10,   
-          columnWidth: 171,   
           itemSelector: 'img',
           transitionDuration: '1s'          
         }
         create_and_build_masonry('.clientes', opts);
     }  else if ($('.gente').length > 0) {
         opts = {
-          gutter: 21,
+          gutter: 10,
           itemSelector: 'div',
           transitionDuration: '1s'          
         }
