@@ -557,7 +557,7 @@ img.wp-post-image {
 }
 /* Ajustar visualización datos de la publicación  */
 
-.proyectos-recientes  {
+.proyectos-recientes, .ultimas-noticias  {
   position: relative;
   margin: 0;
   padding: 0;
@@ -571,26 +571,18 @@ img.wp-post-image {
   text-justify: distribute-all-lines;
 }
 
-.proyectos-recientes > div, .proyectos-recientes > a {
+.proyectos-recientes > div, .proyectos-recientes > a, .ultimas-noticias > div, .ultimas-noticias > a, .ultimas-noticias > div, .ultimas-noticias > a {
     display: inline-block;
     float: left;
     max-width: 131px;
     vertical-align: top;
     width: 131px;
 }
-.proyectos-Inner, .grid > div, .grid > a{
-    display: inline-block;
-    float: left;
-    margin: 0 5px;
-    vertical-align: top;
-    max-width: 211px;
-    width: 211px;
-}
 img.attachment-post-thumbnail.wp-post-image {
 max-width: auto;
 }
 
-.proyectos-recientes > span {
+.proyectos-recientes > span, .proyectos-recientes > span {
   display: block;
   clear: both;
   float: none;
@@ -599,11 +591,11 @@ max-width: auto;
   left: 32px;
 }
 
-.proyectos-recientes > span a {
+.proyectos-recientes > span a, .proyectos-recientes > span a {
   color: #fff;
 }
 
-.proyectos-recientes:after  {
+.proyectos-recientes:after, .proyectos-recientes:after  {
 	content: "";
 	width: 100%;
 	display: inline-block;
@@ -1410,16 +1402,16 @@ section[role="banner"] {
 
 /* Footer */
 footer[role="contentinfo"] {
-  display: block;
-	height: 94px;
-	clear: both;
-	font-size: 13px;
-	line-height: 2;
-	color: #828282;
-	width: 100%;
-  margin: 60px auto 0 auto;
-  border-bottom: 2px solid #242524; 
-/*  border-bottom: 2px solid transparent; */
+    border-bottom: 2px solid #242524;
+    bottom: 0;
+    clear: both;
+    color: #828282;
+    display: block;
+    font-size: 13px;
+    height: 94px;
+    line-height: 2;
+    position: relative;
+    width: 100%;
 }
 
 footer .site-info {
@@ -4795,7 +4787,7 @@ margin-bottom: 1em;
   
   */
 
-  .proyectos-recientes > div, .proyectos-recientes > a {
+  .proyectos-recientes > div, .proyectos-recientes > a, .ultimas-noticias > div, .ultimas-noticias > a {
     width: 163px;
   	max-width: 163px;
   }
@@ -6310,7 +6302,7 @@ margin-bottom: 1em;
     top: 40px;
   }
 
-  .proyectos-recientes > div, .proyectos-recientes > a {
+  .proyectos-recientes > div, .proyectos-recientes > a, .ultimas-noticias > div, .ultimas-noticias > a {
     width: 105px;
   	max-width: 105px;
   }
@@ -8052,7 +8044,7 @@ max-width: auto !important;
     top: 80px;
   }
   
-  .proyectos-recientes > div, .proyectos-recientes > a {
+  .proyectos-recientes > div, .proyectos-recientes > a, .ultimas-noticias > div, .ultimas-noticias > a {
     width: 141px;
     max-width: 141px;    
   }
@@ -9729,7 +9721,7 @@ max-width: auto !important;
     font-size: 1.6rem;
   }
   
-  .proyectos-recientes > div, .proyectos-recientes > a {
+  .proyectos-recientes > div, .proyectos-recientes > a, .ultimas-noticias > div, .ultimas-noticias > a {
     max-width: 211px;
     width: 211px;
   }
@@ -9746,21 +9738,32 @@ max-width: auto !important;
   }
   
   footer .site-info {
-    width: 100%;
-    position: relative;
+    height: 100%;
     margin: 0 auto;
+    position: relative;
+    width: 100%;
   }
-  
+  .solid {
+    background: none repeat scroll 0 0 #242524;
+    float: left;
+    height: 100%;
+    width: 240px;
+  }
+  .triangule {
+    background-image: url("img/footer-triangule.png");
+    float: left;
+    height: 100%;
+    width: 21px;
+  }
   .social-links {
-  	display: inline-block;
-  	float: left;
-    border-bottom: 40px solid #242524;
-    border-right: 40px solid transparent;
-    height: 0;
-    width: 240px;   
-  	font-size: 16px;
-  	line-height: 3em;
-  	text-align: center;
+    background: none repeat scroll 0 0 #242524;
+    display: inline-block;
+    float: left;
+    font-size: 16px;
+    height: 100%;
+    line-height: 3em;
+    text-align: center;
+    width: 240px;
   }
 
   .copyright {
@@ -9926,7 +9929,6 @@ max-width: auto !important;
     max-width: 1350px;
     opacity: 0.5;
     width: 1350px;
-    padding: 0 0 0 14px;
     text-align: justify;
   }
   .entry-content .legion-page-right-paragraph-one {
@@ -11611,7 +11613,7 @@ textarea {
   font-variant: normal !important;
   text-transform: none !important;
   speak: none;
-  line-height: 1;
+  line-height: 1em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

@@ -115,14 +115,18 @@
 <!-- footer OUTSIDE container -->
 	<footer id="colophon" role="contentinfo" style='display: none;'>
 		<div class="site-info">
-			<div class='social-links'>
-  			<a href='https://www.facebook.com/archertroy' class='icon-facebook' target='_blank'></a>
-  			<a href='https://twitter.com/ArcherTroy' class='icon-twitter' target='_blank'></a>
-  			<a href='http://instagram.com/archertroy' class='icon-instagram' target='_blank'></a>
-  			<a href='http://www.pinterest.com/archertroyp' class='icon-pinterest-1' target='_blank'></a>
-  			<a href='https://www.youtube.com/ConquistasArcher' class='icon-youtube-play' target='_blank'></a>
-  			<a href='https://plus.google.com/105080074709822071277/posts' class='icon-google-plus' target='_blank'></a>
-			</div>
+      <div class="solid">
+        <div class='social-links'>
+          <a href='https://www.facebook.com/archertroy' class='icon-facebook' target='_blank'></a>
+          <a href='https://twitter.com/ArcherTroy' class='icon-twitter' target='_blank'></a>
+          <a href='http://instagram.com/archertroy' class='icon-instagram' target='_blank'></a>
+          <a href='http://www.pinterest.com/archertroyp' class='icon-pinterest-1' target='_blank'></a>
+          <a href='https://www.youtube.com/ConquistasArcher' class='icon-youtube-play' target='_blank'></a>
+          <a href='https://plus.google.com/105080074709822071277/posts' class='icon-google-plus' target='_blank'></a>
+        </div>
+      </div>
+			<div class="triangule">
+      </div>
 			<div class='copyright'>
         <span class='reg'>&reg;</span> ARCHER TROY S.A. DE C.V. LOS USUARIOS SE OBLIGAN A CUMPLIR CON LOS TÉRMINOS Y CONDICIONES DEL WEB. MARCA REGISTRADA. DECLARACIÓN DE PRIVACIDAD DE LA INFORMACIÓN DE MÉXICO (55) 55 39 22 72
 			</div>
@@ -191,6 +195,7 @@
       ?>
         $div_page.css('display',"block");
         show_footer();
+        ajustar_noticias_proyectos_recientes();
       <?php
 
       }else{
@@ -241,6 +246,14 @@
           proyectos_recientes = document.querySelector('.proyectos-recientes');
           imagesLoaded( proyectos_recientes, function() {            
             contenedor_proyectos = new Masonry( proyectos_recientes, opciones_proyectos);
+            if (es_movil()) {
+              ajustar_altura_proyectos();
+            }            
+          });
+
+          ultimas_noticias = document.querySelector('.ultimas-noticias');
+          imagesLoaded( ultimas_noticias, function() {            
+            contenedor_noticias = new Masonry( ultimas_noticias, opciones_proyectos);
             if (es_movil()) {
               ajustar_altura_proyectos();
             }            

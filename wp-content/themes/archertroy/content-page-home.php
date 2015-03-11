@@ -65,7 +65,7 @@
       div class="noticias"
       -->
       <h1>Noticias</h1>      
-      <div class="proyectos-recientes">
+      <div class="ultimas-noticias">
           <?php
           /****
            *
