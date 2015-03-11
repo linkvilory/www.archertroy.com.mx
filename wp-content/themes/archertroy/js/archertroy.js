@@ -343,7 +343,7 @@ var $full_width_header = $('.entry-content p:first-child img:first'),
           itemSelector: 'div',
           transitionDuration: '1s',
         }         
-        create_and_build_masonry('.grid', opts, true);
+        //create_and_build_masonry('.grid', opts, true);
     } 
   }
   

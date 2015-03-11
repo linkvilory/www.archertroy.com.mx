@@ -35,7 +35,7 @@ get_header(); ?>
        if ($my_query->have_posts()) {
           while ( $my_query->have_posts() ) : $my_query->the_post(); 
       ?>
-        <div class='wp-caption'>
+        <div class='wp-caption proyectos-Inner'>
             <a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_post_thumbnail(); ?></a> 
             <p class="wp-caption-text"><?php the_post_thumbnail_caption(); ?></p>
         </div>
@@ -43,9 +43,9 @@ get_header(); ?>
         } 
             wp_reset_query();
       // end of the loop. ?>      
-          <a href='posters/' class='boton-carteles large' style='display: none;'>CARTELES</a>
+          <!--<a href='posters/' class='boton-carteles large' style='display: none;'>CARTELES</a>-->
         </div>      
-          <a href='posters/' class='boton-carteles small' style='display: none;'>CARTELES</a>
+          <!--<a href='posters/' class='boton-carteles small' style='display: none;'>CARTELES</a>-->
     	</article><!-- #post -->
 		</div><!-- #content -->
 	</div><!-- #primary -->
