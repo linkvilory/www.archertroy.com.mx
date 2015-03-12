@@ -53,6 +53,74 @@ http://blog.typekit.com/2011/11/09/type-study-sizing-the-legible-letter/
 -------------------------------------------------------------- */
 
 /*
+ Fuentes alternativas
+ */
+@font-face {
+    font-family: 'optimabold';
+    src: url('fonts/Optima-Bold-webfont.eot');
+    src: url('fonts/Optima-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Optima-Bold-webfont.woff2') format('woff2'),
+         url('fonts/Optima-Bold-webfont.woff') format('woff'),
+         url('fonts/Optima-Bold-webfont.ttf') format('truetype'),
+         url('fonts/Optima-Bold-webfont.svg#optimabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'optimaregular';
+    src: url('fonts/Optima-Regular-webfont.eot');
+    src: url('fonts/Optima-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Optima-Regular-webfont.woff2') format('woff2'),
+         url('fonts/Optima-Regular-webfont.woff') format('woff'),
+         url('fonts/Optima-Regular-webfont.ttf') format('truetype'),
+         url('fonts/Optima-Regular-webfont.svg#optimaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'trajanbold';
+    src: url('fonts/Trajan-Bold-webfont.eot');
+    src: url('fonts/Trajan-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Trajan-Bold-webfont.woff2') format('woff2'),
+         url('fonts/Trajan-Bold-webfont.woff') format('woff'),
+         url('fonts/Trajan-Bold-webfont.ttf') format('truetype'),
+         url('fonts/Trajan-Bold-webfont.svg#trajanbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'trajanregular';
+    src: url('fonts/Trajan-Regular-webfont.eot');
+    src: url('fonts/Trajan-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Trajan-Regular-webfont.woff2') format('woff2'),
+         url('fonts/Trajan-Regular-webfont.woff') format('woff'),
+         url('fonts/Trajan-Regular-webfont.ttf') format('truetype'),
+         url('fonts/Trajan-Regular-webfont.svg#trajanregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+} 
+/* Iconos fontastic */
+
+@font-face {
+  font-family: 'untitled-font-1';
+    src: url('fonts/redes-webfont.eot');
+    src: url('fonts/redes-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/redes-webfont.woff2') format('woff2'),
+         url('fonts/redes-webfont.woff') format('woff'),
+         url('fonts/redes-webfont.ttf') format('truetype'),
+         url('fonts/redes-webfont.svg#untitled-font-1') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*
 * {
   -webkit-user-select: none;
   -o-user-select: none;
@@ -1021,8 +1089,8 @@ a:hover {
 
 /* Page structure */
 .site {
-	padding: 0 24px;
-	padding: 0 1.714285714rem;
+	/*padding: 0 24px;
+	padding: 0 1.714285714rem;*/
 	background-color: #fff;
 }
 .site-content {
@@ -1039,6 +1107,7 @@ a:hover {
 	padding: 24px 0;
 	padding: 1.714285714rem 0;
   */
+  padding: 0 1.714285714rem;
 }
 
 .site-header h1,
@@ -2360,8 +2429,11 @@ img#wpstats {
 
 .site {
 	margin: 0 auto;
+  /*
   width: 272px;
 	max-width: 272px; 
+  */
+  width:100%;
   /*
     Ajustar imágen header
     overflow: hidden;
@@ -4601,8 +4673,11 @@ margin-bottom: 1em;
   
   .site {
   	margin: 0 auto;
+    /*
     width: 510px;
   	max-width: 510px; 
+    */
+    width: 100%;
     /*
     Visualizar el encabezado en todo su esplendor
   	overflow: hidden;
@@ -4771,7 +4846,7 @@ margin-bottom: 1em;
 
   /* Tamaño la página donde se visualiza el contenido */
 	.site {
-		max-width: 600px; 
+		/*max-width: 600px; */
     min-height: 100%;
 	}  
 
@@ -6287,8 +6362,11 @@ margin-bottom: 1em;
   
   /* Tamaño la página donde se visualiza el contenido */
 	.site {
+    /*
     width: 912px;
 		max-width: 912px; 
+    */
+    width:100%;
     min-height: 100%;
 	}  
 
@@ -6594,7 +6672,6 @@ max-width: auto !important;
 
   .centrar {
     text-align: center;
-    padding-top: 100px;
     width: 30%;
   }
 
@@ -8029,8 +8106,11 @@ max-width: auto !important;
   
   /* Tamaño la página donde se visualiza el contenido */
 	.site {
+    /*
     width: 1200px;
 		max-width: 1200px; 
+    */
+    width:100%;
     min-height: 100%;
 	}  
 
@@ -8220,7 +8300,6 @@ max-width: auto !important;
   .proyectos-recientes, .noticias {
     width: 1200px;
     max-width: 1200px;
-    margin: 1.714285714rem auto;
   }
 
  img.attachment-post-thumbnail.wp-post-image{
@@ -8267,7 +8346,6 @@ max-width: auto !important;
 
   .centrar {
     text-align: center;
-    padding-top: 100px;
   }
    
   /* Tamaño de fuentes e interlineado para los caption */
@@ -9512,7 +9590,30 @@ max-width: auto !important;
 
 /* Resolución 1800 y mayores */
 @media screen and (min-width: 1800px) {
-  
+  /*
+   *
+   */
+   .texto {
+    font-family: optimaregular;
+    letter-spacing: 0.5px;
+}
+  /* */ 
+  #post-16 .entry-content > div:nth-child(2){
+    margin: auto;
+    max-width: 1200px;
+    width: 1200px;
+  }
+  .site-header {
+    margin: auto;
+    padding: 0 1.71429rem;
+    width: 1800px;
+  }
+  #post-14, #post-12, #post-10{
+    margin: auto;
+    max-width: 1800px;
+    width: 1800px;
+  }
+
   .mini-logo {display: none;}
 
   .proyectos-movil { display: none;}
@@ -9678,7 +9779,12 @@ max-width: auto !important;
     /* Para que firefox no corte el sub menú */
     overflow: visible;
   }
-
+  .main-navigation li > a:hover{
+    text-decoration: underline;
+  }
+  .main-navigation li.current-menu-item a {
+    text-decoration: underline;
+  }
   .sidebar .menu-menu-1-container > ul > li > ul {
     margin-left: 0;
     max-height: 40px;
@@ -9701,8 +9807,11 @@ max-width: auto !important;
   
   /* Tamaño la página donde se visualiza el contenido */
 	.site {
+    /*
     width: 1800px;
 		max-width: 1800px; 
+    */
+    width:100%;
     min-height: 100%;
 	}  
 
@@ -9730,7 +9839,11 @@ max-width: auto !important;
     width: 346px;
   	max-width: 346px;
   }
-  
+  .primerInnerPadding {
+    margin: auto;
+    padding: 0 1.71429rem;
+    width: 1800px;
+  }
   /* El footer va a crecer hasta 1600px / se reduce la altura a 40px porque ya está en una sola línea */  
   footer[role="contentinfo"] {
   	height: 40px;
@@ -9922,14 +10035,17 @@ max-width: auto !important;
   }
 
   .entry-content .legion-page-left-paragraph-one {
-    font-family: "Optima","Open Sans",sans-serif;
-    font-size: 1.4rem;
+    color: #ccc;
+    font-family: trajanregular;
+    font-size: 1.2rem;
     font-weight: lighter;
-    margin: 1.71429rem auto;
+    letter-spacing: 0.6px;
+    line-height: 2;
+    margin: 1.714rem auto;
     max-width: 1350px;
-    opacity: 0.5;
-    width: 1350px;
+    opacity: 1;
     text-align: justify;
+    width: 1350px;
   }
   .entry-content .legion-page-right-paragraph-one {
     font-family: "Optima","Open Sans",sans-serif;
@@ -10009,10 +10125,9 @@ max-width: auto !important;
     width: 1350px !important;
   }
   
-  .proyectos-recientes, .noticias {
+  .proyectos-recientes, .ultimas-noticias {
     width: 1800px;
     max-width: 1800px;
-    margin: 1.714285714rem auto;
   }
 
  img.attachment-post-thumbnail.wp-post-image{
@@ -10069,7 +10184,7 @@ max-width: auto !important;
     display: block;
     clear: both;
     float: none;
-    width: 1800px;
+    width: 1200px;
     margin: 1.714285714rem auto;
   }
   
@@ -10089,7 +10204,6 @@ max-width: auto !important;
 
   .centrar {
     text-align: center;
-    padding-top: 100px;
   }
    
   /* Tamaño de fuentes e interlineado para los caption */
@@ -10566,11 +10680,11 @@ max-width: auto !important;
       }
     
       section.legion .column-right p, section.legion .column-right p:nth-child(2) {
-        font-family: "Optima", "Open Sans",sans-serif !important;
-        font-size: 18px !important;
-        width: 100% !important;
-        color: #8c8c8c !important;
-        line-height: 1.85;
+          color: #8c8c8c !important;
+          font-family: optimaregular;
+          font-size: 18px !important;
+          line-height: 1.75;
+          width: 100% !important;
       }
 
   /* Sección filosofía  */    
@@ -10820,11 +10934,13 @@ max-width: auto !important;
          }
        
          .seccion-arco .arco-1 .titulo {
-           font-family: "TrajanPro-Regular", "Lusitana", Times, serif;
-           display: inline;
-           text-align: center;
-           margin-right: 0.3em;
-         }
+            color: #8c8c8c;
+            display: inline;
+            font-family: trajanregular;
+            font-size: 1em;
+            margin-right: 0.3em;
+            text-align: center;
+        }
        /*
          .seccion-arco .arco-1 .texto, 
          .seccion-arco .arco-1 .texto p, 
@@ -10987,12 +11103,12 @@ max-width: auto !important;
            
     
          /* Sección interior  */    
-         section.interior { 
-             width: 1378px; 
-             margin: 40px auto 45px auto; 
-             height: auto;  
-             display: table;      
-         }
+         section.interior {
+            display: table;
+            height: auto;
+            margin: 40px auto 45px;
+            width: 1200px;
+        }
 
         section.interior h1.title {
            color: #939598; 
@@ -11591,19 +11707,6 @@ textarea {
   border: 1px solid #d2d2d4;
 }
 
-/* Iconos fontastic */
-
-@font-face {
-  font-family: 'untitled-font-1';
-    src: url('fonts/redes-webfont.eot');
-    src: url('fonts/redes-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/redes-webfont.woff2') format('woff2'),
-         url('fonts/redes-webfont.woff') format('woff'),
-         url('fonts/redes-webfont.ttf') format('truetype'),
-         url('fonts/redes-webfont.svg#untitled-font-1') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
 
 [data-icon]:before {
   font-family: "untitled-font-1" !important;

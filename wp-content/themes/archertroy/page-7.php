@@ -233,12 +233,12 @@
       
       function ajustar_noticias_proyectos_recientes() {
         opciones_proyectos = {
-            gutter: 10, 
+            gutter: 16, 
             itemSelector: 'div',
             transitionDuration: '1s'
           },
           opciones_noticias = {
-            gutter: 10, 
+            gutter: 16, 
             itemSelector: 'div',
             transitionDuration: '1s'
           }

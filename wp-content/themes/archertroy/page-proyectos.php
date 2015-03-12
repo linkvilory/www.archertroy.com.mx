@@ -21,7 +21,7 @@ get_header(); ?>
 
 	<div id="primary" class="site-content">
 		<div id="content" role="main">
-    	<article  class="page type-page status-publish hentry">
+    	<article id="post-<?php the_ID(); ?>" class="page type-page status-publish hentry">
     		<header class="entry-content">
     			<h1>Proyectos</h1>
     		</header>

@@ -18,7 +18,8 @@
 		</header>
 
 		<div class="entry-content">
-			<img class="alignnone wp-image-34" src="wp-content/uploads/2014/11/header1.jpg" alt="header1" width="1920" height="455">
+			<img class="alignnone wp-image-34" src="wp-content/uploads/2014/11/header1.jpg" alt="header1" width="100%" height="455">
+      <div class="primerInnerPadding">
       <h1>PROYECTOS RECIENTES</h1>
       <div class='proyectos-recientes'>     
       <?php
@@ -122,6 +123,7 @@
 			<!-- ?php the_content(); ? -->
       
 			<?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'twentytwelve' ), 'after' => '</div>' ) ); ?>
+      </div>
 		</div><!-- .entry-content -->
 		<footer class="entry-meta">
 			<?php edit_post_link( __( 'Edit', 'twentytwelve' ), '<span class="edit-link">', '</span>' ); ?>
