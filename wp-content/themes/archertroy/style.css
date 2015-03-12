@@ -106,19 +106,6 @@ http://blog.typekit.com/2011/11/09/type-study-sizing-the-legible-letter/
     font-style: normal;
 
 } 
-/* Iconos fontastic */
-
-@font-face {
-  font-family: 'untitled-font-1';
-    src: url('fonts/redes-webfont.eot');
-    src: url('fonts/redes-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/redes-webfont.woff2') format('woff2'),
-         url('fonts/redes-webfont.woff') format('woff'),
-         url('fonts/redes-webfont.ttf') format('truetype'),
-         url('fonts/redes-webfont.svg#untitled-font-1') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
 
 /*
 * {
@@ -8079,7 +8066,7 @@ max-width: auto !important;
   .main-navigation li, .main-navigation li a {
     font-size: 1.2rem !important;
     /* padding: 1em 0.875em 0.75em 0 !important; */
-    padding: 1em 0.675em 0.75em 0 !important;    
+    padding: 1em 2em 0.75em 0 !important;    
     border: 0 !important;
   }
   
@@ -9594,8 +9581,18 @@ max-width: auto !important;
    *
    */
    .texto {
+    -moz-hyphens: none;
     font-family: optimaregular;
-    letter-spacing: 0.5px;
+    word-wrap: normal;
+}
+.entry-content b{
+  font-family:optimabold;
+}
+.second-tag-line {
+    margin: 60px auto 0;
+}
+.second-tag-line > p {
+    margin: 60px auto 0 !important;
 }
   /* */ 
   #post-16 .entry-content > div:nth-child(2){
@@ -9773,10 +9770,9 @@ max-width: auto !important;
 
   /* Menú de navegación */  
   .main-navigation li, .main-navigation li a {
-    font-size: 1.2rem !important;
-    border: 0 !important;
-    padding: 0;
-    /* Para que firefox no corte el sub menú */
+    border: 0 none !important;
+    font-family: trajanregular;
+    font-size: 1em !important;
     overflow: visible;
   }
   .main-navigation li > a:hover{
@@ -9846,9 +9842,10 @@ max-width: auto !important;
   }
   /* El footer va a crecer hasta 1600px / se reduce la altura a 40px porque ya está en una sola línea */  
   footer[role="contentinfo"] {
-  	height: 40px;
+    height: 40px;
+    margin: 60px 0 0;
     width: 100%;
-  }
+}
   
   footer .site-info {
     height: 100%;
@@ -10035,72 +10032,63 @@ max-width: auto !important;
   }
 
   .entry-content .legion-page-left-paragraph-one {
+    -moz-hyphens: none;
     color: #ccc;
     font-family: trajanregular;
     font-size: 1.2rem;
-    font-weight: lighter;
-    letter-spacing: 0.6px;
     line-height: 2;
-    margin: 1.714rem auto;
-    max-width: 1350px;
-    opacity: 1;
+    margin: 1.71429rem 0 0;
     text-align: justify;
-    width: 1350px;
-  }
+    width: 100%;
+    word-wrap: normal;
+}
   .entry-content .legion-page-right-paragraph-one {
-    font-family: "Optima","Open Sans",sans-serif;
+    font-family: optimaregular !important;
     font-size: 1.2rem;
     font-weight: lighter;
-    margin: 1.71429rem auto;
-    max-width: 1350px;
-    padding: 0 0 0 14px;
+    margin: 1.71429rem 0 0 1.71429rem;
     text-align: justify;
-    width: 1350px;
-  }
+}
   .entry-content .legion-page-left-paragraph-two {
     display: inline-block;
-    font-family: "Optima","Open Sans",sans-serif;
+    font-family: optimaregular !important;
     font-size: 1.2rem;
     font-weight: lighter;
-    margin: 1.71429rem auto;
+    margin: 1.71429rem 0 0;
     max-width: 1350px;
     padding: 0;
     text-align: justify;
-    width: 600px;
-  }
+}
   .entry-content .legion-page-right-paragraph-two {
     display: inline-block;
-    font-family: "Optima","Open Sans",sans-serif;
+    font-family: optimaregular !important;
     font-size: 1.2rem;
     font-weight: lighter;
-    margin: 1.71429rem auto;
+    margin: 1.71429rem 0 0 1.71429rem;
     max-width: 1350px;
     padding: 0;
     text-align: justify;
-    width: 600px;
-  }
+}
   .entry-content .legion-page-left-paragraph-three {
     display: inline-block;
-    font-family: "Optima","Open Sans",sans-serif;
+    font-family: optimaregular !important;
     font-size: 1.2rem;
     font-weight: lighter;
-    margin: 1.71429rem auto;
+    margin: 1.71429rem 0 0;
     max-width: 1350px;
     padding: 0;
     text-align: justify;
-    width: 600px;
-  }
+}
   .entry-content .legion-page-right-paragraph-three {
     display: inline-block;
-    font-family: "Optima","Open Sans",sans-serif;
+    font-family: optimaregular !important;
     font-size: 1.2rem;
     font-weight: lighter;
-    margin: 1.71429rem auto;
+    margin: 1.71429rem 0 0 1.71429rem;
     max-width: 1350px;
     padding: 0;
     text-align: justify;
-    width: 600px;
-  }
+}
   /* 
     Ajustar visualización de los videos en los proyectos. 
     Únicamente funciona con los videos embebidos directamente en wordpress
@@ -10487,7 +10475,8 @@ max-width: auto !important;
   #menu-item-443 {
     float: left;
     margin-left: 0;
-    margin-top: 12px;
+    margin-right: 30px;
+    margin-top: 6px;
     width: 200px;
   }
   
@@ -10602,11 +10591,11 @@ max-width: auto !important;
   /* Página legion - estilos predeterminados 1920 */  
 
   /* Sección legión */
-      section.legion { 
-          width: 1200px; 
-          margin: 45px auto; 
-          display: table;
-      }
+      section.legion {
+    display: table;
+    margin: 60px auto 0;
+    width: 100%;
+}
     
       section.legion h4.title-super { 
           color: #d1d2d4; 
@@ -10680,20 +10669,23 @@ max-width: auto !important;
       }
     
       section.legion .column-right p, section.legion .column-right p:nth-child(2) {
-          color: #8c8c8c !important;
-          font-family: optimaregular;
-          font-size: 18px !important;
-          line-height: 1.75;
-          width: 100% !important;
-      }
+    -moz-hyphens: none;
+    color: #8c8c8c !important;
+    font-family: optimaregular !important;
+    font-size: 1.2em !important;
+    line-height: 1.75;
+    text-align: justify;
+    width: 95% !important;
+    word-wrap: normal;
+}
 
   /* Sección filosofía  */    
-      section.filosofia { 
-          width: 1200px; 
-          margin: 40px auto 45px auto; 
-          height: auto;  
-          display: table;      
-      }
+      section.filosofia {
+    display: table;
+    height: auto;
+    margin: 60px auto 0;
+    width: 100%;
+}
     
       section.filosofia h4.title-super { 
           color: #d1d2d4; 
@@ -10734,33 +10726,38 @@ max-width: auto !important;
         display: table-row;      
       }
     
-      section.filosofia .column-left p, section.filosofia .column-left p:nth-child(2)  {
-        font-family: "Optima", "Open Sans",sans-serif !important;
-        font-size: 18px !important;
-        width: 600px !important;
-        padding: 0 !important;
-        color: #8c8c8c !important;
-        line-height: 1.85;
+      section.filosofia .column-left p, section.filosofia .column-left p:nth-child(2) {
+          -moz-hyphens: none;
+          color: #8c8c8c !important;
+          font-family: optimaregular !important;
+          font-size: 1.2em !important;
+          line-height: 1.85;
+          padding: 0 !important;
+          text-align: justify;
+          width: 100% !important;
+          word-wrap: normal;
       }
     
  
       section.filosofia .column-right p, section.filosofia .column-right p:nth-child(2) {
-        font-family: "Optima", "Open Sans",sans-serif !important;
-        font-size: 18px !important;
-        width: 600px !important;
-        padding: 0 !important;
-        color: #8c8c8c !important;
-        line-height: 1.85;
-        word-spacing: -1px !important;
+          -moz-hyphens: none;
+          color: #8c8c8c !important;
+          font-family: optimaregular !important;
+          font-size: 1.2em !important;
+          line-height: 1.85;
+          padding: 0 !important;
+          width: 95% !important;
+          word-wrap: normal;
+          text-align: justify;
       }
 
       /* Sección metodología  */    
-          section.metodologia { 
-              width: 1200px; 
-              margin: 40px auto 45px auto; 
-              height: auto;  
-              display: table;      
-          }
+          section.metodologia {
+    display: table;
+    height: auto;
+    margin: 60px auto 0;
+    width: 100%;
+}
     
           section.metodologia h4.title-super { 
               color: #d1d2d4; 
@@ -10801,16 +10798,28 @@ max-width: auto !important;
             display: table-row;      
           }
     
-          section.metodologia .column-left p, section.metodologia .column-left p:nth-child(2), 
-          section.metodologia .column-right p, section.metodologia .column-right p:nth-child(2) {
-            font-family: "Optima", "Open Sans",sans-serif !important;
-            font-size: 18px !important;
-            width: 600px !important;
-            padding: 0 !important;
-            color: #8c8c8c !important;
-            line-height: 1.85;
+          section.metodologia .column-left p, section.metodologia .column-left p:nth-child(2) {
+              -moz-hyphens: none;
+              color: #8c8c8c !important;
+              font-family: optimaregular !important;
+              font-size: 1.2em !important;
+              line-height: 1.85;
+              padding: 0 !important;
+              text-align: justify;
+              width: 100% !important;
+              word-wrap: normal;
           }
-  
+          section.metodologia .column-right p, section.metodologia .column-right p:nth-child(2) {
+              -moz-hyphens: none;
+              color: #8c8c8c !important;
+              font-family: optimaregular !important;
+              font-size: 1.2em !important;
+              line-height: 1.85;
+              padding: 0 !important;
+              text-align: justify;
+              width: 95% !important;
+              word-wrap: normal;
+          }
   
           section.metodologia .second-tag-line {
             position: relative;
@@ -10846,12 +10855,12 @@ max-width: auto !important;
           }
         
           /* Sección táctica  */    
-          section.tactica { 
-              width: 1200px; 
-              margin: 40px auto 45px auto; 
-              height: auto;  
-              display: table;      
-          }
+          section.tactica {
+    display: table;
+    height: auto;
+    margin: 60px auto 0;
+    width: 100%;
+}
 
           section.tactica h4.title-super { 
               color: #d1d2d4; 
@@ -10877,19 +10886,25 @@ max-width: auto !important;
          }
        
          section.tactica p#parrafo-tactica {
-            float: left;
-            font-size: 1.25em;
-            margin-bottom: 60px;
-            width: 650px;
-        }
+    -moz-hyphens: none;
+    float: left;
+    font-size: 1.2em;
+    margin: 1.71429rem 0 0;
+    text-align: justify;
+    width: 50%;
+    word-wrap: normal;
+}
        
-         section.tactica p#parrafo-tactica-dos {
-            float: left;
-            font-size: 1.3em;
-            margin-top: 60px;
-            opacity: 0.5;
-            width: 650px;
-        }
+        section.tactica p#parrafo-tactica-dos {
+    -moz-hyphens: none;
+    color: #ccc;
+    float: left;
+    font-size: 1.2em;
+    margin: 1.71429rem 0 0;
+    text-align: justify;
+    width: 50%;
+    word-wrap: normal;
+}
               
          section.tactica .seccion-arco {
             color: #8c8c8c;
@@ -10897,6 +10912,7 @@ max-width: auto !important;
             font-size: 16px;
             position: relative;
             width: 100%;
+            margin: 1.71429rem 0 0;
         }
     
          /* Texto en la sección del arco */    
@@ -10983,10 +10999,12 @@ max-width: auto !important;
           }
  
           .seccion-arco .arco-4 .titulo {
-            font-family: "TrajanPro-Regular", "Lusitana", Times, serif;
+            color: #8c8c8c;
             display: inline;
-            text-align: center;
+            font-family: trajanregular;
+            font-size: 1em;
             margin-right: 0.3em;
+            text-align: center;
           }
  
           .seccion-arco .arco-4 .texto, 
@@ -11033,10 +11051,12 @@ max-width: auto !important;
            }
  
            .seccion-arco .arco-3 .titulo {
-             font-family: "TrajanPro-Regular", "Lusitana", Times, serif;
-             display: inline;
-             text-align: center;
-             margin-right: 0.3em;
+             color: #8c8c8c;
+            display: inline;
+            font-family: trajanregular;
+            font-size: 1em;
+            margin-right: 0.3em;
+            text-align: center;
            }
  
            .seccion-arco .arco-3 .texto, 
@@ -11081,10 +11101,12 @@ max-width: auto !important;
             }
  
             .seccion-arco .arco-2 .titulo {
-              font-family: "TrajanPro-Regular", "Lusitana", Times, serif;
-              display: inline;
-              text-align: center;
-              margin-right: 0.3em;
+              color: #8c8c8c;
+            display: inline;
+            font-family: trajanregular;
+            font-size: 1em;
+            margin-right: 0.3em;
+            text-align: center;
             }
  
             .seccion-arco .arco-2 .texto, 
@@ -11104,11 +11126,11 @@ max-width: auto !important;
     
          /* Sección interior  */    
          section.interior {
-            display: table;
-            height: auto;
-            margin: 40px auto 45px;
-            width: 1200px;
-        }
+    display: table;
+    height: auto;
+    margin: 60px auto 0;
+    width: 100%;
+}
 
         section.interior h1.title {
            color: #939598; 
@@ -11178,6 +11200,7 @@ max-width: auto !important;
     
         section.interior .seccion-caballo {
           position: relative;
+          margin: 1.71429rem 0 0;
         }
   
         .seccion-caballo div.conquistar-interno {
@@ -11385,21 +11408,22 @@ max-width: auto !important;
         }
     
         .imagen-ballesta {
-            height: 508px;
-            margin: auto;
-            width: 521px;
-        }
+    height: 508px;
+    margin: 0 auto !important;
+    width: 521px;
+}
 
         .imagen-caballo {
-          width: 448px;
-          height: 521px;
-        }
+    height: 521px;
+    margin: 0 auto !important;
+    width: 448px;
+}
     
     
   /* Correcciones 2015 */  
   
   /* landing - home */
-  .proyectos-recientes .wp-caption .attachment-post-thumbnail {
+  .proyectos-recientes .wp-caption .attachment-post-thumbnail, .ultimas-noticias .wp-caption .attachment-post-thumbnail {
     max-height: 211px;
     max-width: 211px;
     min-height: 211px;
@@ -11412,17 +11436,21 @@ max-width: auto !important;
     min-width: 211px;
   }
   /* landing - home */
-  .proyectos-recientes .wp-caption .wp-caption-text {
+  .proyectos-recientes .wp-caption .wp-caption-text, .ultimas-noticias .wp-caption .wp-caption-text {
+    -moz-hyphens: none;
     height: 40px;
     max-height: 150px;
     max-width: 200px;
     width: 200px;
+    word-wrap: normal;
   }
   .proyectos-Inner .wp-caption-text {
+    -moz-hyphens: none;
     height: 40px;
     max-height: 150px;
     max-width: 200px;
     width: 200px;
+    word-wrap: normal;
   }
   
   /* legion */
@@ -11705,6 +11733,20 @@ textarea {
   background: #fff;
   border-radius: 0;
   border: 1px solid #d2d2d4;
+}
+
+/* Iconos fontastic */
+
+@font-face {
+  font-family: 'untitled-font-1';
+    src: url('fonts/redes-webfont.eot');
+    src: url('fonts/redes-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/redes-webfont.woff2') format('woff2'),
+         url('fonts/redes-webfont.woff') format('woff'),
+         url('fonts/redes-webfont.ttf') format('truetype'),
+         url('fonts/redes-webfont.svg#untitled-font-1') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 
