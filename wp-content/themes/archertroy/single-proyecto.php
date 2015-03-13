@@ -18,9 +18,52 @@ get_header(); ?>
 				<?php get_template_part( 'content', 'proyecto' ); ?>
 
 				<div class="project-navigation">
-					<div class="alignleft"><?php previous_post_link( '%link', '' . _x( '', 'Previous post link', 'twentytwelve' ) . '<i class="icon-angle-left"></i> Anterior' ); ?></div>
-					<div class="alignright"><?php next_post_link( '%link', 'Siguiente <i class="icon-angle-right"></i>' . _x( '', 'Next post link', 'twentytwelve' ) . '' ); ?></div>
-				</div><!-- .nav-single -->
+				<?php
+				/**
+				* Infinite next and previous post looping in WordPress
+				*/
+				if( get_adjacent_post(false, '', false) ) {
+				?>
+				<div class="alignleft"><?php next_post_link( '%link', '<i class="icon-angle-left"></i> Siguiente' . _x( '', 'Next post link', 'twentytwelve' ) . '' ); ?></div>
+				<?php	
+				//next_post_link('%link', '&larr; Siguiente');
+				} else {
+				$args = array('post_type' => 'proyecto',
+                      'post_status' => 'publish',
+                      'orderby' => 'date',
+                      'order' => 'ASC');
+				$last = new WP_Query($args); $last->the_post();
+				?>
+				<div class="alignleft"><a href="<?php echo get_permalink() ?>"><i class="icon-angle-left"></i> Siguiente</a></div>
+				<?php
+				//echo '<a href="' . get_permalink() . '">&larr; Siguiente</a>';
+				wp_reset_query();
+				};
+				if( get_adjacent_post(false, '', true) ) {
+				?>
+				<div class="alignright"><?php previous_post_link( '%link', '' . _x( '', 'Previous post link', 'twentytwelve' ) . 'Anterior <i class="icon-angle-right"></i>' ); ?></div>
+				<?php	
+				//previous_post_link('%link', 'Anterior &rarr;');
+				} else {
+				$args = array('post_type' => 'proyecto',
+                      'post_status' => 'publish',
+                      'orderby' => 'date',
+                      'order' => 'DESC');
+				$first = new WP_Query($args); $first->the_post();
+				?>
+				<div class="alignright"><a href="<?php echo get_permalink() ?>">Anterior <i class="icon-angle-right"></i></a></div>
+				<?php
+				//echo '<a href="' . get_permalink() . '">Anterior &rarr;</a>';
+				wp_reset_query();
+				};
+				
+				?> 
+				</div>
+<!--
+				<div class="project-navigation">
+					<div class="alignleft"><?php next_post_link( '%link', '<i class="icon-angle-left"></i> Siguiente' . _x( '', 'Next post link', 'twentytwelve' ) . '' ); ?></div>
+					<div class="alignright"><?php previous_post_link( '%link', '' . _x( '', 'Previous post link', 'twentytwelve' ) . 'Anterior <i class="icon-angle-right"></i>' ); ?></div>
+				--> <!-- .nav-single -->
 
 				<?php comments_template( '', true ); ?>
 

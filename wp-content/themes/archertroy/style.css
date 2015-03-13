@@ -875,7 +875,6 @@ object,
 video {
 	display: block;
 	margin: 0 auto;
-	max-width: 80%;
 }
 .entry-content .twitter-tweet-rendered {
 	max-width: 100% !important; /* Override the Twitter embed fixed width */
@@ -1802,8 +1801,6 @@ img.aligncenter,
 .entry-content iframe,
 .entry-content object,
 .entry-content video {
-	margin-bottom: 24px;
-	margin-bottom: 1.714285714rem;
 }
 .entry-content dl,
 .comment-content dl {
@@ -3177,18 +3174,10 @@ margin-bottom: 1em;
   /* Video */
   
   .videoWrapper {
-  	position: relative;
-  	padding-bottom: 56.25%; /* 16:9 */
-  	padding-top: 25px;
-  	height: 0;
+  	
   }
   .videoWrapper iframe {
-  	position: absolute;
-  	top: 0;
-  	left: 0;
-  	width: 100%;
-  	height: 100%;
-    margin: 0 10% 1.714285714rem 10%;
+
   }
   
   
@@ -4963,7 +4952,6 @@ margin-bottom: 1em;
   /* Aumentar el tamaño de los iframes - videos de youtube */
   
   article iframe {
-    width: 552px;
   }
   
   /* Aumentar el tamaño de las imágenes de los clientes */
@@ -6522,7 +6510,6 @@ max-width: auto !important;
   /* Aumentar el tamaño de los iframes - videos de youtube */
   
   article iframe {
-    width: 920px;
   }
   
   /* Aumentar el tamaño de las imágenes de los clientes */
@@ -8205,7 +8192,6 @@ max-width: auto !important;
   /* Aumentar el tamaño de los iframes - videos de youtube */
   
   article iframe {
-    width: 1200px;
   }
   
   /* Aumentar el tamaño de las imágenes de los clientes */
@@ -9640,6 +9626,27 @@ max-width: auto !important;
     margin: 60px auto 0 !important;
 }
   /* */ 
+
+/*
+ * Inner Articulo Proyecto
+ */  
+.innerArticuloProyecto {
+    margin: 60px auto 0;
+    max-width: 1200px;
+} 
+.innerArticuloProyecto p {
+    font-family: optimaregular;
+    font-size: 1.2em;
+    margin: 0;
+    max-width: 1350px;
+    width: 1350px;
+}
+.innerArticuloProyectoGaleria {
+    display: table;
+    margin: auto;
+    width: 1400px;
+}
+/* */ 
   #post-16 .entry-content > div:nth-child(2){
     margin: auto;
     max-width: 1200px;
@@ -9998,7 +10005,6 @@ max-width: auto !important;
   /* Aumentar el tamaño de los iframes - videos de youtube */
   
   article iframe {
-    width: 1350px;
   }
   
   /* Aumentar el tamaño de las imágenes de los clientes */
@@ -11723,7 +11729,8 @@ max-width: auto !important;
 }
 
 .wonderplugincarousel {
-	margin: 4em auto !important; 
+	margin: 20px auto !important; 
+  overflow:visible;
 }
 
 .amazingcarousel-image > div, .amazing-hack, .amazing-hack a  {
