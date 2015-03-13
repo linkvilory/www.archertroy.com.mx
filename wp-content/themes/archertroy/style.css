@@ -1611,9 +1611,10 @@ article.sticky .featured-post {
 .entry-content h1,
 .entry-summary h1,
 .mu_register h1 {    
-    font-family: trajanregular;
+    font-family: trajanregular!important;
     font-size: 1.15em;
     line-height: 1.15;
+    font-weight: lighter;
     margin: 60px 0 20px;
 }    
 .entry-content h2,
@@ -9563,7 +9564,7 @@ max-width: auto !important;
   /*
    *
    */
-.coverPhoto{
+.coverPhoto, .coverPhoto img{
   display: table;
 }
 .seccion-legion img {
@@ -9572,7 +9573,7 @@ max-width: auto !important;
 .seccion-legion p {
     display: table !important;
 }
-   .boton-Archer:focus {outline:0;}
+.boton-Archer:focus {outline:0;}
 
 .boton-Archer::before {
   content: '';
@@ -9597,6 +9598,34 @@ max-width: auto !important;
 }
 
 .boton-Archer:hover {
+  background-color: #7F7F7F;
+}
+.boton-Cartel:focus {outline:0;}
+
+.boton-Cartel::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.boton-Cartel {
+    background-color: #cccccc;
+    border: medium none;
+    color: white;
+    float: right;
+    font-family: "optimaregular";
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-right: 41px;
+    min-height: 32px;
+    min-width: 211px;
+    position: relative;
+    transition: background-color 0.5s ease 0s;
+    vertical-align: middle;
+}
+
+.boton-Cartel:hover {
   background-color: #7F7F7F;
 }
    .texto {

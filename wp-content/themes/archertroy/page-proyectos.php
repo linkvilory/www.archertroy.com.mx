@@ -42,9 +42,12 @@ get_header(); ?>
 			<?php endwhile; 
         } 
             wp_reset_query();
-      // end of the loop. ?>      
+      // end of the loop. ?>   
+        
+        <!--<a href="/?page_id=308" class="boton-carteles large" style="position: absolute; right: 2px; bottom: -50px;">CARTELES</a> --> 
           <!--<a href='posters/' class='boton-carteles large' style='display: none;'>CARTELES</a>-->
-        </div>      
+        </div>   
+        <button class="boton-Cartel">CARTELES</button>    
           <!--<a href='posters/' class='boton-carteles small' style='display: none;'>CARTELES</a>-->
     	</article><!-- #post -->
 		</div><!-- #content -->

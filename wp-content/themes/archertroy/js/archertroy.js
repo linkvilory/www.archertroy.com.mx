@@ -833,6 +833,10 @@ $('.mensaje-derecha-1, .mensaje-derecha-2, .mensaje-derecha-3, .mensaje-izquierd
       });
    });
 
+   $(".boton-Cartel").click(function(){
+      window.location = "/?page_id=308";
+   });
+
   $('body').on('mouseenter', '.post-content .wp-caption:not(:first-child)', mostrar_leyenda);
   $('body').on('mouseleave', '.post-content .wp-caption:not(:first-child)', ocultar_leyenda);
   $('body').on('mouseenter', '.blog-grid .blog-wp-caption', mostrar_leyenda_grid);
