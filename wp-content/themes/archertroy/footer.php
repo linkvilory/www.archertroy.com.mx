@@ -19,18 +19,22 @@
 	<footer id="colophon" role="contentinfo">      
     <?php } ?>
 		<div class="site-info">
-			<div class='social-links'>
-  			<a href='https://www.facebook.com/archertroy' class='icon-facebook' target='_blank'></a>
-  			<a href='https://twitter.com/ArcherTroy' class='icon-twitter' target='_blank'></a>
-  			<a href='http://instagram.com/archertroy' class='icon-instagram' target='_blank'></a>
-  			<a href='http://www.pinterest.com/archertroyp' class='icon-pinterest-1' target='_blank'></a>
-  			<a href='https://www.youtube.com/ConquistasArcher' class='icon-youtube-play' target='_blank'></a>
-  			<a href='https://plus.google.com/105080074709822071277/posts' class='icon-google-plus' target='_blank'></a>
-			</div>
-			<div class='copyright'>
+      <div class="solid">
+        <div class='social-links'>
+          <a href='https://www.facebook.com/archertroy' class='icon-facebook' target='_blank'></a>
+          <a href='https://twitter.com/ArcherTroy' class='icon-twitter' target='_blank'></a>
+          <a href='http://instagram.com/archertroy' class='icon-instagram' target='_blank'></a>
+          <a href='http://www.pinterest.com/archertroyp' class='icon-pinterest-1' target='_blank'></a>
+          <a href='https://www.youtube.com/ConquistasArcher' class='icon-youtube-play' target='_blank'></a>
+          <a href='https://plus.google.com/105080074709822071277/posts' class='icon-google-plus' target='_blank'></a>
+        </div>
+      </div>
+      <div class="triangule">
+      </div>
+      <div class='copyright'>
         <span class='reg'>&reg;</span> ARCHER TROY S.A. DE C.V. LOS USUARIOS SE OBLIGAN A CUMPLIR CON LOS TÉRMINOS Y CONDICIONES DEL WEB. MARCA REGISTRADA. DECLARACIÓN DE PRIVACIDAD DE LA INFORMACIÓN DE MÉXICO (55) 55 39 22 72
-			</div>
-		</div><!-- .site-info -->
+      </div>
+    </div><!-- .site-info --> 
 	</footer><!-- #colophon -->
   <!-- Footer OUTSIDE container -->
   <script src="<?php echo get_template_directory_uri(); ?>/js/archertroy.js"></script>  

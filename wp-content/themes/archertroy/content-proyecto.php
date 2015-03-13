@@ -72,6 +72,7 @@
 
   <script>
   /* Copiar vínculos de redes sociales del sidebar y pasarlos debajo de la publicación. */
+  /*
   $(function () {
     $('.project-navigation').prepend("<div class='entry-content-social-links'>" + $('.sfsi_widget').html() + "</div>");    
     $('.sfsi').remove();
@@ -82,4 +83,5 @@
     $('#youtube').addClass('icon-youtube-play');
     $('#google').addClass('icon-google-plus');
   });
+*/
   </script>

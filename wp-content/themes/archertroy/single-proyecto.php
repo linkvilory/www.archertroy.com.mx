@@ -18,12 +18,19 @@ get_header(); ?>
 				<?php get_template_part( 'content', 'proyecto' ); ?>
 
 				<div class="project-navigation">
+					<div class='entry-content-social-links'>
+						<a id="facebookPost" class="sficn icon-facebook" alt="Facebook" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=<?php echo the_title() . get_permalink() ?>"></a>
+						<a id="twitterPost" class="sficn icon-twitter" alt="Twitter" target="_blank" href="https://twitter.com/home?status=<?php echo get_permalink() ?>"></a>
+						<a id="pinterestPost" class="sficn icon-pinterest" alt="Pinterest" target="_blank" href="https://pinterest.com/pin/create/button/?url=<?php echo get_permalink() ?>&media=&description="></a>
+						<a id="googlePost" class="sficn icon-google-plus" alt="Google" target="_blank" href="https://plus.google.com/share?url=<?php echo get_permalink() ?>"></a>
+					</div>
 				<?php
 				/**
 				* Infinite next and previous post looping in WordPress
 				*/
 				if( get_adjacent_post(false, '', false) ) {
 				?>
+				
 				<div class="alignleft"><?php next_post_link( '%link', '<i class="icon-angle-left"></i> Siguiente' . _x( '', 'Next post link', 'twentytwelve' ) . '' ); ?></div>
 				<?php	
 				//next_post_link('%link', '&larr; Siguiente');
