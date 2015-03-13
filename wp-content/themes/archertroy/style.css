@@ -288,7 +288,6 @@ article.format-status footer.entry-meta {
 }
 
 /* Form fields, general styles first */
-button,
 input,
 select,
 textarea {
@@ -358,10 +357,6 @@ input[disabled] {
 }
 .menu-toggle:hover,
 .menu-toggle:focus,
-button:hover,
-input[type="submit"]:hover,
-input[type="button"]:hover,
-input[type="reset"]:hover,
 article.post-password-required input[type=submit]:hover {
 	color: #5e5e5e;
 	background-color: #ebebeb;
@@ -374,9 +369,6 @@ article.post-password-required input[type=submit]:hover {
 }
 .menu-toggle:active,
 .menu-toggle.toggled-on,
-button:active,
-input[type="submit"]:active,
-input[type="button"]:active,
 input[type="reset"]:active {
 	color: #757575;
 	background-color: #e1e1e1;
@@ -612,18 +604,25 @@ img.wp-post-image {
 }
 /* Ajustar visualización datos de la publicación  */
 
-.proyectos-recientes, .ultimas-noticias  {
-  position: relative;
-  margin: 0;
-  padding: 0;
-  padding-bottom: 1em;
-  border-bottom: 1px solid #efefef;
-  display: block; 
-  clear: both; 
-  float: none;
-  text-align: justify;
-  -ms-text-justify: distribute-all-lines;
-  text-justify: distribute-all-lines;
+.proyectos-recientes {
+    border-bottom: 1px solid #9fad9f;
+    clear: both;
+    display: block;
+    float: none;
+    margin: 0;
+    padding: 0 0 20px;
+    position: relative;
+    text-align: justify;
+}
+.ultimas-noticias {
+    border-bottom: 0 none;
+    clear: both;
+    display: block;
+    float: none;
+    margin: 0;
+    padding: 0 0 20px;
+    position: relative;
+    text-align: justify;
 }
 
 .proyectos-recientes > div, .proyectos-recientes > a, .ultimas-noticias > div, .ultimas-noticias > a, .ultimas-noticias > div, .ultimas-noticias > a {
@@ -1610,31 +1609,13 @@ article.sticky .featured-post {
 	line-height: 1.714285714;
 }
 .entry-content h1,
-.comment-content h1,
-.entry-content h2,
-.comment-content h2,
-.entry-content h3,
-.comment-content h3,
-.entry-content h4,
-.comment-content h4,
-.entry-content h5,
-.comment-content h5,
-.entry-content h6,
-.comment-content h6 {
-  font-weight: normal;
-	margin: 24px 0;
-	margin: 1.714285714rem 0;
-	line-height: 1.714285714;
-  color: #626161;
-}
-.entry-content h1,
-.comment-content h1 {
-	font-size: 18px;
-	font-size: 1.5rem;
-	line-height: 1.5;
-  color: #828282;
-  text-transform: uppercase;
-}
+.entry-summary h1,
+.mu_register h1 {    
+    font-family: trajanregular;
+    font-size: 1.15em;
+    line-height: 1.15;
+    margin: 60px 0 20px;
+}    
 .entry-content h2,
 .comment-content h2,
 .mu_register h2 {
@@ -1861,11 +1842,7 @@ img.aligncenter,
 	padding: 6px 10px 6px 0;
 }
 .site-content article {
-	word-wrap: break-word;
 	color:#8c8c8c;
-	-webkit-hyphens: auto;
-	-moz-hyphens: auto;
-	hyphens: auto;
 	min-height: 500px;
 }
 .page-links {
@@ -2375,6 +2352,7 @@ img#wpstats {
   display: block;
   opacity: 0;
   top: -30px;
+  text-align:center;
 }
 
 .landing-text-preload {
@@ -6288,13 +6266,18 @@ margin-bottom: 1em;
     cursor: pointer;
   }
   
-  .entry-content h1, .comment-content h1 {
-  font-size: 21px;
-  font-size: 1.15rem;
-  line-height: 1.15;
-  margin: 0.5em 0;
-  margin-top:35px !important;
-  }
+  .primerInnerPadding h1:nth-child(1) {
+    font-family: trajanregular;
+    font-size: 1.15em;
+    line-height: 1.15;
+    margin: 60px 0 20px;
+}
+.primerInnerPadding h1:nth-child(3) {
+    font-family: trajanregular;
+    font-size: 1.15em;
+    line-height: 1.15;
+    margin: 40px 0 20px;
+}
   
   .sub-menu {
     display: block;
@@ -9580,6 +9563,42 @@ max-width: auto !important;
   /*
    *
    */
+.coverPhoto{
+  display: table;
+}
+.seccion-legion img {
+    display: table;
+}
+.seccion-legion p {
+    display: table !important;
+}
+   .boton-Archer:focus {outline:0;}
+
+.boton-Archer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.boton-Archer {
+  font-family: 'optimaregular';
+  font-size: 18px;
+  letter-spacing: 2px;
+  position: relative;
+  border: none;
+  min-width: 162px;
+  min-height: 32px;
+  background-color: #cccccc;
+  color: white;
+  vertical-align: middle;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+.boton-Archer:hover {
+  background-color: #7F7F7F;
+}
    .texto {
     -moz-hyphens: none;
     font-family: optimaregular;
@@ -9587,9 +9606,6 @@ max-width: auto !important;
 }
 .entry-content b{
   font-family:optimabold;
-}
-.second-tag-line {
-    margin: 60px auto 0;
 }
 .second-tag-line > p {
     margin: 60px auto 0 !important;
@@ -9602,7 +9618,7 @@ max-width: auto !important;
   }
   .site-header {
     margin: auto;
-    padding: 0 1.71429rem;
+    padding: 0 16px;
     width: 1800px;
   }
   #post-14, #post-12, #post-10{
@@ -9837,7 +9853,7 @@ max-width: auto !important;
   }
   .primerInnerPadding {
     margin: auto;
-    padding: 0 1.71429rem;
+    padding: 0 16px;
     width: 1800px;
   }
   /* El footer va a crecer hasta 1600px / se reduce la altura a 40px porque ya está en una sola línea */  
@@ -10037,7 +10053,7 @@ max-width: auto !important;
     font-family: trajanregular;
     font-size: 1.2rem;
     line-height: 2;
-    margin: 1.71429rem 0 0;
+    margin: 16px 0 0;
     text-align: justify;
     width: 100%;
     word-wrap: normal;
@@ -10046,7 +10062,7 @@ max-width: auto !important;
     font-family: optimaregular !important;
     font-size: 1.2rem;
     font-weight: lighter;
-    margin: 1.71429rem 0 0 1.71429rem;
+    margin: 16px 0 0 16px;
     text-align: justify;
 }
   .entry-content .legion-page-left-paragraph-two {
@@ -10054,41 +10070,53 @@ max-width: auto !important;
     font-family: optimaregular !important;
     font-size: 1.2rem;
     font-weight: lighter;
-    margin: 1.71429rem 0 0;
+    margin: 16px 0 0;
     max-width: 1350px;
     padding: 0;
     text-align: justify;
 }
+.entry-content .legion-page-left-paragraph-two:nth-child(1) {
+  margin: 30px 0 0;
+  }
   .entry-content .legion-page-right-paragraph-two {
     display: inline-block;
     font-family: optimaregular !important;
     font-size: 1.2rem;
     font-weight: lighter;
-    margin: 1.71429rem 0 0 1.71429rem;
+    margin: 16px 0 0 16px;
     max-width: 1350px;
     padding: 0;
     text-align: justify;
 }
+.entry-content .legion-page-right-paragraph-two:nth-child(1) {
+  margin: 30px 0 0 16px;
+  }
   .entry-content .legion-page-left-paragraph-three {
     display: inline-block;
     font-family: optimaregular !important;
     font-size: 1.2rem;
     font-weight: lighter;
-    margin: 1.71429rem 0 0;
+    margin: 16px 0 0;
     max-width: 1350px;
     padding: 0;
     text-align: justify;
 }
+.entry-content .legion-page-left-paragraph-three:nth-child(1) {
+  margin: 60px 0 0;
+  }
   .entry-content .legion-page-right-paragraph-three {
     display: inline-block;
     font-family: optimaregular !important;
     font-size: 1.2rem;
     font-weight: lighter;
-    margin: 1.71429rem 0 0 1.71429rem;
+    margin: 16px 0 0 16px;
     max-width: 1350px;
     padding: 0;
     text-align: justify;
 }
+.entry-content .legion-page-right-paragraph-three:nth-child(1) {
+  margin: 60px 0 0 16px
+  }
   /* 
     Ajustar visualización de los videos en los proyectos. 
     Únicamente funciona con los videos embebidos directamente en wordpress
@@ -10593,7 +10621,7 @@ max-width: auto !important;
   /* Sección legión */
       section.legion {
     display: table;
-    margin: 60px auto 0;
+    margin: 50px auto 0;
     width: 100%;
 }
     
@@ -10683,7 +10711,7 @@ max-width: auto !important;
       section.filosofia {
     display: table;
     height: auto;
-    margin: 60px auto 0;
+    margin: 50px auto 0;
     width: 100%;
 }
     
@@ -10755,7 +10783,7 @@ max-width: auto !important;
           section.metodologia {
     display: table;
     height: auto;
-    margin: 60px auto 0;
+    margin: 50px auto 0;
     width: 100%;
 }
     
@@ -10889,7 +10917,7 @@ max-width: auto !important;
     -moz-hyphens: none;
     float: left;
     font-size: 1.2em;
-    margin: 1.71429rem 0 0;
+    margin: 60px 0 0;
     text-align: justify;
     width: 50%;
     word-wrap: normal;
@@ -10900,7 +10928,7 @@ max-width: auto !important;
     color: #ccc;
     float: left;
     font-size: 1.2em;
-    margin: 1.71429rem 0 0;
+    margin: 20px 0 0;
     text-align: justify;
     width: 50%;
     word-wrap: normal;
@@ -10912,7 +10940,7 @@ max-width: auto !important;
             font-size: 16px;
             position: relative;
             width: 100%;
-            margin: 1.71429rem 0 0;
+            margin: 16px 0 0;
         }
     
          /* Texto en la sección del arco */    
@@ -11128,7 +11156,7 @@ max-width: auto !important;
          section.interior {
     display: table;
     height: auto;
-    margin: 60px auto 0;
+    margin: 50px auto 0;
     width: 100%;
 }
 
@@ -11200,7 +11228,7 @@ max-width: auto !important;
     
         section.interior .seccion-caballo {
           position: relative;
-          margin: 1.71429rem 0 0;
+          margin: 50px 0 0;
         }
   
         .seccion-caballo div.conquistar-interno {
@@ -11236,13 +11264,13 @@ max-width: auto !important;
         }
 
         .seccion-caballo .mensaje-izquierda-1 .barra-horizontal-1 {
-          height: 2px;
-          background: #93a49a;
-          width: 160px;
-          position: absolute;
-          left: 310px;
-          top: 10px;
-        }
+    background: none repeat scroll 0 0 #93a49a;
+    height: 2px;
+    left: 310px;
+    position: absolute;
+    top: 10px;
+    width: 150px;
+}
       
         .seccion-caballo .mensaje-izquierda-2 {
           position: absolute;
@@ -11256,13 +11284,13 @@ max-width: auto !important;
         }
 
         .seccion-caballo .mensaje-izquierda-2 .barra-horizontal-2 {
-          height: 2px;
-          background: #93a49a;
-          width: 220px;
-          position: absolute;
-          left: 320px;
-          top: 10px;
-        }
+    background: none repeat scroll 0 0 #93a49a;
+    height: 2px;
+    left: 310px;
+    position: absolute;
+    top: 10px;
+    width: 215px;
+}
 
         .seccion-caballo .mensaje-izquierda-3 {
           position: absolute;
@@ -11276,13 +11304,13 @@ max-width: auto !important;
         }
 
         .seccion-caballo .mensaje-izquierda-3 .barra-horizontal-3 {
-          height: 2px;
-          background: #93a49a;
-          width: 190px;
-          position: absolute;
-          left: 310px;
-          top: 10px;
-        }
+    background: none repeat scroll 0 0 #93a49a;
+    height: 2px;
+    left: 310px;
+    position: absolute;
+    top: 10px;
+    width: 183px;
+}
 
         .seccion-caballo .mensaje-izquierda-4 {
           position: absolute;
@@ -11296,13 +11324,13 @@ max-width: auto !important;
         }
 
         .seccion-caballo .mensaje-izquierda-4 .barra-horizontal-4 {
-          height: 2px;
-          background: #93a49a;
-          width: 240px;
-          position: absolute;
-          left: 310px;
-          top: 10px;
-        }
+    background: none repeat scroll 0 0 #93a49a;
+    height: 2px;
+    left: 310px;
+    position: absolute;
+    top: 10px;
+    width: 215px;
+}
 
         /*
           Mensajes mostrados a la derecha del caballo
@@ -11311,57 +11339,57 @@ max-width: auto !important;
         
         .seccion-caballo .mensaje-derecha-1 {
             font-size: 16px;
-            left: 760px;
+            left: 770px;
             position: absolute;
             top: 0;
             z-index: 10;
             display:none;
         }
 
-        .seccion-caballo .mensaje-derecha-1  .barra-horizontal-1 {
-          height: 2px;
-          background: #93a49a;
-          width: 120px;
-          position: absolute;
-          left: -130px;
-          top: 10px;
-        }
+        .seccion-caballo .mensaje-derecha-1 .barra-horizontal-1 {
+    background: none repeat scroll 0 0 #93a49a;
+    height: 2px;
+    left: -130px;
+    position: absolute;
+    top: 10px;
+    width: 120px;
+}
       
         .seccion-caballo .mensaje-derecha-2 {
-          position: absolute;
-          font-size: 16px;
-          top: 142px;
-          left: 992px;
-          z-index: 10;
-          display: none;
-        }
+    display: none;
+    font-size: 16px;
+    left: 960px;
+    position: absolute;
+    top: 143px;
+    z-index: 10;
+}
 
         .seccion-caballo .mensaje-derecha-2 .barra-horizontal-2 {
-          height: 2px;
-          background: #93a49a;
-          width: 90px;
-          position: absolute;
-          left: -100px;
-          top: 10px;
-        }
+    background: none repeat scroll 0 0 #93a49a;
+    height: 2px;
+    left: -200px;
+    position: absolute;
+    top: 10px;
+    width: 190px;
+}
       
         .seccion-caballo .mensaje-derecha-3 {
-          position: absolute;
-          font-size: 16px;
-          top: 420px;
-          left: 1042px;
-          z-index: 10;
-          display: none;
-        }
+    display: none;
+    font-size: 16px;
+    left: 1042px;
+    position: absolute;
+    top: 440px;
+    z-index: 10;
+}
 
         .seccion-caballo .mensaje-derecha-3 .barra-horizontal-3 {
-          height: 2px;
-          background: #93a49a;
-          width: 150px;
-          position: absolute;
-          left: -160px;
-          top: 10px;
-        }
+    background: none repeat scroll 0 0 #93a49a;
+    height: 2px;
+    left: -157px;
+    position: absolute;
+    top: 10px;
+    width: 147px;
+}
       
         .seccion-caballo .linea-superior {
           color: #a6a6a6;

@@ -18,7 +18,7 @@
 		</header>
 
 		<div class="entry-content">
-			<img class="alignnone wp-image-34" src="wp-content/uploads/2014/11/header1.jpg" alt="header1" width="100%" height="455">
+			<img class="alignnone wp-image-34 coverPhoto" src="wp-content/uploads/2014/11/header1.jpg" alt="header1" width="100%" height="455">
       <div class="primerInnerPadding">
       <h1>PROYECTOS RECIENTES</h1>
       <div class='proyectos-recientes'>     
@@ -65,7 +65,7 @@
       h1>NOTICIAS</h1 
       div class="noticias"
       -->
-      <h1>Noticias</h1>      
+      <h1>NOTICIAS</h1>      
       <div class="ultimas-noticias">
           <?php
           /****

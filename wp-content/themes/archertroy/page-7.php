@@ -63,7 +63,7 @@
 
         "<div class='landing-login'>" +
           "<img src='/wp-content/uploads/2015/02/1_firma-preload.jpg' class='landing-text-preload' alt='Text preload'>" +
-          "<img src='/wp-content/uploads/2015/02/01-entrar-actualizado.jpg'  class='landing-boton-entrar' alt='Botón entrar'>" +
+          "<button class='boton-Archer'>ENTRAR</button>" +
         "</div>" +
       "</div>");
     }

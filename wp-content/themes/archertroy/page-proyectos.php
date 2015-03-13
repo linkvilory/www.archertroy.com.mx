@@ -23,7 +23,7 @@ get_header(); ?>
 		<div id="content" role="main">
     	<article id="post-<?php the_ID(); ?>" class="page type-page status-publish hentry">
     		<header class="entry-content">
-    			<h1>Proyectos</h1>
+    			<h1>PROYECTOS</h1>
     		</header>
         <div class='grid'>
 			<?php 
