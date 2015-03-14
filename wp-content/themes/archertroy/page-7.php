@@ -230,7 +230,11 @@
         cargar_home();        
       });
       
-      
+      function onLayout(){
+        console.log('Ok');
+        $(".proyectos-recientes").css("display","block");
+      }
+
       function ajustar_noticias_proyectos_recientes() {
         opciones_proyectos = {
             gutter: 16, 
@@ -246,6 +250,7 @@
           proyectos_recientes = document.querySelector('.proyectos-recientes');
           imagesLoaded( proyectos_recientes, function() {            
             contenedor_proyectos = new Masonry( proyectos_recientes, opciones_proyectos);
+
             if (es_movil()) {
               ajustar_altura_proyectos();
             }            
@@ -254,6 +259,7 @@
           ultimas_noticias = document.querySelector('.ultimas-noticias');
           imagesLoaded( ultimas_noticias, function() {            
             contenedor_noticias = new Masonry( ultimas_noticias, opciones_proyectos);
+
             if (es_movil()) {
               ajustar_altura_proyectos();
             }            

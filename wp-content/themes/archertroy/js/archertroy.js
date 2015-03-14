@@ -1,3 +1,40 @@
+/*
+ * Ejecucion de mostrar el contenido hasta que se cargue la pagina
+ */
+$( document ).ready(function() {
+  
+  if($(".proyectos-recientes div").length){
+    setTimeout(function () {
+        $(".proyectos-recientes > div").animate({opacity: 1}, 1000);      
+    },1500);
+  }
+
+  if($(".ultimas-noticias div").length){
+    setTimeout(function () {
+        $(".ultimas-noticias > div").animate({opacity: 1}, 1000);      
+    },1500);
+  }
+
+  if($(".grid div").length){
+    setTimeout(function () {
+        $(".grid div").animate({opacity: 1}, 1000);      
+    },1500);
+  }
+  
+  if($(".clientes img").length){
+    setTimeout(function () {
+        $(".clientes img").animate({opacity: 1}, 1000);      
+    },1500);
+  }
+
+  if($(".gente div").length){
+    setTimeout(function () {
+        $(".gente div").animate({opacity: 1}, 1000);      
+    },1500);
+  }
+
+}); 
+
 /* Ordenar de manera aleatoria los elementos de un arreglo */
 Array.prototype.shuffle = function () {
   var self = this;

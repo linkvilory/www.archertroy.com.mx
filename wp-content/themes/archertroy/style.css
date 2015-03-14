@@ -1836,7 +1836,7 @@ img.aligncenter,
 }
 .site-content article {
 	color:#8c8c8c;
-	min-height: 500px;
+	min-height: 700px;
 }
 .page-links {
 	clear: both;
@@ -9744,7 +9744,7 @@ max-width: auto !important;
   	color: #9fad9f;
   	width: auto !important; 
   }
-  
+
   /* Horizontal submenu */
   .main-navigation ul li:hover > ul,
   .main-navigation ul li:focus > ul,
@@ -9929,6 +9929,7 @@ max-width: auto !important;
   .proyectos-recientes > div, .proyectos-recientes > a, .ultimas-noticias > div, .ultimas-noticias > a {
     max-width: 211px;
     width: 211px;
+    opacity: 0;
   }
   
   .noticias > div {
@@ -9999,6 +10000,7 @@ max-width: auto !important;
   .grid > div, .grid > a {
     max-width: 211px;
     width: 211px;
+    opacity: 0;
   }
   
   /* Crecer el tamaño de las imágenes de los posters */  
@@ -10059,12 +10061,14 @@ max-width: auto !important;
   .clientes > img {
     width: 171px;
     max-width: 171px;
+    opacity: 0;
   }
   /* Aumentar el tamaño de las imágenes de "gente" */
   .gente > div {
     width: 340px;
     max-width: 340px;
     margin: 0 0 10px;
+    opacity: 0;
     
     /*
     width: 434px;
@@ -10297,7 +10301,7 @@ max-width: auto !important;
     display: inline-block; 
     float: left; 
     margin: 0 0.5em;
-    height: 300px;
+    height: 330px;
   }
 
   .centrar {
@@ -10307,6 +10311,7 @@ max-width: auto !important;
     text-align: center;
     padding-top: 99px;
     height: 205px;
+    padding-top: 123px;
 }
    
   /* Tamaño de fuentes e interlineado para los caption */
