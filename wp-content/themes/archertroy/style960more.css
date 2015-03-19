@@ -1,0 +1,1787 @@
+/* Minimum width of 960 pixels. */
+@media screen and (min-width: 960px) {
+/*
+ * Intro Page
+ */
+.landing {
+    background-image: url("../../../wp-content/uploads/2014/11/casco_1920.jpg");
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    display: block;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+.landing-start {
+    display: block;
+    left: 20%;
+    margin: -100px 0 0 -130px;
+    position: absolute;
+    top: 50%;
+    width: auto;
+}
+.boton-Archer:focus {outline:0;}
+
+.boton-Archer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.boton-Archer {
+  font-family: 'optimaregular';
+  font-size: 18px;
+  letter-spacing: 2px;
+  position: relative;
+  border: none;
+  min-width: 162px;
+  min-height: 32px;
+  background-color: #cccccc;
+  color: white;
+  vertical-align: middle;
+  text-transform: uppercase;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+.boton-Archer:hover {
+  background-color: #7F7F7F;
+}
+/* Intro page */
+/* 
+ * Main page 
+ */   
+.coverPhoto{
+    background-image: url("/wp-content/uploads/2014/11/header1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: table;
+    height: 300px;
+    width: 100%;
+} 
+/* Main page */   
+
+  .mini-logo { display: none; }
+  
+  .proyectos-movil { display: none;}
+  
+  .sidebar {
+    position: relative;
+    left: auto;
+    top: auto;
+    width: auto;
+    z-index: auto;
+    padding: 0;
+    height: 80px;
+    border: none;
+    overflow: visible;
+  }
+  
+  .sub-menu li {
+  	position: relative !important;
+  	display: inline !important;
+  	float: left !important;
+  	margin: 0 !important;
+    padding: 0 1em;
+  	font-size: 11px !important;
+  	width: auto; 
+  	height: 30px;
+  }
+  .sub-menu li a {
+    padding: 0 10px;
+  	font-size: 13px;
+  	color: #9fad9f;
+  	width: auto !important; 
+  }
+
+  /* Corrección menú de navegación horizontal */
+  .main-navigation li a,
+  .main-navigation li {
+    display: inline-block;
+  	text-decoration: none;
+    text-align: left;
+    margin-right: 0;
+    /* Para que firefox no corte el sub menú */
+    overflow: visible;    
+    
+  }
+  
+  /* Copiar en @media queries que utilizan el menú horizontal */
+  .main-navigation li ul {
+  	margin: 0;
+  	padding: 0;
+  	position: absolute;
+  	top: 100%;
+  	z-index: 1;
+  	height: 1px; 
+  	width: 1px;
+  	overflow: hidden;
+  	clip: rect(1px, 1px, 1px, 1px);
+  }
+  
+  /* Horizontal submenu */
+  .main-navigation ul li:hover > ul,
+  .main-navigation ul li:focus > ul,
+  .main-navigation .focus > ul {
+  	border-left: 1px solid #9fad9f;
+  	clip: inherit;
+  	overflow: inherit;
+  	height: 30px;
+  	width: 800px;
+  }
+
+  .main-navigation li ul li a {
+  	display: block;
+  	font-size: 11px;
+  	font-size: 0.785714286rem;
+  	line-height: 2.181818182;
+    /* line-height: 20px */
+  	padding: 8px 10px;
+  	padding: 0.571428571rem 0.714285714rem;
+  	width: 180px;
+  	width: 12.85714286rem;
+  	white-space: normal;
+  }
+  
+  .main-navigation li ul li a:hover,
+  .main-navigation li ul li a:focus {
+  	text-decoration: none;
+  	color: #444;
+  }
+  
+  /*
+    Subrayar el elemento de lista 
+    para que la visualización de la página actual
+    sea más clara.  - 
+    Existen algunos problemas con el padding (ocupa más espacio)
+    Al estar en la sección "proyectos" no se pueden seleccionar las
+    subcategorías por eso regresé a utilizar text-decoration: underline;
+
+  .main-navigation .current-menu-item { 
+    border-bottom: 1px solid #636363; 
+  }
+  
+   Quitar el subrayado de la imagen de Archertroy 
+  
+  .main-navigation #menu-item-443  {
+    border-bottom: 1px solid transparent !important;
+  }
+  
+  */
+    
+  .main-navigation .current-menu-item > a,
+  .main-navigation .current-menu-ancestor > a,
+  .main-navigation .current_page_item > a,
+  .main-navigation .current_page_ancestor > a {
+  	color: #636363;
+  	text-decoration: none;
+    height: 45px;
+  }
+    
+  #menu-item-443 {
+    display: block;
+  }
+  
+  .primerInnerPadding h1:nth-child(1) {
+    font-family: trajanregular;
+    font-size: 1.15em;
+    line-height: 1.15;
+    margin: 60px 0 20px;
+}
+.primerInnerPadding h1:nth-child(3) {
+    font-family: trajanregular;
+    font-size: 1.15em;
+    line-height: 1.15;
+    margin: 40px 0 20px;
+}
+  
+  .sub-menu {
+    display: block;
+  }
+  
+  /* Menú de navegación visible */
+  
+  /* Hacer visible el menú horizontal en firefox en 960 */
+  .menu-menu-1-container {
+    overflow: visible;
+  }
+  
+  .main-navigation ul.nav-menu,
+  .main-navigation div.nav-menu > ul {
+  	display: inline-block;
+  	text-align: left;
+  	width: 100%;
+      /* Hacer visible el menú horizontal en firefox en 960 */
+      overflow: visible;
+  }
+    
+  /*
+    Esconer el menú contextual en visualizaciones mayores a 900px
+  */
+  .menu-toggle {
+    display: none;
+  }
+  
+  .submenu {
+    display: block;
+  }
+  
+  .texto-noticia {
+    font-size: inherit;
+  }
+
+  /* Reducir el margen horizontal del menú de navegación */
+	.main-navigation li {
+		/* margin: 0 1.4285714285rem 0 0; */
+    margin: 0 0.4285714285rem 0 0;
+		position: relative;
+	}
+  
+	.main-navigation li a {
+		font-size: 13px;
+  }
+  
+  .main-navigation li ul li a {
+    font-size: 10px;
+  }
+  
+  
+  /* Tamaño la página donde se visualiza el contenido */
+	.site {
+    /*
+    width: 912px;
+		max-width: 912px; 
+    */
+    width:100%;
+    min-height: 100%;
+	}  
+
+  /* Reducir el márgen superior entre el menú de navegación y el contenido. */
+  #main {
+    margin-top: 0;
+  }  
+
+  /* Reducir el espacio entre el submenú (proyectos) y el menú de navegación principal */
+  .main-navigation ul li:hover > ul, .main-navigation ul li:focus > ul, .main-navigation .focus > ul {
+    top: 40px;
+  }
+
+  .proyectos-recientes > div, .proyectos-recientes > a, .ultimas-noticias > div, .ultimas-noticias > a {
+    width: 105px;
+  	max-width: 105px;
+  }
+
+img.attachment-post-thumbnail.wp-post-image {
+max-width: auto !important;
+/* max-height: 194px; */
+}
+  
+  .noticias > div {
+    width: 168px;
+  	max-width: 168px;
+  }
+  
+  /* El footer va a crecer hasta 1600px */  
+  footer .site-info {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  .social-links {
+  	display: inline-block;
+  	float: left;
+    border-bottom: 40px solid #242524;
+    border-right: 40px solid transparent;
+    height: 0;
+    width: 200px;   
+  	font-size: 15px;
+  	line-height: 3.3em;
+  	text-align: center;
+  }
+
+  .copyright {
+    position: absolute;
+  	display: inline-block;
+  	float: left;
+  	width: 600px;
+  	font-size: 7px;
+  	line-height: 2;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .reg {
+  	font-family: "Helvetica neue", helvetica, sans-serif;
+  	font-size: 9px;
+  	font-weight: normal;
+  	display: inline-block;
+  	float: left; 
+  	margin: -2px 3px 0 0;
+  }
+  
+  .wp-caption-text,
+  .blog-wp-caption-text {
+    background: transparent;
+    bottom: 0.7em; /* 4px */
+    color: #626161;
+    display: block;
+    filter: alpha(opacity=0);
+    line-height: 1.714285714;
+    font-family: "Optima", "Open Sans",sans-serif;
+    font-size: 10px;
+    left: 0;
+    right: 0;
+    margin: 0 !important;
+    max-width: 100%;
+    opacity: 0;
+    padding: 5px 0px !important;
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .gente > div .wp-caption-text {
+    bottom: 0;
+  }
+  
+  
+  /* Crecer el tamaño de las imágenes de los proyectos */  
+  .grid > div, .grid > a {
+    width: 105px;    
+    max-width: 105px;
+  }
+  
+  /* Crecer el tamaño de las imágenes de los posters */  
+  .galeria-de-posters > a {
+    width: 220px !important;
+    max-width: 220px !important;
+  }
+  
+  /* Botón carteles -> Posters */
+  .boton-carteles {
+    display: block;
+    clear: both;
+    margin: 0;
+    background: #fff;
+    color: #242524;
+    border: 1px solid #242524;
+    border-radius: 0;
+    transition: all 0.5s;
+    height: 1.5em;
+    width: 210px;
+    text-align: center;
+    padding: 0.3em 0;
+    text-decoration: none;
+    line-height: 1.9;
+    float: right;
+    font-size: 15px; 
+    margin-left: -1px; 
+  }
+  
+  .boton-carteles:hover {
+    color: #d2d2d4!important;
+  background: #fff;
+  border-radius: 0;   
+  border: 1px solid #d2d2d4;
+  color:#d2d2d4;     
+  }
+  
+  /* Centrar menú de navegación en las publicaciones */
+  .site-content nav {
+    margin: 1em auto;
+    clear: both;
+    line-height: 2;
+    overflow: hidden;
+    width: 60%;
+  }
+  
+  /* El footer va a crecer hasta 100% / se reduce la altura a 40px porque ya está en una sola línea */  
+  footer[role="contentinfo"] {
+  	height: 40px;
+    width: 100%;
+  }
+  
+  footer .site-info {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  .social-links {
+  	display: inline-block;
+  	float: left;
+    border-bottom: 40px solid #242524;
+    border-right: 40px solid transparent;
+    height: 0;
+    width: 240px;   
+  	font-size: 16px;
+  	line-height: 3em;
+  	text-align: center;
+  }
+
+  .copyright {
+  	display: inline-block;
+  	float: left;
+  	width: 650px;
+  	font-size: 8px;
+  	height: 30px;
+  	line-height: 1.5;
+    padding-top: 10px;
+  }
+    
+  /*  Ocultar meta información de los proyectos */
+  footer.entry-meta {
+    display: none;
+  }
+    
+  /* Aumentar el tamaño de los iframes - videos de youtube */
+  
+  article iframe {
+  }
+  
+  /* Aumentar el tamaño de las imágenes de los clientes */
+  .clientes > img {
+    width: 82px;
+    max-width: 82px;
+  }
+  /*
+  Aumentar el tamaño de las imágenes de "gente" */
+  .gente > div {
+    width: 212px;
+    max-width: 212px;
+  }
+  
+  /* Datos personas */
+  .datos-persona .persona, .datos-persona .handler {
+    font-family: "Optima", "Open Sans",sans-serif;
+    text-transform: none;
+    display: inline-block;
+    float: left;
+  }
+
+  .datos-persona .persona {
+    width: 55%;  
+    text-align: left;
+    padding-left: 1em;
+  }
+
+  .datos-persona .handler {
+    width: 35%;   
+    padding-right: 1em;
+  }
+
+
+  .datos-persona .persona .puesto-persona, .datos-persona .handler {
+    text-transform: none;
+  }
+
+  .datos-persona .persona .nombre-persona {
+    font-size: 12px;
+    color: #626161
+  }
+
+  .datos-persona .persona .puesto-persona {
+    font-size: 10px;
+    color: #a3ada2;
+  }
+
+  .datos-persona .handler, .datos-persona .handler a {
+    line-height: 3;
+    color: #252425;
+    font-size: 10px;
+    text-align: right;
+  }
+  
+  /* Centrar párrafos de la publicación */
+  
+
+  .mini-post .entry-content p{
+    width: inherit;
+    margin: 0 auto;
+    padding: 1em;
+  }
+  
+  .mini-post .entry-content > p:last-of-type {
+    padding-bottom: 2.5em;
+  }
+  
+  .entry-content-social-links {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    /* margin-bottom: -1.714285714rem !important; */
+  }
+  
+  /* Centrar contenido de formularios de contacto */
+  .contacto {
+    display: block;
+    clear: both;
+    float: none;
+    width: 920px;
+    margin: 1.714285714rem auto;
+  }
+  
+  .centrar p {
+    width: inherit;
+  }
+  
+  /* Columnas sección contacto */
+  
+  .columnas {
+    width: 32%; 
+    display: inline-block; 
+    float: left; 
+    clear: none;
+    margin: 0 0.5em;
+    height: 300px;
+  }
+  
+  .columnas:last-child {
+    width: 32%; 
+    display: inline-block; 
+    float: left; 
+    clear: none;
+    margin: 0 0.5em;
+    height: 300px;    
+    overflow: visible;
+  }
+  .columnas img {
+    max-width: 651px;
+    padding-top: 50px;
+    width: 200% !important;
+}
+  .centrar {
+    text-align: center;
+    width: 30%;
+  }
+
+  /* Tamaño de fuentes e interlineado para los caption */
+  .wp-caption-text,
+  .blog-wp-caption-text {
+    line-height: 1.3 !important;
+    font-size: 11px;
+  }
+  
+  .gente > div .wp-caption-text {
+    bottom: 0;
+  }
+  
+  /* Navegación  <- Anterior Siguiente -> en la página de los proyectos*/
+  
+  .project-navigation {
+    font-family: "Optima", "Open Sans",sans-serif;
+    display: block;
+    clear: both;
+    float: none;
+    margin: 0 auto;
+    width: 712px;
+    text-transform: uppercase;
+    position: relative;
+  }
+  
+  /* Blog */
+  
+  .post-browse {
+    height: 100%;
+    width: 440px;
+    padding: 0;
+    margin-right: 8px;
+    display: inline-block;
+    float: left;
+    clear: none;
+    position: relative;
+  }
+  
+  .post-content {
+    height: 100%;    
+  	width: 463px;
+  	display: inline-block;
+  	float: left;
+    clear: none; 
+  	position: relative;
+  	margin: 0;
+  	padding: 0;
+  }
+  
+  .blog-posts-header {
+    width: 100%;
+    height: 35px;
+    line-height: 40px;
+    border-bottom: 1px solid #CFCFCF;
+    border-top: none;
+    display: block;
+    clear: both;
+    float: none;
+    overflow: hidden;
+    margin-bottom: 1em;
+  }
+  
+	.blog-posts-header h2 {
+		display: inline-block;
+		float: left;
+		width: 91px;
+		margin: 0 0 0 1%;
+	}
+
+	.blog-posts-header .hamburger-menu-icon {
+		display: inline-block;
+		float: left;
+		width: 43px;
+		padding: 0 2px;
+		border-left: 1px solid #CFCFCF;
+		border-right: 1px solid #CFCFCF;
+		font-size: 22px;
+		text-align: center;
+		line-height: 46px;
+    overflow: hidden;
+    height: 35px;
+	}
+
+	.blog-posts-header form {
+		display: inline-block;
+		float: left;
+		width: 110px;
+    height: 35px;
+		padding: 0 13px;
+		border-right: 1px solid #CFCFCF;
+    margin: 0;
+	}
+
+	.blog-posts-header form input {
+		border: none;
+		border-radius: 0;
+		border-bottom: 1px solid #CFCFCF;
+    width: 95%;
+    margin: 0;
+    padding: 0;
+	}
+
+	.blog-posts-header .header-social-links  {
+  	display: inline-block;
+  	float: left;
+    clear: none;
+    margin: 0;
+  	width: 150px;
+  	padding: 0 0 0 4px;
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+  }
+
+  .blog-posts-header .header-social-links > a {
+  		display: inline-block; 
+  		text-decoration: none;
+  		color: #4B4B4B;
+      vertical-align: top;
+      *display: inline;
+      zoom: 1;
+      margin: 0;
+  }
+
+  .blog-posts-header .header-social-links:after  {
+    	content: "";
+    	width: 100%;
+    	display: inline-block;
+  }
+  
+  /* Caption for blog posts */
+  .archertroy-blog {
+    border-top: 1px solid #fff;
+    position: relative;
+  }
+  
+  .archertroy-blog-margin-top {
+    position: absolute;
+    width: 1000%;
+    left: 0;
+    margin-left: 0px;
+    height: 1px;
+    background: #cfcfcf; 
+    z-index: 1;
+  }
+  
+  .blog-wp-caption-text {
+    background: transparent;
+    text-align: left;
+    bottom: 0.7em;
+    color: #626161;
+    display: block;
+    filter: alpha(opacity=0);
+    font-family: "Optima", "Open Sans",sans-serif;
+    left: 0;
+    right: 0;
+    margin: 0 !important;
+    max-width: 100%;
+    opacity: 0;
+    padding: 5px 0px !important;
+    position: absolute;
+    height: 50px;
+    z-index: -1;
+  }
+  
+  .blog-wp-caption-text .caption-title {
+    font-family: "Optima", "Open Sans",sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    position: absolute;
+    top: 14px;
+    left: 15px;
+  }
+
+  .blog-wp-caption-text  .caption-date {
+    font-family: "Optima", "Open Sans",sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    text-align: left;
+    text-transform: lowercase;
+    position: absolute;
+    bottom: 13px;
+    left: 15px;
+  }
+  
+
+  .blog-grid > div, .blog-grid > a {
+    width: 216px;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    margin: 4px 0;
+  }
+
+  .mini-post .entry-content .wp-caption:first-child {
+    background: transparent;  
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: left;
+    overflow: hidden;
+    text-transform: none !important;
+  }
+  
+  .mini-post .entry-content .wp-caption:first-child img {
+    margin: 0;
+  }
+
+  .mini-post .entry-content .wp-caption:first-child .wp-caption-text {
+    background: transparent;
+    bottom: 0.7em; 
+    color: #fff;
+    display: block;
+    line-height: 1.714285714;
+    font-family: "Optima", "Open Sans",sans-serif;
+    font-size: 20px;
+    left: 0;
+    right: 0;
+    margin: 0 !important;
+    max-width: 100%;
+    opacity: 0.85;
+    padding: 1em 2em !important;
+    position: absolute;
+    z-index: 1;
+    text-transform: none !important;  
+  }
+
+  .mini-post .entry-content > .wp-caption:first-child  > .wp-caption-text {
+    background: transparent !important;
+    text-transform: none !important;
+    bottom: 0;
+    padding: 0 0 20px 20px !important;
+    height: 20px;
+    font-size: 18px !important;
+  }
+  
+  .post-info .post-date {
+    font-family: "Optima", "Open Sans",sans-serif;
+    color: #626161;
+    font-style: italic;
+    float: right;
+    margin-right: 30px;
+  }
+  
+  /* Caption para las noticias */
+  
+  .wp-caption-text {
+    background: transparent;
+    text-align: left;
+    bottom: 0.7em;
+    color: #626161;
+    display: block;
+    filter: alpha(opacity=0);
+    font-family: "Optima", "Open Sans",sans-serif;
+    left: 0;
+    right: 0;
+    margin: 0 !important;
+    max-width: 100%;
+    opacity: 0;
+    padding: 5px 0px !important;
+    position: absolute;
+    z-index: -1;
+  }
+  
+  
+  .wp-caption-text .caption-title {
+    font-family: "Optima", "Open Sans",sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    display: block;
+    clear: both;
+    float: none;
+  }
+  
+  .wp-caption-text .caption-date {
+      font-family: "Optima", "Open Sans",sans-serif;
+      font-size: 12px;
+      font-style: italic;        
+      text-align: left;
+      text-transform: lowercase;   
+      display: block;
+      clear: both;
+      float: none;       
+  }
+  
+  
+  /*
+    Una vez que el menú es horizontal
+    se deben de visualizar los siguientes menúes
+    a la derecha  
+  */
+  
+  #menu-item-658, #menu-item-31, #menu-item-30, #menu-item-443 {
+     float: right;
+  }
+
+  #menu-item-443 {
+    width: 200px;
+  }
+
+  #menu-item-443 a {
+  	color: transparent;
+  	background: url("../../../wp-content/uploads/2014/11/logo.jpg"); 
+  	background-size: 200px;
+  	background-repeat: no-repeat;
+  	background-position-y: -6px;
+  }
+  
+  
+  .wp-video {
+  width: 912px !important;
+  max-width: 912px !important;
+  height: 514px !important;
+  position: relative !important;
+  margin: 0 auto !important;
+  }
+  
+  /* Contacto */
+  
+  .agrandar-imagen-contacto {
+    -webkit-transform: scale(1); 
+       -moz-transform: scale(1);
+         -o-transform: scale(1);
+            transform: scale(1);
+  }
+  
+  /* Sección legión */
+      section.legion { 
+          width: 734px; 
+          margin: 24px auto; 
+          display: table;
+      }
+    
+      section.legion h4.title-super { 
+          color: #d1d2d4; 
+          text-transform: uppercase; 
+          font-size: 24px; 
+          line-height: 1;
+          margin: 0 !important;
+      }
+
+     section.legion h1.title {
+        color: #d1d2d4; 
+        text-transform: uppercase; 
+        font-size: 97px !important; 
+        margin: 0 0 10px 0 !important;
+      }
+    
+      section.legion div.column-left {
+        margin: 0;
+        padding: 0;
+        float: left;
+        width: 50%;
+        display: table-row;
+      }
+    
+      section.legion div.column-right {
+        margin: 0;
+        padding: 0;
+        float: right;
+        width: 50%;
+        display: table-row;      
+      }
+    
+     section.legion ol.first-list {
+        font-size: 10px;
+        margin-top: 8px;
+      }
+      
+      section.legion ol.first-list li {
+        margin: 0;
+      }
+    
+      section.legion .first-tag-line {
+        position: relative;
+        color: #B1BDAD;
+        width: 94%;
+        font-size: 14px;
+        line-height: 1.1;
+        text-align: left;
+      }
+    
+      section.legion span.left-bracket {
+        position: absolute;
+        top: 45%;
+        left: -2.5%; /* 6 */
+        font-weight: 100;    
+      }
+    
+      section.legion span.upper {
+        word-spacing: 4px;
+      }
+    
+      section.legion span.lower {
+      
+      }
+    
+      section.legion span.right-bracket {
+        position: absolute;
+        top: 45%;
+        right: 5%;
+        font-weight: 100;
+      }
+    
+      section.legion .column-right p, section.legion .column-right p:nth-child(2) {
+        font-family: "Optima", "Open Sans",sans-serif !important;
+        font-size: 11px !important;
+        width: 100% !important;
+        color: #8c8c8c !important;
+        line-height: 1.44;
+        /*margin: 1em; */
+      }
+
+  /* Sección filosofía  */    
+      section.filosofia { 
+          width: 734px; 
+          margin: 144px auto 24px auto; 
+          height: auto;  
+          display: table;      
+      }
+    
+      section.filosofia h4.title-super { 
+          color: #d1d2d4; 
+          text-transform: uppercase; 
+          font-size: 24px; 
+          line-height: 1;
+          margin: 0 !important;
+      }
+
+     section.filosofia h1.title {
+        color: #d1d2d4; 
+        text-transform: uppercase; 
+        font-size: 97px !important; 
+        margin: 0 !important;
+        line-height: 101px;
+      }
+    
+       section.filosofia h2.title-sub {
+        color: #939598;
+        font-size: 48px;
+        margin: 0 0 48px 10px !important;    
+        line-height: 0;  
+      }
+    
+      section.filosofia div.column-left {
+        margin: 0;
+        padding: 0;
+        float: left;
+        width: 50%;
+        display: table-row;
+      }
+    
+      section.filosofia div.column-right {
+        margin: 0;
+        padding: 0;
+        float: right;
+        width: 50%;
+        display: table-row;      
+      }
+    
+      section.filosofia .column-left p, section.filosofia .column-left p:nth-child(2)  {
+        font-family: "Optima", "Open Sans",sans-serif !important;
+        font-size: 11px !important;
+        width: 352px !important;
+        padding: 0 !important;
+        color: #8c8c8c !important;
+        line-height: 1.44;
+      }
+    
+ 
+      section.filosofia .column-right p, section.filosofia .column-right p:nth-child(2) {
+        font-family: "Optima", "Open Sans",sans-serif !important;
+        font-size: 11px !important;
+        width: 352px !important;
+        padding: 0 !important;
+        color: #8c8c8c !important;
+        line-height: 1.46;
+        word-spacing: -1px !important;
+      }
+
+      /* Sección metodología  */    
+          section.metodologia { 
+              width: 734px; 
+              margin: 144px auto 24px auto; 
+              height: auto;  
+              display: table;      
+          }
+    
+          section.metodologia h4.title-super { 
+              color: #d1d2d4; 
+              text-transform: uppercase; 
+              font-size: 24px; 
+              line-height: 1;
+              margin: 0 0 5px 0 !important;
+          }
+
+         section.metodologia h1.title {
+            color: #d1d2d4; 
+            text-transform: uppercase; 
+            font-size: 97px !important; 
+            margin: 0 !important;
+            line-height: 98px;
+          }
+    
+           section.metodologia h2.title-sub {
+            color: #939598;
+            font-size: 48px;
+            margin: 0 0 48px 16px !important;    
+            line-height: 0;  
+          }
+    
+          section.metodologia div.column-left {
+            margin: 0;
+            padding: 0;
+            float: left;
+            width: 50%;
+            display: table-row;
+          }
+    
+          section.metodologia div.column-right {
+            margin: 0;
+            padding: 0;
+            float: right;
+            width: 50%;
+            display: table-row;      
+          }
+    
+          section.metodologia .column-left p, section.metodologia .column-left p:nth-child(2), 
+          section.metodologia .column-right p, section.metodologia .column-right p:nth-child(2) {
+            font-family: "Optima", "Open Sans",sans-serif !important;
+            font-size: 11px !important;
+            width: 352px !important;
+            padding: 0 !important;
+            color: #8c8c8c !important;
+            line-height: 1.44;
+          }
+  
+  
+          section.metodologia .second-tag-line {
+            position: relative;
+            color: #B1BDAD;
+            width: 341px;
+            margin-left: 16px;
+            font-size: 19px;
+            line-height: 1.1;
+            text-align: justify;
+          }
+        
+          section.metodologia span.upper {
+            word-spacing: 8px;
+            display: block;
+          }
+    
+          section.metodologia span.lower {
+            display: block;
+          }
+        
+          section.metodologia span.left-bracket {
+            position: absolute;
+            top: 26px;
+            left: -13px; 
+            font-size: 21px;
+          }
+    
+          section.metodologia span.right-bracket {
+            position: absolute;
+            top: 26px;
+            right: -6px;
+            font-size: 21px;
+          }
+        
+          /* Sección táctica  */    
+          section.tactica { 
+              width: 734px; 
+              margin: 144px auto 24px auto; 
+              height: auto;  
+              display: table;      
+          }
+
+          section.tactica h4.title-super { 
+              color: #d1d2d4; 
+              text-transform: uppercase; 
+              font-size: 24px; 
+              line-height: 1;
+              margin: 0 !important;
+          }
+
+         section.tactica h1.title {
+            color: #939598; 
+            text-transform: uppercase; 
+            font-size: 69px !important; 
+            margin: 0 !important;
+            line-height: 64px;
+          }
+    
+          section.tactica h2.title-sub {
+           color: #d1d3d4;
+           font-size: 24px;
+           margin: 0 0 48px 8px !important;    
+           line-height: 1;  
+         }
+       
+         section.tactica p#parrafo-tactica {
+           width: 346px;
+           float: left;
+           margin-bottom: 32px;
+           font-size: 12px;
+           line-height: 1.4;
+         }
+       
+         section.tactica p#parrafo-tactica-dos {
+           width: 346px;
+           float: left;
+           margin-top: 32px;
+           font-size: 12px;
+           line-height: 1.4;           
+         }
+              
+         section.tactica .seccion-arco {
+           position: relative;
+           font-size: 8px;
+           color: #8c8c8c;
+         }
+    
+         /* Texto en la sección del arco */    
+         /* Lado derecho - índice lado izquierdo */
+       
+         .seccion-arco .arco-1 {
+           position: absolute;
+           width: 240px;
+           top: 116px;
+           left: 501px;
+         }
+         
+         .target-1 {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            top: 112px;
+            left: 460px;    
+            cursor: pointer;     
+          }
+         
+         .seccion-arco .arco-1 .indice { 
+           font-family: "TrajanPro-Regular", "Lusitana", Times, serif;
+           font-size: 25px;
+           color: #9fad9f;
+           display: inline-block;
+           float: left;
+           margin-right: 0.5em;
+           width: 22px;
+           text-align: center;
+           height: 100%;
+         }
+       
+         .seccion-arco .arco-1 .titulo {
+           font-family: "TrajanPro-Regular", "Lusitana", Times, serif;
+           display: inline;
+           text-align: center;
+           margin-right: 0.3em;
+         }
+       /*
+         .seccion-arco .arco-1 .texto, 
+         .seccion-arco .arco-1 .texto p, 
+         .seccion-arco .arco-1 .texto p:nth-child(2) {
+           display: inline-block;
+           float: left;
+           font-family: "Optima", "Open Sans",sans-serif !important;
+           text-transform: none;         
+           width: 197px;
+           font-size: 11px !important;
+           line-height: 1.44;
+         }*/
+       
+         .arco-4 {
+            position: absolute;
+            width: 256px;
+            top: 254px;
+            left: 512px;
+         }
+         
+         .target-4 {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            top: 251px;
+            left: 470px;         
+            cursor: pointer;
+         }
+       
+          .seccion-arco .arco-4 .indice { 
+            font-family: "TrajanPro-Regular", "Lusitana", Times, serif;
+            font-size: 25px;
+            color: #9fad9f;
+            display: inline-block;
+            float: left;
+            margin-right: 0.5em;
+            width: 34px;
+            text-align: center;
+            height: 100%;
+          }
+ 
+          .seccion-arco .arco-4 .titulo {
+            font-family: "TrajanPro-Regular", "Lusitana", Times, serif;
+            display: inline;
+            text-align: center;
+            margin-right: 0.3em;
+          }
+ 
+          .seccion-arco .arco-4 .texto, 
+          .seccion-arco .arco-4 .texto p, 
+          .seccion-arco .arco-4 .texto p:nth-child(2) {
+            display: inline-block;
+            float: left;
+            font-family: "Optima", "Open Sans",sans-serif !important;
+            text-transform: none;         
+            width: 165px;
+            font-size: 11px !important;
+            line-height: 1.44;
+          }
+       
+          /* Lado izquierdo - índice lado derecho */
+        
+          .arco-3 {
+             position: absolute;
+             width: 256px;
+             top: 155px;
+             left: -10px;
+          }
+          
+          .target-3 {
+             position: absolute;
+             width: 50px;
+             height: 50px;
+             top: 150px;
+             left: 250px;
+          }
+                 
+           .seccion-arco .arco-3 .indice { 
+             font-family: "TrajanPro-Regular", "Lusitana", Times, serif;
+             font-size: 25px;
+             color: #9fad9f;
+             display: inline-block;
+             float: right;
+             margin-left: 0.5em;
+             width: 34px;
+             text-align: center;
+             height: 100%;
+           }
+ 
+           .seccion-arco .arco-3 .titulo {
+             font-family: "TrajanPro-Regular", "Lusitana", Times, serif;
+             display: inline;
+             text-align: center;
+             margin-right: 0.3em;
+           }
+ 
+           .seccion-arco .arco-3 .texto, 
+           .seccion-arco .arco-3 .texto p, 
+           .seccion-arco .arco-3 .texto p:nth-child(2) {
+             display: inline-block;
+             float: right;
+             text-align: right;
+             font-family: "Optima", "Open Sans",sans-serif !important;
+             text-transform: none;         
+             width: 192px;
+             font-size: 11px !important;
+             line-height: 1.44;
+           }
+        
+           .arco-2 {
+              position: absolute;
+              width: 256px;
+              top: 336px;
+              left: -15px;
+           }
+           
+           .target-2 {
+              position: absolute;
+              width: 50px;
+              height: 50px;
+              top: 330px;
+              left: 230px;
+              cursor: pointer;
+           }
+       
+            .seccion-arco .arco-2 .indice { 
+              font-family: "TrajanPro-Regular", "Lusitana", Times, serif;
+              font-size: 25px;
+              color: #9fad9f;
+              display: inline-block;
+              float: right;
+              margin-left: 0.5em;
+              width: 34px;
+              text-align: center;
+              height: 100%;
+            }
+ 
+            .seccion-arco .arco-2 .titulo {
+              font-family: "TrajanPro-Regular", "Lusitana", Times, serif;
+              display: inline;
+              text-align: center;
+              margin-right: 0.3em;
+            }
+ 
+            .seccion-arco .arco-2 .texto, 
+            .seccion-arco .arco-2 .texto p, 
+            .seccion-arco .arco-2 .texto p:nth-child(2) {
+              display: inline-block;
+              float: right;
+              text-align: right;
+              font-family: "Optima", "Open Sans",sans-serif !important;
+              text-transform: none;
+              width: 192px;
+              font-size: 11px !important;
+              line-height: 1.44;
+            }
+        
+           /* Texto en la sección del arco */
+           
+    
+         /* Sección interior  */    
+         section.interior { 
+             width: 734px; 
+             margin: 144px auto 24px auto; 
+             height: auto;  
+             display: table;      
+         }
+
+        section.interior h1.title {
+           color: #939598; 
+           text-transform: uppercase; 
+           font-size: 69px !important; 
+           margin: 0 !important;
+           line-height: 64px;
+         }
+   
+         section.interior h2.title-sub {
+          color: #d1d3d4;
+          font-size: 34px;
+          margin: 0 0 48px 5px !important;    
+          line-height: 1;  
+        }
+      
+        section.interior .third-tag-line {
+          position: relative;
+          margin-top: 53px;
+          color: #B1BDAD;
+          font-size: 19px;
+          line-height: 1.1;
+          text-align: center;
+        }
+      
+        section.interior span.left-bracket {
+          position: absolute;
+          top: 16px;
+          left: 138px;
+          font-size: 26px;
+        }
+  
+        section.interior span.right-bracket {
+          position: absolute;
+          top: 16px;
+          right: 138px;
+          font-size: 26px;
+        }
+      
+        section.interior span.upper {
+          display: block;
+          font-size: 13px;
+          line-height: 0;
+        }
+      
+        section.interior span.lower {
+          display: block;
+          font-size: 28px;
+          line-height: 0;
+        }
+      
+        section.interior div.born-archer {
+          margin: 0 auto;
+          text-align: center;
+          font-size: 34px;
+        }
+  
+        section.interior span.born {
+          display: inline;
+          color: #bfbfbf;
+        }
+      
+        section.interior span.archer {
+          display: inline;        
+          color: #8c8c8c;
+        }
+    
+        section.interior .seccion-caballo {
+          position: relative;
+        }
+  
+        .seccion-caballo div.conquistar-interno {
+          width: 150px;
+          height: 150px;
+          border-radius: 100%;
+          text-align: center;
+          border: 2px solid #a6a6a6;
+          display: block;
+          margin: 8px;
+        }
+      
+        .seccion-caballo div.conquistar-tag {
+          color: #bfbfbf;
+          font-size: 16px;
+          text-align: center;
+          line-height: 21px;
+          margin-top: 42px;
+        }
+
+        /*
+        Mensaje izquierda
+        */
+        .seccion-caballo .mensaje-izquierda-1 {
+          position: absolute;
+          font-size: 11px;
+          line-height: 1.44;
+          top: 26px;
+          left: 16px;
+          z-index: 10;
+          text-align: right;
+          width: 160px;
+        }
+
+        .seccion-caballo .mensaje-izquierda-1 .barra-horizontal-1 {
+          height: 2px;
+          background: #93a49a;
+          width: 85px;
+          position: absolute;
+          left: 165px;
+          top: 5px;
+        }
+      
+        .seccion-caballo .mensaje-izquierda-2 {
+          position: absolute;
+          font-size: 11px;
+          line-height: 1.44;
+          top: 76px;
+          left: -37px;
+          z-index: 10;
+          text-align: right;
+          width: 160px;
+        }
+
+        .seccion-caballo .mensaje-izquierda-2 .barra-horizontal-2 {
+          height: 2px;
+          background: #93a49a;
+          width: 117px;
+          position: absolute;
+          left: 170px;
+          top: 5px;
+        }
+
+        .seccion-caballo .mensaje-izquierda-3 {
+          position: absolute;
+          font-size: 11px;
+          line-height: 1.44;
+          top: 176px;
+          left: 37px;
+          z-index: 10;
+          text-align: right;
+          width: 160px;
+        }
+
+        .seccion-caballo .mensaje-izquierda-3 .barra-horizontal-3 {
+          height: 2px;
+          background: #93a49a;
+          width: 101px;
+          position: absolute;
+          left: 165px;
+          top: 5px;
+        }
+
+        .seccion-caballo .mensaje-izquierda-4 {
+          position: absolute;
+          font-size: 11px;
+          line-height: 1.44;
+          top: 243px;
+          left: -48px;
+          z-index: 10;
+          text-align: right;
+          width: 160px;
+        }
+
+        .seccion-caballo .mensaje-izquierda-4 .barra-horizontal-4 {
+          height: 2px;
+          background: #93a49a;
+          width: 128px;
+          position: absolute;
+          left: 165px;
+          top: 5px;
+        }
+
+        /*
+          Mensajes mostrados a la derecha del caballo
+        */
+
+        .seccion-caballo .mensaje-derecha-1 {
+          position: absolute;
+          font-size: 11px;
+          line-height: 1.44;
+          top: -4.8px;
+          left: 405px;
+          z-index: 10;
+        }
+
+        .seccion-caballo .mensaje-derecha-1  .barra-horizontal-1 {
+          height: 2px;
+          background: #93a49a;
+          width: 64px;
+          position: absolute;
+          left: -69px;
+          top: 5px;
+        }
+      
+        .seccion-caballo .mensaje-derecha-2 {
+          position: absolute;
+          font-size: 11px;
+          line-height: 1.44;
+          top: 75px;
+          left: 529px;
+          z-index: 10;
+        }
+
+        .seccion-caballo .mensaje-derecha-2 .barra-horizontal-2 {
+          height: 2px;
+          background: #93a49a;
+          width: 48px;
+          position: absolute;
+          left: -53px;
+          top: 5px;
+        }
+      
+        .seccion-caballo .mensaje-derecha-3 {
+          position: absolute;
+          font-size: 11px;
+          line-height: 1.44;
+          top: 224px;
+          left: 555px;
+          z-index: 10;
+        }
+
+        .seccion-caballo .mensaje-derecha-3 .barra-horizontal-3 {
+          height: 2px;
+          background: #93a49a;
+          width: 80px;
+          position: absolute;
+          left: -85px;
+          top: 5px;
+        }
+      
+        .seccion-caballo .linea-superior {
+          color: #a6a6a6;
+        } 
+      
+        .seccion-caballo .linea-inferior {
+          color: #b1bdad;
+        }
+        
+        .seccion-caballo .caballo-target {
+          position: absolute;
+          z-index: 2;
+          top: 90px;
+          left: 360px;
+          width: 55px;
+          height: 55px;
+          display: block;
+          cursor: pointer;
+          z-index: 10;
+          background: url('img/click-target.png') 42% 50% no-repeat;
+          background-size: cover;
+          -webkit-animation:girar_imagen 3s linear infinite;
+          -moz-animation:girar_imagen 3s linear infinite;
+              animation:girar_imagen 3s linear infinite;        
+          }
+        
+          @-moz-keyframes girar_imagen { 100% { -moz-transform: rotate(360deg); } }
+          @-webkit-keyframes girar_imagen { 100% { -webkit-transform: rotate(360deg); } }
+          @keyframes girar_imagen { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+        
+      
+        .seccion-caballo div.conquistar-externo {
+          position: absolute;
+          z-index: 2;
+          top: 34px;
+          left: 312px;
+          width: 170px;
+          height: 170px;
+          border-radius: 100%;
+          border: 2px solid #ffffff;        
+          background: #ffffff;
+          /* Cambiar opacidad a cero 0 si se quiere animar con click */
+          opacity: 1;
+
+        }
+        
+        .imagen-ballesta {
+          width: 277px;
+          height: 270px;
+        }
+
+        .imagen-caballo {
+          width: 238px;
+          height: 246px;
+        }
+  
+  /* Página legion - estilos predeterminados */  
+  /* Correcciones 960 - 2015*/
+  /*
+  .legion .column-right p:first-of-type {
+    margin-top: 0.6rem !important;
+  }*/
+  
+  /* Despliegue de la nueva sección de noticias */
+  .visualizador-noticias {
+     width: 900px;  
+     margin: 0 auto;
+  }
+  
+  .visualizador-noticias > h1 {
+    font-size: 24px;
+    font-weight: normal;
+    color: #626161;
+    margin-bottom: 2.5rem;
+  }
+  
+  .listado-noticias {
+    display: block; 
+    clear: both; 
+    float: none; 
+    margin: 0 auto 1rem auto; 
+    width: 100%; 
+    height: 220px; 
+    border-bottom: 1px solid #ced5cb;
+  }
+  
+  .contenedor-imagen {
+    width: 200px; 
+    height: 200px; 
+    display: inline-block; 
+    float: left; 
+    overflow: hidden;
+  }
+  
+  .contenedor-texto {
+    width: 600px; 
+    display: inline-block; 
+    float: left; 
+    margin-left: 15px;
+  }
+  
+  .titulo {
+    font-size: 18px;
+    color: #808080;
+    margin: 1.25rem 0;
+  }
+  
+  .contenedor-texto p {
+    font-family: "Optima", "Open Sans",sans-serif;
+    font-size: 16px;
+    color: #808080;
+  }
+  
+  .datos-extra {
+    font-family: "Optima", "Open Sans",sans-serif;
+    font-size: 12px;   
+    height: 35px; 
+    margin-top: 1.25rem;
+    vertical-align: bottom;
+  }
+  
+  .fecha {
+    color: #9fad9f;
+    width: 120px;
+    display: inline-block;
+    float: left;
+    height: 1.5em;
+    line-height: 1.7;
+  }
+  
+  
+
+  .boton-noticia {
+    display: inline-block;
+    margin: 0;
+    background: #fff;
+    color: #242524;
+    border: 1px solid #242524;
+    border-radius: 0;
+    transition: all 0.5s;
+    height: 1.5em;
+    width: 210px;
+    text-align: center;
+    padding: 0.3em 0;
+    text-decoration: none;
+    line-height: 1.7;
+    float: left;
+    font-size: 12px; 
+    margin-left: -1px;     
+  }
+  
+  .boton-noticia:hover {
+    color: #d2d2d4;
+    background: #fff;
+    border-radius: 0;  
+   border: 1px solid #d2d2d4;          
+  }
+  
+  
+  
+  
+}

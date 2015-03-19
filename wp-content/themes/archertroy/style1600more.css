@@ -1,0 +1,1678 @@
+/* Resolución 1600 y mayores */
+@media screen and (min-width: 1600px) {
+  
+/*
+ * Intro Page
+ */
+.landing {
+    background: url("../../../wp-content/uploads/2014/11/casco_1920.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+    display: block;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+.landing-start {
+    display: block;
+    left: 20%;
+    margin: -100px 0 0 -130px;
+    position: absolute;
+    top: 50%;
+    width: auto;
+}
+.boton-Archer:focus {outline:0;}
+
+.boton-Archer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.boton-Archer {
+  font-family: 'optimaregular';
+  font-size: 18px;
+  letter-spacing: 2px;
+  position: relative;
+  border: none;
+  min-width: 162px;
+  min-height: 32px;
+  background-color: #cccccc;
+  color: white;
+  vertical-align: middle;
+  text-transform: uppercase;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+.boton-Archer:hover {
+  background-color: #7F7F7F;
+}
+/* Intro page */
+/* 
+ * Main page 
+ */   
+.coverPhoto{
+  width: 100%;
+  height: 100%;
+  min-height: 370px;
+  background-image: url(/wp-content/uploads/2014/11/header1.jpg);
+  background-size: cover;
+  display: block;
+} 
+/* Main page */ 
+  .mini-logo {display: none;}
+  
+  .proyectos-movil { display: none;}
+  
+  .sidebar {
+    position: relative;
+    left: auto;
+    top: auto;
+    width: auto;
+    z-index: auto;
+    padding: 0;
+    height: 125px;
+    margin-top: -15px;
+    border: none;
+    overflow: visible;
+  }  
+  
+  .sub-menu li {
+  	position: relative !important;
+  	display: inline !important;
+  	float: left !important;
+  	margin: 0 !important;
+    padding: 0 !important;
+  	font-size: 11px !important;
+  	width: auto; 
+  	height: 30px;
+  }
+  .sub-menu li a {
+    padding: 0 10px;
+  	font-size: 13px;
+  	color: #9fad9f;
+  	width: auto !important; 
+  }
+  /* Horizontal submenu */
+  .main-navigation ul li:hover > ul,
+  .main-navigation ul li:focus > ul,
+  .main-navigation .focus > ul {
+  	border-left: 1px solid #9fad9f;
+  	clip: inherit;
+  	overflow: inherit;
+  	height: 30px;
+  	width: 1000px;
+  }
+    
+  /* Corrección menú de navegación horizontal */
+  .main-navigation li a,
+  .main-navigation li {
+    display: inline-block;
+  	text-decoration: none;
+    text-align: left;
+    margin-right: 0;
+    
+    /* Para que firefox no corte el sub menú */
+    overflow: visible;
+    
+  }
+  
+  .sidebar .menu-menu-1-container > ul > li > ul > li {
+    -webkit-transform: translateZ(0);
+    margin: 0.35em 0;
+    opacity: 1;
+    padding: 0 0 0 0.5em !important;
+  }
+    
+  .main-navigation li ul li a {
+  	display: block;
+  	font-size: 11px;
+  	font-size: 0.785714286rem;
+  	line-height: 2.181818182;
+  	padding: 8px 10px;
+  	padding: 0.571428571rem 0.714285714rem;
+  	width: 180px;
+  	width: 12.85714286rem;
+  	white-space: normal;
+    opacity: 1;
+  }
+  .main-navigation li ul li a:hover,
+  .main-navigation li ul li a:focus {
+  	text-decoration: none;
+  	color: #444;
+  }
+  
+  /* Corrección menú de navegación horizontal 
+
+    .main-navigation .current-menu-item {
+      border-bottom: 1px solid transparent;
+    }
+  
+  */
+  
+  .main-navigation .current-menu-item > a,
+  .main-navigation .current-menu-ancestor > a,
+  .main-navigation .current_page_item > a,
+  .main-navigation .current_page_ancestor > a {
+  	color: #636363;
+  	text-decoration: underline;
+  }
+
+  
+  #menu-item-443 {
+    display: block;
+  }
+
+  #menu-item-658, #menu-item-31, #menu-item-30, #menu-item-443 {
+     float: right;
+  }
+
+  #menu-item-443 {
+    width: 120px;
+    margin-left: 1em;
+  }
+
+  #menu-item-443 a {
+  	color: transparent;
+  	 background: url("../../../wp-content/uploads/2014/11/logo.jpg"); 
+  	 background-size: 120px;
+  	 background-repeat: no-repeat;
+  	background-position-y: -6px;
+  }
+  
+	.main-navigation li {
+		margin: 0;
+		position: relative;
+	}
+
+  /* Menú de navegación visible */
+  .main-navigation ul.nav-menu,
+  .main-navigation div.nav-menu > ul {
+  	display: inline-block;
+  	text-align: left;
+  	width: 100%;
+    border-bottom: 0 solid #fff;    
+  }
+  
+  /* Menú de navegación */  
+  .main-navigation li, .main-navigation li a {
+    font-size: 1.2rem !important;
+    padding: 1em 2em 0.75em 0 !important;    
+    border: 0 !important;
+  }
+  
+  .sidebar .menu-menu-1-container > ul > li > ul {
+    margin-left: 0;
+    max-height: 40px;
+  }
+  
+  /* Submenú de navegación */
+  .main-navigation li ul li a {
+    font-size: 0.90rem !important;
+     line-height: 32px !important; 
+     padding-top: 0 !important;
+  }
+  
+  /* Esconder el menú contextual en visualizaciones mayores a 900px */
+  .menu-toggle {
+    display: none;
+  }
+  
+  .texto-noticia {
+    font-size: inherit;
+  }
+  
+  /* Tamaño la página donde se visualiza el contenido */
+	.site {
+    width:100%;
+    min-height: 100%;
+	}  
+
+  /* Reducir el márgen superior entre el menú de navegación y el contenido. */
+  #main {
+    margin-top: 0;
+  }  
+
+  /* Reducir el espacio entre el submenú (proyectos) y el menú de navegación principal */
+  .main-navigation ul li:hover > ul, .main-navigation ul li:focus > ul, .main-navigation .focus > ul {
+    top: 80px;
+  }
+  
+  .proyectos-recientes > div, .proyectos-recientes > a, .ultimas-noticias > div, .ultimas-noticias > a {
+    width: 141px;
+    max-width: 141px;    
+  }
+  
+  .noticias > div {
+    width: 227px;
+  	max-width: 227px;
+  }
+  
+  /* El footer va a crecer hasta 1600px / se reduce la altura a 40px porque ya está en una sola línea */  
+  footer[role="contentinfo"] {
+  	height: 40px;
+    width: 100%;
+  }
+  
+  footer .site-info {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  .social-links {
+  	display: inline-block;
+  	float: left;
+    border-bottom: 40px solid #242524;
+    border-right: 40px solid transparent;
+    height: 0;
+    width: 240px;   
+  	font-size: 16px;
+  	line-height: 3em;
+  	text-align: center;
+  }
+
+/* Aumentar el ancho de la columna para incluir el copyright / Aumentar el tamaño de fuente */
+  .copyright {
+  	display: inline-block;
+  	float: left;
+    width: 1250px;
+    font-size: 10px;
+  	height: 40px;
+  	line-height: 20px;
+  }
+  
+  .reg {
+  	font-family: "Helvetica neue", helvetica, sans-serif;
+  	font-size: 9px;
+  	font-weight: normal;
+  	display: inline-block;
+  	float: left; 
+  	margin: -2px 3px 0 0;
+  }
+  
+  /* Crecer el tamaño de las imágenes de los proyectos */  
+  .grid > div, .grid > a {
+    width: 141px;
+    max-width: 141px;
+  }
+  
+  /* Crecer el tamaño de las imágenes de los posters */  
+  .galeria-de-posters > a {
+    width: 220px;    
+    max-width: 220px;
+  }
+  
+  /* Botón carteles -> Posters */
+  .boton-carteles {
+    display: block;
+    clear: both;
+    margin: 0;
+    background: #fff;
+    color: #242524;
+    border: 1px solid #242524;
+    border-radius: 0;
+    transition: all 0.5s;
+    height: 1.5em;
+    width: 210px;
+    text-align: center;
+    padding: 0.3em 0;
+    text-decoration: none;
+    line-height: 1.9;
+    float: right;
+    font-size: 15px; 
+    margin-left: -1px; 
+  }
+  
+  .boton-carteles:hover {
+    color: #d2d2d4!important;
+  background: #fff;
+  border-radius: 0;   
+  border: 1px solid #d2d2d4;
+  color:#d2d2d4;     
+  }
+  
+  /* Centrar menú de navegación en las publicaciones */
+  .site-content nav {
+    margin: 1em auto;
+    clear: both;
+    line-height: 2;
+    overflow: hidden;
+    width: 60%;
+  }
+  /*  Ocultar meta información de los proyectos */
+  footer.entry-meta {
+    display: none;
+  }
+  
+  /* Aumentar el tamaño de los iframes - videos de youtube */
+  
+  article iframe {
+  }
+  
+  /* Aumentar el tamaño de las imágenes de los clientes */
+  .clientes > img {
+    width: 111px;
+    max-width: 111px;
+  }
+  /*
+  Aumentar el tamaño de las imágenes de "gente" */
+  .gente > div {
+    width: 220px;
+    max-width: 220px;
+  }
+  
+  /* Datos personas */
+  .datos-persona .persona, .datos-persona .handler {
+    font-family: "Optima", "Open Sans",sans-serif;
+    text-transform: none;
+    display: inline-block;
+    float: left;
+  }
+
+  .datos-persona .persona {
+    width: 50%;  
+    text-align: left;
+    padding-left: 1em;
+  }
+
+  .datos-persona .handler {
+    width: 35%;   
+    padding-right: 1em;
+  }
+
+  .datos-persona .persona .puesto-persona, .datos-persona .handler {
+    text-transform: none;
+  }
+
+  .datos-persona .persona .nombre-persona {
+    font-size: 14px;
+    color: #626161
+  }
+
+  .datos-persona .persona .puesto-persona {
+    font-size: 12px;
+    color: #a3ada2;
+  }
+
+  .datos-persona .handler, .datos-persona .handler a {
+    line-height: 3;
+    color: #252425;
+    font-size: 12px;
+    text-align: right;
+  }
+  
+  /* Centrar párrafos de la publicación */
+  
+  .proyectos-recientes, .noticias {
+    width: 1200px;
+    max-width: 1200px;
+  }
+
+ img.attachment-post-thumbnail.wp-post-image{
+
+ }
+  
+  .mini-post .entry-content p{
+    width: inherit;
+    margin: 0 auto;
+    padding: 1em;
+  }
+  
+  .mini-post .entry-content > p:last-of-type {
+    padding-bottom: 2.5em;
+  }
+
+  .entry-content-social-links {
+    text-align: center;
+  }
+  
+  /* Centrar contenido de formularios de contacto */
+  .contacto {
+    display: block;
+    clear: both;
+    float: none;
+    width: 1200px;
+    margin: 1.714285714rem auto;
+  }
+  
+  .centrar p {
+    width: inherit;
+  }
+  
+  /* Columnas sección contacto */
+  
+  .columnas {
+    width: 32%; 
+    display: inline-block; 
+    float: left; 
+    margin: 0 0.5em;
+    height: 300px;
+  }
+
+  .centrar {
+    text-align: center;
+  }
+   
+  /* Tamaño de fuentes e interlineado para los caption */
+  .wp-caption-text,
+  .blog-wp-caption-text {
+    line-height: 1.714285714;
+    font-size: 13px;
+  }
+  
+  .gente > div .wp-caption-text {
+    bottom: 0 !important;
+  }
+  
+  
+  /* Blog */
+  
+  .post-browse {
+    height: 100%;
+    width: 580px;
+    margin-right: 10px;
+    padding: 0;
+    background: rgba(0,0,0,0);
+    display: inline-block;
+    float: left;
+    clear: none;
+    position: relative;
+  }
+  
+  .post-content {
+    height: 100%;    
+  	width: 610px;
+  	display: inline-block;
+  	float: left;
+    clear: none; 
+  	position: relative;
+  	margin: 0;
+  	padding: 0;
+  }
+  
+  .blog-posts-header {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid #CFCFCF;
+  border-top: none;
+  display: block;
+  clear: both;
+  float: none;
+  overflow: hidden;
+  margin-bottom: 1em;
+  }
+  
+	.blog-posts-header h2 {
+		display: inline-block;
+		float: left;
+		width: 120px;
+		margin: 0 0 0 6px;
+    height: 100%;
+    line-height: 58px;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+	}
+
+	.blog-posts-header .hamburger-menu-icon {
+		display: inline-block;
+		float: left;
+		width: 57px;
+		padding: 0 2px;
+		border-left: 1px solid #CFCFCF;
+		border-right: 1px solid #CFCFCF;
+		font-size: 30px;
+		text-align: center;
+		line-height: 70px;
+    overflow: hidden;
+    height: 100%;
+	}
+
+	.blog-posts-header form {
+		display: inline-block;
+		float: left;
+		width: 146px;
+    height: 50px;
+		padding: 0 17px;
+		border-right: 1px solid #CFCFCF;
+    margin: 0;
+	}
+
+	.blog-posts-header form input {
+		border: none;
+		border-radius: 0;
+		border-bottom: 1px solid #CFCFCF;
+    width: 95%;
+    height: 30px;
+    margin: 1em 0 0 0;
+    padding: 0;
+    line-height: 1.5;    
+	}
+    
+	.blog-posts-header .header-social-links  {
+  	display: inline-block;
+  	float: left;
+    clear: none;
+    margin: 0;
+  	width: 198px;
+    height: 50px;
+    line-height: 64px;
+  	padding: 0 0 0 5px;
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+  }
+
+  .blog-posts-header .header-social-links > a {
+  		display: inline-block; 
+  		text-decoration: none;
+  		color: #4B4B4B;
+      font-size: 18px;
+      vertical-align: top;
+      zoom: 1;
+      margin: 0;
+  }
+
+  .blog-posts-header .header-social-links:after  {
+    	content: "";
+    	width: 100%;
+    	display: inline-block;
+  }
+  
+  
+  /* Caption for blog posts */
+  .archertroy-blog {
+    border-top: 1px solid #fff;
+    position: relative;
+  }
+  
+  .blog-wp-caption-text {
+    background: transparent;
+    text-align: left;
+    bottom: 0.7em;
+    color: #626161;
+    display: block;
+    filter: alpha(opacity=0);
+    font-family: "Optima", "Open Sans",sans-serif;
+    left: 0;
+    right: 0;
+    margin: 0 !important;
+    max-width: 100%;
+    opacity: 0;
+    padding: 5px 0px !important;
+    position: absolute;
+    height: 50px;
+    z-index: -1;
+  }
+  
+  .blog-wp-caption-text .caption-title {
+    font-family: "Optima", "Open Sans",sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    position: absolute;
+    top: 14px;
+    left: 15px;
+  }
+
+  .blog-wp-caption-text  .caption-date {
+    font-family: "Optima", "Open Sans",sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    text-align: left;
+    text-transform: lowercase;
+    position: absolute;
+    bottom: 13px;
+    left: 15px;
+  }
+
+  .blog-grid > div.blog-wp-caption, .blog-grid > a {
+    width: 285px;
+    margin: 5px 0;
+    height: auto;
+  	display: inline-block;
+  	vertical-align: top;
+  	*display: inline;
+  	zoom: 1;    
+  }
+  
+  /* Caption para el blog */
+    
+  .archertroy-blog-margin-top {
+     position: absolute;
+     width: 1000%;
+     left: 0;
+     margin-left: -10000px;
+     height: 1px;
+     background: #cfcfcf; 
+     z-index: 1;
+  }
+
+  .mini-post .entry-content .wp-caption:first-child .wp-caption-text {
+    background: transparent;
+    bottom: 0.7em; 
+    color: #fff;
+    display: block;
+    line-height: 1.714285714;
+    font-family: "Optima", "Open Sans",sans-serif;
+    font-size: 20px;
+    left: 0;
+    right: 0;
+    margin: 0 !important;
+    max-width: 100%;
+    opacity: 0.85;
+    padding: 1em 2em !important;
+    position: absolute;
+    z-index: 1;
+    text-transform: none !important;  
+  }
+
+  
+  /* Navegación  <- Anterior Siguiente -> en la página de los proyectos*/
+  
+  .project-navigation {
+    font-family: "Optima", "Open Sans",sans-serif;    
+    display: block;
+    clear: both;
+    float: none;
+    margin: 3em auto;
+    width: 960px;
+    text-transform: uppercase;
+    /* Utilizar position relative para que las flechas de navegación queden centradas */
+    position: relative;
+  }
+  
+  /* Caption for blog posts */
+
+
+  .mini-post .entry-content .wp-caption:first-child {
+    background: transparent;  
+    display: block;
+    max-width: 100%;
+    position: relative;
+    text-align: left;
+    overflow: hidden;
+    text-transform: none !important;
+  }
+  
+  .mini-post .entry-content > .wp-caption:first-child  > .wp-caption-text {
+    font-family: "Optima", "Open Sans",sans-serif;
+    font-size: 30px !important;    
+    background: transparent !important;
+    bottom: 0;
+    height: 30px;
+    color: #fff;
+    display: block;
+    line-height: 1.714285714;
+    left: 0;
+    right: 0;
+    margin: 0 !important;
+    max-width: 100%;
+    opacity: 0.85;
+    padding: 0 0 28px 28px !important;
+    position: absolute;
+    z-index: 1;
+    text-transform: none !important;  
+  }
+
+  .mini-post .entry-content > .wp-caption:first-child  > .wp-caption-text {
+      background: transparent !important;
+      text-transform: none !important;
+  }
+  
+  
+  .blog-grid > div.wp-caption, .blog-grid > a {
+  	width: 285px;
+    height: auto;
+  	display: inline-block;
+  	vertical-align: top;
+  	*display: inline;
+  	zoom: 1;
+  	margin: 0.5rem 0;
+  }
+  
+  /*
+    Una vez que el menú es horizontal
+    se deben de visualizar los siguientes menúes
+    a la derecha  
+  */
+  
+  #menu-item-658, #menu-item-31, #menu-item-30, #menu-item-443 {
+     float: right;
+  }
+
+  #menu-item-443 {
+    width: 200px;
+  }
+
+  #menu-item-443 a {
+     color: transparent;
+  	 background: url("../../../wp-content/uploads/2014/11/logo.jpg"); 
+  	 background-size: 200px;
+  	 background-repeat: no-repeat;
+     background-position-y: 14px;
+  }
+  
+  .wp-caption-text {
+    background: transparent;
+    bottom: 0.7em;
+    color: #626161;
+    display: block;
+    filter: alpha(opacity=0);
+    font-family: "Optima", "Open Sans",sans-serif;
+    left: 0;
+    right: 0;
+    margin: 0 !important;
+    max-width: 100%;
+    opacity: 0;
+    padding: 5px 0px !important;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .blog-wp-caption-text {
+    background: transparent;
+    bottom: 0.7em;
+    color: #626161;
+    display: block;
+    filter: alpha(opacity=0);
+    font-family: "Optima", "Open Sans",sans-serif;
+    left: 0;
+    right: 0;
+    margin: 0 !important;
+    max-width: 100%;
+    opacity: 0;
+    padding: 5px 0px !important;
+    position: absolute;
+    z-index: -1;
+    height: 64px;
+  }
+  
+  .gente .wp-caption-text {
+    bottom: 0.6em !important;
+  }
+  
+  .wp-video {
+  width: 1200px !important;
+  max-width: 1200px !important;
+  height: 675px !important; 
+  position: relative !important;
+  margin: 0 auto !important;
+  }
+  
+  /* Contacto */
+  
+  .agrandar-imagen-contacto {
+    -webkit-transform: scale(1); 
+       -moz-transform: scale(1);
+         -o-transform: scale(1);
+            transform: scale(1);
+  }
+  
+  /* Página legion - estilos predeterminados 1920 */
+
+	br.cortar{display:inline-block;}  
+
+  /* Sección legión */
+      section.legion { 
+          width: 1224px; 
+          margin: 40px auto; 
+          display: table;
+      }
+    
+      section.legion h4.title-super { 
+          color: #d1d2d4; 
+          text-transform: uppercase; 
+          font-size: 40px; 
+          line-height: 1;
+          margin: 0 !important;
+      }
+
+     section.legion h1.title {
+        color: #d1d2d4; 
+        text-transform: uppercase; 
+        font-size: 161px !important; 
+        margin: 0 0 17px 0 !important;
+      }
+    
+      section.legion div.column-left {
+        margin: 0;
+        padding: 0;
+        float: left;
+        width: 50%;
+        display: table-row;
+      }
+    
+      section.legion div.column-right {
+        margin: 0;
+        padding: 0;
+        float: right;
+        width: 50%;
+        display: table-row;      
+      }
+    
+     section.legion ol.first-list {
+        font-size: 17px;
+        margin-top: 13px;
+      }
+      
+      section.legion ol.first-list li {
+        margin: 0;
+      }
+    
+      section.legion .first-tag-line {
+        position: relative;
+        color: #B1BDAD;
+        width: 94%;
+        font-size: 24px;
+        line-height: 1.1;
+        text-align: left;
+      }
+    
+      section.legion span.left-bracket {
+        position: absolute;
+        top: 45%;
+        left: -2.5%; /* 6 */
+        font-weight: 100;    
+      }
+    
+      section.legion span.upper {
+        word-spacing: 8px;
+      }
+    
+      section.legion span.lower {
+      
+      }
+    
+      section.legion span.right-bracket {
+        position: absolute;
+        top: 45%;
+        right: 2.8%;
+        font-weight: 100;
+      }
+    
+      section.legion .column-right p, section.legion .column-right p:nth-child(2) {
+        font-family: "Optima", "Open Sans",sans-serif !important;
+        font-size: 16px !important;
+        width: 100% !important;
+        color: #8c8c8c !important;
+        line-height: 24px;
+      }
+
+  /* Sección filosofía  */    
+      section.filosofia { 
+          width: 1224px; 
+          margin: 30px auto 40px auto; 
+          height: auto;  
+          display: table;      
+      }
+    
+      section.filosofia h4.title-super { 
+          color: #d1d2d4; 
+          text-transform: uppercase; 
+          font-size: 40px; 
+          line-height: 1;
+          margin: 0 !important;
+      }
+
+     section.filosofia h1.title {
+        color: #d1d2d4; 
+        text-transform: uppercase; 
+        font-size: 161px !important; 
+        margin: 0 !important;
+        line-height: 180px;
+      }
+    
+       section.filosofia h2.title-sub {
+        color: #939598;
+        font-size: 90px;
+        margin: 0 0 80px 17px !important;    
+        line-height: 0;  
+      }
+    
+      section.filosofia div.column-left {
+        margin: 0;
+        padding: 0;
+        float: left;
+        width: 50%;
+        display: table-row;
+      }
+    
+      section.filosofia div.column-right {
+        margin: 0;
+        padding: 0;
+        float: right;
+        width: 50%;
+        display: table-row;      
+      }
+    
+      section.filosofia .column-left p, section.filosofia .column-left p:nth-child(2)  {
+        font-family: "Optima", "Open Sans",sans-serif !important;
+        font-size: 16px !important;
+        width: 586px !important;
+        padding: 0 !important;
+        color: #8c8c8c !important;
+        line-height: 1.85;
+      }
+    
+ 
+      section.filosofia .column-right p, section.filosofia .column-right p:nth-child(2) {
+        font-family: "Optima", "Open Sans",sans-serif !important;
+        font-size: 16px !important;
+        width: 586px !important;
+        padding: 0 !important;
+        color: #8c8c8c !important;
+        line-height: 29px;
+        word-spacing: -1px !important;
+      }
+
+      /* Sección metodología  */    
+          section.metodologia { 
+              width: 1224px; 
+              margin: 30px auto 40px auto; 
+              height: auto;  
+              display: table;      
+          }
+    
+          section.metodologia h4.title-super { 
+              color: #d1d2d4; 
+              text-transform: uppercase; 
+              font-size: 40px; 
+              line-height: 1;
+              margin: 0 0 8px 0 !important;
+          }
+
+         section.metodologia h1.title {
+            color: #d1d2d4; 
+            text-transform: uppercase; 
+            font-size: 161px !important; 
+            margin: 0 !important;
+            line-height: 164px;
+          }
+    
+           section.metodologia h2.title-sub {
+            color: #939598;
+            font-size: 80px;
+            margin: 0 0 80px 18px !important;    
+            line-height: 0;  
+          }
+    
+          section.metodologia div.column-left {
+            margin: 0;
+            padding: 0;
+            float: left;
+            width: 50%;
+            display: table-row;
+          }
+    
+          section.metodologia div.column-right {
+            margin: 0;
+            padding: 0;
+            float: right;
+            width: 50%;
+            display: table-row;      
+          }
+    
+          section.metodologia .column-left p, section.metodologia .column-left p:nth-child(2), 
+          section.metodologia .column-right p, section.metodologia .column-right p:nth-child(2) {
+            font-family: "Optima", "Open Sans",sans-serif !important;
+            font-size: 16px !important;
+            width: 586px !important;
+            padding: 0 !important;
+            color: #8c8c8c !important;
+            line-height: 1.85;
+          }
+  
+  
+          section.metodologia .second-tag-line {
+            position: relative;
+            color: #B1BDAD;
+            width: 568px;
+            margin-left: 26px;
+            font-size: 32px;
+            line-height: 1.1;
+            text-align: justify;
+          }
+        
+          section.metodologia span.upper {
+            word-spacing: 14px;
+            display: block;
+          }
+    
+          section.metodologia span.lower {
+            display: block;
+          }
+        
+          section.metodologia span.left-bracket {
+            position: absolute;
+            top: 44px;
+            left: -22px; 
+            font-size: 40px;
+          }
+    
+          section.metodologia span.right-bracket {
+            position: absolute;
+            top: 50px;
+            right: -25px;
+            font-size: 35px;
+          }
+        
+          /* Sección táctica  */    
+          section.tactica { 
+              width: 1224px; 
+              margin: 30px auto 40px auto; 
+              height: auto;  
+              display: table;      
+          }
+
+          section.tactica h4.title-super { 
+              color: #d1d2d4; 
+              text-transform: uppercase; 
+              font-size: 40px; 
+              line-height: 1;
+              margin: 0 !important;
+          }
+
+         section.tactica h1.title {
+            color: #939598; 
+            text-transform: uppercase; 
+            font-size: 115px !important; 
+            margin: 0 !important;
+            line-height: 106px;
+          }
+    
+          section.tactica h2.title-sub {
+           color: #d1d3d4;
+           font-size: 40px;
+           margin: 0 0 80px 13px !important;    
+           line-height: 1;  
+         }
+       
+         section.tactica p#parrafo-tactica {
+           width: 577px;
+           float: left;
+           margin-bottom: 53px;
+           font-size: 16px;
+         }
+       
+         section.tactica p#parrafo-tactica-dos {
+           width: 577px;
+           float: left;
+           margin-top: 53px;
+           font-size: 16px;           
+         }
+              
+         section.tactica .seccion-arco {
+           position: relative;
+           font-size: 14px;
+           color: #8c8c8c;
+         }
+    
+         /* Texto en la sección del arco */    
+         /* Lado derecho - índice lado izquierdo */
+       
+         .seccion-arco .arco-1 {
+           display: block;
+           position: absolute;
+           width: 400px;
+           top: 140px;
+           left: 845px;         
+         }
+         
+         .target-1 {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            top: 142px;
+            left: 790px;    
+            cursor: pointer;     
+          }
+         
+       
+         .seccion-arco .arco-1 .indice { 
+           font-family: "TrajanPro-Regular", "Lusitana", Times, serif;
+           font-size: 42px;
+           color: #9fad9f;
+           display: inline-block;
+           float: left;
+           margin-right: 0.5em;
+           width: 38px;
+           text-align: center;
+           height: 100%;
+         }
+       
+         .seccion-arco .arco-1 .titulo {
+           font-family: "TrajanPro-Regular", "Lusitana", Times, serif;
+           display: inline;
+           text-align: center;
+           margin-right: 0.3em;
+         }
+         .arco-4 {
+            position: absolute;
+            width: 426px;
+            top: 363px;
+            left: 863px;         
+         }
+         
+         .target-4 {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            top: 366px;
+            left: 810px;         
+            cursor: pointer;
+         }
+       
+          .seccion-arco .arco-4 .indice { 
+            font-family: "TrajanPro-Regular", "Lusitana", Times, serif;
+            font-size: 42px;
+            color: #9fad9f;
+            display: inline-block;
+            float: left;
+            margin-right: 0.5em;
+            width: 57px;
+            text-align: center;
+            height: 100%;
+          }
+ 
+          .seccion-arco .arco-4 .titulo {
+            font-family: "TrajanPro-Regular", "Lusitana", Times, serif;
+            display: inline;
+            text-align: center;
+            margin-right: 0.3em;
+          }
+ 
+          .seccion-arco .arco-4 .texto, 
+          .seccion-arco .arco-4 .texto p, 
+          .seccion-arco .arco-4 .texto p:nth-child(2) {
+            display: inline-block;
+            float: left;
+            font-family: "Optima", "Open Sans",sans-serif !important;
+            text-transform: none;         
+            font-size: 14px !important;
+            width: 275px;
+          }
+       
+          /* Lado izquierdo - índice lado derecho */
+        
+          .arco-3 {
+             position: absolute;
+             width: 426px;
+             top: 200px;
+             left: -30px;
+          }
+          
+          .target-3 {
+             position: absolute;
+             width: 50px;
+             height: 50px;
+             top: 200px;
+             left: 410px;
+          }
+       
+           .seccion-arco .arco-3 .indice { 
+             font-family: "TrajanPro-Regular", "Lusitana", Times, serif;
+             font-size: 42px;
+             color: #9fad9f;
+             display: inline-block;
+             float: right;
+             margin-left: 0.5em;
+             width: 57px;
+             text-align: center;
+             height: 100%;
+           }
+ 
+           .seccion-arco .arco-3 .titulo {
+             font-family: "TrajanPro-Regular", "Lusitana", Times, serif;
+             display: inline;
+             text-align: center;
+             margin-right: 0.3em;
+           }
+ 
+           .seccion-arco .arco-3 .texto, 
+           .seccion-arco .arco-3 .texto p, 
+           .seccion-arco .arco-3 .texto p:nth-child(2) {
+             display: inline-block;
+             float: right;
+             text-align: right;
+             font-family: "Optima", "Open Sans",sans-serif !important;
+             text-transform: none;         
+             font-size: 14px !important;
+             width: 320px;
+           }
+        
+           .arco-2 {
+              position: absolute;
+              display: block;
+              width: 426px;
+              top: 506px;
+              left: -35px;
+           }
+       
+           .target-2 {
+             position: absolute;
+             width: 50px;
+             height: 50px;
+             top: 510px;
+             left: 390px;
+             cursor: pointer;
+           }
+       
+       
+            .seccion-arco .arco-2 .indice { 
+              font-family: "TrajanPro-Regular", "Lusitana", Times, serif;
+              font-size: 42px;
+              color: #9fad9f;
+              display: inline-block;
+              float: right;
+              margin-left: 0.5em;
+              width: 57px;
+              text-align: center;
+              height: 100%;
+            }
+ 
+            .seccion-arco .arco-2 .titulo {
+              font-family: "TrajanPro-Regular", "Lusitana", Times, serif;
+              display: inline;
+              text-align: center;
+              margin-right: 0.3em;
+            }
+ 
+            .seccion-arco .arco-2 .texto, 
+            .seccion-arco .arco-2 .texto p, 
+            .seccion-arco .arco-2 .texto p:nth-child(2) {
+              display: inline-block;
+              float: right;
+              text-align: right;
+              font-family: "Optima", "Open Sans",sans-serif !important;
+              text-transform: none;         
+              font-size: 14px !important;
+              width: 320px;
+            }
+        
+           /* Texto en la sección del arco */
+           
+    
+         /* Sección interior  */    
+         section.interior { 
+             width: 1224px; 
+             margin: 30px auto 40px auto; 
+             height: auto;  
+             display: table;      
+         }
+
+        section.interior h1.title {
+           color: #939598; 
+           text-transform: uppercase; 
+           font-size: 115px !important; 
+           margin: 0 !important;
+           line-height: 106px;
+         }
+   
+         section.interior h2.title-sub {
+          color: #d1d3d4;
+          font-size: 57px;
+          margin: 0 0 80px 8px !important;    
+          line-height: 1;  
+        }
+      
+        section.interior .third-tag-line {
+          position: relative;
+          margin-top: 88px;
+          color: #B1BDAD;
+          font-size: 32px;
+          line-height: 1.1;
+          text-align: center;
+        }
+      
+        section.interior span.left-bracket {
+          position: absolute;
+          top: 26px;
+          left: 231px;
+          font-size: 44px;
+        }
+  
+        section.interior span.right-bracket {
+          position: absolute;
+          top: 26px;
+          right: 231px;
+          font-size: 44px;
+        }
+      
+        section.interior span.upper {
+          display: block;
+          font-size: 23px;
+          line-height: 0;
+        }
+      
+        section.interior span.lower {
+          display: block;
+          font-size: 47px;
+          line-height: 0;
+        }
+      
+        section.interior div.born-archer {
+          margin: 0 auto;
+          text-align: center;
+          font-size: 57px;
+        }
+  
+        section.interior span.born {
+          display: inline;
+          color: #bfbfbf;
+        }
+      
+        section.interior span.archer {
+          display: inline;        
+          color: #8c8c8c;
+        }
+    
+        section.interior .seccion-caballo {
+          position: relative;
+        }
+  
+        .seccion-caballo div.conquistar-interno {
+          width: 251px;
+          height: 251px;
+          border-radius: 100%;
+          text-align: center;
+          border: 4px solid #a6a6a6;
+          display: block;
+          margin: 13px;
+        }
+      
+        .seccion-caballo div.conquistar-tag {
+          color: #bfbfbf;
+          font-size: 26px;
+          text-align: center;
+          line-height: 35px;
+          margin-top: 71px;
+        }
+
+        /*
+        Mensaje izquierda
+        */
+        .seccion-caballo .mensaje-izquierda-1 {
+          position: absolute;
+          font-size: 14px;
+          top: 44px;
+          left: 26px;
+          z-index: 10;
+          text-align: right;
+          width: 266px;
+        }
+
+        .seccion-caballo .mensaje-izquierda-1 .barra-horizontal-1 {
+          height: 2px;
+          background: #93a49a;
+          width: 142px;
+          position: absolute;
+          left: 275px;
+          top: 8px;
+        }
+      
+        .seccion-caballo .mensaje-izquierda-2 {
+          position: absolute;
+          font-size: 14px;
+          top: 127px;
+          left: -62px;
+          z-index: 10;
+          text-align: right;
+          width: 266px;
+        }
+
+        .seccion-caballo .mensaje-izquierda-2 .barra-horizontal-2 {
+          height: 2px;
+          background: #93a49a;
+          width: 195px;
+          position: absolute;
+          left: 284px;
+          top: 8px;
+        }
+
+        .seccion-caballo .mensaje-izquierda-3 {
+          position: absolute;
+          font-size: 14px;
+          top: 293px;
+          left: 62px;
+          z-index: 10;
+          text-align: right;
+          width: 266px;
+        }
+
+        .seccion-caballo .mensaje-izquierda-3 .barra-horizontal-3 {
+          height: 2px;
+          background: #93a49a;
+          width: 168px;
+          position: absolute;
+          left: 275px;
+          top: 8px;
+        }
+
+        .seccion-caballo .mensaje-izquierda-4 {
+          position: absolute;
+          font-size: 14px;
+          top: 406px;
+          left: -80px;
+          z-index: 10;
+          text-align: right;
+          width: 266px;
+        }
+
+        .seccion-caballo .mensaje-izquierda-4 .barra-horizontal-4 {
+          height: 2px;
+          background: #93a49a;
+          width: 213px;
+          position: absolute;
+          left: 275px;
+          top: 8px;
+        }
+
+        /*
+          Mensajes mostrados a la derecha del caballo
+      
+        */
+
+        .seccion-caballo .mensaje-derecha-1 {
+          position: absolute;
+          font-size: 14px;
+          top: -8px;
+          left: 675px;
+          z-index: 10;
+        }
+
+        .seccion-caballo .mensaje-derecha-1  .barra-horizontal-1 {
+          height: 2px;
+          background: #93a49a;
+          width: 106px;
+          position: absolute;
+          left: -115px;
+          top: 8px;
+        }
+      
+        .seccion-caballo .mensaje-derecha-2 {
+          position: absolute;
+          font-size: 14px;
+          top: 126px;
+          left: 881px;
+          z-index: 10;
+        }
+
+        .seccion-caballo .mensaje-derecha-2 .barra-horizontal-2 {
+          height: 2px;
+          background: #93a49a;
+          width: 80px;
+          position: absolute;
+          left: -88px;
+          top: 8px;
+        }
+      
+        .seccion-caballo .mensaje-derecha-3 {
+          position: absolute;
+          font-size: 14px;
+          top: 373px;
+          left: 926px;
+          z-index: 10;
+        }
+
+        .seccion-caballo .mensaje-derecha-3 .barra-horizontal-3 {
+          height: 2px;
+          background: #93a49a;
+          width: 133px;
+          position: absolute;
+          left: -142px;
+          top: 8px;
+        }
+      
+        .seccion-caballo .linea-superior {
+          color: #a6a6a6;
+        } 
+      
+        .seccion-caballo .linea-inferior {
+          color: #b1bdad;
+        }
+        
+        .seccion-caballo .caballo-target {
+          position: absolute;
+          z-index: 10;
+          top: 170px;
+          left: 610px;
+          width: 55px;
+          height: 55px;
+          display: block;
+          cursor: pointer;
+          background: url('img/click-target.png') 42% 50% no-repeat;
+          background-size: cover;
+          -webkit-animation:girar_imagen 3s linear infinite;
+          -moz-animation:girar_imagen 3s linear infinite;
+              animation:girar_imagen 3s linear infinite;        
+          }
+        
+          @-moz-keyframes girar_imagen { 100% { -moz-transform: rotate(360deg); } }
+          @-webkit-keyframes girar_imagen { 100% { -webkit-transform: rotate(360deg); } }
+          @keyframes girar_imagen { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+      
+        .seccion-caballo div.conquistar-externo {
+          position: absolute;
+          z-index: 2;
+          top: 85px;
+          left: 545px;
+          width: 210px;
+          height: 210px;
+          border-radius: 100%;
+          border: 2px solid #ffffff;        
+          background: #ffffff;
+          /* Cambiar opacidad a cero 0 si se quiere animar con click */
+          opacity: 1;
+        }
+  
+        .imagen-ballesta  {
+          width: 463px;
+          height: 451px;
+        }
+
+        .imagen-caballo {
+          width: 398px;
+          height: 463px;
+        }
+    
+  /* Despliegue de la nueva sección de noticias */
+  .visualizador-noticias {
+     width: 928px;  
+     margin: 0 auto;
+  }
+  
+  .visualizador-noticias > h1 {
+    font-size: 24px;
+    font-weight: normal;
+    color: #626161;
+    margin-bottom: 2.5rem;
+  }
+  
+  .listado-noticias {
+    display: block; 
+    clear: both; 
+    float: none; 
+    margin: 0 auto 1rem auto; 
+    width: 100%; 
+    height: 180px; 
+    border-bottom: 1px solid #ced5cb;
+  }
+  
+  .contenedor-imagen {
+    width: 150px; 
+    height: 150px; 
+    display: inline-block; 
+    float: left; 
+    overflow: hidden;
+  }
+  
+  .contenedor-texto {
+    width: 740px; 
+    display: inline-block; 
+    float: left; 
+    margin-left: 15px;
+  }
+  
+  .titulo {
+    font-size: 18px;
+    color: #808080;
+    margin: 1.25rem 0;
+  }
+  
+  .contenedor-texto p {
+    font-family: "Optima", "Open Sans",sans-serif;
+    font-size: 16px;
+    color: #808080;
+  }
+  
+  .datos-extra {
+    font-family: "Optima", "Open Sans",sans-serif;
+    font-size: 14px;   
+    height: 35px; 
+    margin-top: 1.25rem;
+    vertical-align: bottom;
+  }
+  
+  .fecha {
+    color: #9fad9f;
+    width: 120px;
+    display: inline-block;
+    float: left;
+    height: 1.5em;
+    line-height: 1.7;
+  }
+  
+  .boton-noticia {
+    display: inline-block;
+    margin: 0;
+    background: #fff;
+    color: #242524;
+    border: 1px solid #242524;
+    border-radius: 0;
+    transition: all 0.5s;
+    height: 1.5em;
+    width: 210px;
+    text-align: center;
+    padding: 0.3em 0;
+    text-decoration: none;
+    line-height: 1.7;
+    float: left;
+    font-size: 14px; 
+    margin-left: -1px;     
+  }
+  
+  .boton-noticia:hover {
+    color: #d2d2d4;
+    background: #fff;
+    border-radius: 0;  
+   border: 1px solid #d2d2d4;      
+  }
+  
+  
+  
+}

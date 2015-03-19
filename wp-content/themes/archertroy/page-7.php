@@ -23,6 +23,12 @@
 <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
 <![endif]-->
 <?php wp_head(); ?>
+    <link type="text/css" href="<?php echo get_template_directory_uri(); ?>/styleprint.css?ver=4.1.1" rel="stylesheet">
+    <link type="text/css" href="<?php echo get_template_directory_uri(); ?>/style599less.css?ver=4.1.1" rel="stylesheet">
+    <link type="text/css" href="<?php echo get_template_directory_uri(); ?>/style600-959.css?ver=4.1.1" rel="stylesheet">
+    <link type="text/css" href="<?php echo get_template_directory_uri(); ?>/style960more.css?ver=4.1.1" rel="stylesheet">
+    <link type="text/css" href="<?php echo get_template_directory_uri(); ?>/style1600more.css?ver=4.1.1" rel="stylesheet">
+    <link type="text/css" href="<?php echo get_template_directory_uri(); ?>/style1800more.css?ver=4.1.1" rel="stylesheet">
 		<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico">
 		<link rel="icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" type="image/x-icon">
 		<link rel="apple-touch-icon" sizes="57x57" href="<?php echo get_stylesheet_directory_uri(); ?>/apple-touch-icon-57x57.png">
@@ -50,24 +56,15 @@
   }else{
 
   ?>
-  <div class='landing'></div>
 
-  <script>
-    if ($(window).outerWidth() < 959) {
-        $('.landing').html("<img src='/wp-content/uploads/2014/12/320-preloader.png' class='mobile-landing-preloader' alt='Landing preloader'>" +          
-          "<div class='mobile-landing-login'>" +
-            "<img src='/wp-content/uploads/2014/12/320-preloader-entrar.png'  class='img-mobile-landing-login' alt='Landing preloader boton'>" +
-          "</div>");
-    } else {        
-      $('.landing').html("<div class='landing-start'>" +
-
-        "<div class='landing-login'>" +
-          "<img src='/wp-content/uploads/2015/02/1_firma-preload.jpg' class='landing-text-preload' alt='Text preload'>" +
-          "<button class='boton-Archer'>ENTRAR</button>" +
-        "</div>" +
-      "</div>");
-    }
-  </script>
+  <div class='landing'>
+    <div class='landing-start'>
+        <div class='landing-login'>
+          <img src='/wp-content/uploads/2015/02/1_firma-preload.jpg' class='landing-text-preload' alt='Text preload'>
+          <button class='boton-Archer'>ENTRAR</button>
+        </div>
+      </div>
+  </div>
 
   <?php
 
@@ -139,11 +136,8 @@
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.masonry.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/lightbox.js"></script>
 <script>
-//$full_width_header = $('.entry-content p:first-child img:first'),
-  var $landing = $('.landing'), 
-      $landing_start = $('.landing-login'),
-      $mobile_landing = $('.mobile-landing-preloader'),
-      $mobile_landing_start = $('.mobile-landing-login'),
+      var $landing = $('.landing'), 
+      $start = $('.boton-Archer'),
       $div_page = $('div#page'), 
       $footer = $("#colophon"),
       $full_width_header = $('.size-full'),
@@ -154,30 +148,6 @@
       ultimas_noticias,
       opciones_proyectos,
       opciones_noticias;
-      
-      $('.landing-boton-entrar').hover(function () {
-        $(this).prop('src', '/wp-content/uploads/2015/03/entrar_gris1.jpg');
-                            
-      }, function () {
-        $(this).prop('src', '/wp-content/uploads/2015/02/01-entrar-actualizado.jpg');
-      });
-    
-      function resize_header(header) {
-        var window_width = $(window).outerWidth() + 6, 
-            adjust_offset = 0;
-    
-        if (header.length > 0) {    
-          header.addClass('full-width-header');    
-          adjust_offset = header.offset();
-          adjust_offset.left = Math.ceil((adjust_offset.left + 3) * -1);
-          $('.full-width-header').css({'width':  window_width, 'max-width':  window_width, 'left': adjust_offset.left, 'z-index': 9999 });      
-          header.parent().css({'height': header.height(), 'margin-top': 0});
-        }
-    
-        if (window.location.pathname.indexOf("proyecto") !== -1 || window.location.pathname.indexOf("media") !== -1 || window.location.pathname.indexOf("blog") !== -1 || window.location.pathname.indexOf("posters") !== -1 || window.location.pathname.indexOf("brain") !== -1 || window.location.pathname.indexOf("legion") !== -1) {
-          mover_footer_al_fondo();  
-        }    
-      }
       
       function show_footer() {
         if ($(window).outerWidth() < 600) {          
@@ -210,11 +180,10 @@
             $(this).remove();
              $div_page.animate({'opacity': 1 }, 600);
           });  
-          //resize_header($full_width_header);                    
           show_footer();
         }
     
-        $landing_start.click(function (e) {
+        $start.click(function (e) {
           e.preventDefault();        
           cargar_home();
         });
@@ -224,11 +193,6 @@
       }
         
       ?>
-      
-      
-      $mobile_landing_start.click(function (e) {
-        cargar_home();        
-      });
       
       function onLayout(){
         console.log('Ok');
@@ -282,9 +246,7 @@
       window.onload = function () {
         if (es_movil()) {          
           imagesLoaded($landing, function() {
-            $mobile_landing.animate({opacity: 1}, 800).promise().done(function () {
-                $mobile_landing_start.animate({opacity: 1}, 600);
-            });
+      
           });
           modificar_contenido_para_moviles();
           $('#menu-item-27 .sub-menu').prepend("<li id='sub-menu-item-27' class='menu-item menu-item-type-post_type menu-item-object-page menu-item-27 proyectos-movil'><a href='/projects/'>Todos</a></li>");          
@@ -292,15 +254,12 @@
         } else {
           imagesLoaded( $landing, function() {
             $landing.fadeIn(800, function () {
-              $landing_start.css({top: 0});
-              $landing_start.animate({opacity: 1}, 600);              
             });
           }); 
         }
       }
       
       $(window).on('resize', function () {
-        //resize_header($full_width_header);
       });       
 </script>
 <?php $_SESSION["entro"] = 0; ?>
