@@ -54,15 +54,15 @@
 /* 
  * Main page 
  */   
-.coverPhoto{
-    background-image: url("/wp-content/uploads/2014/11/header1.jpg");
+.coverPhoto {
+    background-image: url(/wp-content/uploads/2014/11/header1.jpg);
     background-position: center center;
-    background-repeat: no-repeat;
     background-size: cover;
-    display: table;
-    height: 200px;
+    display: block;
+    height: 100%;
+    min-height: 350px;
     width: 100%;
-} 
+}
 /* Main page */ 
   .proyectos-recientes > span {
     display: block;
@@ -501,15 +501,12 @@
   }
   
   .social-links {
-  	display: inline-block;
-  	float: left;
-    border-bottom: 40px solid #242524;
-    border-right: 40px solid transparent;
-    height: 0;
-    width: 200px;   
-  	font-size: 13px;
-  	line-height: 3.8em;
-  	text-align: center;
+  	display: block;
+    font-size: 16px;
+    height: 100%;
+    line-height: 50px;
+    text-align: center;
+    width: 240px;
   }
 
   .copyright {

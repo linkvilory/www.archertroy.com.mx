@@ -10,7 +10,6 @@
  * Utilizado para mostrar proyectos
  */
 ?>
-
 	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>        
 		<?php if ( is_sticky() && is_home() && ! is_paged() ) : ?>
 		<div class="featured-post">
@@ -69,19 +68,3 @@
 			<?php endif; ?>
 		</footer><!-- .entry-meta -->
 	</article><!-- #post -->
-
-  <script>
-  /* Copiar vínculos de redes sociales del sidebar y pasarlos debajo de la publicación. */
-  /*
-  $(function () {
-    $('.project-navigation').prepend("<div class='entry-content-social-links'>" + $('.sfsi_widget').html() + "</div>");    
-    $('.sfsi').remove();
-    $('#facebook').addClass('icon-facebook');
-    $('#twitter').addClass('icon-twitter');
-    $('#instagram').addClass('icon-instagram');
-    $('#pinterest').addClass('icon-pinterest');
-    $('#youtube').addClass('icon-youtube-play');
-    $('#google').addClass('icon-google-plus');
-  });
-*/
-  </script>

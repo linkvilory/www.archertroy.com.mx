@@ -18,7 +18,7 @@
 		</header>
 
 		<div class="entry-content">
-      <div class="coverPhoto"></div>
+		<img class="coverPhotoFront" src="/wp-content/uploads/2014/11/header1.jpg" alt="ArcherTroy"/>	
       <div class="primerInnerPadding">
       <h1>PROYECTOS RECIENTES</h1>
       <div class='proyectos-recientes'>     

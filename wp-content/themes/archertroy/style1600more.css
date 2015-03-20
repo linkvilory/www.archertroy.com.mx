@@ -1,6 +1,80 @@
 /* Resolución 1600 y mayores */
 @media screen and (min-width: 1600px) {
-  
+/*
+ * Upper Menu
+ */  
+.site-header {
+    height: 110px;
+    margin: auto;
+    max-width: 1600px;
+    padding: 0;
+    width: 100%;
+} 
+.main-navigation {
+    height: 100%;
+    text-align: center;
+    width: 100%;
+}
+.sidebar {
+    border: medium none;
+    height: 100%;
+    left: auto;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+    top: auto;
+    width: 100%;
+    z-index: auto;
+}
+.menu-menu-1-container {
+    height: 100%;
+    overflow: visible;
+    width: 100%;
+}
+.main-navigation ul.nav-menu, .main-navigation div.nav-menu > ul {
+    border-bottom: 0 solid #fff;
+    display: inline-block;
+    height: 100%;
+    text-align: left;
+    width: 100%;
+}
+.main-navigation li {
+    border: 0 none !important;
+    font-family: trajanregular;
+    font-size: 1em !important;
+    overflow: visible;
+    padding: 10px 60px 0 0 !important;
+    display: inline-block;
+    margin-right: 0;
+    text-align: left;
+    text-decoration: none;
+}
+.main-navigation li a{
+    border: 0 none !important;
+    font-family: trajanregular;
+    font-size: 0.9em !important;
+    line-height: 60px;
+    overflow: visible;
+    padding: 0 !important;
+}
+.main-navigation li ul li a {
+    font-size: 0.9em;
+}
+#menu-item-658, #menu-item-31, #menu-item-30, #menu-item-443 {
+    float: right;
+}
+#menu-item-443 {
+    float: left;
+    margin-left: 0;
+    margin-right: 30px;
+    margin-top: 6px;
+    padding: 0 !important;
+    width: 200px;
+}
+.main-navigation ul li:hover > ul, .main-navigation ul li:focus > ul, .main-navigation .focus > ul {
+    top: 65px;
+}
+/* Upper Menu */ 
 /*
  * Intro Page
  */
@@ -55,12 +129,13 @@
  * Main page 
  */   
 .coverPhoto{
-  width: 100%;
-  height: 100%;
-  min-height: 370px;
   background-image: url(/wp-content/uploads/2014/11/header1.jpg);
   background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
   display: block;
+  min-height: 400px;
 } 
 /* Main page */ 
   .mini-logo {display: none;}
@@ -74,146 +149,22 @@
     width: auto;
     z-index: auto;
     padding: 0;
-    height: 125px;
-    margin-top: -15px;
+    height: 100%;
+    width:100%;
     border: none;
     overflow: visible;
   }  
-  
-  .sub-menu li {
-  	position: relative !important;
-  	display: inline !important;
-  	float: left !important;
-  	margin: 0 !important;
-    padding: 0 !important;
-  	font-size: 11px !important;
-  	width: auto; 
-  	height: 30px;
-  }
-  .sub-menu li a {
-    padding: 0 10px;
-  	font-size: 13px;
-  	color: #9fad9f;
-  	width: auto !important; 
-  }
-  /* Horizontal submenu */
-  .main-navigation ul li:hover > ul,
-  .main-navigation ul li:focus > ul,
-  .main-navigation .focus > ul {
-  	border-left: 1px solid #9fad9f;
-  	clip: inherit;
-  	overflow: inherit;
-  	height: 30px;
-  	width: 1000px;
-  }
-    
-  /* Corrección menú de navegación horizontal */
-  .main-navigation li a,
-  .main-navigation li {
-    display: inline-block;
-  	text-decoration: none;
-    text-align: left;
-    margin-right: 0;
-    
-    /* Para que firefox no corte el sub menú */
-    overflow: visible;
-    
-  }
   
   .sidebar .menu-menu-1-container > ul > li > ul > li {
     -webkit-transform: translateZ(0);
     margin: 0.35em 0;
     opacity: 1;
-    padding: 0 0 0 0.5em !important;
-  }
-    
-  .main-navigation li ul li a {
-  	display: block;
-  	font-size: 11px;
-  	font-size: 0.785714286rem;
-  	line-height: 2.181818182;
-  	padding: 8px 10px;
-  	padding: 0.571428571rem 0.714285714rem;
-  	width: 180px;
-  	width: 12.85714286rem;
-  	white-space: normal;
-    opacity: 1;
-  }
-  .main-navigation li ul li a:hover,
-  .main-navigation li ul li a:focus {
-  	text-decoration: none;
-  	color: #444;
-  }
-  
-  /* Corrección menú de navegación horizontal 
-
-    .main-navigation .current-menu-item {
-      border-bottom: 1px solid transparent;
-    }
-  
-  */
-  
-  .main-navigation .current-menu-item > a,
-  .main-navigation .current-menu-ancestor > a,
-  .main-navigation .current_page_item > a,
-  .main-navigation .current_page_ancestor > a {
-  	color: #636363;
-  	text-decoration: underline;
-  }
-
-  
-  #menu-item-443 {
-    display: block;
-  }
-
-  #menu-item-658, #menu-item-31, #menu-item-30, #menu-item-443 {
-     float: right;
-  }
-
-  #menu-item-443 {
-    width: 120px;
-    margin-left: 1em;
-  }
-
-  #menu-item-443 a {
-  	color: transparent;
-  	 background: url("../../../wp-content/uploads/2014/11/logo.jpg"); 
-  	 background-size: 120px;
-  	 background-repeat: no-repeat;
-  	background-position-y: -6px;
-  }
-  
-	.main-navigation li {
-		margin: 0;
-		position: relative;
-	}
-
-  /* Menú de navegación visible */
-  .main-navigation ul.nav-menu,
-  .main-navigation div.nav-menu > ul {
-  	display: inline-block;
-  	text-align: left;
-  	width: 100%;
-    border-bottom: 0 solid #fff;    
-  }
-  
-  /* Menú de navegación */  
-  .main-navigation li, .main-navigation li a {
-    font-size: 1.2rem !important;
-    padding: 1em 2em 0.75em 0 !important;    
-    border: 0 !important;
+    padding: 0 15px 0 5px !important;
   }
   
   .sidebar .menu-menu-1-container > ul > li > ul {
     margin-left: 0;
     max-height: 40px;
-  }
-  
-  /* Submenú de navegación */
-  .main-navigation li ul li a {
-    font-size: 0.90rem !important;
-     line-height: 32px !important; 
-     padding-top: 0 !important;
   }
   
   /* Esconder el menú contextual en visualizaciones mayores a 900px */
@@ -236,11 +187,6 @@
     margin-top: 0;
   }  
 
-  /* Reducir el espacio entre el submenú (proyectos) y el menú de navegación principal */
-  .main-navigation ul li:hover > ul, .main-navigation ul li:focus > ul, .main-navigation .focus > ul {
-    top: 80px;
-  }
-  
   .proyectos-recientes > div, .proyectos-recientes > a, .ultimas-noticias > div, .ultimas-noticias > a {
     width: 141px;
     max-width: 141px;    
@@ -264,15 +210,12 @@
   }
   
   .social-links {
-  	display: inline-block;
-  	float: left;
-    border-bottom: 40px solid #242524;
-    border-right: 40px solid transparent;
-    height: 0;
-    width: 240px;   
-  	font-size: 16px;
-  	line-height: 3em;
-  	text-align: center;
+  	display: block;
+    font-size: 16px;
+    height: 100%;
+    line-height: 50px;
+    text-align: center;
+    width: 240px;
   }
 
 /* Aumentar el ancho de la columna para incluir el copyright / Aumentar el tamaño de fuente */
@@ -733,28 +676,6 @@
   	*display: inline;
   	zoom: 1;
   	margin: 0.5rem 0;
-  }
-  
-  /*
-    Una vez que el menú es horizontal
-    se deben de visualizar los siguientes menúes
-    a la derecha  
-  */
-  
-  #menu-item-658, #menu-item-31, #menu-item-30, #menu-item-443 {
-     float: right;
-  }
-
-  #menu-item-443 {
-    width: 200px;
-  }
-
-  #menu-item-443 a {
-     color: transparent;
-  	 background: url("../../../wp-content/uploads/2014/11/logo.jpg"); 
-  	 background-size: 200px;
-  	 background-repeat: no-repeat;
-     background-position-y: 14px;
   }
   
   .wp-caption-text {

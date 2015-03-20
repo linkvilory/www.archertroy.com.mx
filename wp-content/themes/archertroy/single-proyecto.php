@@ -31,9 +31,9 @@ get_header(); ?>
 				if( get_adjacent_post(false, '', false) ) {
 				?>
 				
-				<div class="alignleft"><?php next_post_link( '%link', '<i class="icon-angle-left"></i> Siguiente' . _x( '', 'Next post link', 'twentytwelve' ) . '' ); ?></div>
+				<div class="alignleft"><?php next_post_link( '%link', '<i class="icon-angle-left"></i> Anterior' . _x( '', 'Next post link', 'twentytwelve' ) . '' ); ?></div>
 				<?php	
-				//next_post_link('%link', '&larr; Siguiente');
+				//next_post_link('%link', '&larr; Anterior');
 				} else {
 				$args = array('post_type' => 'proyecto',
                       'post_status' => 'publish',
@@ -41,16 +41,16 @@ get_header(); ?>
                       'order' => 'ASC');
 				$last = new WP_Query($args); $last->the_post();
 				?>
-				<div class="alignleft"><a href="<?php echo get_permalink() ?>"><i class="icon-angle-left"></i> Siguiente</a></div>
+				<div class="alignleft"><a href="<?php echo get_permalink() ?>"><i class="icon-angle-left"></i> Anterior</a></div>
 				<?php
-				//echo '<a href="' . get_permalink() . '">&larr; Siguiente</a>';
+				//echo '<a href="' . get_permalink() . '">&larr; Anterior</a>';
 				wp_reset_query();
 				};
 				if( get_adjacent_post(false, '', true) ) {
 				?>
-				<div class="alignright"><?php previous_post_link( '%link', '' . _x( '', 'Previous post link', 'twentytwelve' ) . 'Anterior <i class="icon-angle-right"></i>' ); ?></div>
+				<div class="alignright"><?php previous_post_link( '%link', '' . _x( '', 'Previous post link', 'twentytwelve' ) . 'Siguiente <i class="icon-angle-right"></i>' ); ?></div>
 				<?php	
-				//previous_post_link('%link', 'Anterior &rarr;');
+				//previous_post_link('%link', 'Siguiente &rarr;');
 				} else {
 				$args = array('post_type' => 'proyecto',
                       'post_status' => 'publish',
@@ -58,19 +58,14 @@ get_header(); ?>
                       'order' => 'DESC');
 				$first = new WP_Query($args); $first->the_post();
 				?>
-				<div class="alignright"><a href="<?php echo get_permalink() ?>">Anterior <i class="icon-angle-right"></i></a></div>
+				<div class="alignright"><a href="<?php echo get_permalink() ?>">Siguiente <i class="icon-angle-right"></i></a></div>
 				<?php
-				//echo '<a href="' . get_permalink() . '">Anterior &rarr;</a>';
+				//echo '<a href="' . get_permalink() . '">Siguiente &rarr;</a>';
 				wp_reset_query();
 				};
 				
 				?> 
 				</div>
-<!--
-				<div class="project-navigation">
-					<div class="alignleft"><?php next_post_link( '%link', '<i class="icon-angle-left"></i> Siguiente' . _x( '', 'Next post link', 'twentytwelve' ) . '' ); ?></div>
-					<div class="alignright"><?php previous_post_link( '%link', '' . _x( '', 'Previous post link', 'twentytwelve' ) . 'Anterior <i class="icon-angle-right"></i>' ); ?></div>
-				--> <!-- .nav-single -->
 
 				<?php comments_template( '', true ); ?>
 
