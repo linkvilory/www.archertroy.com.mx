@@ -159,6 +159,9 @@ var $full_width_header = $('.entry-content p:first-child img:first'),
   function ajustar_footer() {
     if ($(window).outerWidth() < 600) {          
       $('.site-info').prepend($('.copyright'));
+    }else{
+      $('.site-info').prepend($('.triangule'));
+      $('.site-info').prepend($('.solid'));
     } 
   }
   
@@ -187,7 +190,6 @@ var $full_width_header = $('.entry-content p:first-child img:first'),
      if (es_movil()) {
          separacion_footer = 60;
      }
-     
             
      if (altura_nueva_publicacion > altura_visualizacion_publicaciones) {         
        altura_final = altura_nueva_publicacion;
@@ -210,43 +212,6 @@ var $full_width_header = $('.entry-content p:first-child img:first'),
        $('.mini-post').height(altura_final);
        $('.post-browse').height(altura_final);
      }
-  }
-  
-  /*
-    Esta función hace que el banner superior (del header) sea visible en todo lo ancho. 
-    A la imagen le agrega la clase full-width-header que la posiciona de manera absoluta. 
-    Una vez que ocupa todo el ancho el documento se toma la altura de la imagen y se le 
-    agrega al contenedor de la imagen para que los demás elementos dentro del documento
-    conserven su posición vertical.
-  
-  */  
-  function resize_header(header) {
-    var window_width = $(window).outerWidth() + 6, 
-        adjust_offset = 0;
-    
-    /*
-      658 x 156 - Normal
-      738 x 175 - += 80
-      758 x 180 - += 100
-    */
-    
-    if (window_width < 959) {
-    /* Crecer la imagen para dispositivos móviles*/
-      window_width += 80;
-    }
-    
-    if (header.length > 0) {    
-      header.addClass('full-width-header');    
-      adjust_offset = header.offset();
-      adjust_offset.left = Math.ceil((adjust_offset.left + 3) * -1);
-      /* elemento modificado */
-      header.parent().css({'height': header.height(), 'margin-top': 0});
-      $('.full-width-header').css({'width':  window_width, 'max-width':  window_width, 'left': adjust_offset.left, 'z-index': 9999, 'display': 'block' });      
-    }
-    
-    if (window.location.pathname.indexOf("proyecto") !== -1 || window.location.pathname.indexOf("media") !== -1 || window.location.pathname.indexOf("blog") !== -1 || window.location.pathname.indexOf("posters") !== -1 || window.location.pathname.indexOf("brain") !== -1 || window.location.pathname.indexOf("legion") !== -1) {
-      mover_footer_al_fondo();  
-    }    
   }
 
     /* Crear masonry con las opciones generadas */
@@ -390,7 +355,6 @@ var $full_width_header = $('.entry-content p:first-child img:first'),
     $('a.large').css({position: 'absolute', right: right_position, bottom: '-50px'});    
   }
   
-  
   /* Ajustar datos de las personas para visualizar */
   function parse_people_data() {
       setTimeout(function () {
@@ -400,19 +364,6 @@ var $full_width_header = $('.entry-content p:first-child img:first'),
         });        
       },1000);        
   }
-
-/*
-  EN CSS se hace referencia al encabezado con la clase full-width-header
-  Se le agrega la clase DESPUÉS para que la visualización inicial
-  de la imágen sea con posición relativa y conserve su espacio. 
-  Una vez hecho esto la altura del contenedor padre estará determinada 
-  por la altura de la imágen pero ésta ya tendrá la posición absoluta 
-  y abarcará el 100% de espacio
-
-  Esperar hasta que se carguen las imágenes para que se ajuste la altura de los contenedores.  
-  http://stackoverflow.com/questions/4488874/jquery-event-for-when-ajax-loaded-content-is-all-loaded-including-images
-*/
-  
   
   /* Cargar publicación del blog */
   function load_visualization(data) {
@@ -522,10 +473,9 @@ var $full_width_header = $('.entry-content p:first-child img:first'),
     }
   }
   
-  /* Asociamos la función resize_header al método resize de la ventana.  De esta manera la imagen del header conserva todo el ancho de la ventana  del documento y se ajusta la posición vertical de los demás elementos */
   
   $(window).on('resize', function () {
-    //resize_header($full_width_header);
+    ajustar_footer();
   }); 
 
   /* Al momento en que se cargan la ventana mandamos ejecutar las siguientes funciones. */
@@ -538,8 +488,6 @@ var $full_width_header = $('.entry-content p:first-child img:first'),
       
     } 
     
-    
-    //resize_header($full_width_header);
     asignar_clase_a_iconos_sociales();
     ajustar_footer();  
     build_msnry_opts();
@@ -607,8 +555,6 @@ var $full_width_header = $('.entry-content p:first-child img:first'),
             }
           } 
     });
-    
-
 
        $( window ).on('scroll', function() {
          $('.legion, .filosofia, .metodologia, .tactica, .interior').each(function(){
@@ -623,16 +569,11 @@ var $full_width_header = $('.entry-content p:first-child img:first'),
                    if (animaciones[i].seccion === 'interior') {
                      animar_texto_caballo();
                    }
-                   // console.log("Trigger animation on: " + $(this).prop('class'));
-                    // $(this).animate({opacity: 1}, 800); -> No hay necesidad de animar el fade...
                  }
                }
              } 
          });
-       });
-       
-
-       
+       }); 
   }
   
   $(".seccion-arco").hover(function(){
@@ -641,28 +582,6 @@ var $full_width_header = $('.entry-content p:first-child img:first'),
   $(".seccion-caballo").hover(function(){
       animar_texto_caballo();
     });
-  /*
-  
-   $('.born-archer').animate({
-     opacity: 1
-   }, {
-     duration: 1000,
-     step: function (now, fx) {
-       $(this).css({transform: "scale(" + now + ")"});
-     },
-     complete: function () {
-       mensaje_visualizado++;                        
-       if (mensaje_visualizado === mensajes_footer.length) {
-         mensaje_visualizado = 0;
-       }                  
-     }
-   });
-  
-  elem = $('.legion')
-  
-  elem = 
-  */
-  
   
   function en_area_de_visualizacion (elem) {
       var docViewTop = $(window).scrollTop();
@@ -757,100 +676,8 @@ var espera_entre_animaciones = 300,
 
 $('.mensaje-derecha-1, .mensaje-derecha-2, .mensaje-derecha-3, .mensaje-izquierda-1, .mensaje-izquierda-2, .mensaje-izquierda-3, .mensaje-izquierda-4, .arco-1, .arco-2, .arco-3, .arco-4').hide();
 
-
-      
-      /*
-      
-      $('.legion, .filosofia, .metodologia, .tactica, .interior').css({opacity: 0.125});
-      */
       track_scroll(animaciones);
-
-
-      /* Crear  target para dar click y mostrar el texto de los arcos  */   
-      /*
-      $('.seccion-arco').prepend("<div class='target-1'></div><div class='target-2'></div><div class='target-3'></div><div class='target-4'></div>");
-      $('.arco-1 .texto, .arco-2 .texto, .arco-3 .texto, .arco-4 .texto').css({opacity: 0});
-      $('body').on('click', '.target-1, .target-2, .target-3, .target-4', function () {
-        var current_target = $(this).prop('class').charAt(7);
-        if (current_target == 1 || current_target == 4) {
-          $(".arco-" + current_target + " .texto").css({'transform-origin': 'top left'});
-        } else {
-          $(".arco-" + current_target + " .texto").css({'transform-origin': 'top right'});          
-        }
-
-        $(".arco-" + current_target + " .texto").animate({opacity: 1}, {
-          step: function (now, fx) {
-            $(this).css({transform: "scale(" + now + ", 1)"})
-          }          
-        },  600);
-      });
-      */
-      /* Crear  target para dar click y mostrar el texto de los arcos  */
-
-      /* Dar click en caballo y mostrar mensaje */      
-      /*
-      $('.seccion-caballo').prepend("<div class='caballo-target'></div>");
-      $('body').on('click', '.caballo-target', function () {
-        $(this).animate({opacity: 0}, 300).promise().done(function () {
-          $(this).css({'z-index': -1});
-        });
-        $('.conquistar-externo').animate({ opacity: 1 },{
-            step: function (now, fx) {
-              $(this).css({transform: "scale(" + now + ")"})
-            }
-          }, 300);          
-      });
-      */
-      /* Dar click en caballo y mostrar mensaje */      
-            
-      /* Animar los mensajes del footer */
-      /*
-      var duracion = 1600;
-      var mensaje_visualizado = 0;
-      var mensajes_footer = [{ born: 'BORN', archer: 'TO THINK' },
-                             { born: 'BORN', archer: 'TO CREATE' },
-                             { born: 'BORN', archer: 'TO AD' },
-                             { born: 'BORN', archer: 'ARCHER' }];              
-      var animacion_footer;        
-     //   $('body').on('mouseenter', '.born-archer', function () { 
-           animacion_footer = setInterval(function () {
-                            $('.born-archer').animate({ opacity: 0 }, {
-                              duration: 600,
-                              complete: function() {
-                                $('.born-archer .born').text(mensajes_footer[mensaje_visualizado].born);
-                                $('.born-archer .archer').text(mensajes_footer[mensaje_visualizado].archer);   
-                                $('.born-archer').animate({
-                                  opacity: 1
-                                }, {
-                                  duration: 1600,
-                                  step: function (now, fx) {
-                                    $(this).css({transform: "scale(" + now + ")"});
-                                  },
-                                  complete: function () {
-                                    mensaje_visualizado++;                        
-                                    if (mensaje_visualizado === mensajes_footer.length) {
-                                      mensaje_visualizado = 0;
-                                    }                  
-                                  }
-                                });
-                              }
-                            });
-                    }, duracion);
-        // });
-      */
-        
-        /*
-        $('body').on('mouseleave', '.born-archer', function () {
-            clearInterval(animacion_footer);
-            $(this).stop();
-            $('.born-archer .born').text('BORN');
-            $('.born-archer .archer').text('ARCHER');        
-            $('.born-archer').css({'opacity': 1, 'transform': 'scale(1)'});
-        }); 
-        */
-      /* Animar los mensajes del footer */
-                
-
+    
     } /*  if (window.location.pathname.search("legion") !== -1 && !es_movil()) */
   } /* animaciones_legion() */
   
@@ -859,6 +686,17 @@ $('.mensaje-derecha-1, .mensaje-derecha-2, .mensaje-derecha-3, .mensaje-izquierd
    * Menu override de loading or front page
    */
    $("#menu-item-443").click(function (e) {
+      e.preventDefault();
+      $.ajax({
+          method: "POST",
+          url: "wp-content/themes/archertroy/overrideLoading.php",
+          data: { entro: "1"}
+        })
+        .done(function( msg ) {
+          window.location = "/";
+      });
+   });
+   $(".mini-logo").click(function (e) {
       e.preventDefault();
       $.ajax({
           method: "POST",

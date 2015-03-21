@@ -117,8 +117,7 @@
           <a href='https://plus.google.com/105080074709822071277/posts' class='icon-google-plus' target='_blank'></a>
         </div>
       </div>
-			<div class="triangule">
-      </div>
+      <img class="triangule" src="wp-content/themes/archertroy/img/footer-triangule.png" />
 			<div class='copyright'>
         <span class='reg'>&reg;</span> ARCHER TROY S.A. DE C.V. LOS USUARIOS SE OBLIGAN A CUMPLIR CON LOS TÉRMINOS Y CONDICIONES DEL WEB. MARCA REGISTRADA. DECLARACIÓN DE PRIVACIDAD DE LA INFORMACIÓN DE MÉXICO (55) 55 39 22 72
 			</div>
@@ -143,23 +142,14 @@
       ultimas_noticias,
       opciones_proyectos,
       opciones_noticias;
-      
-      function show_footer() {
-        if ($(window).outerWidth() < 600) {          
-          $('.site-info').prepend($('.copyright'));
-          var new_height = $('#page').outerHeight() + 290;
-          $("#page").css({height: new_height});
-        } 
-          $footer.show();
-      }
-      
+
       <?php
 
       if($_SESSION["entro"] == 1){
 
       ?>
         $div_page.css('display',"block");
-        show_footer();
+        $footer.show();
         ajustar_noticias_proyectos_recientes();
       <?php
 
@@ -175,7 +165,7 @@
             $(this).remove();
              $div_page.animate({'opacity': 1 }, 600);
           });  
-          show_footer();
+          $footer.show();
         }
     
         $start.click(function (e) {
@@ -210,9 +200,18 @@
           imagesLoaded( proyectos_recientes, function() {            
             contenedor_proyectos = new Masonry( proyectos_recientes, opciones_proyectos);
 
-            if (es_movil()) {
-              ajustar_altura_proyectos();
-            }            
+            if ($(window).outerWidth() > 600 && $(window).outerWidth() < 959) {
+              $('.proyectos-recientes .wp-caption:nth-child(5)').attr("style","top:144px!important;position:absolute;left:0px;opacity:1;");
+              $('.proyectos-recientes .wp-caption:nth-child(6)').attr("style","top:144px!important;position:absolute;left:144px;opacity:1;");
+              $('.proyectos-recientes .wp-caption:nth-child(7)').attr("style","top:144px!important;position:absolute;left:288px;opacity:1;");
+              $('.proyectos-recientes .wp-caption:nth-child(8)').attr("style","top:144px!important;position:absolute;left:432px;opacity:1;");
+            }
+            if ($(window).outerWidth() < 600) {
+              $('.proyectos-recientes .wp-caption:nth-child(5)').attr("style","top:144px!important;position:absolute;left:0px;opacity:1;");
+              $('.proyectos-recientes .wp-caption:nth-child(6)').attr("style","top:144px!important;position:absolute;left:144px;opacity:1;");
+              $('.proyectos-recientes .wp-caption:nth-child(7)').attr("style","top:144px!important;position:absolute;left:288px;opacity:1;");
+              $('.proyectos-recientes .wp-caption:nth-child(8)').attr("style","top:144px!important;position:absolute;left:432px;opacity:1;");
+            }             
           });
 
           ultimas_noticias = document.querySelector('.ultimas-noticias');
@@ -220,7 +219,7 @@
             contenedor_noticias = new Masonry( ultimas_noticias, opciones_proyectos);
 
             if (es_movil()) {
-              ajustar_altura_proyectos();
+
             }            
           });
       }
@@ -230,13 +229,9 @@
       }
       
       function modificar_contenido_para_moviles() {
-        $('.proyectos-recientes .wp-caption:nth-child(7), .proyectos-recientes .wp-caption:nth-child(8)').remove();
         $('.proyectos-recientes:first').append("<span><a href='/proyectos' class='boton-carteles large'>VER MÁS</a></span>");
       }
             
-      function ajustar_altura_proyectos() {
-        $('.proyectos-recientes').height(490);        
-      }
       
       window.onload = function () {
         if (es_movil()) {          
@@ -255,6 +250,7 @@
       }
       
       $(window).on('resize', function () {
+        ajustar_noticias_proyectos_recientes();
       });       
 </script>
 <?php $_SESSION["entro"] = 0; ?>

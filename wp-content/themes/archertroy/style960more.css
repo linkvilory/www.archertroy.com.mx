@@ -43,7 +43,7 @@
     font-family: trajanregular;
     font-size: 1em !important;
     overflow: visible;
-    padding: 10px 60px 0 0 !important;
+    padding: 10px 15px 0 0 !important;
     display: inline-block;
     margin-right: 0;
     text-align: left;
@@ -70,6 +70,10 @@
     margin-top: 6px;
     padding: 0 !important;
     width: 200px;
+}
+#menu-item-658 {
+    padding-right: 0 !important;
+    text-align: right;
 }
 .main-navigation ul li:hover > ul, .main-navigation ul li:focus > ul, .main-navigation .focus > ul {
     top: 65px;
@@ -131,14 +135,27 @@
 /* 
  * Main page 
  */   
-.coverPhoto {
-    background-image: url(/wp-content/uploads/2014/11/header1.jpg);
-    background-position: center center;
-    background-size: cover;
+.coverPhotoFront.Img.Home {
     display: block;
-    height: 100%;
-    min-height: 350px;
+    height: auto;
+    max-width: 100% !important;
     width: 100%;
+}
+.coverPhotoFront.Img.Home  img {
+    width: 100%;
+}
+.coverPhotoFront.Bg.Home {
+    display:none;
+}
+.primerInnerPadding {
+    padding: 0 20px;
+    width: 100%;
+}
+.proyectos-recientes, .ultimas-noticias {
+    height: 101px;
+    max-height: 101px;
+    max-width: 960px;
+    width: 960px;
 }
 /* Main page */   
 
@@ -163,8 +180,8 @@
   	display: inline !important;
   	float: left !important;
   	margin: 0 !important;
-    padding: 0 1em;
-  	font-size: 11px !important;
+    padding: 5px 10px 0!important;
+  	font-size: 1em !important;
   	width: auto; 
   	height: 30px;
   }
@@ -255,10 +272,11 @@
   .main-navigation .current_page_item > a,
   .main-navigation .current_page_ancestor > a {
   	color: #636363;
-  	text-decoration: none;
-    height: 45px;
+  	text-decoration: underline;
   }
-    
+  .main-navigation li > a:hover{
+  	text-decoration: underline;
+  }  
   #menu-item-443 {
     display: block;
   }
@@ -329,12 +347,14 @@
 
   /* Reducir el espacio entre el submenú (proyectos) y el menú de navegación principal */
   .main-navigation ul li:hover > ul, .main-navigation ul li:focus > ul, .main-navigation .focus > ul {
-    top: 40px;
+    top: 65px;
   }
 
-  .proyectos-recientes > div, .proyectos-recientes > a, .ultimas-noticias > div, .ultimas-noticias > a {
-    width: 105px;
-  	max-width: 105px;
+  .proyectos-recientes > div, .proyectos-recientes a, .proyectos-recientes img, .ultimas-noticias > div, .ultimas-noticias a, .ultimas-noticias img {
+    width: 101px;
+  	max-width: 101px;
+  	height: 101px;
+  	max-height: 101px;
   }
 
 img.attachment-post-thumbnail.wp-post-image {
@@ -348,31 +368,45 @@ max-width: auto !important;
   }
   
   /* El footer va a crecer hasta 1600px */  
-  footer .site-info {
+   footer .site-info {
     width: 100%;
     position: relative;
     margin: 0 auto;
+    height:100%;
   }
   
+.solid {
+    background: none repeat scroll 0 0 #242524;
+    float: left;
+    height: 100%;
+    width: 25%;
+}
+  .triangule {
+    float: left;
+    height: 100%;
+    overflow: visible;
+    width: 1%;
+    display: block;
+}
   .social-links {
-  	display: block;
+    display: block;
     font-size: 16px;
     height: 100%;
     line-height: 50px;
     text-align: center;
-    width: 240px;
-  }
+    width: 100%;
+}
 
   .copyright {
-    position: absolute;
-  	display: inline-block;
-  	float: left;
-  	width: 600px;
-  	font-size: 7px;
-  	line-height: 2;
+    clear: none;
+    float: left;
+    font-size: 12px;
+    height: 40px;
+    line-height: 20px;
     padding: 0;
-    margin: 0;
-  }
+    width: 74%;
+    word-wrap: break-word;
+}
   
   .reg {
   	font-family: "Helvetica neue", helvetica, sans-serif;
@@ -462,24 +496,9 @@ max-width: auto !important;
   footer[role="contentinfo"] {
   	height: 40px;
     width: 100%;
+    margin-top: 60px;
   }
-  
-  footer .site-info {
-    width: 100%;
-    position: relative;
-    margin: 0 auto;
-  }
-  
-  .copyright {
-  	display: inline-block;
-  	float: left;
-  	width: 650px;
-  	font-size: 8px;
-  	height: 30px;
-  	line-height: 1.5;
-    padding-top: 10px;
-  }
-    
+
   /*  Ocultar meta información de los proyectos */
   footer.entry-meta {
     display: none;

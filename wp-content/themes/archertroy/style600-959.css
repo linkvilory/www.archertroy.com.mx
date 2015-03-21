@@ -63,6 +63,17 @@
     min-height: 350px;
     width: 100%;
 }
+.primerInnerPadding {
+    padding: 0 20px;
+    width: 100%;
+}
+.proyectos-recientes, .ultimas-noticias {
+    box-sizing: unset;
+    height: 272px!important;
+    max-height: 272px!important;
+    max-width: 600px!important;
+    width: 600px!important;
+}
 /* Main page */ 
   .proyectos-recientes > span {
     display: block;
@@ -96,7 +107,7 @@
     float: right;
     width: 150px;
     height: 50px;
-    margin-top: 5px;
+    margin: 5px 20px 0 0;
     position: relative;
     z-index: 10000;
     cursor: pointer;
@@ -422,45 +433,6 @@
     font-size: inherit;
   }
 
-  
-  /*
-    Una vez que el menú es horizontal
-    se deben de visualizar los siguientes menúes
-    a la derecha  
-
-  
-  #menu-item-658, #menu-item-31, #menu-item-30, #menu-item-443 {
-     float: right;
-  }
-
-  #menu-item-443 {
-    width: 120px;
-    margin-left: 1em;
-  }
-
-  #menu-item-443 a {
-  	color: transparent;
-  	 background: url("../../../wp-content/uploads/2014/11/logo.jpg"); 
-  	 background-size: 120px;
-  	 background-repeat: no-repeat;
-  	background-position-y: -6px;
-  }
-  
-   Reducir el margen horizontal del menú de navegación 
-	.main-navigation li {
-		margin: 0;
-		position: relative;
-	}
-  
-	.main-navigation li a {
-		font-size: 10px;
-  }
-  
-  .main-navigation li ul li a {
-    font-size: 10px;
-  }
-  */
-
   /* Tamaño la página donde se visualiza el contenido */
 	.site {
 		/*max-width: 600px; */
@@ -479,9 +451,11 @@
   
   */
 
-  .proyectos-recientes > div, .proyectos-recientes > a, .ultimas-noticias > div, .ultimas-noticias > a {
-    width: 163px;
-  	max-width: 163px;
+  .proyectos-recientes > div, .proyectos-recientes a, .proyectos-recientes img, .ultimas-noticias > div, .ultimas-noticias a, .proyectos-recientes img {
+    width: 128px;
+  	max-width: 128px;
+  	height: 128px;
+  	max-height: 128px;
   }
   
   .noticias > div {
@@ -490,35 +464,50 @@
   }
   
   /* El footer va a crecer hasta 100% / se reduce la altura a 40px porque ya está en una sola línea */  
-  footer[role="contentinfo"] {
-  	height: 40px;
-  }
-    
   footer .site-info {
     width: 100%;
     position: relative;
     margin: 0 auto;
+    height:100%;
   }
-  
+  footer[role="contentinfo"] {
+  	height: 40px;
+    width: 100%;
+    margin-top: 60px;
+  }
+
+.solid {
+    background: none repeat scroll 0 0 #242524;
+    float: left;
+    height: 100%;
+    width: 35%;
+}
+  .triangule {
+    float: left;
+    height: 100%;
+    overflow: visible;
+    width: 1%;
+    display: block;
+}
   .social-links {
-  	display: block;
+    display: block;
     font-size: 16px;
     height: 100%;
     line-height: 50px;
     text-align: center;
-    width: 240px;
-  }
+    width: 100%;
+}
 
   .copyright {
-    position: absolute;
-  	display: inline-block;
-  	float: left;
-  	width: 330px;
-  	font-size: 6px;
-  	line-height: 2;
+    clear: none;
+    float: left;
+    font-size: 10px;
+    height: 40px;
+    line-height: 12px;
     padding: 0;
-    margin: 0;
-  }
+    width: 64%;
+    word-wrap: break-word;
+}
   
   .reg {
   	font-family: "Helvetica neue", helvetica, sans-serif;

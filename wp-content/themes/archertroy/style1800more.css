@@ -54,12 +54,9 @@
 /* 
  * Main page 
  */   
-.coverPhotoFront {
-    display: block;
-    height: auto;
-    max-width: 100% !important;
-    width: 100%;
-}
+
+
+/* Main page */ 
 /*
  * Project Inner Page
  */
@@ -70,7 +67,7 @@
     width: 100%;
 } 
 /* Project Inner Page */  
-/* Main page */ 
+
 .seccion-legion img {
     display: table;
 }
@@ -420,32 +417,34 @@
     background: none repeat scroll 0 0 #242524;
     float: left;
     height: 100%;
-    width: 240px;
-  }
+    width: 15%;
+}
   .triangule {
-    background-image: url("img/footer-triangule.png");
     float: left;
     height: 100%;
-    width: 21px;
-  }
+    overflow: visible;
+    width: 1%;
+    display: block;
+}
   .social-links {
     display: block;
     font-size: 16px;
     height: 100%;
     line-height: 50px;
     text-align: center;
-    width: 240px;
+    width: 100%;
 }
 
   .copyright {
-  	display: inline-block;
-  	float: left;
-  	width: 1500px;
-  	font-size: 12px;
-  	height: 40px;
-  	line-height: 40px;
+    clear: none;
+    display: inline-block;
+    float: left;
+    font-size: 12px;
+    height: 40px;
+    line-height: 40px;
     padding: 0;
-  }
+    width: 84%;
+}
   
   .reg {
   	font-family: "Helvetica neue", helvetica, sans-serif;

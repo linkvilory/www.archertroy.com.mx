@@ -71,6 +71,10 @@
     padding: 0 !important;
     width: 200px;
 }
+#menu-item-658 {
+    padding-right: 0 !important;
+    text-align: right;
+}
 .main-navigation ul li:hover > ul, .main-navigation ul li:focus > ul, .main-navigation .focus > ul {
     top: 65px;
 }
@@ -128,15 +132,12 @@
 /* 
  * Main page 
  */   
-.coverPhoto{
-  background-image: url(/wp-content/uploads/2014/11/header1.jpg);
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  display: block;
-  min-height: 400px;
-} 
+
+
+.primerInnerPadding {
+    padding: 0 20px;
+    width: 100%;
+}
 /* Main page */ 
   .mini-logo {display: none;}
   
@@ -187,9 +188,12 @@
     margin-top: 0;
   }  
 
-  .proyectos-recientes > div, .proyectos-recientes > a, .ultimas-noticias > div, .ultimas-noticias > a {
-    width: 141px;
-    max-width: 141px;    
+  .proyectos-recientes > div, .proyectos-recientes a , .proyectos-recientes img, .ultimas-noticias > div, .ultimas-noticias a, .ultimas-noticias img {
+    height: 181px;
+    max-height: 181px;
+    max-width: 181px;
+    width: 181px;
+}   
   }
   
   .noticias > div {
@@ -207,26 +211,41 @@
     width: 100%;
     position: relative;
     margin: 0 auto;
+    height:100%;
   }
   
+.solid {
+    background: none repeat scroll 0 0 #242524;
+    float: left;
+    height: 100%;
+    width: 15%;
+}
+  .triangule {
+    float: left;
+    height: 100%;
+    overflow: visible;
+    width: 1%;
+    display: block;
+}
   .social-links {
-  	display: block;
+    display: block;
     font-size: 16px;
     height: 100%;
     line-height: 50px;
     text-align: center;
-    width: 240px;
-  }
+    width: 100%;
+}
 
-/* Aumentar el ancho de la columna para incluir el copyright / Aumentar el tamaño de fuente */
   .copyright {
-  	display: inline-block;
-  	float: left;
-    width: 1250px;
-    font-size: 10px;
-  	height: 40px;
-  	line-height: 20px;
-  }
+    clear: none;
+    display: inline-block;
+    float: left;
+    font-size: 12px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+    width: 84%;
+}
   
   .reg {
   	font-family: "Helvetica neue", helvetica, sans-serif;
@@ -350,10 +369,13 @@
   
   /* Centrar párrafos de la publicación */
   
-  .proyectos-recientes, .noticias {
-    width: 1200px;
-    max-width: 1200px;
-  }
+  .proyectos-recientes, .ultimas-noticias {
+    height: 181px;
+    max-height: 181px;
+    max-width: 1600px;
+    width: 1600px;
+    box-sizing: unset;
+}
 
  img.attachment-post-thumbnail.wp-post-image{
 
@@ -679,19 +701,19 @@
   }
   
   .wp-caption-text {
-    background: transparent;
-    bottom: 0.7em;
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
     color: #626161;
     display: block;
-    filter: alpha(opacity=0);
-    font-family: "Optima", "Open Sans",sans-serif;
+    font-family: "Optima","Open Sans",sans-serif;
+    height: 40px;
     left: 0;
-    right: 0;
     margin: 0 !important;
     max-width: 100%;
     opacity: 0;
-    padding: 5px 0px !important;
+    padding: 5px 10px !important;
     position: absolute;
+    right: 0;
     z-index: -1;
   }
 

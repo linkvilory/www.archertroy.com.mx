@@ -29,8 +29,7 @@
           <a href='https://plus.google.com/105080074709822071277/posts' class='icon-google-plus' target='_blank'></a>
         </div>
       </div>
-      <div class="triangule">
-      </div>
+      <img class="triangule" src="wp-content/themes/archertroy/img/footer-triangule.png" />
       <div class='copyright'>
         <span class='reg'>&reg;</span> ARCHER TROY S.A. DE C.V. LOS USUARIOS SE OBLIGAN A CUMPLIR CON LOS TÉRMINOS Y CONDICIONES DEL WEB. MARCA REGISTRADA. DECLARACIÓN DE PRIVACIDAD DE LA INFORMACIÓN DE MÉXICO (55) 55 39 22 72
       </div>
