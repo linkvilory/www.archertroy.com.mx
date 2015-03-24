@@ -6,8 +6,8 @@
 .site-header {
     height: 110px;
     margin: auto;
-    max-width: 960px;
-    padding: 0;
+    max-width: 100%;
+    padding: 0 20px;
     width: 100%;
 } 
 .main-navigation {
@@ -25,6 +25,9 @@
     top: auto;
     width: 100%;
     z-index: auto;
+}
+.mini-logo, .mini-logo-internal {
+    display: none!important;
 }
 .menu-menu-1-container {
     height: 100%;
@@ -48,6 +51,7 @@
     margin-right: 0;
     text-align: left;
     text-decoration: none;
+    margin: 0;
 }
 .main-navigation li a{
     border: 0 none !important;
@@ -147,15 +151,15 @@
 .coverPhotoFront.Bg.Home {
     display:none;
 }
-.primerInnerPadding {
+.primerInnerPadding, #post-10, #post-12, #post-14 {
     padding: 0 20px;
     width: 100%;
+    box-sizing: unset;
 }
-.proyectos-recientes, .ultimas-noticias {
-    height: 101px;
-    max-height: 101px;
-    max-width: 960px;
-    width: 960px;
+.proyectos-recientes, .ultimas-noticias,
+.proyectos {
+    max-width: 100%;
+    width: 100%;
 }
 /* Main page */   
 
@@ -343,6 +347,8 @@
   /* Reducir el márgen superior entre el menú de navegación y el contenido. */
   #main {
     margin-top: 0;
+    display:table;
+    width:100%;
   }  
 
   /* Reducir el espacio entre el submenú (proyectos) y el menú de navegación principal */
@@ -350,11 +356,13 @@
     top: 65px;
   }
 
-  .proyectos-recientes > div, .proyectos-recientes a, .proyectos-recientes img, .ultimas-noticias > div, .ultimas-noticias a, .ultimas-noticias img {
-    width: 101px;
-  	max-width: 101px;
-  	height: 101px;
-  	max-height: 101px;
+  .proyectos-recientes > div, .proyectos-recientes a, .proyectos-recientes img, .ultimas-noticias > div, .ultimas-noticias a, .ultimas-noticias img,
+  .proyectos > div, .proyectos a, .proyectos img {
+    width: 150px;
+  	max-width: 150px;
+  	height: 150px;
+  	max-height: 150px;
+  	margin-bottom: 16px;
   }
 
 img.attachment-post-thumbnail.wp-post-image {
@@ -417,35 +425,31 @@ max-width: auto !important;
   	margin: -2px 3px 0 0;
   }
   
-  .wp-caption-text,
-  .blog-wp-caption-text {
-    background: transparent;
-    bottom: 0.7em; /* 4px */
+  .proyectos-recientes .wp-caption .wp-caption-text, .ultimas-noticias .wp-caption .wp-caption-text,
+  .proyectos .wp-caption .wp-caption-text {
+    -moz-hyphens: none;
+    bottom: 0;
+    height: 50px;
+    max-height: 160px;
+    padding: 5px 10px !important;
+    width: 100%;
+    font-size: 10px;
+    word-wrap: normal;
+    background: none repeat scroll 0 0 rgb(255, 255, 255);
     color: #626161;
     display: block;
-    filter: alpha(opacity=0);
-    line-height: 1.714285714;
-    font-family: "Optima", "Open Sans",sans-serif;
-    font-size: 10px;
+    font-family: optimaregular !important;
     left: 0;
-    right: 0;
     margin: 0 !important;
     max-width: 100%;
     opacity: 0;
-    padding: 5px 0px !important;
     position: absolute;
+    right: 0;
+    text-align: left;
     z-index: -1;
   }
-  
   .gente > div .wp-caption-text {
     bottom: 0;
-  }
-  
-  
-  /* Crecer el tamaño de las imágenes de los proyectos */  
-  .grid > div, .grid > a {
-    width: 105px;    
-    max-width: 105px;
   }
   
   /* Crecer el tamaño de las imágenes de los posters */  
@@ -496,7 +500,7 @@ max-width: auto !important;
   footer[role="contentinfo"] {
   	height: 40px;
     width: 100%;
-    margin-top: 60px;
+    margin-top: 40px;
   }
 
   /*  Ocultar meta información de los proyectos */
@@ -511,8 +515,10 @@ max-width: auto !important;
   
   /* Aumentar el tamaño de las imágenes de los clientes */
   .clientes > img {
-    width: 82px;
-    max-width: 82px;
+    width: 150px;
+    max-width: 150px;
+    height:150px;
+    max-height: 150px;
   }
   /*
   Aumentar el tamaño de las imágenes de "gente" */
@@ -874,24 +880,6 @@ max-width: auto !important;
   }
   
   /* Caption para las noticias */
-  
-  .wp-caption-text {
-    background: transparent;
-    text-align: left;
-    bottom: 0.7em;
-    color: #626161;
-    display: block;
-    filter: alpha(opacity=0);
-    font-family: "Optima", "Open Sans",sans-serif;
-    left: 0;
-    right: 0;
-    margin: 0 !important;
-    max-width: 100%;
-    opacity: 0;
-    padding: 5px 0px !important;
-    position: absolute;
-    z-index: -1;
-  }
   
   
   .wp-caption-text .caption-title {

@@ -25,7 +25,7 @@ get_header(); ?>
     		<header class="entry-content">
     			<h1>PROYECTOS</h1>
     		</header>
-        <div class='grid'>
+        <div class='grid proyectos'>
 			<?php 
         $args = array('post_type' => 'proyecto',
                       'post_status' => 'publish',
@@ -35,7 +35,7 @@ get_header(); ?>
        if ($my_query->have_posts()) {
           while ( $my_query->have_posts() ) : $my_query->the_post(); 
       ?>
-        <div class='wp-caption proyectos-Inner'>
+        <div class='wp-caption'>
             <a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_post_thumbnail(); ?></a> 
             <p class="wp-caption-text"><?php the_post_thumbnail_caption(); ?></p>
         </div>
@@ -52,5 +52,4 @@ get_header(); ?>
     	</article><!-- #post -->
 		</div><!-- #content -->
 	</div><!-- #primary -->
-    
 <?php get_footer(); ?>

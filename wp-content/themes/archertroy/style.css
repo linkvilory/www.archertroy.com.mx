@@ -288,6 +288,9 @@ input[type="button"],
 input[type="reset"] {
 	cursor: pointer;
 }
+.menu-toggle {
+    margin-top: 20px;
+}
 button[disabled],
 input[disabled] {
 	cursor: default;
@@ -400,31 +403,33 @@ img.wp-post-image {
 	display: inline-block;
 }
 
-/* Botón carteles -> Posters */
-.boton-carteles {
-  display: block;
-  clear: both;
-  margin: 1em auto;
-  background: #fff;
-  color: #242524 !important;
-  border: 1px solid #242524;
-  border-radius: 0;
-  transition: all 0.5s;
-  height: 1.5em;
-  width: 210px;
-  text-align: center;
-  padding: 0.3em 0;
-  text-decoration: none;
-  line-height: 1.9;
-  font-size: 15px; 
+.boton-Cartel:focus {outline:0;}
+
+.boton-Cartel::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
-.boton-carteles:hover {
-  color: #d2d2d4!important;
-  background: #fff;
-  border-radius: 0;   
-  border: 1px solid #d2d2d4;
-  color:#d2d2d4; 
+.boton-Cartel {
+    background-color: #cccccc;
+    border: medium none;
+    color: white;
+    float: right;
+    font-family: "optimaregular";
+    font-size: 18px;
+    letter-spacing: 2px;
+    min-height: 32px;
+    min-width: 211px;
+    text-transform: uppercase;
+    position: relative;
+    transition: background-color 0.5s ease 0s;
+    vertical-align: middle;
+}
+
+.boton-Cartel:hover {
+  background-color: #7F7F7F;
 }
 
 .entry-content-social-links {
@@ -530,34 +535,33 @@ img.wp-post-image {
   left: 15px;
 }
 /* Ajustar visualización datos de la publicación  */
-
-.proyectos-recientes {
+.proyectos-recientes, .ultimas-noticias,
+.proyectos {
+    box-sizing: unset;
+    max-width: 100%;
+    width: 100%;
     border-bottom: 1px solid #9fad9f;
     clear: both;
-    display: block;
+    display: table;
     float: none;
     margin: 0;
-    padding: 0 0 20px;
+    padding: 0 0 4px;
     position: relative;
     text-align: justify;
 }
-.ultimas-noticias {
-    border-bottom: 0 none;
-    clear: both;
-    display: block;
-    float: none;
-    margin: 0;
-    padding: 0 0 20px;
-    position: relative;
-    text-align: justify;
+.proyectos {
+	border: 0 none;
 }
-
-.proyectos-recientes > div, .proyectos-recientes > a, .ultimas-noticias > div, .ultimas-noticias > a, .ultimas-noticias > div, .ultimas-noticias > a {
+.proyectos-recientes > div, .proyectos-recientes a, .proyectos-recientes img, .ultimas-noticias > div, .ultimas-noticias a, .ultimas-noticias img,
+.proyectos > div, .proyectos a, .proyectos img{
     display: inline-block;
     float: left;
     max-width: 131px;
     vertical-align: top;
     width: 131px;
+    height:131px;
+    max-height:131px;
+    margin-bottom: 16px;
 }
 img.attachment-post-thumbnail.wp-post-image {
 max-width: auto;
@@ -700,9 +704,12 @@ max-width: auto;
 .clientes > img {
 	display: inline-block;
 	vertical-align: top;
-	*display: inline;
 	zoom: 1;
-  margin-bottom: 10px;
+  margin-bottom: 16px;
+  width: 50px;
+  height: 50px;
+  max-width: 50px;
+  max-height: 50px;
 }
 
 .clientes:after  {
@@ -965,6 +972,8 @@ a:hover {
 
 #main {
   margin-top: 1em;
+  display: table;
+  width:100%;
 }
 
 #main:after {
@@ -1057,10 +1066,26 @@ a:hover {
     max-width: 100% !important;
     width: 100%;
 } 
+.primerInnerPadding, #post-10, #post-12, #post-14 {
+    padding: 0 20px;
+    width: 100%;
+    box-sizing: unset;
+}
+.primerInnerPadding h1:nth-child(1) {
+    font-family: trajanregular;
+    font-size: 1.2em;
+    margin: 60px 0 20px;
+}
+.primerInnerPadding h1:nth-child(3) {
+    font-family: trajanregular;
+    font-size: 1.15em;
+    line-height: 1.15;
+    margin: 40px 0 20px;
+}
 /* Main page */ 
 /* Navigation Menu */
 .main-navigation {
-    height: 100%;
+    height: 80px;
     text-align: center;
     width: 100%;
 }
@@ -1118,14 +1143,13 @@ a:hover {
 /* barra lateral  */
 
 .sidebar {
-  position: fixed;
-  left: -15.625em;
-  top: 0;
-  z-index: 100;
-  width: 15.625em;
-  padding-top: 2.5em;
   height: 100%;
-  overflow-y: auto;
+    left: -15.625em;
+    overflow-y: auto;
+    position: fixed;
+    top: 0;
+    width: 15.625em;
+    z-index: 100;
   /*
   // Open State 
   // Main Menu 
@@ -1417,7 +1441,7 @@ footer[role="contentinfo"] a:hover {
   footer[role="contentinfo"] {
   	height: 94px;
     width: 100%;
-    margin-top: 60px;
+    margin-top: 40px;
   }
 
 .solid {
@@ -1542,7 +1566,7 @@ article.sticky .featured-post {
     font-size: 1.15em;
     line-height: 1.15;
     font-weight: lighter;
-    margin: 60px 0 20px;
+    margin: 0 0 20px
 }    
 .entry-content h2,
 .comment-content h2,
@@ -1768,7 +1792,6 @@ img.aligncenter,
 }
 .site-content article {
 	color:#8c8c8c;
-	min-height: 700px;
 }
 .page-links {
 	clear: both;
@@ -2622,8 +2645,10 @@ body.full-width .site-content, .site-content {
   color: #323131;
 }
 .main-navigation li {
-	margin: 0 1rem 0 0;
-	position: relative;
+    display: block;
+    margin: 0 5px 0 15px;
+    position: relative;
+    text-align: left;
 }
 
 /* Copiar en @media queries que utilizan el menú horizontal */
@@ -2698,37 +2723,29 @@ body.full-width .site-content, .site-content {
 	margin-left: 3.428571429rem;
 }
 
-.wp-caption .wp-caption-text, 
-.blog-wp-caption .blog-wp-caption-text {
-  width: 100%;
-  max-width: 100%;
-  text-transform: uppercase;  
-  background: rgb(255,255,255);  
-  color: #626161;
-  text-align: left;
-  font-family: "Optima", "Open Sans",sans-serif;
-}
-
-.wp-caption-text, 
-.blog-wp-caption-text {
-  background: transparent;
-  bottom: 0.7em;
-  color: #626161;
-  font-size: 10px;
-  display: block;
-  filter: alpha(opacity=0);
-  font-family: "Optima", "Open Sans",sans-serif;
-  left: 0;
-  right: 0;
-  margin: 0 !important;
-  width: 100%;
-  max-width: 100%;
-  opacity: 0;
-/*  padding: 5px 0px !important; */
-  padding: 5px !important;  
-  position: absolute;
-  z-index: -1;
-}
+.proyectos-recientes .wp-caption .wp-caption-text, .ultimas-noticias .wp-caption .wp-caption-text,
+  .proyectos .wp-caption .wp-caption-text {
+    -moz-hyphens: none;
+    bottom: 0;
+    height: 50px;
+    max-height: 160px;
+    padding: 5px 10px !important;
+    width: 100%;
+    word-wrap: normal;
+    background: none repeat scroll 0 0 rgb(255, 255, 255);
+    color: #626161;
+    display: block;
+    font-family: optimaregular !important;
+    font-size: 10px !important;
+    left: 0;
+    margin: 0 !important;
+    max-width: 100%;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    text-align: left;
+    z-index: -1;
+  }
 
 .gente > div .wp-caption-text {
   bottom: 0;
@@ -3013,10 +3030,31 @@ margin-bottom: 1em;
       display: none;
     }
     
-    .mini-logo, .mini-logo-internal {
-      display: none;
-    }
-    
+    .mini-logo {
+    margin: 5px 20px 0 0;
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 220px;
+    z-index: 10000;
+  }
+  
+  .mini-logo img {
+    width: 100%;
+    display: block;
+  }
+
+    .mini-logo-internal {
+    display: block;
+    margin: auto;
+    max-width: 80%;
+    width: 80%;
+}
+.mini-logo-internal > img {
+    width: 100%;
+}
 /* Clases para visualización de imágenes / mini grids o mini retículas en la sección de posters */    
     .galeria-de-posters .one-large {
       display: inline-block;

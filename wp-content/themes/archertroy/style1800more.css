@@ -55,7 +55,14 @@
  * Main page 
  */   
 
-
+.proyectos-recientes > div, .proyectos-recientes a, .proyectos-recientes img, .ultimas-noticias > div, .ultimas-noticias a, .ultimas-noticias img,
+.proyectos > div, .proyectos a, .proyectos img {
+    height: 211px;
+    margin-bottom: 16px;
+    max-height: 211px;
+    max-width: 211px;
+    width: 211px;
+}
 /* Main page */ 
 /*
  * Project Inner Page
@@ -91,7 +98,6 @@
     font-family: "optimaregular";
     font-size: 18px;
     letter-spacing: 2px;
-    margin-right: 41px;
     min-height: 32px;
     min-width: 211px;
     text-transform: uppercase;
@@ -217,6 +223,7 @@
     margin: auto;
     max-width: 1800px;
     width: 1800px;
+    box-sizing: unset;
   }
 
   .mini-logo {display: none;}
@@ -326,6 +333,7 @@
     font-size: 1em !important;
     overflow: visible;
     padding:10px 60px 0 0 !important;
+    margin: 0;
   }
   .main-navigation li a {
     border: 0 none !important;
@@ -370,6 +378,8 @@
   /* Reducir el márgen superior entre el menú de navegación y el contenido. */
   #main {
     margin-top: 0;
+    display: table;
+    width:100%;
   }  
 
   /* Reducir el espacio entre el submenú (proyectos) y el menú de navegación principal */
@@ -382,19 +392,11 @@
     font-size: 1.6rem;
   }
   
-  .proyectos-recientes > div, .proyectos-recientes > a, .ultimas-noticias > div, .ultimas-noticias > a {
-    height: 211px;
-    max-height: 211px;
-    max-width: 211px;
-    opacity: 0;
-    width: 211px;
-  }
-  
   .noticias > div {
     width: 346px;
   	max-width: 346px;
   }
-  .primerInnerPadding {
+  .primerInnerPadding, #post-10, #post-12 {
     margin: auto;
     max-width: 1800px;
     padding: 0;
@@ -455,47 +457,10 @@
   	margin: -2px 3px 0 0;
   }
     
-  /* Crecer el tamaño de las imágenes de los proyectos */  
-  .grid > div, .grid > a {
-    max-width: 211px;
-    width: 211px;
-    opacity: 0;
-  }
-  
   /* Crecer el tamaño de las imágenes de los posters */  
   .galeria-de-posters > a {
     width: 220px;    
     max-width: 220px;
-  }
-  
-  /* Botón carteles -> Posters */
-  .boton-carteles {
-    display: block;
-    clear: both;
-    margin: 0;
-    background: #fff;
-    color: #242524;
-    border: 1px solid #242524;
-    border-radius: 0;
-    transition: all 0.5s;
-    height: 1.5em;
-    width: 210px;
-    text-align: center;
-    padding: 0.3em 0;
-    text-decoration: none;
-    line-height: 1.9;
-    float: right;
-    font-size: 15px; 
-    margin-left: -1px; 
-  }
-  
-  .boton-carteles:hover {
-    color: #d2d2d4!important;
-  background: #fff;
-  border-radius: 0;   
-  border: 1px solid #d2d2d4;
-  color:#d2d2d4; 
-    
   }
   
   /* Centrar menú de navegación en las publicaciones */
@@ -515,13 +480,17 @@
   .clientes > img {
     width: 171px;
     max-width: 171px;
+    height:171px;
+    max-height:171px;
     opacity: 0;
   }
   /* Aumentar el tamaño de las imágenes de "gente" */
   .gente > div {
-    width: 340px;
-    max-width: 340px;
-    margin: 0 0 10px;
+    width: 348px;
+    max-width: 348px;
+    height: 348px;
+    max-height: 348px;
+    margin: 0 0 15px;
     opacity: 0;
   }
   
@@ -656,18 +625,11 @@
     width: 1350px !important;
   }
   
-  .proyectos-recientes, .ultimas-noticias {
-    width: 1800px;
-    max-width: 1800px;
-    border-bottom: 1px solid #9fad9f;
+  .proyectos-recientes, .ultimas-noticias,
+  .proyectos {
+    width: 100%;
+    max-width: 100%;
     box-sizing: unset;
-    clear: both;
-    display: block;
-    float: none;
-    padding: 0 0 20px;
-    position: relative;
-    text-align: justify;
-    height: 211px !important;
   }
 
  img.attachment-post-thumbnail.wp-post-image{
@@ -757,14 +719,6 @@
     height: 205px;
     padding-top: 123px;
 }
-   
-  /* Tamaño de fuentes e interlineado para los caption */
-  .wp-caption-text,
-  .blog-wp-caption-text {
-    line-height: 1.714285714;
-    font-size: 13px;
-
-  }
   
   .gente > div .wp-caption-text {    
     bottom: 0 !important;
@@ -1051,25 +1005,6 @@
   	 background-size: 200px;
   	 background-repeat: no-repeat;
      background-position-y: 14px;
-  }
-  
- .wp-caption-text {
-    background: transparent;
-    text-align: left;
-    bottom: 0.5em;
-    color: #626161;
-    display: block;
-    filter: alpha(opacity=0);
-    font-size: 16px !important;
-    font-family: "Optima", "Open Sans",sans-serif !important;
-    left: 0;
-    right: 0;
-    margin: 0 !important;
-    max-width: 100%;
-    opacity: 0;
-    padding: 5px 0.5em !important;
-    position: absolute;
-    z-index: -1;      
   }
   
   .mini-post .entry-content .blog .wp-caption-text {
@@ -1977,20 +1912,17 @@
   /* Correcciones 2015 */  
   
   /* landing - home */
-  .proyectos-recientes .wp-caption .attachment-post-thumbnail, .ultimas-noticias .wp-caption .attachment-post-thumbnail {
+  .proyectos-recientes .wp-caption .attachment-post-thumbnail, .ultimas-noticias .wp-caption .attachment-post-thumbnail,
+  .proyectos .wp-caption .attachment-post-thumbnail {
     max-height: 211px;
     max-width: 211px;
     min-height: 211px;
     min-width: 211px;
   }
-  .proyectos-Inner .attachment-post-thumbnail.wp-post-image {
-    max-height: 211px;
-    max-width: 211px;
-    min-height: 211px;
-    min-width: 211px;
-  }
+
   /* landing - home */
-  .proyectos-recientes .wp-caption .wp-caption-text, .ultimas-noticias .wp-caption .wp-caption-text {
+  .proyectos-recientes .wp-caption .wp-caption-text, .ultimas-noticias .wp-caption .wp-caption-text,
+  .proyectos .wp-caption .wp-caption-text {
     -moz-hyphens: none;
     bottom: 0;
     height: 50px;
@@ -2011,23 +1943,11 @@
     right: 0;
     text-align: left;
     z-index: -1;
-  }
-  .proyectos-Inner .wp-caption-text {
-    -moz-hyphens: none;
-    height: 40px;
-    max-height: 150px;
-    max-width: 200px;
-    width: 200px;
-    word-wrap: normal;
+    font-size: 13px;
+
   }
   
   /* legion */
-  
-  /* proyectos */
-  .grid .wp-caption .wp-caption-text {
-    width: 198px;
-    max-width: 198px;
-  }
   
   /* Despliegue de la nueva sección de noticias */
   .visualizador-noticias {

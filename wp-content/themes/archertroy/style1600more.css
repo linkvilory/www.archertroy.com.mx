@@ -48,6 +48,7 @@
     margin-right: 0;
     text-align: left;
     text-decoration: none;
+    margin: 0;
 }
 .main-navigation li a{
     border: 0 none !important;
@@ -134,9 +135,10 @@
  */   
 
 
-.primerInnerPadding {
+.primerInnerPadding, #post-10, #post-12, #post-14  {
     padding: 0 20px;
     width: 100%;
+    box-sizing: unset;
 }
 /* Main page */ 
   .mini-logo {display: none;}
@@ -186,14 +188,17 @@
   /* Reducir el márgen superior entre el menú de navegación y el contenido. */
   #main {
     margin-top: 0;
+    display:table;
+    width:100%;
   }  
 
-  .proyectos-recientes > div, .proyectos-recientes a , .proyectos-recientes img, .ultimas-noticias > div, .ultimas-noticias a, .ultimas-noticias img {
+  .proyectos-recientes > div, .proyectos-recientes a , .proyectos-recientes img, .ultimas-noticias > div, .ultimas-noticias a, .ultimas-noticias img,
+  .proyectos > div, .proyectos a , .proyectos img {
     height: 181px;
     max-height: 181px;
     max-width: 181px;
     width: 181px;
-}   
+    margin-bottom: 16px;
   }
   
   .noticias > div {
@@ -201,10 +206,10 @@
   	max-width: 227px;
   }
   
-  /* El footer va a crecer hasta 1600px / se reduce la altura a 40px porque ya está en una sola línea */  
   footer[role="contentinfo"] {
   	height: 40px;
     width: 100%;
+    margin-top: 40px;
   }
   
   footer .site-info {
@@ -256,45 +261,10 @@
   	margin: -2px 3px 0 0;
   }
   
-  /* Crecer el tamaño de las imágenes de los proyectos */  
-  .grid > div, .grid > a {
-    width: 141px;
-    max-width: 141px;
-  }
-  
   /* Crecer el tamaño de las imágenes de los posters */  
   .galeria-de-posters > a {
     width: 220px;    
     max-width: 220px;
-  }
-  
-  /* Botón carteles -> Posters */
-  .boton-carteles {
-    display: block;
-    clear: both;
-    margin: 0;
-    background: #fff;
-    color: #242524;
-    border: 1px solid #242524;
-    border-radius: 0;
-    transition: all 0.5s;
-    height: 1.5em;
-    width: 210px;
-    text-align: center;
-    padding: 0.3em 0;
-    text-decoration: none;
-    line-height: 1.9;
-    float: right;
-    font-size: 15px; 
-    margin-left: -1px; 
-  }
-  
-  .boton-carteles:hover {
-    color: #d2d2d4!important;
-  background: #fff;
-  border-radius: 0;   
-  border: 1px solid #d2d2d4;
-  color:#d2d2d4;     
   }
   
   /* Centrar menú de navegación en las publicaciones */
@@ -317,8 +287,10 @@
   
   /* Aumentar el tamaño de las imágenes de los clientes */
   .clientes > img {
-    width: 111px;
-    max-width: 111px;
+    width: 160px;
+    max-width: 160px;
+    height:160px;
+    max-height: 160px;
   }
   /*
   Aumentar el tamaño de las imágenes de "gente" */
@@ -369,11 +341,10 @@
   
   /* Centrar párrafos de la publicación */
   
-  .proyectos-recientes, .ultimas-noticias {
-    height: 181px;
-    max-height: 181px;
-    max-width: 1600px;
-    width: 1600px;
+  .proyectos-recientes, .ultimas-noticias,
+  .proyectos {
+    max-width: 100%;
+    width: 100%;
     box-sizing: unset;
 }
 
@@ -422,13 +393,29 @@
     text-align: center;
   }
    
-  /* Tamaño de fuentes e interlineado para los caption */
-  .wp-caption-text,
-  .blog-wp-caption-text {
-    line-height: 1.714285714;
+  .proyectos-recientes .wp-caption .wp-caption-text, .ultimas-noticias .wp-caption .wp-caption-text,
+  .proyectos .wp-caption .wp-caption-text {
+    -moz-hyphens: none;
+    bottom: 0;
+    height: 50px;
+    max-height: 160px;
+    padding: 5px 10px !important;
+    width: 100%;
+    word-wrap: normal;
+    background: none repeat scroll 0 0 rgb(255, 255, 255);
+    color: #626161;
+    display: block;
     font-size: 13px;
+    font-family: optimaregular !important;
+    left: 0;
+    margin: 0 !important;
+    max-width: 100%;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    text-align: left;
+    z-index: -1;
   }
-  
   .gente > div .wp-caption-text {
     bottom: 0 !important;
   }
@@ -700,23 +687,6 @@
   	margin: 0.5rem 0;
   }
   
-  .wp-caption-text {
-    background: none repeat scroll 0 0 transparent;
-    bottom: 0;
-    color: #626161;
-    display: block;
-    font-family: "Optima","Open Sans",sans-serif;
-    height: 40px;
-    left: 0;
-    margin: 0 !important;
-    max-width: 100%;
-    opacity: 0;
-    padding: 5px 10px !important;
-    position: absolute;
-    right: 0;
-    z-index: -1;
-  }
-
   .blog-wp-caption-text {
     background: transparent;
     bottom: 0.7em;

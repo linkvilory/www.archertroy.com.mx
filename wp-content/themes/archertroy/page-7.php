@@ -199,58 +199,39 @@
           proyectos_recientes = document.querySelector('.proyectos-recientes');
           imagesLoaded( proyectos_recientes, function() {            
             contenedor_proyectos = new Masonry( proyectos_recientes, opciones_proyectos);
-
-            if ($(window).outerWidth() > 600 && $(window).outerWidth() < 959) {
-              $('.proyectos-recientes .wp-caption:nth-child(5)').attr("style","top:144px!important;position:absolute;left:0px;opacity:1;");
-              $('.proyectos-recientes .wp-caption:nth-child(6)').attr("style","top:144px!important;position:absolute;left:144px;opacity:1;");
-              $('.proyectos-recientes .wp-caption:nth-child(7)').attr("style","top:144px!important;position:absolute;left:288px;opacity:1;");
-              $('.proyectos-recientes .wp-caption:nth-child(8)').attr("style","top:144px!important;position:absolute;left:432px;opacity:1;");
-            }
-            if ($(window).outerWidth() < 600) {
-              $('.proyectos-recientes .wp-caption:nth-child(5)').attr("style","top:144px!important;position:absolute;left:0px;opacity:1;");
-              $('.proyectos-recientes .wp-caption:nth-child(6)').attr("style","top:144px!important;position:absolute;left:144px;opacity:1;");
-              $('.proyectos-recientes .wp-caption:nth-child(7)').attr("style","top:144px!important;position:absolute;left:288px;opacity:1;");
-              $('.proyectos-recientes .wp-caption:nth-child(8)').attr("style","top:144px!important;position:absolute;left:432px;opacity:1;");
-            }             
+         
           });
 
           ultimas_noticias = document.querySelector('.ultimas-noticias');
           imagesLoaded( ultimas_noticias, function() {            
             contenedor_noticias = new Masonry( ultimas_noticias, opciones_proyectos);
-
-            if (es_movil()) {
-
-            }            
+ 
           });
       }
       
       function es_movil() {
         return $(window).outerWidth() < 959;
       }
-      
-      function modificar_contenido_para_moviles() {
-        $('.proyectos-recientes:first').append("<span><a href='/proyectos' class='boton-carteles large'>VER MÁS</a></span>");
-      }
-            
-      
+   
       window.onload = function () {
         if (es_movil()) {          
           imagesLoaded($landing, function() {
       
           });
-          modificar_contenido_para_moviles();
-          $('#menu-item-27 .sub-menu').prepend("<li id='sub-menu-item-27' class='menu-item menu-item-type-post_type menu-item-object-page menu-item-27 proyectos-movil'><a href='/projects/'>Todos</a></li>");          
-          $("#menu-item-160 .sub-menu").prepend("<li id='sub-menu-item-652' class='menu-item menu-item-type-post_type menu-item-object-page menu-item-652 proyectos-movil'><a href='/legion/'>La conquista</a></li>");          
+          //$('#menu-item-27 .sub-menu').prepend("<li id='sub-menu-item-27' class='menu-item menu-item-type-post_type menu-item-object-page menu-item-27 proyectos-movil'><a href='/projects/'>Todos</a></li>");          
+          //$("#menu-item-160 .sub-menu").prepend("<li id='sub-menu-item-652' class='menu-item menu-item-type-post_type menu-item-object-page menu-item-652 proyectos-movil'><a href='/legion/'>La conquista</a></li>");          
         } else {
           imagesLoaded( $landing, function() {
             $landing.fadeIn(800, function () {
             });
           }); 
         }
+        mover_footer_al_fondo();
       }
       
       $(window).on('resize', function () {
         ajustar_noticias_proyectos_recientes();
+        mover_footer_al_fondo();
       });       
 </script>
 <?php $_SESSION["entro"] = 0; ?>
