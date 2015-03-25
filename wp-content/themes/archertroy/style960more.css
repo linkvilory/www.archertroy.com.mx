@@ -136,6 +136,11 @@
   background-color: #7F7F7F;
 }
 /* Intro page */
+/*
+ * Brainbreak
+ */
+
+/* Brainbreak */ 
 /* 
  * Main page 
  */   
@@ -151,10 +156,51 @@
 .coverPhotoFront.Bg.Home {
     display:none;
 }
-.primerInnerPadding, #post-10, #post-12, #post-14 {
+.coverPhotoFront.Img.Legion {
+    display: block;
+    height: auto;
+    max-width: 100% !important;
+    width: 100%;
+}
+.coverPhotoFront.Img.Legion  img {
+    width: 100%;
+}
+.coverPhotoFront.Bg.Legion {
+    display:none;
+}
+.coverPhotoFront.Img.Contacto {
+    display: block;
+    height: auto;
+    max-width: 100% !important;
+    width: 100%;
+}
+.coverPhotoFront.Img.Contacto  img {
+    width: 100%;
+}
+.coverPhotoFront.Bg.Contacto {
+    display:none;
+}
+.coverPhotoFront.Img.Brainbreak {
+    display: block;
+    height: auto;
+    max-width: 100% !important;
+    width: 100%;
+}
+.coverPhotoFront.Img.Brainbreak  img {
+    width: 100%;
+}
+.coverPhotoFront.Bg.Brainbreak {
+    display: none;
+} 
+.primerInnerPadding, #post-10, #post-12, #post-14, #innerProyectos {
     padding: 0 20px;
     width: 100%;
     box-sizing: unset;
+}
+.brainbreakContainer {
+    padding: 0 20px;
+    width: 100%;
+    box-sizing: box-sizing;
 }
 .proyectos-recientes, .ultimas-noticias,
 .proyectos {
@@ -523,11 +569,35 @@ max-width: auto !important;
   /*
   Aumentar el tamaño de las imágenes de "gente" */
   .gente > div {
-    width: 212px;
-    max-width: 212px;
+    width: 250px;
+    max-width: 250px;
+    height: 250px;
+    max-height: 250px;
+    margin: 0 0 15px;
+    opacity: 0;
   }
+  .gente div img {
+    height: 250px;
+    margin: 0;
+    padding: 0;
+    width: 250px;
+}
+.gente > div .wp-caption-text {
+    background: none repeat scroll 0 0 rgb(255, 255, 255);
+    bottom: 0 !important;
+    display: block;
+    height: 80px;
+    padding: 10px 0 0 !important;
+    position: absolute;
+    width: 100%;
+    opacity:0;
+}
   
   /* Datos personas */
+  .datos-persona {
+    height: 100%;
+    width: 100%;
+}
   .datos-persona .persona, .datos-persona .handler {
     font-family: "Optima", "Open Sans",sans-serif;
     text-transform: none;
@@ -536,14 +606,16 @@ max-width: auto !important;
   }
 
   .datos-persona .persona {
-    width: 55%;  
+    width: 60%;  
     text-align: left;
-    padding-left: 1em;
+    padding-left: 5%;
+    height:100%;
   }
 
   .datos-persona .handler {
-    width: 35%;   
-    padding-right: 1em;
+    width: 40%;   
+    padding-right: 5%;
+    height:100%;
   }
 
 
@@ -590,12 +662,99 @@ max-width: auto !important;
   
   /* Centrar contenido de formularios de contacto */
   .contacto {
-    display: block;
     clear: both;
+    display: block;
     float: none;
-    width: 920px;
-    margin: 1.714285714rem auto;
+    padding: 60px 20px 0 !important;
+    width: 100%;
+    overflow:visible;
+    height: 400px;
   }
+  .formulario {
+    float: left;
+    width: 33.33%;
+}
+.lugar {
+    float: left;
+    font-family: optimaregular;
+    font-size: 1.2em;
+    margin-top: 124px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 33.33%;
+}
+.leyenda {
+    float: left;
+    overflow: visible;
+    width: 33.33%;
+}
+.leyenda img {
+    max-width: 200%;
+    margin-left: -100px;
+    width: 200%;
+}
+ #cntctfrm_contact_form input[type="submit"]:focus {outline:0;}
+
+#cntctfrm_contact_form input[type="submit"]::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#cntctfrm_contact_form input[type="submit"]{
+  font-family: 'optimaregular';
+  font-size: 18px;
+  letter-spacing: 2px;
+  position: relative;
+  border: none;
+  min-width: 162px;
+  min-height: 32px;
+  background-color: #cccccc;
+  color: white;
+  text-transform: uppercase;
+  vertical-align: middle;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+#cntctfrm_contact_form input[type="submit"]:hover {
+  background-color: #7F7F7F;
+}
+#cntctfrm_contact_form div:last-child {
+    margin-top: 30px;
+    padding: 0 !important;
+    text-align: center !important;
+}
+.ver-mapa:focus {outline:0;}
+
+.ver-mapa::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ver-mapa {
+  font-family: 'optimaregular';
+  font-size: 18px;
+  letter-spacing: 2px;
+  position: relative;
+  border: none;
+  min-width: 162px;
+  min-height: 32px;
+  background-color: #cccccc;
+  color: white;
+  margin-top: 62px;
+  text-transform: uppercase;
+  vertical-align: middle;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+.ver-mapa:hover {
+  background-color: #7F7F7F;
+} 
   
   .centrar p {
     width: inherit;
@@ -1311,18 +1470,6 @@ max-width: auto !important;
             text-align: center;
             margin-right: 0.3em;
           }
- 
-          .seccion-arco .arco-4 .texto, 
-          .seccion-arco .arco-4 .texto p, 
-          .seccion-arco .arco-4 .texto p:nth-child(2) {
-            display: inline-block;
-            float: left;
-            font-family: "Optima", "Open Sans",sans-serif !important;
-            text-transform: none;         
-            width: 165px;
-            font-size: 11px !important;
-            line-height: 1.44;
-          }
        
           /* Lado izquierdo - índice lado derecho */
         
@@ -1359,19 +1506,7 @@ max-width: auto !important;
              text-align: center;
              margin-right: 0.3em;
            }
- 
-           .seccion-arco .arco-3 .texto, 
-           .seccion-arco .arco-3 .texto p, 
-           .seccion-arco .arco-3 .texto p:nth-child(2) {
-             display: inline-block;
-             float: right;
-             text-align: right;
-             font-family: "Optima", "Open Sans",sans-serif !important;
-             text-transform: none;         
-             width: 192px;
-             font-size: 11px !important;
-             line-height: 1.44;
-           }
+
         
            .arco-2 {
               position: absolute;
@@ -1406,19 +1541,6 @@ max-width: auto !important;
               display: inline;
               text-align: center;
               margin-right: 0.3em;
-            }
- 
-            .seccion-arco .arco-2 .texto, 
-            .seccion-arco .arco-2 .texto p, 
-            .seccion-arco .arco-2 .texto p:nth-child(2) {
-              display: inline-block;
-              float: right;
-              text-align: right;
-              font-family: "Optima", "Open Sans",sans-serif !important;
-              text-transform: none;
-              width: 192px;
-              font-size: 11px !important;
-              line-height: 1.44;
             }
         
            /* Texto en la sección del arco */

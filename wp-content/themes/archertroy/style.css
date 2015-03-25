@@ -627,18 +627,30 @@ max-width: auto;
 }
 
 .gente > div {
-  width: 272px; 
-	max-width: 272px;
-	display: inline-block;
-	vertical-align: top;
-	*display: inline;
-	zoom: 1;
-  margin: 0.75rem 0;
+    width: 250px;
+    max-width: 250px;
+    height: 250px;
+    max-height: 250px;
+    margin: 0 0 15px;
+    opacity: 0;
+  }
+  .gente div img {
+    height: 250px;
+    margin: 0;
+    padding: 0;
+    width: 250px;
+}
+.gente > div .wp-caption-text {
+    background: none repeat scroll 0 0 rgb(255, 255, 255);
+    bottom: 0 !important;
+    display: block;
+    height: 80px;
+    padding: 10px 0 0 !important;
+    position: absolute;
+    width: 100%;
+    opacity:0;
 }
 
-.gente div img {
-  margin: 0;
-}
 .gente .wp-caption-text{
   padding:5px 0 !important;
 }
@@ -647,8 +659,14 @@ max-width: auto;
 	width: 100%;
 	display: inline-block;
 }
-
+#post-18 h1 {
+    margin: 60px 0;
+}
 /* Datos personas */
+.datos-persona {
+    height: 100%;
+    width: 100%;
+}
 .datos-persona .persona, .datos-persona .handler {
   font-family: "Optima", "Open Sans",sans-serif;
   text-transform: none;
@@ -657,14 +675,16 @@ max-width: auto;
 }
 
 .datos-persona .persona {
-  width: 55%;  
+  width: 60%;  
   text-align: left;
-  padding-left: 1em;
+  padding-left: 5%;
+  height:100%;
 }
 
 .datos-persona .handler {
-  width: 35%;   
-  padding-right: 1em;
+  width: 40%;   
+  padding-right: 5%;
+  height:100%;
 }
 
 
@@ -1066,10 +1086,54 @@ a:hover {
     max-width: 100% !important;
     width: 100%;
 } 
-.primerInnerPadding, #post-10, #post-12, #post-14 {
+.coverPhotoFront.Img.Legion {
+	display: none;
+}
+.coverPhotoFront.Bg.Legion {
+    background-image: url(../../../wp-content/uploads/cover/legionLess959.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 230px;
+    max-width: 100% !important;
+    width: 100%;
+} 
+.coverPhotoFront.Img.Contacto {
+	display: none;
+}
+.coverPhotoFront.Bg.Contacto {
+    background-image: url(../../../wp-content/uploads/cover/contactoLess959.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 230px;
+    max-width: 100% !important;
+    width: 100%;
+} 
+.coverPhotoFront.Img.Brainbreak {
+	display: none;
+}
+.coverPhotoFront.Bg.Brainbreak {
+    background-image: url(../../../wp-content/uploads/cover/brainbreakLess599.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 230px;
+    max-width: 100% !important;
+    width: 100%;
+} 
+.primerInnerPadding, #post-10, #post-12, #post-14, #innerProyectos {
     padding: 0 20px;
     width: 100%;
     box-sizing: unset;
+}
+.brainbreakContainer {
+    padding: 0 20px;
+    width: 100%;
+    box-sizing: box-sizing;
 }
 .primerInnerPadding h1:nth-child(1) {
     font-family: trajanregular;
@@ -1083,6 +1147,16 @@ a:hover {
     margin: 40px 0 20px;
 }
 /* Main page */ 
+/*
+ * Inner projects
+ */
+#innerProyectos h1 {
+    font-family: trajanregular;
+    font-size: 1.2em;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+} 
+/* Inner projects */ 
 /* Navigation Menu */
 .main-navigation {
     height: 80px;
@@ -2352,6 +2426,104 @@ img#wpstats {
     width: 100%;
 }
 /* Main page */ 
+/*
+ * Contact page
+ */
+  .contacto {
+    clear: both;
+    display: block;
+    float: none;
+    padding: 60px 20px 0 !important;
+    width: 100%;
+    overflow:visible;
+  }
+  .formulario {
+    float: none;
+    width: 100%;
+}
+.lugar {
+    float: none;
+    font-family: optimaregular;
+    font-size: 1.2em;
+    margin-top: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+.leyenda {
+    float: none;
+    overflow: visible;
+    width: 100%;
+}
+.leyenda img {
+    display: block;
+    margin: auto;
+    max-width: 800px;
+    width: 100%;
+}
+ #cntctfrm_contact_form input[type="submit"]:focus {outline:0;}
+
+#cntctfrm_contact_form input[type="submit"]::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#cntctfrm_contact_form input[type="submit"]{
+  font-family: 'optimaregular';
+  font-size: 18px;
+  letter-spacing: 2px;
+  position: relative;
+  border: none;
+  min-width: 162px;
+  min-height: 32px;
+  background-color: #cccccc;
+  color: white;
+  text-transform: uppercase;
+  vertical-align: middle;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+#cntctfrm_contact_form input[type="submit"]:hover {
+  background-color: #7F7F7F;
+}
+#cntctfrm_contact_form div:last-child {
+    margin-top: 30px;
+    padding: 0 !important;
+    text-align: center !important;
+}
+.ver-mapa:focus {outline:0;}
+
+.ver-mapa::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ver-mapa {
+  font-family: 'optimaregular';
+  font-size: 18px;
+  letter-spacing: 2px;
+  position: relative;
+  border: none;
+  min-width: 162px;
+  min-height: 32px;
+  background-color: #cccccc;
+  color: white;
+  margin-top: 62px;
+  text-transform: uppercase;
+  vertical-align: middle;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+.ver-mapa:hover {
+  background-color: #7F7F7F;
+}  
+/* Contact page */
 
 .texto-noticia {
   font-size: 9px;

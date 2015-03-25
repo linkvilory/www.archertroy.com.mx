@@ -73,10 +73,48 @@
     max-width: 100%;
     width: 100%;
 } 
-/* Project Inner Page */  
+/*
+ * Brainbreak
+ */
 
-.seccion-legion img {
-    display: table;
+
+/* Brainbreak */ 
+/* Project Inner Page */  
+.seccion-legion{
+	max-width: 1200px !important;
+	width: 1200px;
+	margin: auto;
+	display: table;
+}
+.conquistaImg {
+    display: block !important;
+    max-width: 1160px !important;
+    width: 100%;
+}
+.corchete1 {
+    margin-top: 60px;
+    max-width: 470px !important;
+    width: 100%;
+}
+.corchete2 {
+    margin-top: 60px;
+    max-width: 397px !important;
+    width: 100%;
+}
+.filosofiaImg {
+    display: block !important;
+    max-width: 1160px !important;
+    width: 100%;
+}
+.metodologiaImg {
+    display: block !important;
+    max-width: 688px !important;
+    width: 100%;
+}
+.tacticaImg {
+    display: block !important;
+    max-width: 1175px !important;
+    width: 100%;
 }
 .seccion-legion p {
     display: table !important;
@@ -174,7 +212,14 @@
    .texto {
     -moz-hyphens: none;
     font-family: optimaregular;
+    font-size: 0.9em;
     word-wrap: normal;
+}
+.arco-2 .texto {
+    text-align: right;
+}
+.arco-3 .texto {
+    text-align: right;
 }
 .entry-content b{
   font-family:optimabold;
@@ -219,13 +264,18 @@
     padding: 0;
     width: 100%;
 }
-  #post-14, #post-12, #post-10{
+  #post-14, #post-12, #post-10, #innerProyectos{
     margin: auto;
     max-width: 1800px;
     width: 1800px;
     box-sizing: unset;
   }
-
+.brainbreakContainer{
+    margin: auto;
+    max-width: 1800px;
+    width: 1800px;
+    box-sizing: box-sizing;
+  }
   .mini-logo {display: none;}
 
   .proyectos-movil { display: none;}
@@ -493,8 +543,27 @@
     margin: 0 0 15px;
     opacity: 0;
   }
-  
+  .gente div img {
+    height: 348px;
+    margin: 0;
+    padding: 0;
+    width: 348px;
+}
+.gente > div .wp-caption-text {
+    background: none repeat scroll 0 0 rgb(255, 255, 255);
+    bottom: 0 !important;
+    display: block;
+    height: 80px;
+    padding: 10px 0 0 !important;
+    position: absolute;
+    width: 100%;
+    opacity:0;
+}
   /* Datos personas */
+  .datos-persona {
+    height: 100%;
+    width: 100%;
+}
   .datos-persona .persona, .datos-persona .handler {
     font-family: "Optima", "Open Sans",sans-serif;
     text-transform: none;
@@ -503,14 +572,15 @@
   }
 
   .datos-persona .persona {
-    width: 55%;  
-    text-align: left;
+    height: 100%;
     padding-left: 5%;
+    text-align: left;
+    width: 60%;
   }
 
   .datos-persona .handler {
-    width: 35%;   
     padding-right: 5%;
+    width: 40%;
   }
 
   .datos-persona .persona .puesto-persona, .datos-persona .handler {
@@ -688,7 +758,29 @@
     margin: 60px auto 0 !important;
     width: 1200px;
     overflow:visible;
+    height: 400px;
   }
+  .formulario {
+    float: left;
+    width: 33.33%;
+}
+.lugar {
+    float: left;
+    font-family: optimaregular;
+    font-size: 1.2em;
+    margin-top: 124px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 33.33%;
+}
+.leyenda {
+    float: left;
+    overflow: visible;
+    width: 33.33%;
+}
+.leyenda img {
+    max-width: 200%;
+}
   .contacto h1 {
     font-family: trajanregular;
     font-size: 1.2em;
@@ -719,11 +811,6 @@
     height: 205px;
     padding-top: 123px;
 }
-  
-  .gente > div .wp-caption-text {    
-    bottom: 0 !important;
-  }
-  
   
   /* Blog */
   
@@ -1117,7 +1204,7 @@
         padding: 0;
         float: left;
         width: 50%;
-        display: table-row;
+        display: block;
       }
     
       section.legion div.column-right {
@@ -1125,7 +1212,7 @@
         padding: 0;
         float: right;
         width: 50%;
-        display: table-row;      
+        display: block;      
       }
     
      section.legion ol.first-list {
@@ -1407,24 +1494,26 @@
 }
               
          section.tactica .seccion-arco {
-            color: #8c8c8c;
-            display: table;
-            font-size: 16px;
-            position: relative;
-            width: 100%;
-            margin: 16px 0 0;
-        }
+    box-sizing: border-box;
+    clear: both;
+    color: #8c8c8c;
+    display: block;
+    font-size: 16px;
+    overflow: hidden;
+    padding: 30px 0 0;
+    position: relative;
+    width: 100%;
+}
     
          /* Texto en la sección del arco */    
          /* Lado derecho - índice lado izquierdo */
        
          .seccion-arco .arco-1 {
-            display: none;
-            left: 914px;
-            position: absolute;
-            top: 15px;
-            width: 435px;
-        }
+    display: none;
+    left: 830px;
+    position: absolute;
+    top: 50px;
+    width: 345px;}
 
          .seccion-arco .target-1 {
            position: absolute;
@@ -1437,33 +1526,33 @@
 
 
        
-         .seccion-arco .arco-1 .indice { 
-           font-family: "TrajanPro-Regular", "Lusitana", Times, serif;
-           font-size: 48px;
-           color: #9fad9f;
-           display: inline-block;
-           float: left;
-           margin-right: 0.5em;
-           width: 43px;
-           text-align: center;
-           height: 100%;
-         }
+         .seccion-arco .arco-1 .indice {
+    color: #9fad9f;
+    display: inline-block;
+    float: left;
+    font-family: "TrajanPro-Regular","Lusitana",Times,serif;
+    font-size: 48px;
+    height: 100%;
+    margin-right: 0.1em;
+    text-align: center;
+    width: 43px;
+}
        
-         .seccion-arco .arco-1 .titulo {
-            color: #8c8c8c;
-            display: inline;
-            font-family: trajanregular;
-            font-size: 1em;
-            margin-right: 0.3em;
-            text-align: center;
-        }
+        .seccion-arco .arco-1 .titulo {
+    color: #8c8c8c;
+    display: inline;
+    font-family: trajanregular;
+    font-size: 1.1em;
+    margin-right: 5px;
+    text-align: center;
+}
        
          .arco-4 {
-            left: 937px;
-            position: absolute;
-            top: 270px;
-            width: 412px;
-            display:none;
+            display: none;
+    left: 860px;
+    position: absolute;
+    top: 302px;
+    width: 340px;
         }
          
          .target-4 {
@@ -1476,45 +1565,34 @@
          }
        
           .seccion-arco .arco-4 .indice { 
-            font-family: "TrajanPro-Regular", "Lusitana", Times, serif;
-            font-size: 48px;
             color: #9fad9f;
-            display: inline-block;
-            float: left;
-            margin-right: 0.5em;
-            width: 65px;
-            text-align: center;
-            height: 100%;
+    display: inline-block;
+    float: left;
+    font-family: "TrajanPro-Regular","Lusitana",Times,serif;
+    font-size: 48px;
+    height: 100%;
+    margin-right: 5px;
+    text-align: center;
+    width: 65px;
           }
  
           .seccion-arco .arco-4 .titulo {
             color: #8c8c8c;
-            display: inline;
-            font-family: trajanregular;
-            font-size: 1em;
-            margin-right: 0.3em;
-            text-align: center;
-          }
- 
-          .seccion-arco .arco-4 .texto, 
-          .seccion-arco .arco-4 .texto p, 
-          .seccion-arco .arco-4 .texto p:nth-child(2) {
-            display: inline-block;
-            float: left;
-            font-family: "Optima", "Open Sans",sans-serif !important;
-            text-transform: none;         
-            font-size: 16px !important;
-            width: 310px;
+    display: inline;
+    font-family: trajanregular;
+    font-size: 1.1em;
+    margin-right: 5px;
+    text-align: center;
           }
        
           /* Lado izquierdo - índice lado derecho */
         
           .arco-3 {
-              left: 0;
-              position: absolute;
-              top: 85px;
-              width: 460px;
-              display:none;
+              display: none;
+    left: 50px;
+    position: absolute;
+    top: 118px;
+    width: 345px;
           }
           
         
@@ -1528,44 +1606,34 @@
        
        
            .seccion-arco .arco-3 .indice { 
-             font-family: "TrajanPro-Regular", "Lusitana", Times, serif;
-             font-size: 48px;
              color: #9fad9f;
-             display: inline-block;
-             float: right;
-             margin-left: 0.5em;
-             width: 65px;
-             text-align: center;
-             height: 100%;
+    display: inline-block;
+    float: right;
+    font-family: "TrajanPro-Regular","Lusitana",Times,serif;
+    font-size: 48px;
+    height: 100%;
+    margin-left: 5px;
+    text-align: center;
+    width: 65px;
            }
  
            .seccion-arco .arco-3 .titulo {
              color: #8c8c8c;
-            display: inline;
-            font-family: trajanregular;
-            font-size: 1em;
-            margin-right: 0.3em;
-            text-align: center;
+    display: inline;
+    font-family: trajanregular;
+    font-size: 1.1em;
+    margin-right: 5px;
+    text-align: center;
+    word-wrap: normal;
            }
  
-           .seccion-arco .arco-3 .texto, 
-           .seccion-arco .arco-3 .texto p, 
-           .seccion-arco .arco-3 .texto p:nth-child(2) {
-             display: inline-block;
-             float: right;
-             text-align: right;
-             font-family: "Optima", "Open Sans",sans-serif !important;
-             text-transform: none;         
-             font-size: 16px !important;
-             width: 360px;
-           }
         
            .arco-2 {
-                left: 0;
-                position: absolute;
-                top: 430px;
-                width: 450px;
-                display:none;
+                display: none;
+    left: 35px;
+    position: absolute;
+    top: 460px;
+    width: 345px;
             }
                    
            .target-2 {
@@ -1577,38 +1645,26 @@
               cursor: pointer;
            }
        
-            .seccion-arco .arco-2 .indice { 
-              font-family: "TrajanPro-Regular", "Lusitana", Times, serif;
-              font-size: 48px;
-              color: #9fad9f;
-              display: inline-block;
-              float: right;
-              margin-left: 0.5em;
-              width: 65px;
-              text-align: center;
-              height: 100%;
-            }
+            .seccion-arco .arco-2 .indice {
+    color: #9fad9f;
+    display: inline-block;
+    float: right;
+    font-family: "TrajanPro-Regular","Lusitana",Times,serif;
+    font-size: 48px;
+    height: 100%;
+    margin-left: 5px;
+    text-align: center;
+    width: 65px;
+}
  
             .seccion-arco .arco-2 .titulo {
-              color: #8c8c8c;
-            display: inline;
-            font-family: trajanregular;
-            font-size: 1em;
-            margin-right: 0.3em;
-            text-align: center;
-            }
- 
-            .seccion-arco .arco-2 .texto, 
-            .seccion-arco .arco-2 .texto p, 
-            .seccion-arco .arco-2 .texto p:nth-child(2) {
-              display: inline-block;
-              float: right;
-              text-align: right;
-              font-family: "Optima", "Open Sans",sans-serif !important;
-              text-transform: none;         
-              font-size: 16px !important;
-              width: 360px;
-            }
+    color: #8c8c8c;
+    display: inline;
+    font-family: trajanregular;
+    font-size: 1.1em;
+    margin-right: 0.3em;
+    text-align: center;
+}
         
            /* Texto en la sección del arco */
            
@@ -1897,8 +1953,9 @@
         }
     
         .imagen-ballesta {
+    display: block;
     height: 508px;
-    margin: 0 auto !important;
+    margin: 30px auto 0 !important;
     width: 521px;
 }
 
@@ -1906,6 +1963,7 @@
     height: 521px;
     margin: 0 auto !important;
     width: 448px;
+    display:block;
 }
     
     

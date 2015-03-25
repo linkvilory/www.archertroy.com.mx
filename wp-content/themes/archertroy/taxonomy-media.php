@@ -21,11 +21,11 @@ get_header(); ?>
 
 	<div id="primary" class="site-content">
 		<div id="content" role="main">
-    	<article  class="page type-page status-publish hentry">
+    	<article id="innerProyectos" class="page type-page status-publish hentry">
     		<header class="entry-header">
     			<h1>Proyectos > <?= get_query_var($wp_query->query_vars['taxonomy']); ?></h1>
     		</header>
-        <div class='grid'>
+        <div class='grid proyectos'>
 			<?php while ( have_posts() ) : the_post(); ?>
         <div class='wp-caption'>
             <a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_post_thumbnail(); ?></a> 

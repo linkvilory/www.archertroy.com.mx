@@ -51,6 +51,19 @@
   background-color: #7F7F7F;
 }
 /* Intro page */
+.coverPhotoFront.Img.Brainbreak {
+	display: none;
+}
+.coverPhotoFront.Bg.Brainbreak {
+    background-image: url(../../../wp-content/uploads/cover/brainbreakLess959.gif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 230px;
+    max-width: 100% !important;
+    width: 100%;
+} 
 /* 
  * Main page 
  */   
@@ -63,10 +76,15 @@
     min-height: 350px;
     width: 100%;
 }
-.primerInnerPadding, #post-10, #post-12, #post-14 {
+.primerInnerPadding, #post-10, #post-12, #post-14, #innerProyectos {
     padding: 0 20px;
     width: 100%;
     box-sizing: unset;
+}
+.brainbreakContainer {
+    padding: 0 20px;
+    width: 100%;
+    box-sizing: box-sizing;
 }
 .primerInnerPadding h1:nth-child(1) {
     font-family: trajanregular;
@@ -383,6 +401,10 @@
   }
   
   /* Datos personas */
+  .datos-persona {
+    height: 100%;
+    width: 100%;
+}
   .datos-persona .persona, .datos-persona .handler {
     font-family: "Optima", "Open Sans",sans-serif;
     text-transform: none;
@@ -391,14 +413,14 @@
   }
 
   .datos-persona .persona {
-    width: 55%;  
+    width: 60%;  
     text-align: left;
-    padding-left: 1em;
+    padding-left: 5%;
   }
 
   .datos-persona .handler {
-    width: 35%;   
-    padding-right: 1em;
+    width: 40%;   
+    padding-right: 5%;
   }
 
 
@@ -582,9 +604,29 @@
   /*
   Aumentar el tamaño de las imágenes de "gente" */
   .gente > div {
-    width: 244px;
-    max-width: 244px;
+    width: 250px;
+    max-width: 250px;
+    height: 250px;
+    max-height: 250px;
+    margin: 0 0 15px;
+    opacity: 0;
   }
+  .gente div img {
+    height: 250px;
+    margin: 0;
+    padding: 0;
+    width: 250px;
+}
+.gente > div .wp-caption-text {
+    background: none repeat scroll 0 0 rgb(255, 255, 255);
+    bottom: 0 !important;
+    display: block;
+    height: 80px;
+    padding: 10px 0 0 !important;
+    position: absolute;
+    width: 100%;
+    opacity:0;
+}
   
   .blog-grid > div, .blog-grid > a {
     width: 240px;
@@ -622,12 +664,99 @@
     
   /* Centrar contenido de formularios de contacto */
   .contacto {
-    display: block;
     clear: both;
+    display: block;
     float: none;
-    width: 552px;
-    margin: 1.714285714rem auto;
+    padding: 60px 20px 0 !important;
+    width: 100%;
+    overflow:visible;
   }
+  .formulario {
+    float: none;
+    width: 100%;
+}
+.lugar {
+    float: none;
+    font-family: optimaregular;
+    font-size: 1.2em;
+    margin-top: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+.leyenda {
+    float: none;
+    overflow: visible;
+    width: 100%;
+}
+.leyenda img {
+    display: block;
+    margin: auto;
+    max-width: 800px;
+    width: 100%;
+}
+ #cntctfrm_contact_form input[type="submit"]:focus {outline:0;}
+
+#cntctfrm_contact_form input[type="submit"]::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#cntctfrm_contact_form input[type="submit"]{
+  font-family: 'optimaregular';
+  font-size: 18px;
+  letter-spacing: 2px;
+  position: relative;
+  border: none;
+  min-width: 162px;
+  min-height: 32px;
+  background-color: #cccccc;
+  color: white;
+  text-transform: uppercase;
+  vertical-align: middle;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+#cntctfrm_contact_form input[type="submit"]:hover {
+  background-color: #7F7F7F;
+}
+#cntctfrm_contact_form div:last-child {
+    margin-top: 30px;
+    padding: 0 !important;
+    text-align: center !important;
+}
+.ver-mapa:focus {outline:0;}
+
+.ver-mapa::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ver-mapa {
+  font-family: 'optimaregular';
+  font-size: 18px;
+  letter-spacing: 2px;
+  position: relative;
+  border: none;
+  min-width: 162px;
+  min-height: 32px;
+  background-color: #cccccc;
+  color: white;
+  margin-top: 62px;
+  text-transform: uppercase;
+  vertical-align: middle;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+.ver-mapa:hover {
+  background-color: #7F7F7F;
+} 
   
   .centrar p {
     width: inherit;

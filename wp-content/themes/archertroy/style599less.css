@@ -54,15 +54,7 @@
 /* 
  * Main page 
  */   
-.coverPhoto {
-    background-image: url(/wp-content/uploads/2014/11/header1.jpg);
-    background-position: center center;
-    background-size: cover;
-    display: block;
-    height: 100%;
-    min-height: 350px;
-    width: 100%;
-}
+
 /* Main page */ 
   .main-navigation {
     height: 80px;
