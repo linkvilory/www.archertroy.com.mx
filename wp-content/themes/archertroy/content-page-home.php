@@ -84,7 +84,7 @@
               'posts_per_page' => 5
           ); */
           $args = array(
-              'post_type' => array('noticia', 'post'),
+              'post_type' => 'noticia',
               'order' => 'ASC',
               'orderby' => 'date',
               'posts_per_page' => 8

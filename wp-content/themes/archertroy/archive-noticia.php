@@ -35,7 +35,6 @@ get_header(); ?>
 	<div id="primary" class="news-listing">
 
 		<div id="content" role="main" class='visualizador-noticias'>
-    	<?php echo $post->ID;?>
         <h1>Noticias</h1>
 
             

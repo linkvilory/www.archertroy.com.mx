@@ -218,8 +218,6 @@
           imagesLoaded($landing, function() {
       
           });
-          //$('#menu-item-27 .sub-menu').prepend("<li id='sub-menu-item-27' class='menu-item menu-item-type-post_type menu-item-object-page menu-item-27 proyectos-movil'><a href='/projects/'>Todos</a></li>");          
-          //$("#menu-item-160 .sub-menu").prepend("<li id='sub-menu-item-652' class='menu-item menu-item-type-post_type menu-item-object-page menu-item-652 proyectos-movil'><a href='/legion/'>La conquista</a></li>");          
         } else {
           imagesLoaded( $landing, function() {
             $landing.fadeIn(800, function () {

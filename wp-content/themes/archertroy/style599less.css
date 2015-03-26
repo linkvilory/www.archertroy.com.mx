@@ -330,735 +330,119 @@
          -o-transform: scale(1.8);
             transform: scale(1.8);
   }
-  
-  /* Página legion - estilos predeterminados */  
-
-  /* Sección legión */
-      section.legion { 
-          width: 272px; 
-          margin: 15px auto; 
-          display: table;
-      }
-    
-      section.legion h4.title-super { 
-          color: #d1d2d4; 
-          text-transform: uppercase; 
-          font-size: 15px; 
-          line-height: 1;
-          margin: 0 !important;
-      }
-
-     section.legion h1.title {
-        color: #d1d2d4; 
-        text-transform: uppercase; 
-        font-size: 40px !important; 
-        margin: 0 0 6px 0 !important;
-      }
-    
-      section.legion div.column-left {
-        margin: 0;
-        padding: 0;
-        float: none;
-        width: 100%;
-        display: table-row;
-      }
-    
-      section.legion div.column-right {
-        margin: 0;
-        padding: 0;
-        float: none;
-        width: 100%;
-        display: table-row;      
-      }
-    
-     section.legion ol.first-list {
-        font-size: 11px;
-        margin-top: 5px;
-      }
-      
-      section.legion ol.first-list li {
-        margin: 0;
-      }
-    
-      section.legion .first-tag-line {
-        position: relative;
-        color: #B1BDAD;
-        width: 94%;
-        font-size: 9px;
-        line-height: 1.1;
-        text-align: left;
-      }
-    
-      section.legion span.left-bracket {
-        position: absolute;
-        top: 45%;
-        left: -2.5%;
-        font-weight: 100;    
-      }
-    
-      section.legion span.upper {
-        word-spacing: 3px;
-      }
-    
-      section.legion span.lower {
-      
-      }
-    
-      section.legion span.right-bracket {
-        position: absolute;
-        top: 45%;
-        /* right: 12.2%; */
-        right: 17.2%;
-        font-weight: 100;
-      }
-    
-      section.legion .column-right p, section.legion .column-right p:nth-child(2) {
-        font-family: "Optima", "Open Sans",sans-serif !important;
-        font-size: 11px !important;
-        width: 100% !important;
-        color: #8c8c8c !important;
-        line-height: 1.44;
-      }
-
-  /* Sección filosofía */
-      section.filosofia { 
-          width: 272px; 
-          margin: 40px auto 15px auto; 
-          height: auto;  
-          display: table;      
-      }
-    
-      section.filosofia h4.title-super { 
-          color: #d1d2d4; 
-          text-transform: uppercase; 
-          font-size: 15px; 
-          line-height: 1;
-          margin: 0 !important;
-      }
-
-     section.filosofia h1.title {
-        color: #d1d2d4; 
-        text-transform: uppercase; 
-        font-size: 40px !important; 
-        margin: 0 !important;
-        line-height: 44px;
-      }
-    
-       section.filosofia h2.title-sub {
-        color: #939598;
-        font-size: 20px;
-        margin: 0 0 30px 6px !important;    
-        line-height: 0;  
-      }
-    
-      section.filosofia div.column-left {
-        margin: 0;
-        padding: 0;
-        float: none;
-        width: 100%;
-        display: table-row;
-      }
-    
-      section.filosofia div.column-right {
-        margin: 0;
-        padding: 0;
-        float: none;
-        width: 100%;
-        display: table-row;      
-      }
-    
-      section.filosofia .column-left p, section.filosofia .column-left p:nth-child(2)  {
-        font-family: "Optima", "Open Sans",sans-serif !important;
-        font-size: 12px !important;
-        width: 272px !important;
-        padding: 0 !important;
-        color: #8c8c8c !important;
-        line-height: 1.46;
-      }
-    
- 
-      section.filosofia .column-right p, section.filosofia .column-right p:nth-child(2) {
-        font-family: "Optima", "Open Sans",sans-serif !important;
-        font-size: 12px !important;
-        width: 272px !important;
-        padding: 0 !important;
-        color: #8c8c8c !important;
-        line-height: 1.46;
-      }
-
-      /* Sección metodología  */
-          section.metodologia { 
-              width: 272px; 
-              margin: 90px auto 15px auto; 
-              height: auto;  
-              display: table;      
-          }
-    
-          section.metodologia h4.title-super { 
-              color: #d1d2d4; 
-              text-transform: uppercase; 
-              font-size: 15px; 
-              line-height: 1;
-              margin: 0 0 3px 0 !important;
-          }
-
-         section.metodologia h1.title {
-            color: #d1d2d4; 
-            text-transform: uppercase; 
-            font-size: 60px !important; 
-            margin: 0 !important;
-            line-height: 61px;
-          }
-    
-           section.metodologia h2.title-sub {
-            color: #939598;
-            font-size: 30px;
-            margin: 0 0 30px 10px !important;    
-            line-height: 0;  
-          }
-    
-          section.metodologia div.column-left {
-            margin: 0;
-            padding: 0;
-            float: none;
-            width: 100%;
-            display: table-row;
-          }
-    
-          section.metodologia div.column-right {
-            margin: 0;
-            padding: 0;
-            float: none;
-            width: 100%;
-            display: table-row;      
-          }
-    
-          section.metodologia .column-left p, section.metodologia .column-left p:nth-child(2) {
-            font-family: "Optima", "Open Sans",sans-serif !important;
-            font-size: 12px !important;
-            width: 272px !important;
-            padding: 0 !important;
-            color: #8c8c8c !important;
-            line-height: 1.44;
-          }
-
-          section.metodologia .column-right p, section.metodologia .column-right p:nth-child(2) {
-            font-family: "Optima", "Open Sans",sans-serif !important;
-            font-size: 12px !important;
-            width: 272px !important;
-            padding: 0 !important;
-            color: #8c8c8c !important;
-            line-height: 1.44;
-          }
-  
-  
-          section.metodologia .second-tag-line {
-            position: relative;
-            color: #B1BDAD;
-            width: 213px;
-            margin-left: 10px;
-            font-size: 11px;
-            line-height: 1.1;
-            text-align: justify;
-          }
-        
-          section.metodologia span.upper {
-            word-spacing: 5px;
-            display: block;
-          }
-    
-          section.metodologia span.lower {
-            display: block;
-          }
-        
-          section.metodologia span.left-bracket {
-            position: absolute;
-            top: 16px;
-            left: -8px; 
-            font-size: 13px;
-          }
-    
-          section.metodologia span.right-bracket {
-            position: absolute;
-            top: 16px;
-            right: 11px;
-            font-size: 13px;
-          }
-        
-          /* Sección táctica */
-          section.tactica { 
-              width: 272px;
-              margin: 90px auto 15px auto; 
-              height: auto;  
-              display: table;      
-          }
-
-          section.tactica h4.title-super { 
-              color: #d1d2d4; 
-              text-transform: uppercase; 
-              font-size: 15px; 
-              line-height: 1;
-              margin: 0 !important;
-          }
-
-         section.tactica h1.title {
-            color: #939598; 
-            text-transform: uppercase; 
-            font-size: 26px !important; 
-            margin: 0 !important;
-          }
-    
-          section.tactica h2.title-sub {
-           color: #d1d3d4;
-           font-size: 13px;
-           margin: 0 0 30px 5px !important;    
-           line-height: 1;  
-         }
-       
-         section.tactica p#parrafo-tactica {
-           width: 216px;
-           float: left;
-           font-size: 11px;
-           line-height: 1.44;
-         }
-         
-         section.tactica p#parrafo-tactica-dos {
-           width: 216px;
-           float: none;
-           clear: both;
-           margin-top: 20px;
-           font-size: 11px;   
-           line-height: 1.44;                   
-         }
-              
-         section.tactica .seccion-arco {
-           position: relative;
-           font-size: 16px;
-           color: #8c8c8c;
-         }
-    
-         /* Texto en la sección del arco */
-         /* Lado derecho - índice lado izquierdo */
-       
-         .seccion-arco .arco-1 {
-           position: relative;
-           float: none;
-           clear: both;
-           display: block;
-           margin: 1em 0;
-           padding: 1em 0;
-         }
-       
-         .seccion-arco .arco-1 .indice { 
-           font-family: "TrajanPro-Regular", "Lusitana", Times, serif;
-           font-size: 16px;
-           color: #9fad9f;
-           display: inline-block;
-           float: left;
-           margin-right: 0.5em;
-           width: 14px;
-           text-align: center;
-           height: 100%;
-         }
-       
-         .seccion-arco .arco-1 .titulo {
-           font-family: "TrajanPro-Regular", "Lusitana", Times, serif;
-           display: inline;
-           text-align: center;
-           margin-right: 0.3em;
-         }
-       
-         .seccion-arco .arco-1 .texto, 
-         .seccion-arco .arco-1 .texto p, 
-         .seccion-arco .arco-1 .texto p:nth-child(2) {
-           display: inline-block;
-           float: left;
-           font-family: "Optima", "Open Sans",sans-serif !important;
-           text-transform: none;         
-           font-size: 11px !important;
-           line-height: 1.33;
-           width: 180px;
-         }
-       
-         .arco-4 {
-            position: relative;
-            float: none;
-            clear: both;
-            display: block;
-            margin: 1em 0;
-            padding: 1em 0;
-         }
-       
-          .seccion-arco .arco-4 .indice { 
-            font-family: "TrajanPro-Regular", "Lusitana", Times, serif;
-            font-size: 16px;
-            color: #9fad9f;
-            display: inline-block;
-            float: left;
-            margin-right: 0.5em;
-            width: 21px;
-            text-align: center;
-            height: 100%;
-          }
- 
-          .seccion-arco .arco-4 .titulo {
-            font-family: "TrajanPro-Regular", "Lusitana", Times, serif;
-            display: inline;
-            text-align: center;
-            margin-right: 0.3em;
-          }
- 
-          .seccion-arco .arco-4 .texto, 
-          .seccion-arco .arco-4 .texto p, 
-          .seccion-arco .arco-4 .texto p:nth-child(2) {
-            display: inline-block;
-            float: left;
-            font-family: "Optima", "Open Sans",sans-serif !important;
-            text-transform: none;         
-            font-size: 11px !important;
-            line-height: 1.33;
-            width: 180px;
-          }
-       
-          /* Lado izquierdo - índice lado derecho */
-        
-          .arco-3 {
-             position: relative;
-             float: none;
-             clear: both;
-             display: block;
-             margin: 1em 0;
-             padding: 1em 0;        
-          }
-       
-           .seccion-arco .arco-3 .indice { 
-             font-family: "TrajanPro-Regular", "Lusitana", Times, serif;
-             font-size: 16px;
-             color: #9fad9f;
-             display: inline-block;
-             float: left;
-             margin-right: 0.5em;
-             width: 23px;
-             text-align: center;
-             height: 100%;
-           }
- 
-           .seccion-arco .arco-3 .titulo {
-             font-family: "TrajanPro-Regular", "Lusitana", Times, serif;
-             display: inline;
-             text-align: center;
-             margin-right: 0.3em;
-           }
- 
-           .seccion-arco .arco-3 .texto, 
-           .seccion-arco .arco-3 .texto p, 
-           .seccion-arco .arco-3 .texto p:nth-child(2) {
-             display: inline-block;
-             float: left;
-             text-align: left;
-             font-family: "Optima", "Open Sans",sans-serif !important;
-             text-transform: none;         
-             font-size: 11px !important;
-             line-height: 1.33;
-             width: 210px;
-           }
-        
-           .arco-2 {
-              position: relative;
-              float: none;
-              clear: both;
-              display: block;
-              margin: 1em 0;
-              padding: 1em 0;
-           }
-       
-            .seccion-arco .arco-2 .indice { 
-              font-family: "TrajanPro-Regular", "Lusitana", Times, serif;
-              font-size: 16px;
-              color: #9fad9f;
-              display: inline-block;
-              float: left;
-              margin-right: 0.5em;
-              width: 21px;
-              text-align: center;
-              height: 100%;
-            }
- 
-            .seccion-arco .arco-2 .titulo {
-              font-family: "TrajanPro-Regular", "Lusitana", Times, serif;
-              display: inline;
-              text-align: center;
-              margin-right: 0.3em;
-            }
- 
-            .seccion-arco .arco-2 .texto, 
-            .seccion-arco .arco-2 .texto p, 
-            .seccion-arco .arco-2 .texto p:nth-child(2) {
-              display: inline-block;
-              float: left;
-              text-align: left;
-              font-family: "Optima", "Open Sans",sans-serif !important;
-              text-transform: none;         
-              font-size: 11px !important;
-              line-height: 1.33;
-              width: 200px;
-            }
-        
-         /* Texto en la sección del arco */
-           
-    
-         /* Sección interior */
-  
-         section.interior { 
-             width: 272px;            
-             margin: 30px auto; 
-             height: auto;  
-             display: table;      
-         }
-
-        section.interior h1.title {
-           color: #939598; 
-           text-transform: uppercase; 
-           font-size: 26px !important;
-           margin: 0 !important;
-         }
-   
-         section.interior h2.title-sub {
-          color: #d1d3d4;
-          font-size: 13px;
-          line-height: 1;
-          margin: 0 0 10px 1px !important;
-        }
-      
-        section.interior .third-tag-line {
-          position: relative;
-          margin-top: 11px;
-          color: #B1BDAD;
-          font-size: 12px;
-          line-height: 1.1;
-          text-align: center;
-        }
-      
-        section.interior span.left-bracket {
-          position: absolute;
-          top: 12px;
-          left: -6px;
-          font-size: 12px;
-        }
-  
-        section.interior span.right-bracket {
-          position: absolute;
-          top: 12px;
-          right: -6px;
-          font-size: 12px;
-        }
-      
-        section.interior span.upper {
-          display: block;
-          font-size: 9px;
-          line-height: 0;
-        }
-      
-        section.interior span.lower {
-          display: block;
-          font-size: 18px;
-          line-height: 0.3;
-        }
-      
-        section.interior div.born-archer {
-          margin: 0 auto;
-          text-align: center;
-          font-size: 12px;
-        }
-  
-        section.interior span.born {
-          display: inline;
-          color: #bfbfbf;
-        }
-      
-        section.interior span.archer {
-          display: inline;        
-          color: #8c8c8c;
-        }
-    
-        section.interior .seccion-caballo {
-          position: relative;
-        }
-  
-        .seccion-caballo div.conquistar-interno {
-          width: 94px;
-          height: 94px;
-          border-radius: 100%;
-          text-align: center;
-          border: 1px solid #a6a6a6;
-          display: block;
-          margin: 5px;
-        }
-      
-        .seccion-caballo div.conquistar-tag {
-          color: #bfbfbf;
-          font-size: 10px;
-          text-align: center;
-          line-height: 13px;
-          margin-top: 26px;
-        }
-
-
-        .seccion-caballo .mensaje-derecha-1, 
-        .seccion-caballo .mensaje-derecha-2, 
-        .seccion-caballo .mensaje-derecha-3,
-        .seccion-caballo .mensaje-izquierda-1,
-        .seccion-caballo .mensaje-izquierda-2, 
-        .seccion-caballo .mensaje-izquierda-3,
-        .seccion-caballo .mensaje-izquierda-4 {
-          position: relative;
-          font-size: 10px;
-          clear: both;
-          float: none;
-          margin: 0.5em 0;
-        }
-
-        .seccion-caballo .mensaje-derecha-1 .barra-horizontal-1,
-        .seccion-caballo .mensaje-derecha-2 .barra-horizontal-2,
-        .seccion-caballo .mensaje-derecha-3 .barra-horizontal-3,
-        .seccion-caballo .mensaje-izquierda-1 .barra-horizontal-1,
-        .seccion-caballo .mensaje-izquierda-2 .barra-horizontal-2,
-        .seccion-caballo .mensaje-izquierda-3 .barra-horizontal-3,
-        .seccion-caballo .mensaje-izquierda-4 .barra-horizontal-4 {
-          display: none;
-          overflow: hidden;
-        }
-        
-        .seccion-caballo .linea-superior {
-          color: #a6a6a6;
-        } 
-      
-        .seccion-caballo .linea-inferior {
-          color: #b1bdad;
-        }
-      
-        .seccion-caballo div.conquistar-externo {
-          position: absolute;
-          z-index: 2;
-          top: 21px;
-          left: 185px;
-          width: 106px;
-          height: 106px;
-          border-radius: 100%;
-          border: 2px solid #ffffff;        
-          background: #ffffff;
-        }
-      
-  .imagen-ballesta  {
-    width: 173px;
-    height: 169px;
-    display: none;
-  }
-
-  .imagen-caballo {
-    width: 149px;
-    height: 173px;
-    display: none;    
-  }
-
     /* Página legion - estilos predeterminados */ 
     /* Despliegue de la nueva sección de noticias */
+  .visualizador-noticias {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 100%;
+    width: 100%;
+}
+  
+  .visualizador-noticias > h1 {
+    color: #626161;
+    font-family: trajanregular;
+    font-size: 1.2em;
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+  
+  .listado-noticias {
+    border-bottom: 1px solid #ced5cb;
+    clear: both;
+    display: block;
+    float: none;
+    height: auto;
+    margin: 0 auto 20px;
+    width: 100%;
+}
+	.contenedor-imagen {
+    margin: auto;
+    max-height: 400px;
+    max-width: 400px;
+    min-height: 200px;
+    min-width: 200px;
+    overflow: hidden;
+}
+  .contenedor-imagen img {
+    height: 100% !important;
+    width: 100% !important;
+}
+  .contenedor-texto {
+    display: inline-block;
+    float: left;
+    margin: 20px 0 0;
+    width: 100%;
+}
+  
+  .titulo {
+    color: #808080;
+    font-family: optimaregular;
+    font-size: 1.8em;
+    line-height: 32px;
+    margin: 0 0 20px;
+}
+  
+  .contenedor-texto p {
+    color: #808080;
+    font-family: optimaregular;
+    font-size: 1.2em;
+    text-align: justify;
+}
+  
+  .datos-extra {
+    font-family: optimaregular;
+    font-size: 18px;   
+    height: 35px; 
+    margin-top: 1.25rem;
+    vertical-align: bottom;
+  }
+  
+  .fecha {
+    color: #9fad9f;
+    display: inline-block;
+    float: left;
+    font-family: optimaregular;
+    height: 1.5em;
+    line-height: 1.7;
+    width: 120px;
+}
 
-    .visualizador-noticias {
-       width: 100%;  
-       margin: 0 auto;
-    }
-  
-    .visualizador-noticias > h1 {
-      font-size: 24px;
-      font-weight: normal;
-      color: #626161;
-      margin-bottom: 2.5rem;
-    }
-  
-    .listado-noticias {
-      display: block; 
-      clear: both; 
-      float: none; 
-      margin: 0 auto 1rem 0;
-      padding: 0 0 2rem 0;
-      width: 100%; 
-      height: auto; 
-      border-bottom: 1px solid #ced5cb;
-    }
-  
-    .contenedor-imagen {
-      width: 80%;
-      margin: 0 auto; 
-      display: block; 
-      float: none; 
-      overflow: hidden;
-    }
-  
-    .contenedor-texto {
-      width: 100%; 
-      display: block; 
-      float: none; 
-      margin: 15px 0;
-    }
-  
-    .titulo {
-      font-size: 16px;
-      color: #808080;
-      margin: 0.85rem 0;
-    }
-  
-    .contenedor-texto p {
-      font-family: "Optima", "Open Sans",sans-serif;
-      font-size: 14px;
-      color: #808080;
-      line-height: 1.4;
-    }
-  
-    .datos-extra {
-      font-family: "Optima", "Open Sans",sans-serif;
-      font-size: 12px;   
-      height: 35px; 
-      margin: 0.85rem 0;
-      display: block;
-      clear: both;
-      float: none;
-    }
-  
-    .fecha {
-      color: #9fad9f;
-      width: 80px;
-      margin: 0 auto;
-      display: block;
-      float: none;
-      height: 20px;
-      text-align: center;
-    }
-  
-    .boton-noticia {
-      display: block;
-      margin: 15px auto;
-      background: #fff;
-      color: #242524;
-      border: 1px solid #242524;
-      border-radius: 0;
-      transition: all 0.5s;
-      height: 1.5em;
-      width: 210px;
-      text-align: center;
-      padding: 0.3em 0;
-      text-decoration: none;
-      line-height: 1.7;
-      float: none;
-      font-size: 12px;    
-    }
-  
-    .boton-noticia:hover {
-      color: #d2d2d4;
-    background: #fff;
-    border-radius: 0;  
-   border: 1px solid #d2d2d4;          
-    }
+.boton-noticia:focus {outline:0;}
+
+.boton-noticia::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.boton-noticia {
+  background-color: #cccccc;
+	border: medium none;
+	color: white;
+	display: block;
+	font-family: "optimaregular";
+	font-size: 18px;
+	height: 32px;
+	letter-spacing: 2px;
+	line-height: 34px;
+	min-height: 32px;
+	min-width: 162px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	vertical-align: middle;
+	width: 162px;
+	float:right;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+.boton-noticia:hover {
+  background-color: #7F7F7F;
+}
   
   
   

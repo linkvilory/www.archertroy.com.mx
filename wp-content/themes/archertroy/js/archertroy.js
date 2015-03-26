@@ -222,9 +222,6 @@ var $full_width_header = $('.entry-content p:first-child img:first'),
       msnry_container = document.querySelector(container);
       imagesLoaded( msnry_container, function() {
         msnry = new Masonry( msnry_container, options);     
-        if ($(window).outerWidth() > 599 && ajustar === true) {
-          posicionar_boton_carteles();
-        }
       });
     }
 
@@ -232,94 +229,14 @@ var $full_width_header = $('.entry-content p:first-child img:first'),
 
   function build_msnry_opts () {
     if ($(".galeria-de-posters").length > 0) {
-// 599 -> para que en tableta se vea el grid
-      if ($(window).outerWidth() > 959) {
-      /* Ordenar los posters de manera aleatoria  */ 
-        
-        if (window.location.pathname.search("aleatorios") !== -1) {
-          if (window.location.search === "" || window.location.search.search('1') !== -1 ) {
-              /* Cambiar las imágenes de orden */
-              var posters =  $('.galeria-de-posters img');
-              $('.galeria-de-posters').html(posters.toArray().shuffle());            
-            } else if (window.location.search.search('2') !== -1) {
-              /* Cambiar los contenedores de orden */
-              var posters =  $('.galeria-de-posters div');
-              $('.galeria-de-posters').html(posters.toArray().shuffle());              
-            } else if (window.location.search.search('3') !== -1) {
-              opts = {
-                gutter: 16,      
-                itemSelector: 'div',
-                transitionDuration: '1s'          
-              }
-              create_and_build_masonry('.galeria-de-posters', opts);
-              return true;  
-            } else if (window.location.search.search('4') !== -1) {
-              opts = {
-                gutter: 16,      
-                itemSelector: 'img',
-                transitionDuration: '1s'          
-              }
-              create_and_build_masonry('.galeria-de-posters', opts);
-              return true;  
-            }
-        }
-            
-
-      var layout_original = 1800;
-      var espaciado = Math.floor((15 * Math.floor($('.galeria-de-posters').outerWidth())) / layout_original);
-          espaciado -= 1; 
-          /* Ajustar espaciado para quepan en el renglón */
-
-      $('.galeria-de-posters img').each(function(idx, item) {
-        var tamano_relativo = ($(item).outerWidth() * $('.galeria-de-posters').outerWidth()) / layout_original;
-        var tamano_con_unidades = Math.floor(tamano_relativo) + "px";
-            $(item).css({'width': tamano_con_unidades, 'display': 'inline-block', 'float' : 'left', 'margin-right': espaciado, 'clear': 'none'});
-      });
       
-      /* Obtener el tamaño del grid que se encuentra dentro de la línea, con elementos antes y después. */  
-      var inner_column_two_horizontal_width = Math.ceil(($('.first-grid .two-horizontal img:first').outerWidth() +  $('.first-grid .two-horizontal img:last').outerWidth()) + (espaciado * 2));
-      $('.first-grid, .first-grid .two-horizontal, .third-grid, .third-grid .two-horizontal').width(inner_column_two_horizontal_width);
-
-      /* Obtener el tamaño del grid que es el último de la línea tiene elementos antes pero no después */        
-      var last_column_two_horizontal_width = ($('.second-grid .two-horizontal img:first').outerWidth() +  $('.second-grid .two-horizontal img:last').outerWidth()) + espaciado;
-          $('.second-grid .two-horizontal, .fifth-grid .two-horizontal').width(last_column_two_horizontal_width);      
-          last_column_two_horizontal_width -= 2;
-          $('.second-grid, .fifth-grid').width(last_column_two_horizontal_width);                
-          $('.second-grid, .second-grid .two-horizontal, .fifth-grid, .fifth-grid .two-horizontal').css({overflow: 'hidden'});      
-          
-        } else {
-          /* Posicionarlo en dos columnas de igual tamaño */
-          
-          /* 
-            Quitar los div que se utilizan para posicionar 
-            los posters en el grid personalizado.
-          */
-            $('.galeria-de-posters a').unwrap();
-          
-            if ($('.galeria-de-posters div').length > 0) {
-              /* Si hay elementos dentro de dos divs remover el segundo div */
-              $('.galeria-de-posters div a').unwrap();
-            }
-            
-            /* 
-              Eliminar los párrafos que se pudieron 
-              generar con wordpress
-            */
-            $('.galeria-de-posters p').remove();
-            
-            /* 
-              Ajustar el tamaño de las imágenes para que, 
-              aunque sean más chicas utilicen todo el espacio del contenedor.
-            */
-            
-            $('.galeria-de-posters a img').css({width: '100%'});
-            
-            /*
-              Ajustar el tamaño del contenedor
-              para que se visualicen las imágenes
-            */
-            $('body').height($('.galeria-de-posters').outerHeight() + 94);
-        }
+      opts = {
+        gutter: 0,      
+        itemSelector: 'div',
+        transitionDuration: '1s'          
+      }
+      create_and_build_masonry('.galeria-de-posters', opts);
+      
     } else if ($('.clientes').length > 0) {
         opts = {
           gutter: 16,   
@@ -327,7 +244,7 @@ var $full_width_header = $('.entry-content p:first-child img:first'),
           transitionDuration: '1s'          
         }
         create_and_build_masonry('.clientes', opts);
-    }  else if ($('.gente').length > 0) {
+    } else if ($('.gente').length > 0) {
         opts = {
           gutter: 15,
           itemSelector: 'div',
@@ -349,12 +266,6 @@ var $full_width_header = $('.entry-content p:first-child img:first'),
         }         
       create_and_build_masonry('.grid', opts, true);
     } 
-  }
-  
-  function posicionar_boton_carteles() {
-    var right_position = $('.grid div:last').position().left + $('.grid div:last').outerWidth();
-    right_position = $('.grid').outerWidth() - right_position;
-    $('a.large').css({position: 'absolute', right: right_position, bottom: '-50px'});    
   }
   
   /* Ajustar datos de las personas para visualizar */
@@ -477,20 +388,13 @@ var $full_width_header = $('.entry-content p:first-child img:first'),
   
   
   $(window).on('resize', function () {
+    build_msnry_opts();
     ajustar_footer();
     mover_footer_al_fondo();
   }); 
 
   /* Al momento en que se cargan la ventana mandamos ejecutar las siguientes funciones. */
   window.onload = function () {
-    
-    if (es_movil()) {
-      $('#menu-item-27 .sub-menu').prepend("<li id='sub-menu-item-27' class='menu-item menu-item-type-post_type menu-item-object-page menu-item-27 proyectos-movil'><a href='/projects/'>Todos</a></li>");
-      
-      $("#menu-item-160 .sub-menu").prepend("<li id='sub-menu-item-652' class='menu-item menu-item-type-post_type menu-item-object-page menu-item-652 proyectos-movil'><a href='/legion/'>La conquista</a></li>");
-      
-    } 
-    
     asignar_clase_a_iconos_sociales();
     ajustar_footer();  
     build_msnry_opts();
