@@ -354,35 +354,10 @@ img.wp-post-image {
 	height: auto; /* Make sure images with WordPress-added height and width attributes are scaled correctly */
 }
 
+/*
+ *
+ */
 /* Centrar las imágenes del grid de home  */
-.galeria-de-posters {
-  position: relative;
-  line-height: 1.714285714;
-  margin: 0;
-  padding: 0;
-  display: block; 
-  clear: both; 
-  float: none;
-  text-align: justify;
-  -ms-text-justify: distribute-all-lines;
-  text-justify: distribute-all-lines;
-}
-
-.galeria-de-posters > a {
-  width: 130px;
-	max-width: 130px;
-	display: inline-block;
-	vertical-align: top;
-	*display: inline;
-	zoom: 1;
-	margin: 0.5rem 0;
-}
-
-.galeria-de-posters:after  {
-	content: "";
-	width: 100%;
-	display: inline-block;
-}
 
 .grid  {
   position: relative;
@@ -441,20 +416,26 @@ img.wp-post-image {
 }
 
 .project-navigation {
-  margin: 1em 0;
-  display: block;
-  clear: both;
-  float: none;
-  height: 30px;
-  position: relative;
-}
+    font-family: optimaregular;    
+    display: block;
+    clear: both;
+    float: none;
+    margin: 3em 1em;
+    width: 100%;
+    text-transform: uppercase;
+    /* Utilizar position relative para que las flechas de navegación queden centradas */
+    position: relative;
+  }
 
 .wonderplugincarousel {
   width: 80% !important;
 }
 
 .blog-link {
-  text-decoration: none;
+    font-family: trajanregular;
+    font-size: 1.2rem;
+    font-weight: normal;
+    text-decoration: none;
 }
 
 .blog-grid  {
@@ -487,7 +468,7 @@ img.wp-post-image {
 }
 
 /* Ajustar visualización datos de la publicación  */
-.blog-wp-caption-text {
+.blog-wp-caption-text, .wp-caption-text {
   background: none repeat scroll 0 0 rgb(255, 255, 255);
   text-align: left;
   bottom: 0.7em;
@@ -511,7 +492,7 @@ img.wp-post-image {
 }
 
 
-.blog-wp-caption-text .caption-title {
+.blog-wp-caption-text .caption-title, .wp-caption-text .caption-title {
   font-family: optimaregular;
   font-size: 14px;
   font-weight: bold;
@@ -521,7 +502,7 @@ img.wp-post-image {
   left: 15px;
 }
 
-.blog-wp-caption-text  .caption-date {
+.blog-wp-caption-text .caption-date, .wp-caption-text .caption-date {
   font-family: optimaregular;
   font-size: 12px;
   font-style: italic;
@@ -981,10 +962,7 @@ body {
 }
 a {
 	outline: none;
-	color: #9fad9f;
-}
-a:hover {
-	color: #0f3647;
+	color: #626161;
 }
 
 #main {
@@ -1070,6 +1048,19 @@ a:hover {
 /*
  * Main page 
  */
+.coverPhotoFront.Img.Cablevision {
+  display: none;
+}
+.coverPhotoFront.Bg.Cablevision {
+    background-image: url(../../../wp-content/uploads/2015/03/CablevisionLess959.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 230px;
+    max-width: 100% !important;
+    width: 100%;
+}  
 .coverPhotoFront.Img.Home {
 	display: none;
 }
@@ -1122,6 +1113,49 @@ a:hover {
     max-width: 100% !important;
     width: 100%;
 } 
+.innerArticuloProyecto {
+    margin: auto;
+    max-width: 100%;
+    width:100%;
+    padding:0 20px;
+}
+.innerArticuloProyecto h1 {
+    font-family: trajanregular;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 60px 0 20px 0;
+    text-align: justify;
+    width: 100%;
+    font-weight: normal;
+}
+.innerArticuloProyecto p {
+    font-family: optimaregular;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: justify;
+    width: 100%;
+}
+.innerArticuloProyectoGaleria.Desktop {
+    display: none;
+    margin: auto;
+    width: 960px;
+}
+.innerArticuloProyectoGaleria.Movil {
+    display: block;
+    margin: 20px 0;
+}
+.innerArticuloProyectoGaleria.Movil > img {
+    display: block;
+    margin: auto;
+    padding: 0 20px;
+    max-width: 100%;
+    width: 90%;
+}
+
+.innerArticuloProyecto #ytplayer{
+  width:200px;
+  height:150px;
+}
 .primerInnerPadding, #post-10, #post-12, #post-14, #innerProyectos {
     padding: 0 20px;
     width: 100%;
@@ -1630,15 +1664,16 @@ article.sticky .featured-post {
 .mu_register {
 	line-height: 1.714285714;
 }
-.entry-content h1,
-.entry-summary h1,
-.mu_register h1 {    
-    font-family: trajanregular!important;
+/*
+.entry-content h1, .entry-summary h1, .mu_register h1 {
+    font-family: trajanregular !important;
     font-size: 1.15em;
-    line-height: 1.15;
     font-weight: lighter;
-    margin: 0 0 20px
-}    
+    line-height: 1.15;
+    margin: 0 0 20px;
+    width: 100%;
+    padding: 0 20px;
+}  */
 .entry-content h2,
 .comment-content h2,
 .mu_register h2 {
@@ -3224,109 +3259,6 @@ margin-bottom: 1em;
 .mini-logo-internal > img {
     width: 100%;
 }
-/* Clases para visualización de imágenes / mini grids o mini retículas en la sección de posters */    
-    .galeria-de-posters .one-large {
-      display: inline-block;
-      float: left;
-    }
-
-    .galeria-de-posters .two-vertical {
-      display: inline-block;
-      float: left;
-    }
-
-    .galeria-de-posters .first-grid {
-      display: inline-block;
-      float: left;
-      width: auto;
-    }
-
-    .galeria-de-posters .first-grid .two-horizontal, 
-    .galeria-de-posters .first-grid .one-vertical {
-      display: block;
-      clear: both;
-      float: none;
-    }
-
-    .galeria-de-posters .first-grid .two-horizontal img, 
-    .galeria-de-posters .first-grid .one-vertical img {
-      margin-bottom: 0;
-    }
-
-
-    .galeria-de-posters .two-horizontal {
-      display: inline-block;
-      float: left;
-    }
-
-    .galeria-de-posters .two-horizontal img {
-      display: inline !important;
-      float: left  !important;
-      clear: none !important;
-    }
-
-    .galeria-de-posters .one-vertical {
-      display: inline-block;
-      float: left;
-    }
-
-    .galeria-de-posters .two-vertical {
-      display: inline-block;
-      float: left;  
-    }
-
-    .galeria-de-posters .two-vertical img {
-      display: block !important;
-      clear: both !important;
-      float: none  !important;
-    }
-
-    .galeria-de-posters .second-grid {
-      display: inline-block;
-      float: left;
-      overflow: hidden;
-    }
-
-    .galeria-de-posters .second-grid .one-vertical img,
-    .galeria-de-posters .second-grid .two-horizontal a:last-child img {
-      margin-right: 0 !important;
-    }
-
-    .galeria-de-posters .second-grid .two-horizontal img {
-      margin-top: 0 !important;
-    }
-
-    .third-grid {
-      display: inline-block;
-      float: left;
-    }
-
-    .galeria-de-posters .third-grid .two-horizontal img {
-      margin-bottom: 0 !important;
-    }
-
-
-    .galeria-de-posters .fifth-grid {
-      display: inline-block;
-      float: left;
-      overflow: hidden;
-    }
-
-    .galeria-de-posters .fifth-grid .two-horizontal img {
-      margin-bottom: 0 !important;
-    }
-    
-    .galeria-de-posters .fifth-grid .two-horizontal a:last-child img {
-      margin-right: 0 !important;
-    }
-    
-    .galeria-de-posters .sin-margen a:last-child img {
-      margin-right: 0 !important;
-    }
-    
-    .galeria-de-posters .inicio-renglon {
-      clear: left;
-    }
 
 /* Clases para visualización de imágenes / mini grids o mini retículas en la sección de posters */    
     
@@ -3343,8 +3275,8 @@ margin-bottom: 1em;
   /* Video */
   
   .videoWrapper {
-  	
-  }
+    padding: 20px 0 0;
+}
   .videoWrapper iframe {
 
   }
@@ -4432,6 +4364,7 @@ margin-bottom: 1em;
     font-size: 1.8em;
     line-height: 32px;
     margin: 0 0 20px;
+    font-weight: normal;
 }
   
   .contenedor-texto p {
@@ -4613,3 +4546,154 @@ textarea {
 
 /* Esconder ICONO HAMBURGER EN SECCION BLOG  */
 .hamburger-menu-icon{display:none !important;}
+
+/* 
+ * Seccion especial para los carteles en donde por cada 200 px se modificaran los atributos para que se vea una transicion agradable
+ */
+  .carteles {
+    box-sizing: unset;
+    margin: auto;
+    max-width: 1800px !important;
+    min-width: 280px !important;
+    padding: 0 20px !important;
+    opacity: 0;
+}
+.carteles img {
+    margin: 0 !important;
+}
+.larger {
+    margin: 0 10px 2px 0;
+    max-width: 211px !important;
+    min-width: 211px !important;
+    max-height: 313px !important;
+    min-height: 313px !important;
+    width: 100% !important;
+}
+.shorter {
+    height: 313px !important;
+    margin: 0 10px 2px 0;
+    width: 211px !important;
+}
+.smaller {
+    height: 144px !important;
+    width: 98px !important;
+}
+.smaller.left{
+  margin: 7px 15px 7px 0;
+}
+.smaller.right{
+  margin: 7px 10px 7px 0;
+
+}
+@media screen and (min-width: 200px) and (max-width: 399px){
+  .carteles {
+    box-sizing: unset;
+    margin: auto;
+    max-width: 1800px !important;
+    min-width: 280px !important;
+    padding: 0 20px !important;
+}
+
+.larger {
+    margin: 0 10px 2px 0;
+    max-width: 211px !important;
+    min-width: 211px !important;
+    max-height: 313px !important;
+    min-height: 313px !important;
+    width: 100% !important;
+}
+
+}
+@media screen and (min-width: 400px) and (max-width: 599px){
+.carteles {
+    max-width: 100% !important;
+}
+  .larger {
+    max-width: 211px !important;
+    min-width: 211px !important;
+    max-height: 313px !important;
+    min-height: 313px !important;
+}
+}
+@media screen and (min-width: 600px) and (max-width: 799px){
+.carteles {
+    max-width: 100% !important;
+}
+  .larger {
+    max-width: 211px !important;
+    min-width: 211px !important;
+    max-height: 313px !important;
+    min-height: 313px !important;
+}
+}
+@media screen and (min-width: 800px) and (max-width: 999px){
+.carteles {
+    max-width: 100% !important;
+}
+  .larger {
+    max-width: 211px !important;
+    min-width: 211px !important;
+    max-height: 313px !important;
+    min-height: 313px !important;
+}
+}
+@media screen and (min-width: 1000px) and (max-width: 1199px) {
+  .carteles {
+    max-width: 1000px !important;
+}
+  .larger {
+    max-width: 211px !important;
+    min-width: 211px !important;
+    max-height: 313px !important;
+    min-height: 313px !important;
+}
+}
+@media screen and (min-width: 1200px) and (max-width: 1399px){
+  .carteles {
+    max-width: 1200px !important;
+}
+  .larger {
+    max-width: 250px !important;
+    min-width: 211px !important;
+    max-height: 628px !important;
+    min-height: 313px !important;
+}
+}
+@media screen and (min-width: 1400px) and (max-width: 1599px) {
+  .carteles {
+    max-width: 1400px !important;
+}
+  .larger {
+    max-width: 300px !important;
+    min-width: 211px !important;
+    max-height: 628px !important;
+    min-height: 313px !important;
+}
+}
+@media screen and (min-width: 1600px) and (max-width: 1799px) {
+  .carteles {
+    max-width: 1600px !important;
+}
+  .larger {
+    max-width: 367px !important;
+    min-width: 211px !important;
+    max-height: 628px !important;
+    min-height: 313px !important;
+}
+}
+@media screen and (min-width: 1800px) {
+
+.carteles {
+    max-width: 1800px !important;
+}
+.larger {
+    max-width: 438px !important;
+    min-width: 211px !important;
+    max-height: 628px !important;
+    min-height: 313px !important;
+}
+
+}
+
+
+}

@@ -3,6 +3,17 @@
  */
 $( document ).ready(function() {
   
+  $("#cntctfrm_contact_form").submit(function(e){
+    alert("¡Gracias!");
+    return false;
+  });
+
+  if($(".carteles").length){
+    setTimeout(function () {
+        $(".carteles").animate({opacity: 1}, 1000);      
+    },1500);
+  }
+
   if($(".proyectos-recientes div").length){
     setTimeout(function () {
         $(".proyectos-recientes > div").animate({opacity: 1}, 1000);      
@@ -228,14 +239,15 @@ var $full_width_header = $('.entry-content p:first-child img:first'),
   /* Crear opciones para masonry */
 
   function build_msnry_opts () {
-    if ($(".galeria-de-posters").length > 0) {
+    if ($(".carteles").length > 0) {
       
       opts = {
         gutter: 0,      
-        itemSelector: 'div',
+        itemSelector: 'a',
+        columnWidth: 1,
         transitionDuration: '1s'          
       }
-      create_and_build_masonry('.galeria-de-posters', opts);
+      create_and_build_masonry('.carteles', opts);
       
     } else if ($('.clientes').length > 0) {
         opts = {
@@ -596,7 +608,7 @@ $('.mensaje-derecha-1, .mensaje-derecha-2, .mensaje-derecha-3, .mensaje-izquierd
       e.preventDefault();
       $.ajax({
           method: "POST",
-          url: "wp-content/themes/archertroy/overrideLoading.php",
+          url: "/wp-content/themes/archertroy/overrideLoading.php",
           data: { entro: "1"}
         })
         .done(function( msg ) {
@@ -607,7 +619,7 @@ $('.mensaje-derecha-1, .mensaje-derecha-2, .mensaje-derecha-3, .mensaje-izquierd
       e.preventDefault();
       $.ajax({
           method: "POST",
-          url: "wp-content/themes/archertroy/overrideLoading.php",
+          url: "/wp-content/themes/archertroy/overrideLoading.php",
           data: { entro: "1"}
         })
         .done(function( msg ) {
@@ -618,7 +630,7 @@ $('.mensaje-derecha-1, .mensaje-derecha-2, .mensaje-derecha-3, .mensaje-izquierd
       e.preventDefault();
       $.ajax({
           method: "POST",
-          url: "wp-content/themes/archertroy/overrideLoading.php",
+          url: "/wp-content/themes/archertroy/overrideLoading.php",
           data: { entro: "1"}
         })
         .done(function( msg ) {

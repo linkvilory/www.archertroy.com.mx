@@ -51,6 +51,47 @@
   background-color: #7F7F7F;
 }
 /* Intro page */
+.innerArticuloProyecto {
+    margin: auto;
+    max-width: 100%;
+    width:100%;
+    padding:0 20px;
+}
+.innerArticuloProyecto h1 {
+    font-family: trajanregular;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 60px 0 20px 0;
+    text-align: justify;
+    width: 100%;
+}
+.innerArticuloProyecto p {
+    font-family: optimaregular;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: justify;
+    width: 100%;
+}
+.innerArticuloProyectoGaleria.Desktop {
+    display: none;
+    margin: auto;
+    width: 960px;
+}
+.innerArticuloProyectoGaleria.Movil {
+    display: block;
+}
+.innerArticuloProyectoGaleria.Movil > img {
+    display: block;
+    margin: auto;
+    padding: 0 20px;
+    max-width: 100%;
+    width: 90%;
+}
+
+.innerArticuloProyecto #ytplayer{
+  width:400px;
+  height:250px;
+}
 /* 
  * Main page 
  */   
@@ -317,10 +358,7 @@
   }
   
   /* sidebar */
-  
-  .alignleft, .alignright {
-    bottom: -3em;
-  }
+
   
   /* Contacto */
   

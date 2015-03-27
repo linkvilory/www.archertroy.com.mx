@@ -26,9 +26,10 @@ body:after {
 }
 
 .lightbox .lb-image {
-  display: block;
-  height: auto;
-  max-width: inherit;
+    display: block;
+    height: auto;
+    max-width: inherit;
+    margin: 10px !important;
 }
 
 .lightbox a img {
@@ -36,12 +37,11 @@ body:after {
 }
 
 .lb-outerContainer {
-  position: relative;
   background-color: white;
-  *zoom: 1;
-  width: 250px;
-  height: 250px;
-  margin: 0 auto;
+    height: 250px;
+    margin: 0 auto;
+    position: relative;
+    width: 250px;
 }
 
 .lb-outerContainer:after {
@@ -51,7 +51,10 @@ body:after {
 }
 
 .lb-container {
-  padding: 4px;
+  height: 40px;
+    padding: 0;
+    position: absolute;
+    width: 100%;
 }
 
 .lb-loader {
@@ -133,14 +136,10 @@ body:after {
 }
 
 .lb-dataContainer {
-  margin: 0 auto;
-  padding-top: 5px;
-  *zoom: 1;
-  width: 100%;
-  position: absolute;
-  top: 1.25em;
-  right: 1.25em;
-  z-index: 1000000;
+    margin: 0 auto;
+    position: absolute;
+    width: 100%;
+    z-index: 1000000;
 }
 
 .lb-dataContainer:after {
@@ -150,15 +149,15 @@ body:after {
 }
 
 .lb-data {
-  padding: 0 4px;
-  color: #ccc;
+    color: #fff;
+    padding: 0;
 }
 
 .lb-data .lb-details {
-  width: 85%;
-  float: left;
-  text-align: left;
-  line-height: 1.1em;
+    float: left;
+    line-height: 1rem;
+    text-align: left;
+    width: 50%;
 }
 
 .lb-data .lb-caption {
@@ -168,26 +167,25 @@ body:after {
 }
 
 .lb-data .lb-number {
-  display: block;
-  clear: left;
-  padding-bottom: 1em;
-  font-size: 12px;
-  color: #999999;
+    clear: left;
+    color: #fff;
+    display: block;
+    font-family: optimaregular;
+    font-size: 1.1em;
+    line-height: 2em;
+    padding: 0 5px;
 }
 
 .lb-data .lb-close {
-  display: block;
-  float: right;
-  width: 30px;
-  height: 30px;
-  font-size: 30px;
-  font-family: 'helvetica neue', helvetica, arial, sans-serif;
-  font-weight: 100;
-  color: #f2f2f2;
-/*  background: url(../img/close.png) top right no-repeat; */
-  text-align: right;
-  outline: none;
-  
+    color: #f2f2f2;
+    float: right;
+    font-family: optimaregular;
+    font-size: 1.5em;
+    font-weight: lighter;
+    line-height: 1.5em;
+    padding: 18px 20px;
+    text-align: right;
+    width: 50%;
 }
 
 .lb-data .lb-close:hover {

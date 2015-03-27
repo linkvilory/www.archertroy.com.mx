@@ -99,14 +99,14 @@
             if ($index < 8) {        
             ?>
             <div class='wp-caption'>
-                <a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_post_thumbnail(); ?></a> 
+                <a href="/noticia/#<?php the_ID(); ?>" rel="bookmark"><?php the_post_thumbnail(); ?></a> 
                 <p class="wp-caption-text"><?php the_post_thumbnail_caption(); ?></p>
             </div>
         <?php
             } else {
               ?> 
             <div class='wp-caption'>
-                <a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_post_thumbnail(); ?></a> 
+                <a href="/noticia/#<?php the_ID(); ?>" rel="bookmark"><?php the_post_thumbnail(); ?></a> 
                 <p class="wp-caption-text"><?php the_post_thumbnail_caption(); ?></p>
             </div></div>          
               <?php  
@@ -116,8 +116,6 @@
           wp_reset_query();
           ?>
         
-        <!-- img class="alignnone size-thumbnail wp-image-35" src="http://archertroy.eamexicano.com../../../wp-content/uploads/2014/11/noticias1-300x156.jpg" alt="noticias1" width="225" height="117">&nbsp;<img class="alignnone size-thumbnail wp-image-36" src="http://archertroy.eamexicano.com../../../wp-content/uploads/2014/11/noticias2-300x156.jpg" alt="noticias2" width="225" height="117">&nbsp;<img class="alignnone size-thumbnail wp-image-37" src="http://archertroy.eamexicano.com../../../wp-content/uploads/2014/11/noticias3-300x156.jpg" alt="noticias3" width="225" height="117">&nbsp;<img class="alignnone size-thumbnail wp-image-38" src="http://archertroy.eamexicano.com../../../wp-content/uploads/2014/11/noticias4-300x156.jpg" alt="noticias4" width="225" height="117">&nbsp;<img class="alignnone size-thumbnail wp-image-39" src="http://archertroy.eamexicano.com../../../wp-content/uploads/2014/11/noticias5-300x156.jpg" alt="noticias5" width="225" height="117" -->
-        <!-- /div -->
     </div>
       
       

@@ -49,14 +49,14 @@
     Lightbox.prototype.enable = function() {
       var self = this;
       
-      $('.galeria-de-posters a').each(function(index, item) {
+      $('.carteles a').each(function(index, item) {
           var poster = 'poster-' + index + 1;
           $(this).prop('rel', poster);
           $(this).data('lightbox', poster);
       });
       
       
-      $('body').on('click', '.galeria-de-posters a', function(event) {
+      $('body').on('click', '.carteles a', function(event) {
         event.preventDefault();
         self.start($(event.currentTarget));
         return false;
@@ -68,7 +68,7 @@
     Lightbox.prototype.build = function() {
       var self = this;
 
-        $("<div id='lightboxOverlay' class='lightboxOverlay'></div><div id='lightbox' class='lightbox'><div class='lb-outerContainer'><div class='lb-container'><div class='lb-dataContainer'><div class='lb-data'><div class='lb-details'><span class='lb-caption'></span><span class='lb-number'></span></div><div class='lb-closeContainer'><a class='lb-close'>&times;</a></div></div></div></div><img class='lb-image' src='' /><div class='lb-nav'><a class='lb-prev' href='' ></a><a class='lb-next' href='' ></a></div><div class='lb-loader'><a class='lb-cancel'></a></div></div></div>").appendTo($('body'));
+        $("<div id='lightboxOverlay' class='lightboxOverlay'></div><div id='lightbox' class='lightbox'><div class='lb-outerContainer'><div class='lb-container'><div class='lb-dataContainer'><div class='lb-data'><div class='lb-closeContainer'><a class='lb-close'>X</a></div></div></div></div><img class='lb-image' src='' /><div class='lb-nav'><a class='lb-prev' href='' ></a><a class='lb-next' href='' ></a></div><div class='lb-loader'><a class='lb-cancel'></a></div></div></div>").appendTo($('body'));
       // Cache jQuery objects
       this.$lightbox       = $('#lightbox');
       this.$overlay        = $('#lightboxOverlay');
@@ -76,10 +76,10 @@
       this.$container      = this.$lightbox.find('.lb-container');
 
       // Store css values for future lookup
-      this.containerTopPadding = parseInt(this.$container.css('padding-top'), 10);
-      this.containerRightPadding = parseInt(this.$container.css('padding-right'), 10);
-      this.containerBottomPadding = parseInt(this.$container.css('padding-bottom'), 10);
-      this.containerLeftPadding = parseInt(this.$container.css('padding-left'), 10);
+      this.containerTopPadding = parseInt(this.$container.css('padding-top'), 20);
+      this.containerRightPadding = parseInt(this.$container.css('padding-right'), 20);
+      this.containerBottomPadding = parseInt(this.$container.css('padding-bottom'), 20);
+      this.containerLeftPadding = parseInt(this.$container.css('padding-left'), 20);
       
       // Attach event handlers to the newly minted DOM elements
       this.$overlay.hide().on('click', function() {
@@ -218,8 +218,8 @@
 
           windowWidth    = $(window).width();
           windowHeight   = $(window).height();
-          maxImageWidth  = windowWidth - self.containerLeftPadding - self.containerRightPadding - 20;
-          maxImageHeight = windowHeight - self.containerTopPadding - self.containerBottomPadding - 120;
+          maxImageWidth  = windowWidth - 10;
+          maxImageHeight = windowHeight - 100;
 
           // Is there a fitting issue?
           if ((preloader.width > maxImageWidth) || (preloader.height > maxImageHeight)) {
@@ -236,7 +236,7 @@
             }
           }
         }
-        self.sizeContainer($image.width(), $image.height());
+        self.sizeContainer($image.width() + 20, $image.height() + 20);
       };
 
       preloader.src          = this.album[imageNumber].link;
@@ -256,9 +256,14 @@
       
       var oldWidth  = this.$outerContainer.outerWidth();
       var oldHeight = this.$outerContainer.outerHeight();
-      var newWidth  = imageWidth + this.containerLeftPadding + this.containerRightPadding;
-      var newHeight = imageHeight + this.containerTopPadding + this.containerBottomPadding;
+      var newWidth  = imageWidth;
+      var newHeight = imageHeight;
       
+      console.log("Old Width:" + oldWidth);
+      console.log("Old Height:" + oldHeight);
+      console.log("New Width:" + newWidth);
+      console.log("New Height:" + newHeight);
+
       function postResize() {
         self.$lightbox.find('.lb-dataContainer').width(newWidth);
         self.$lightbox.find('.lb-prevLink').height(newHeight);
@@ -266,16 +271,13 @@
         self.showImage();
       }
 
-      if (oldWidth !== newWidth || oldHeight !== newHeight) {
         this.$outerContainer.animate({
           width: newWidth,
           height: newHeight
         }, this.options.resizeDuration, 'swing', function() {
           postResize();
         });
-      } else {
-        postResize();
-      }
+
     };
 
     // Display the image and it's details and begin preload neighboring images.

@@ -135,6 +135,46 @@
 .seccion-legion p {
     display: table !important;
 }
+.innerArticuloProyecto {
+    margin: auto;
+    max-width: 100%;
+    width:100%;
+    padding:0 20px;
+}
+.innerArticuloProyecto h1 {
+    font-family: trajanregular;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 60px 0 20px 0;
+    text-align: justify;
+    width: 100%;
+}
+.innerArticuloProyecto p {
+    font-family: optimaregular;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: justify;
+    width: 100%;
+}
+.innerArticuloProyectoGaleria.Desktop {
+    display: block;
+    margin: auto;
+    width: 600px;
+}
+.innerArticuloProyectoGaleria.Movil {
+    display: none;
+}
+.innerArticuloProyectoGaleria.Movil > img {
+    display: block;
+    margin: auto;
+    padding: 0 20px;
+    max-width: 100%;
+    width: 50%;
+}
+.innerArticuloProyecto #ytplayer{
+  width:500px;
+  height:350px;
+}
 .primerInnerPadding, #post-10, #post-12, #post-14, #innerProyectos {
     padding: 0 20px;
     width: 100%;
@@ -432,10 +472,7 @@
     width: 100%;
     overflow: visible;
   }
-  
-  .alignleft, .alignright {
-    bottom: -3em;
-  }
+
   
   .post-browse {
     height: 100%;
@@ -629,10 +666,6 @@
   }
   
   /* Crecer el tamaño de las imágenes de los posters */  
-  .galeria-de-posters > a {
-    width: 250px;    
-    max-width: 250px;
-  }
   
   /* Centrar menú de navegación en las publicaciones */
   .site-content nav {
@@ -868,9 +901,11 @@
     display: block;
     clear: both;
     float: none;
-    margin: 0 auto 3em auto;
-    width: 552px;
+    margin: 3em auto;
+    width: 600px;
     text-transform: uppercase;
+    /* Utilizar position relative para que las flechas de navegación queden centradas */
+    position: relative;
   }
   
   /* Blog */

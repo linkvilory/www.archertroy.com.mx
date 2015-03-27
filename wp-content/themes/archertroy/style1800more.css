@@ -255,6 +255,14 @@
     max-width: 1200px;
     width:1200px;
 }
+.innerArticuloProyecto h1 {
+    font-family: trajanregular;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 60px 0 20px 0;
+    text-align: justify;
+    width: 100%;
+}
 .innerArticuloProyecto p {
     font-family: optimaregular;
     font-size: 1.2em;
@@ -262,10 +270,17 @@
     text-align: justify;
     width: 100%;
 }
-.innerArticuloProyectoGaleria {
+.innerArticuloProyectoGaleria.Desktop {
     display: table;
     margin: auto;
     width: 1400px;
+}
+.innerArticuloProyectoGaleria.Movil {
+    display: none;
+}
+.innerArticuloProyecto #ytplayer{
+  width:1200px;
+  height:675px;
 }
 .entry-content-social-links a {
     margin: 0 0.4em;
@@ -527,21 +542,7 @@
   }
     
   /* Crecer el tamaño de las imágenes de los posters */  
-  .galeria-de-posters div {
-    display: table!important;
-    float: left!important;
-}
-.galeria-de-posters div p {
-    display: table!important;
-    float: left!important;
-}
-.galeria-de-posters a {
-    clear: left;
-    color: #686868;
-    display: table;
-    float: left;
-    text-decoration: none;
-}
+
   
   /* Centrar menú de navegación en las publicaciones */
   .site-content nav {
@@ -882,7 +883,8 @@
     display: inline-block;
     float: left;
     font-family: trajanregular;
-    font-size: 1.7rem;
+    font-size: 1.2rem;
+    font-weight: normal;
     height: 100%;
     line-height: 75px;
     margin: 0 0 0 10px;
@@ -1123,12 +1125,12 @@
      background-position-y: 14px;
   }
   
-  .mini-post .entry-content .blog .wp-caption-text {
+  .mini-post .entry-content .blog .wp-caption-text, .wp-caption-text {
     bottom: 0em;
     height: 50px;
   }
   
-  .blog-wp-caption-text {
+  .blog-wp-caption-text, .wp-caption-text {
     background: none repeat scroll 0 0 rgb(255, 255, 255);
     text-align: left;
     bottom: 0.7em;
@@ -1147,25 +1149,25 @@
     z-index: -1;
   }
 
-  .wp-caption-text .caption-title {
+  .wp-caption-text .caption-title, {
     font-family: optimaregular;
     font-size: 20px;
     font-weight: bold;
     text-align: left;
-    display: block;
-    clear: both;
-    float: none;
+    position: absolute;
+    top: 14px;
+    left: 15px;
   }
   
   .wp-caption-text .caption-date {
       font-family: optimaregular;
-      font-size: 16px;
-      font-style: italic;        
-      text-align: left;
-      text-transform: lowercase;   
-      display: block;
-      clear: both;
-      float: none;       
+    font-size: 16px;
+    font-style: italic;        
+    text-align: left;
+    text-transform: lowercase;    
+    position: absolute;
+    bottom: 13px;
+    left: 15px;       
   }
   
   .blog-wp-caption-text .caption-title {
@@ -2095,6 +2097,7 @@
     font-size: 1.8em;
     height: 32px;
     margin: 0 0 20px;
+    font-weight: normal;
 }
   
   .contenedor-texto p {
@@ -2155,5 +2158,6 @@
 .boton-noticia:hover {
   background-color: #7F7F7F;
 }
+
 
 }

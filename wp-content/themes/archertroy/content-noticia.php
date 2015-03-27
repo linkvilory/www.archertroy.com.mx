@@ -10,7 +10,7 @@
  * s
  */
 ?>
-<div class='listado-noticias'>
+<div id="<?php the_ID(); ?>" class='listado-noticias'>
   <div class="contenedor-imagen">
       <?php the_post_thumbnail(); ?>
   </div>

@@ -207,6 +207,38 @@
     width: 100%;
     box-sizing: box-sizing;
 }
+.innerArticuloProyecto {
+    margin: auto;
+    max-width: 1200px;
+    width:1200px;
+}
+.innerArticuloProyecto h1 {
+    font-family: trajanregular;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 60px 0 20px 0;
+    text-align: justify;
+    width: 100%;
+}
+.innerArticuloProyecto p {
+    font-family: optimaregular;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: justify;
+    width: 100%;
+}
+.innerArticuloProyectoGaleria.Desktop {
+    display: table;
+    margin: auto;
+    width: 1400px;
+}
+.innerArticuloProyectoGaleria.Movil {
+    display: none;
+}
+.innerArticuloProyecto #ytplayer{
+  width:1200px;
+  height:675px;
+}
 /* Main page */ 
   .mini-logo {display: none;}
   
@@ -329,11 +361,7 @@
   }
   
   /* Crecer el tamaño de las imágenes de los posters */  
-  .galeria-de-posters > a {
-    width: 220px;    
-    max-width: 220px;
-  }
-  
+
   /* Centrar menú de navegación en las publicaciones */
   .site-content nav {
     margin: 1em auto;
@@ -640,7 +668,7 @@
 		margin: 0 0 0 6px;
     height: 100%;
     line-height: 58px;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     text-transform: uppercase;
 	}
 
@@ -716,7 +744,7 @@
     position: relative;
   }
   
-  .blog-wp-caption-text {
+  .blog-wp-caption-text, .wp-caption-text {
     background: transparent;
     text-align: left;
     bottom: 0.7em;
@@ -735,7 +763,7 @@
     z-index: -1;
   }
   
-  .blog-wp-caption-text .caption-title {
+  .blog-wp-caption-text .caption-title, .wp-caption-text .caption-title {
     font-family: optimaregular;
     font-size: 16px;
     font-weight: bold;
@@ -745,7 +773,7 @@
     left: 15px;
   }
 
-  .blog-wp-caption-text  .caption-date {
+  .blog-wp-caption-text  .caption-date, .wp-caption-text  .caption-date {
     font-family: optimaregular;
     font-size: 14px;
     font-style: italic;
@@ -1830,6 +1858,7 @@
     font-size: 1.8em;
     line-height: 32px;
     margin: 0 0 20px;
+    font-weight: normal;
 }
   
   .contenedor-texto p {
@@ -1890,6 +1919,5 @@
 .boton-noticia:hover {
   background-color: #7F7F7F;
 }
-  
-  
+
 }

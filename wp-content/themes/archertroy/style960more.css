@@ -144,6 +144,18 @@
 /* 
  * Main page 
  */   
+ .coverPhotoFront.Img.Cablevision {
+    display: block;
+    height: auto;
+    max-width: 100% !important;
+    width: 100%;
+}
+.coverPhotoFront.Img.Cablevision  img {
+    width: 100%;
+}
+.coverPhotoFront.Bg.Cablevision {
+    display:none;
+}
 .coverPhotoFront.Img.Home {
     display: block;
     height: auto;
@@ -249,6 +261,38 @@
 }
 .seccion-legion p {
     display: table !important;
+}
+.innerArticuloProyecto {
+    margin: auto;
+    max-width: 960px;
+    width:960px;
+}
+.innerArticuloProyecto h1 {
+    font-family: trajanregular;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 60px 0 20px 0;
+    text-align: justify;
+    width: 100%;
+}
+.innerArticuloProyecto p {
+    font-family: optimaregular;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: justify;
+    width: 100%;
+}
+.innerArticuloProyectoGaleria.Desktop {
+    display: table;
+    margin: auto;
+    width: 960px;
+}
+.innerArticuloProyectoGaleria.Movil {
+    display: none;
+}
+.innerArticuloProyecto #ytplayer{
+  width:960px;
+  height:500px;
 }
 .primerInnerPadding, #post-10, #post-12, #post-14, #innerProyectos {
     padding: 0 20px;
@@ -557,10 +601,6 @@ max-width: auto !important;
   }
   
   /* Crecer el tamaño de las imágenes de los posters */  
-  .galeria-de-posters > a {
-    width: 220px !important;
-    max-width: 220px !important;
-  }
   
   /* Botón carteles -> Posters */
   .boton-carteles {
@@ -862,13 +902,14 @@ max-width: auto !important;
   /* Navegación  <- Anterior Siguiente -> en la página de los proyectos*/
   
   .project-navigation {
-    font-family: optimaregular;
+    font-family: optimaregular;    
     display: block;
     clear: both;
     float: none;
-    margin: 0 auto;
-    width: 712px;
+    margin: 3em auto;
+    width: 960px;
     text-transform: uppercase;
+    /* Utilizar position relative para que las flechas de navegación queden centradas */
     position: relative;
   }
   
@@ -993,7 +1034,7 @@ max-width: auto !important;
     z-index: 1;
   }
   
-  .blog-wp-caption-text {
+  .blog-wp-caption-text, .wp-caption-text {
     background: none repeat scroll 0 0 rgb(255, 255, 255);
     text-align: left;
     bottom: 0.7em;
@@ -1012,7 +1053,7 @@ max-width: auto !important;
     z-index: -1;
   }
   
-  .blog-wp-caption-text .caption-title {
+  .blog-wp-caption-text .caption-title, .wp-caption-text .caption-title {
     font-family: optimaregular;
     font-size: 14px;
     font-weight: bold;
@@ -1022,7 +1063,7 @@ max-width: auto !important;
     left: 15px;
   }
 
-  .blog-wp-caption-text  .caption-date {
+  .blog-wp-caption-text  .caption-date, .wp-caption-text  .caption-date {
     font-family: optimaregular;
     font-size: 12px;
     font-style: italic;
@@ -2086,6 +2127,7 @@ max-width: auto !important;
     font-size: 1.8em;
     line-height: 32px;
     margin: 0 0 20px;
+    font-weight: normal;
 }
   
   .contenedor-texto p {
