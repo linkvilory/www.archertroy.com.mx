@@ -438,25 +438,21 @@ img.wp-post-image {
     text-decoration: none;
 }
 
-.blog-grid  {
-	padding: 0 20px;
-  position: relative;  
-  line-height: 1.714285714;
-  word-wrap: break-word;
-  zoom: 1;
-  margin: 0;
-  display: block; 
-  clear: both; 
-  float: none;
-  text-align: justify;
-  -ms-text-justify: distribute-all-lines;
-  text-justify: distribute-all-lines;
-  position: relative;
+.blog-grid {
+    clear: both;
+    display: block;
+    float: none;
+    line-height: 1.71429;
+    margin-left: auto;
+    position: relative;
+    text-align: justify;
+    width: 700px;
+    word-wrap: break-word;
 }
 
 .blog-grid > div.blog-wp-caption, .blog-grid > a {
     float: left;
-    height: 250px;
+    height: 190px;
     margin: 0 16px 16px 0;
     width: 250px;
 }
@@ -1048,6 +1044,100 @@ a {
 /*
  * Main page 
  */
+ .coverPhotoFront.Img.AgentsShield {
+  display: none;
+}
+.coverPhotoFront.Bg.AgentsShield {
+    background-image: url(../../../wp-content/uploads/2015/03/Agents-of-Shield-cover.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 230px;
+    max-width: 100% !important;
+    width: 100%;
+}  
+ .coverPhotoFront.Img.NosotrosNobles {
+  display: none;
+}
+.coverPhotoFront.Bg.NosotrosNobles {
+    background-image: url(../../../wp-content/uploads/2015/03/Nosotros-Los-Nobles-cover.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 230px;
+    max-width: 100% !important;
+    width: 100%;
+}   
+ .coverPhotoFront.Img.HarryPotter {
+  display: none;
+}
+.coverPhotoFront.Bg.HarryPotter {
+    background-image: url(../../../wp-content/uploads/2015/02/Harry-Potter-La-Experiencia.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 230px;
+    max-width: 100% !important;
+    width: 100%;
+}  
+ .coverPhotoFront.Img.Nike {
+  display: none;
+}
+.coverPhotoFront.Bg.Nike {
+    background-image: url(../../../wp-content/uploads/2015/02/Nike-PressKit.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 230px;
+    max-width: 100% !important;
+    width: 100%;
+}   
+ .coverPhotoFront.Img.CaraCortada {
+  display: none;
+}
+.coverPhotoFront.Bg.CaraCortada {
+    background-image: url(../../../wp-content/uploads/2015/02/Cara-Cortada.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 230px;
+    max-width: 100% !important;
+    width: 100%;
+}   
+.coverPhotoFront.Img.Helix {
+  display: none;
+} 
+ .coverPhotoFront.Img.AmorPrimeraVisa {
+  display: none;
+}
+.coverPhotoFront.Bg.AmorPrimeraVisa {
+    background-image: url(../../../wp-content/uploads/2015/02/Amor-A-Primera-Visa.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 230px;
+    max-width: 100% !important;
+    width: 100%;
+}   
+.coverPhotoFront.Img.Helix {
+  display: none;
+}
+.coverPhotoFront.Bg.Helix {
+    background-image: url(../../../wp-content/uploads/2015/02/Helix.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 230px;
+    max-width: 100% !important;
+    width: 100%;
+}   
 .coverPhotoFront.Img.Cablevision {
   display: none;
 }
@@ -2603,13 +2693,16 @@ body.full-width .site-content, .site-content {
 }
 
 .post-browse {
-  height: 100%;
-	width: 99%;
-  padding: 0 0.5%;
-	background: rgba(0,0,0,0);
-	display: inline-block;
-	float: left; 
-	position: relative;
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    clear: none;
+    display: inline-block;
+    float: left;
+    height: 100%;
+    margin-right: 1%;
+    padding: 0;
+    position: relative;
+    text-align: right;
+    width: 100%;
 }
 
 .blog-posts-header {
