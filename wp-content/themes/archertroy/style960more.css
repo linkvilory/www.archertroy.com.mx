@@ -2224,7 +2224,7 @@ section.interior .seccion-caballo {
 .listado-noticias {
     border-bottom: 1px solid #ced5cb;
     clear: both;
-    display: block;
+    display: table;
     float: none;
     margin: 0 auto 15px;
     padding-bottom: 15px;

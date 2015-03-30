@@ -42,6 +42,7 @@ body:after {
     margin: 0 auto;
     position: relative;
     width: 250px;
+    display:table;
 }
 
 .lb-outerContainer:after {

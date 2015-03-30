@@ -679,7 +679,8 @@ img.attachment-post-thumbnail.wp-post-image {
     }
 
 #post-18 h1 {
-    margin: 60px 0
+    margin: 60px auto;
+    max-width: 1200px;
     }
 
 .datos-persona {
@@ -1341,6 +1342,11 @@ a {
     -moz-box-sizing: box-sizing;
     box-sizing: box-sizing
     }
+.brainbreakContainer img {
+    display: block;
+    margin: auto;
+    max-width: 1200px;
+}    
 .entry-content h1 {
     font-family: trajanregular;
     font-size: 1.2em;
@@ -4579,7 +4585,7 @@ section.interior .seccion-caballo {
 .listado-noticias {
     border-bottom: 1px solid #ced5cb;
     clear: both;
-    display: block;
+    display: table;
     float: none;
     margin: 0 auto 15px;
     padding-bottom: 15px;
