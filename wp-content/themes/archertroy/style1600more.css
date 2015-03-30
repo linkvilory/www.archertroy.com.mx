@@ -226,33 +226,16 @@
     box-sizing: box-sizing
     }
 
-.innerArticuloProyecto {
+.innerArticuloProyecto, .visualizador-noticias, .contacto {
     margin: auto;
     max-width: 1200px;
     width: 1200px
     }
 
-.innerArticuloProyecto h1 {
-    font-family: trajanregular;
-    font-size: 1.2em;
-    margin: 0;
-    padding: 60px 0 20px 0;
-    text-align: justify;
-    width: 100%
-    }
-
-.innerArticuloProyecto p {
-    font-family: optimaregular;
-    font-size: 1.2em;
-    margin: 0;
-    text-align: justify;
-    width: 100%
-    }
-
 .innerArticuloProyectoGaleria.Desktop {
     display: table;
     margin: auto;
-    width: 1400px
+    width: 1200px
     }
 
 .innerArticuloProyecto #ytplayer {
@@ -369,10 +352,6 @@ footer .site-info {
     }
 
 .copyright {
-    clear: none;
-    display: inline-block;
-    float: left;
-    font-size: 12px;
     height: 40px;
     line-height: 40px;
     padding: 0;
@@ -505,29 +484,13 @@ footer.entry-meta {
     text-align: center
     }
 
-.contacto {
-    clear: both;
-    display: block;
-    float: none;
-    margin: 60px auto 0 !important;
-    width: 1200px;
-    overflow: visible;
-    height: 400px
-    }
-
 .formulario {
     float: left;
     width: 33.33%
     }
 
 .lugar {
-    float: left;
-    font-family: optimaregular;
-    font-size: 1.2em;
-    margin-top: 124px;
-    text-align: center;
-    text-transform: uppercase;
-    width: 33.33%
+    margin-top: 153px;
     }
 
 .leyenda {
@@ -563,6 +526,9 @@ footer.entry-meta {
     color: white;
     text-transform: uppercase;
     vertical-align: middle;
+    -moz-border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    border-radius: 0 !important;
     -moz-transition: background-color 0.5s;
     -o-transition: background-color 0.5s;
     -webkit-transition: background-color 0.5s;
@@ -1656,8 +1622,9 @@ section.interior .seccion-caballo {
 
 .seccion-caballo .mensaje-izquierda-1 {
     display: none;
+    font-family: trajanregular;
+    font-size: 1em;
     margin:0;
-    font-size: 16px;
     left: 36px;
     position: absolute;
     text-align: right;
@@ -1678,8 +1645,9 @@ section.interior .seccion-caballo {
 
 .seccion-caballo .mensaje-izquierda-2 {
     display: none;
+    font-family: trajanregular;
+    font-size: 1em;
     margin:0;
-    font-size: 16px;
     left: 0;
     position: absolute;
     text-align: right;
@@ -1700,8 +1668,9 @@ section.interior .seccion-caballo {
 
 .seccion-caballo .mensaje-izquierda-3 {
     display: none;
+    font-family: trajanregular;
+    font-size: 1em;
     margin:0;
-    font-size: 16px;
     left: 52px;
     position: absolute;
     text-align: right;
@@ -1722,8 +1691,9 @@ section.interior .seccion-caballo {
 
 .seccion-caballo .mensaje-izquierda-4 {
     display: none;
+    font-family: trajanregular;
+    font-size: 1em;
     margin:0;
-    font-size: 16px;
     left: 0;
     position: absolute;
     text-align: right;
@@ -1744,8 +1714,9 @@ section.interior .seccion-caballo {
 
 .seccion-caballo .mensaje-derecha-1 {
     display: none;
+    font-family: trajanregular;
+    font-size: 1em;
     margin:0;
-    font-size: 16px;
     left: 620px;
     position: absolute;
     top: 45px;
@@ -1764,8 +1735,9 @@ section.interior .seccion-caballo {
 
 .seccion-caballo .mensaje-derecha-2 {
     display: none;
+    font-family: trajanregular;
+    font-size: 1em;
     margin:0;
-    font-size: 16px;
     left: 835px;
     position: absolute;
     top: 200px;
@@ -1784,8 +1756,9 @@ section.interior .seccion-caballo {
 
 .seccion-caballo .mensaje-derecha-3 {
     display: none;
+    font-family: trajanregular;
+    font-size: 1em;
     margin:0;
-    font-size: 16px;
     left: 934px;
     position: absolute;
     top: 470px;
@@ -1863,75 +1836,8 @@ section.interior .seccion-caballo {
     width: 448px
     }
 
-.visualizador-noticias {
-    margin: 0 auto;
-    max-width: 1200px;
-    width: 1200px;
-    padding: 0
-    }
-
-.visualizador-noticias > h1 {
-    color: #626161;
-    font-family: trajanregular;
-    font-size: 1.2em;
-    font-weight: normal;
-    margin-bottom: 20px;
-    margin-top: 15px;
-    text-transform: uppercase;
-    }
-
-.listado-noticias {
-    border-bottom: 1px solid #ced5cb;
-    clear: both;
-    display: table;
-    float: none;
-    margin: 0 auto 15px;
-    padding-bottom: 15px;
-    width: 100%;
-    }
-
-.contenedor-imagen {
-    float: left;
-    height: 200px;
-    overflow: hidden;
-    width: 200px
-    }
-
-.contenedor-imagen img {
-    height: 100% !important;
-    width: 100% !important
-    }
-
 .contenedor-texto {
-    display: inline-block;
-    float: left;
-    margin-left: 15px;
-    width: 955px
-    }
-
-.titulo {
-    color: #808080;
-    font-family: trajanregular;
-    font-size: 1.5em;
-    font-weight: 100 !important;
-    margin: 0 0 20px;
-    text-transform: uppercase;
-    }
-
-.contenedor-texto p {
-    color: #808080;
-    font-family: optimaregular;
-    font-size: 1.2em;
-    line-height: 1.5;
-    text-align: justify;
-    }
-
-.datos-extra {
-    font-family: optimaregular;
-    font-size: 18px;
-    height: 35px;
-    margin-top: 1.25rem;
-    vertical-align: bottom
+    width: 920px
     }
 
 .fecha {
@@ -1985,8 +1891,8 @@ section.interior .seccion-caballo {
     background-color: #7F7F7F
     }
 .wonderplugincarousel {
-    width: 80% !important;
     max-width: 1200px !important;
+    width: 1160px !important;
 }    
 .amazingcarousel-prev, .amazingcarousel-next{
     display: block !important;

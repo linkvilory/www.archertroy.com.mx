@@ -68,10 +68,6 @@ Array.prototype.shuffle = function () {
       e.preventDefault();
   });
 
-  $(document).on('click', '.sidebar, menu-toggle', function(e){
-      e.stopPropagation();
-  });
-
 /* Show / Hide Sidebar */
   
 /* Mostrar / Ocultar submenús */  
@@ -82,13 +78,11 @@ $(document).on('click', '.main-navigation li', function (e) {
         menuHref = $current_link.attr('href');
       $('.main-navigation li').removeClass('current-menu-item');
         if ($current_link.first().text().toLowerCase() == 'legión' || menuHref.search('proyectos') !== -1){
-            e.preventDefault();     
             $('.main-navigation li').removeClass('current-menu-parent');
             $current_link.closest('li').addClass('current-menu-item current-menu-parent').parents('li').addClass('current-menu-parent');  
         } else if (menuHref.search('projects') !== - 1) {
           $current_link.attr('href', 'proyectos');
         }
-      e.stopPropagation();
   }
 });
 

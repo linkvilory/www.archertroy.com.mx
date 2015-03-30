@@ -198,8 +198,7 @@ article.format-quote footer.entry-meta, article.format-link footer.entry-meta, a
 input, select, textarea {
     border: 1px solid #ccc;
     font-family: inherit;
-    padding: 6px;
-    padding: 0.428571429rem
+    padding: 0.5em
     }
 
 button, input {
@@ -220,55 +219,6 @@ input[type="checkbox"], input[type="radio"], input[type="file"], input[type="hid
     padding: 0
     }
 
-.menu-toggle, input[type="reset"], .bypostauthor cite span {
-    padding: 6px 10px;
-    padding: 0.428571429rem 0.714285714rem;
-    font-size: 11px;
-    font-size: 0.785714286rem;
-    line-height: 1.428571429;
-    font-weight: normal;
-    color: #7c7c7c;
-    background-color: #e6e6e6;
-    background-repeat: repeat-x;
-    background-image: -moz-linear-gradient(top, #f4f4f4, #e6e6e6);
-    background-image: -o-linear-gradient(top, #f4f4f4, #e6e6e6);
-    background-image: -webkit-linear-gradient(top, #f4f4f4, #e6e6e6);
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f4f4f4), color-stop(1, #e6e6e6));
-    filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#f4f4f4, EndColorStr=#e6e6e6)";
-    background-image: linear-gradient(top, #f4f4f4, #e6e6e6);
-    background-image: -moz-linear-gradient(top, #f4f4f4, #e6e6e6);
-    background-image: -o-linear-gradient(top, #f4f4f4, #e6e6e6);
-    background-image: -webkit-linear-gradient(top, #f4f4f4, #e6e6e6);
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f4f4f4), color-stop(1, #e6e6e6));
-    filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#f4f4f4, EndColorStr=#e6e6e6)";
-    background-image: linear-gradient(top, #f4f4f4, #e6e6e6);
-    background-image: -moz-linear-gradient(top, #f4f4f4, #e6e6e6);
-    background-image: -o-linear-gradient(top, #f4f4f4, #e6e6e6);
-    background-image: -webkit-linear-gradient(top, #f4f4f4, #e6e6e6);
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f4f4f4), color-stop(1, #e6e6e6));
-    filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#f4f4f4, EndColorStr=#e6e6e6)";
-    background-image: linear-gradient(top, #f4f4f4, #e6e6e6);
-    background-image: -moz-linear-gradient(top, #f4f4f4, #e6e6e6);
-    background-image: -o-linear-gradient(top, #f4f4f4, #e6e6e6);
-    background-image: -webkit-linear-gradient(top, #f4f4f4, #e6e6e6);
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f4f4f4), color-stop(1, #e6e6e6));
-    filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#f4f4f4, EndColorStr=#e6e6e6)";
-    background-image: linear-gradient(top, #f4f4f4, #e6e6e6);
-    background-image: -moz-linear-gradient(top, #f4f4f4, #e6e6e6);
-    background-image: -o-linear-gradient(top, #f4f4f4, #e6e6e6);
-    background-image: -webkit-linear-gradient(top, #f4f4f4, #e6e6e6);
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f4f4f4), color-stop(1, #e6e6e6));
-    filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#f4f4f4, EndColorStr=#e6e6e6)";
-    background-image: linear-gradient(top, #f4f4f4, #e6e6e6);
-    border: 1px solid #d2d2d2;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
-    -moz-box-shadow: 0 1px 2px rgba(64, 64, 64, 0.1);
-    -webkit-box-shadow: 0 1px 2px rgba(64, 64, 64, 0.1);
-    box-shadow: 0 1px 2px rgba(64, 64, 64, 0.1)
-    }
-
 .menu-toggle, button, input[type="submit"], input[type="button"], input[type="reset"] {
     cursor: pointer
     }
@@ -277,84 +227,50 @@ input[type="checkbox"], input[type="radio"], input[type="file"], input[type="hid
     margin-top: 20px
     }
 
+.menu-toggle {
+    position: relative;
+    display: inline-block;
+    float: left;
+    z-index: 104;
+    top: 10px;
+    width: 40px;
+    height: 40px;
+    padding: 6px;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    padding: 0;
+    border: 0;
+    font-family: "pt-serif", sans-serif;
+    font-size: 1em;
+    color: #909090;
+    background: #fff;
+    background-color: #fff;
+    background-image: none;
+    -moz-box-shadow: inset 0 0 0 #fff;
+    -webkit-box-shadow: inset 0 0 0 #fff;
+    box-shadow: inset 0 0 0 #fff
+    }
+
+.menu-toggle:hover, .menu-toggle:focus, .menu-toggle:visited, .menu-toggle:active, .menu-toggle.toggled-on, button:active {
+    outline: 0;
+    color: #909090;
+    background: #fff;
+    background-color: #fff;
+    background-image: none;
+    -moz-box-shadow: inset 0 0 0 #fff;
+    -webkit-box-shadow: inset 0 0 0 #fff;
+    box-shadow: inset 0 0 0 #fff
+    }
+
+.menu-toggle .icon-align-justify {
+    font-size: 18px
+    }
+
 button[disabled], input[disabled] {
     cursor: default
-    }
-
-.menu-toggle:hover, .menu-toggle:focus, article.post-password-required input[type=submit]:hover {
-    color: #5e5e5e;
-    background-color: #ebebeb;
-    background-repeat: repeat-x;
-    background-image: -moz-linear-gradient(top, #f9f9f9, #ebebeb);
-    background-image: -o-linear-gradient(top, #f9f9f9, #ebebeb);
-    background-image: -webkit-linear-gradient(top, #f9f9f9, #ebebeb);
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f9f9f9), color-stop(1, #ebebeb));
-    filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#f9f9f9, EndColorStr=#ebebeb)";
-    background-image: linear-gradient(top, #f9f9f9, #ebebeb);
-    background-image: -moz-linear-gradient(top, #f9f9f9, #ebebeb);
-    background-image: -o-linear-gradient(top, #f9f9f9, #ebebeb);
-    background-image: -webkit-linear-gradient(top, #f9f9f9, #ebebeb);
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f9f9f9), color-stop(1, #ebebeb));
-    filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#f9f9f9, EndColorStr=#ebebeb)";
-    background-image: linear-gradient(top, #f9f9f9, #ebebeb);
-    background-image: -moz-linear-gradient(top, #f9f9f9, #ebebeb);
-    background-image: -o-linear-gradient(top, #f9f9f9, #ebebeb);
-    background-image: -webkit-linear-gradient(top, #f9f9f9, #ebebeb);
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f9f9f9), color-stop(1, #ebebeb));
-    filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#f9f9f9, EndColorStr=#ebebeb)";
-    background-image: linear-gradient(top, #f9f9f9, #ebebeb);
-    background-image: -moz-linear-gradient(top, #f9f9f9, #ebebeb);
-    background-image: -o-linear-gradient(top, #f9f9f9, #ebebeb);
-    background-image: -webkit-linear-gradient(top, #f9f9f9, #ebebeb);
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f9f9f9), color-stop(1, #ebebeb));
-    filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#f9f9f9, EndColorStr=#ebebeb)";
-    background-image: linear-gradient(top, #f9f9f9, #ebebeb);
-    background-image: -moz-linear-gradient(top, #f9f9f9, #ebebeb);
-    background-image: -o-linear-gradient(top, #f9f9f9, #ebebeb);
-    background-image: -webkit-linear-gradient(top, #f9f9f9, #ebebeb);
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f9f9f9), color-stop(1, #ebebeb));
-    filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#f9f9f9, EndColorStr=#ebebeb)";
-    background-image: linear-gradient(top, #f9f9f9, #ebebeb)
-    }
-
-.menu-toggle:active, .menu-toggle.toggled-on, input[type="reset"]:active {
-    color: #757575;
-    background-color: #e1e1e1;
-    background-repeat: repeat-x;
-    background-image: -moz-linear-gradient(top, #ebebeb, #e1e1e1);
-    background-image: -o-linear-gradient(top, #ebebeb, #e1e1e1);
-    background-image: -webkit-linear-gradient(top, #ebebeb, #e1e1e1);
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ebebeb), color-stop(1, #e1e1e1));
-    filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#ebebeb, EndColorStr=#e1e1e1)";
-    background-image: linear-gradient(top, #ebebeb, #e1e1e1);
-    background-image: -moz-linear-gradient(top, #ebebeb, #e1e1e1);
-    background-image: -o-linear-gradient(top, #ebebeb, #e1e1e1);
-    background-image: -webkit-linear-gradient(top, #ebebeb, #e1e1e1);
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ebebeb), color-stop(1, #e1e1e1));
-    filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#ebebeb, EndColorStr=#e1e1e1)";
-    background-image: linear-gradient(top, #ebebeb, #e1e1e1);
-    background-image: -moz-linear-gradient(top, #ebebeb, #e1e1e1);
-    background-image: -o-linear-gradient(top, #ebebeb, #e1e1e1);
-    background-image: -webkit-linear-gradient(top, #ebebeb, #e1e1e1);
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ebebeb), color-stop(1, #e1e1e1));
-    filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#ebebeb, EndColorStr=#e1e1e1)";
-    background-image: linear-gradient(top, #ebebeb, #e1e1e1);
-    background-image: -moz-linear-gradient(top, #ebebeb, #e1e1e1);
-    background-image: -o-linear-gradient(top, #ebebeb, #e1e1e1);
-    background-image: -webkit-linear-gradient(top, #ebebeb, #e1e1e1);
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ebebeb), color-stop(1, #e1e1e1));
-    filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#ebebeb, EndColorStr=#e1e1e1)";
-    background-image: linear-gradient(top, #ebebeb, #e1e1e1);
-    background-image: -moz-linear-gradient(top, #ebebeb, #e1e1e1);
-    background-image: -o-linear-gradient(top, #ebebeb, #e1e1e1);
-    background-image: -webkit-linear-gradient(top, #ebebeb, #e1e1e1);
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ebebeb), color-stop(1, #e1e1e1));
-    filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#ebebeb, EndColorStr=#e1e1e1)";
-    background-image: linear-gradient(top, #ebebeb, #e1e1e1);
-    -moz-box-shadow: inset 0 0 8px 2px #c6c6c6, 0 1px 0 0 #f4f4f4;
-    -webkit-box-shadow: inset 0 0 8px 2px #c6c6c6, 0 1px 0 0 #f4f4f4;
-    box-shadow: inset 0 0 8px 2px #c6c6c6, 0 1px 0 0 #f4f4f4;
-    border-color: transparent
     }
 
 .bypostauthor cite span {
@@ -555,7 +471,7 @@ img.size-full, img.size-large, img.header-image, img.wp-post-image {
     display: table;
     float: none;
     margin: 0;
-    padding: 0 0 16px;
+    padding: 0 0 4px;
     position: relative;
     text-align: justify
     }
@@ -592,7 +508,7 @@ img.attachment-post-thumbnail.wp-post-image {
     color: #fff
     }
 
-.proyectos-recientes:after, .proyectos-recientes:after {
+.proyectos-recientes:after, .ultimas-noticias:after {
     content: "";
     width: 100%;
     display: inline-block
@@ -679,10 +595,13 @@ img.attachment-post-thumbnail.wp-post-image {
     }
 
 #post-18 h1 {
-    margin: 60px auto;
+    margin: 60px auto 20px;
     max-width: 1200px;
-    }
-
+}
+#post-308 h1 {
+    margin: 20px auto;
+    max-width: 1800px;
+}
 .datos-persona {
     height: 100%;
     width: 100%
@@ -1284,30 +1203,37 @@ a {
     width: 100%
     }
 
-.innerArticuloProyecto {
+.innerArticuloProyecto, .visualizador-noticias, .contacto {
     margin: auto;
     max-width: 100%;
     width: 100%;
     padding: 0 20px
     }
 
+.contacto{
+	overflow:visible;
+}
+
 .innerArticuloProyecto h1 {
     font-family: trajanregular;
-    font-size: 1.2em;
+    font-size: 1.15em;
+    letter-spacing: 1px;
+    line-height: 1.15em;
     margin: 0;
-    padding: 60px 0 20px 0;
+    padding: 60px 0 20px;
     text-align: justify;
     width: 100%;
-    font-weight: normal
-    }
+}
 
 .innerArticuloProyecto p {
     font-family: optimaregular;
-    font-size: 1.2em;
+    font-size: 1.15em;
+    letter-spacing: 1px;
+    line-height: 1.15;
     margin: 0;
     text-align: justify;
-    width: 100%
-    }
+    width: 100%;
+}
 
 .innerArticuloProyectoGaleria.Desktop {
     display: table;
@@ -1347,26 +1273,27 @@ a {
     margin: auto;
     max-width: 1200px;
 }    
-.entry-content h1 {
+.entry-content h1, .visualizador-noticias > h1 {
     font-family: trajanregular;
-    font-size: 1.2em;
+    font-size: 1.15rem;
     font-weight: normal;
     letter-spacing: 1px;
-    margin-bottom: 10px;
+    line-height: 1.15rem;
+    margin: 60px 0 20px;
+    padding:0px;
 }
-.primerInnerPadding h1:nth-child(1) {
-    font-family: trajanregular;
-    font-size: 1.2em;
+.primerInnerPadding h1:nth-child(1), .contacto h1 {
     margin: 60px 0 20px
     }
-
 .primerInnerPadding h1:nth-child(3) {
-    font-family: trajanregular;
-    font-size: 1.15em;
-    line-height: 1.15;
-    margin: 40px 0 20px
+    margin: 20px 0 20px
     }
-
+#post-10 h1, #post-12 h1, #post-14 h1 {
+    margin: 20px 0;
+}
+.visualizador-noticias > h1{
+	margin: 20px 0;
+}
 #innerProyectos h1 {
     font-family: trajanregular;
     font-size: 1.2em;
@@ -1424,13 +1351,14 @@ a {
     }
 
 .sidebar {
+    background: none repeat scroll 0 0 #fff;
     height: 100%;
     left: -15.625em;
     overflow-y: auto;
     position: fixed;
     top: 0;
     width: 15.625em;
-    z-index: 100
+    z-index: 9999;
     }
 
 .pushed .sidebar {
@@ -1812,9 +1740,13 @@ footer[role="contentinfo"] {
     }
 
 .copyright {
-    clear: none;
+	clear: none;
+    display: inline-block;
     float: left;
-    font-size: 10px;
+    font-size: 0.7em;
+    letter-spacing: 1px;
+    line-height: 1em;
+	font-family: optimaregular;    
     height: 60%;
     line-height: 14px;
     padding: 0 10px 10px 10px;
@@ -1839,45 +1771,6 @@ footer[role="contentinfo"] {
 
 .entry-meta {
     clear: both
-    }
-
-.entry-header img.wp-post-image {
-    margin-bottom: 24px;
-    margin-bottom: 1.714285714rem
-    }
-
-.entry-header .entry-title {
-    font-size: 20px;
-    font-size: 1.428571429rem;
-    line-height: 1.2;
-    font-weight: normal
-    }
-
-.entry-header .entry-title a {
-    text-decoration: none
-    }
-
-.entry-header .entry-format {
-    margin-top: 24px;
-    margin-top: 1.714285714rem;
-    font-weight: normal
-    }
-
-.entry-header .comments-link {
-    margin-top: 24px;
-    margin-top: 1.714285714rem;
-    font-size: 13px;
-    font-size: 0.928571429rem;
-    line-height: 1.846153846;
-    color: #757575
-    }
-
-.comments-link a, .entry-meta a {
-    color: #757575
-    }
-
-.comments-link a:hover, .entry-meta a:hover {
-    color: #9fad9f
     }
 
 .entry-title {
@@ -2246,45 +2139,6 @@ article.format-quote .entry-content blockquote {
     font-style: normal;
     color: #6a6a6a;
     background: #efefef
-    }
-
-.format-status .entry-header {
-    margin-bottom: 24px;
-    margin-bottom: 1.714285714rem
-    }
-
-.format-status .entry-header header {
-    display: inline-block
-    }
-
-.format-status .entry-header h1 {
-    font-size: 15px;
-    font-size: 1.071428571rem;
-    font-weight: normal;
-    line-height: 1.6;
-    margin: 0
-    }
-
-.format-status .entry-header h2 {
-    font-size: 12px;
-    font-size: 0.857142857rem;
-    font-weight: normal;
-    line-height: 2;
-    margin: 0
-    }
-
-.format-status .entry-header header a {
-    color: #757575
-    }
-
-.format-status .entry-header header a:hover {
-    color: #9fad9f
-    }
-
-.format-status .entry-header img {
-    float: left;
-    margin-right: 21px;
-    margin-right: 1.5rem
     }
 
 .comments-title {
@@ -2662,6 +2516,7 @@ img#wpstats {
     color: white;
     vertical-align: middle;
     text-transform: uppercase;
+    margin: 18px 0 0;
     -moz-transition: background-color 0.5s;
     -o-transition: background-color 0.5s;
     -webkit-transition: background-color 0.5s;
@@ -2683,28 +2538,21 @@ img#wpstats {
     width: 100%
     }
 
-.contacto {
-    clear: both;
-    display: block;
-    float: none;
-    padding: 60px 20px 0 !important;
-    width: 100%;
-    overflow: visible
-    }
-
 .formulario {
     float: none;
     width: 100%
     }
 
 .lugar {
-    float: none;
-    font-family: optimaregular;
-    font-size: 1.2em;
-    margin-top: 60px;
+	float: none;
+    font-family: trajanregular;
+    font-size: 1.15em;
+    letter-spacing: 1px;
+    line-height: 2.3em;
     text-align: center;
     text-transform: uppercase;
-    width: 100%
+    width: 100%;
+    margin-top: 60px;
     }
 
 .leyenda {
@@ -2743,6 +2591,9 @@ img#wpstats {
     color: white;
     text-transform: uppercase;
     vertical-align: middle;
+    -moz-border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    border-radius: 0 !important;
     -moz-transition: background-color 0.5s;
     -o-transition: background-color 0.5s;
     -webkit-transition: background-color 0.5s;
@@ -3084,11 +2935,6 @@ body.template-front-page .site-content, body.attachment .site-content, body.full
 .main-navigation li ul ul {
     top: 0;
     left: 100%
-    }
-
-.entry-header .entry-title {
-    font-size: 22px;
-    font-size: 1.571428571rem
     }
 
 #respond form input[type="text"] {
@@ -4249,6 +4095,7 @@ section.interior .seccion-caballo {
 
 .seccion-caballo .mensaje-izquierda-1 {
     display: block;
+    font-family: trajanregular;
     margin-bottom: 20px;
     margin-left: 0;
     margin-right: 0;
@@ -4274,6 +4121,7 @@ section.interior .seccion-caballo {
 
 .seccion-caballo .mensaje-izquierda-2 {
     display: block;
+    font-family: trajanregular;
     margin-bottom: 20px;
     margin-left: 0;
     margin-right: 0;
@@ -4299,6 +4147,7 @@ section.interior .seccion-caballo {
 
 .seccion-caballo .mensaje-izquierda-3 {
     display: block;
+    font-family: trajanregular;
     margin-bottom: 20px;
     margin-left: 0;
     margin-right: 0;
@@ -4324,6 +4173,7 @@ section.interior .seccion-caballo {
 
 .seccion-caballo .mensaje-izquierda-4 {
     display: block;
+    font-family: trajanregular;
     margin-bottom: 20px;
     margin-left: 0;
     margin-right: 0;
@@ -4349,6 +4199,7 @@ section.interior .seccion-caballo {
 
 .seccion-caballo .mensaje-derecha-1 {
     display: block;
+    font-family: trajanregular;
     margin-bottom: 20px;
     margin-left: 0;
     margin-right: 0;
@@ -4374,6 +4225,7 @@ section.interior .seccion-caballo {
 
 .seccion-caballo .mensaje-derecha-2 {
     display: block;
+    font-family: trajanregular;
     margin-bottom: 20px;
     margin-left: 0;
     margin-right: 0;
@@ -4399,6 +4251,7 @@ section.interior .seccion-caballo {
 
 .seccion-caballo .mensaje-derecha-3 {
     display: block;
+    font-family: trajanregular;
     margin-bottom: 20px;
     margin-left: 0;
     margin-right: 0;
@@ -4565,77 +4418,67 @@ section.interior .seccion-caballo {
     height: 660px
     }
 
-.visualizador-noticias {
-    margin: 0 auto;
-    padding: 0 20px;
-    max-width: 100%;
-    width: 100%
-    }
-
-.visualizador-noticias > h1 {
-    color: #626161;
-    font-family: trajanregular;
-    font-size: 1.2em;
-    font-weight: normal;
-    margin-bottom: 20px;
-    margin-top: 15px;
-    text-transform: uppercase;
-    }
-
 .listado-noticias {
     border-bottom: 1px solid #ced5cb;
     clear: both;
     display: table;
     float: none;
-    margin: 0 auto 15px;
-    padding-bottom: 15px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
     width: 100%;
-    }
+}
 
 .contenedor-imagen {
     margin: auto;
-    max-height: 200px;
-    max-width: 200px;
+    max-height: 211px;
+    max-width: 211px;
     min-height: 200px;
     min-width: 200px;
-    overflow: hidden
-    }
+    overflow: hidden;
+}
 
 .contenedor-imagen img {
     height: 100% !important;
-    width: 100% !important
-    }
+    margin: auto;
+    max-height: 211px;
+    max-width: 211px;
+    width: 100% !important;
+}
 
 .contenedor-texto {
     display: inline-block;
     float: left;
-    margin: 20px 0 0;
+    margin: 20px 0 0 0;
     width: 100%
     }
 
 .titulo {
     color: #808080;
     font-family: trajanregular;
-    font-size: 1.5em;
-    font-weight: 100 !important;
+    font-size: 1.15em;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 1.15em;
     margin: 0 0 20px;
     text-transform: uppercase;
-    }
+}
 
 .contenedor-texto p {
     color: #808080;
     font-family: optimaregular;
-    font-size: 1.2em;
-    line-height: 1.5;
+    font-size: 1em;
+    letter-spacing: 1px;
+    line-height: 1.2em;
     text-align: justify;
-    }
+}
 
 .datos-extra {
     font-family: optimaregular;
-    font-size: 18px;
-    margin-top: 1.25rem;
-    vertical-align: bottom
-    }
+    font-size: 1.15em;
+    margin: 20px 0 0;
+    text-transform: uppercase;
+    vertical-align: bottom;
+}
 
 .fecha {
     color: #9fad9f;
@@ -4719,6 +4562,11 @@ section.interior .seccion-caballo {
     left: 0
     }
 
+#cntctfrm_contact_form > div {
+    font-family: optimaregular;
+    letter-spacing: 1px;
+}
+
 #cntctfrm_contact_form input[type="text"], #cntctfrm_contact_form textarea {
     -moz-border-bottom-colors: none;
     -moz-border-left-colors: none;
@@ -4738,7 +4586,8 @@ section.interior .seccion-caballo {
     color: #919191;
     font-family: optimaregular;
     font-size: 1em;
-    margin: 0.8em 0 !important;
+    margin: 0 0 20px 0!important;
+    letter-spacing: 1px;
     width: 90%
     }
 
