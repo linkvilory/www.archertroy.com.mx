@@ -409,7 +409,9 @@
 .innerArticuloProyectoGaleria.Desktop {
     display: table;
     margin: auto;
-    width: 960px
+    width: 960px;
+    max-width: 960px;
+    padding: 0 20px;
     }
 
 .innerArticuloProyecto #ytplayer {
@@ -529,7 +531,7 @@
     }
 
 #menu-item-443 {
-    display: block
+    display: inline-block;
     }
 
 .sub-menu {
@@ -805,12 +807,6 @@ footer.entry-meta {
     color: #252425;
     font-size: 10px;
     text-align: right
-    }
-
-.mini-post .entry-content p {
-    width: inherit;
-    margin: 0 auto;
-    padding: 1em
     }
 
 .mini-post .entry-content > p:last-of-type {
@@ -2231,7 +2227,7 @@ section.interior .seccion-caballo {
     background-color: #7F7F7F
     }
 .wonderplugincarousel {
-    max-width: 1200px !important;
+    max-width: 960px !important;
 }    
 .amazingcarousel-prev, .amazingcarousel-next{
     display: block !important;

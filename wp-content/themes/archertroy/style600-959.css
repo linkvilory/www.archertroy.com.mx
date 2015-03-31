@@ -162,7 +162,8 @@
 .innerArticuloProyectoGaleria.Desktop {
     display: block;
     margin: auto;
-    width: 600px
+    width: 640px;
+    max-width: 640px;
     }
 
 .innerArticuloProyectoGaleria.Movil > img {
@@ -174,8 +175,8 @@
     }
 
 .innerArticuloProyecto #ytplayer {
-    width: 500px;
-    height: 350px
+    width: 640px;
+    height: 400px
     }
 
 .primerInnerPadding, #post-10, #post-12, #post-14, #innerProyectos {
@@ -756,12 +757,6 @@ footer.entry-meta {
 
 .mini-post .entry-content > p:last-of-type {
     padding-bottom: 2.5em
-    }
-
-.mini-post .entry-content p {
-    width: inherit;
-    margin: 0 auto;
-    padding: 1em
     }
 
 .mini-post p:not(:first-child) {
@@ -2021,7 +2016,7 @@ section.interior .seccion-caballo {
     background-color: #7F7F7F
     }
 .wonderplugincarousel {
-    width: 80% !important;
+    width: 100% !important;
     max-width: 959px !important;
 }    
 .amazingcarousel-prev, .amazingcarousel-next{

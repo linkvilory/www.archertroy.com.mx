@@ -65,7 +65,8 @@
 .innerArticuloProyectoGaleria.Desktop {
     display: table;
     margin: auto;
-    width: 600px
+    width: 400px;
+    max-width: 400px;
     }
 
 .innerArticuloProyectoGaleria.Movil > img {
@@ -449,5 +450,10 @@
 .boton-noticia:hover {
     background-color: #7F7F7F
     }
+
+.wonderplugincarousel {
+    max-width: 400px !important;
+    width: 100% !important;
+}    
   
 }

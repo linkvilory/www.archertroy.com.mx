@@ -470,12 +470,6 @@ footer.entry-meta {
     box-sizing: unset
     }
 
-.mini-post .entry-content p {
-    width: inherit;
-    margin: 0 auto;
-    padding: 1em
-    }
-
 .mini-post .entry-content > p:last-of-type {
     padding-bottom: 2.5em
     }

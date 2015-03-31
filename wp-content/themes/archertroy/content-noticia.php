@@ -16,7 +16,7 @@
   </div>
   <div class='contenedor-texto'>
       <h1 class="titulo"><?php the_title(); ?></h1>
-        <?php the_excerpt(); ?>
+        <p><?php echo substr(get_the_excerpt(), 0,203); ?>...</p>
         <div class='datos-extra'>
           <div class='fecha'><?php the_time('M.j.Y'); ?></div>  <a href='<?php echo get_post_meta($post->ID, 'url_noticia', true); ?>' class='boton-noticia' target='_blank'>VER MÁS</a>
         </div>

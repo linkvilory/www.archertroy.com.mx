@@ -377,8 +377,8 @@ img.size-full, img.size-large, img.header-image, img.wp-post-image {
     }
 
 .wonderplugincarousel {
-    width: 80% !important;
-    max-width: 600px !important;
+    width: 100% !important;
+    max-width: 320px !important;
 }    
 .amazingcarousel-prev, .amazingcarousel-next{
     display: none !important;
@@ -1209,7 +1209,11 @@ a {
     width: 100%;
     padding: 0 20px
     }
-
+.innerArticuloProyectoGaleria.Desktop {
+    display: table;
+    margin: auto;
+    width: 320px;
+}
 .contacto{
 	overflow:visible;
 }
@@ -1229,7 +1233,7 @@ a {
     font-family: optimaregular;
     font-size: 1.15em;
     letter-spacing: 1px;
-    line-height: 1.15;
+    line-height: 1.8em;
     margin: 0;
     text-align: justify;
     width: 100%;
@@ -1237,8 +1241,8 @@ a {
 
 .innerArticuloProyectoGaleria.Desktop {
     display: table;
-    padding: 0 20px;
-    max-width: 100%;
+    padding: 0;
+    max-width: 320px;
     width: 100%
     }
 
@@ -1251,8 +1255,8 @@ a {
     }
 
 .innerArticuloProyecto #ytplayer {
-    width: 200px;
-    height: 150px
+    width: 320px;
+    height: 200px
     }
 
 .primerInnerPadding, #post-10, #post-12, #post-14, #innerProyectos {
@@ -2867,6 +2871,16 @@ body.template-front-page .site-content, body.attachment .site-content, body.full
     vertical-align: top
     }
 
+.mini-post .entry-content p {
+    font-family: optimaregular;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    line-height: 1.8em;
+    margin: 0 auto;
+    padding: 20px 20px 0;
+    width: inherit;
+    }
+
 .mini-post p:not(:first-child) {
     margin: 1em
     }
@@ -4468,7 +4482,7 @@ section.interior .seccion-caballo {
     font-family: optimaregular;
     font-size: 1em;
     letter-spacing: 1px;
-    line-height: 1.2em;
+    line-height: 1.9em;
     text-align: justify;
 }
 
@@ -4690,33 +4704,33 @@ textarea {
     }
 
 .larger {
-    margin: 0 10px 2px 0;
-    max-width: 211px !important;
-    min-width: 211px !important;
-    max-height: 313px !important;
-    min-height: 313px !important;
-    width: 100% !important
+    margin: 0 10px 10px 0;
+    width: 441px !important;
+    height: 630px !important;
     }
 
 .shorter {
-    height: 313px !important;
-    margin: 0 10px 2px 0;
-    width: 211px !important
+    height: 310px !important;
+    margin: 0 10px 10px 0;
+    width: 218px !important
     }
 
 .smaller {
-    height: 144px !important;
-    width: 98px !important
+    height: 150px !important;
+    width: 105px !important;
     }
 
 .smaller.left {
-    margin: 7px 15px 7px 0
+    margin: 0 0 11px 0
     }
 
 .smaller.right {
-    margin: 7px 10px 7px 0
+    margin: 0 8px 11px 0
     }
-
+.final{
+    margin-right: 0px !important;
+}
+/*
 @media screen and (min-width: 200px) and (max-width: 399px){
 
 .carteles {
@@ -4858,3 +4872,4 @@ textarea {
     }
 
 }
+*/

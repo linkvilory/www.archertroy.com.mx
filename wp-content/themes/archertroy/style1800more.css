@@ -411,7 +411,7 @@
     }
 
 #menu-item-443 {
-    display: block
+    display: inline-block;
     }
 
 .main-navigation ul.nav-menu, .main-navigation div.nav-menu > ul {
@@ -763,14 +763,6 @@ footer.entry-meta {
     max-width: 100%;
     -moz-box-sizing: unset;
     box-sizing: unset
-    }
-
-.mini-post .entry-content p {
-    font-family: optimaregular;
-    font-size: 18px;
-    width: inherit;
-    margin: 0 auto;
-    padding: 20px 20px 0
     }
 
 .navigation {
@@ -1471,7 +1463,8 @@ section.tactica {
     display: table;
     height: auto;
     margin: 60px auto 0;
-    width: 100%
+    width: 100%;
+    overflow: visible;
     }
 
 section.tactica h4.title-super {
@@ -1534,7 +1527,8 @@ section.tactica .seccion-arco {
     overflow: hidden;
     padding: 30px 0 0;
     position: relative;
-    width: 100%
+    width: 100%;
+    overflow: visible;
     }
 
 .seccion-arco .arco-1 {

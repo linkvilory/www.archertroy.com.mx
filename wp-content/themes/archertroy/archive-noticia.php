@@ -36,21 +36,30 @@ get_header(); ?>
 
 		<div id="content" role="main" class='visualizador-noticias'>
         <h1>Noticias</h1>
+        <?php
 
-            
-		<?php if ( have_posts() ) : ?>
-			<?php /* Start the Loop */ ?>
+        $index = 0;
+      	$args = array(
+          'post_type' => 'noticia',
+          'order' => 'ASC',
+          'orderby' => 'date',
+          'posts_per_page' => 8
+      	);
+      	$my_query = new WP_Query($args);
 
-			<?php while ( have_posts() ) : the_post(); ?>
-        <?php 
-          $format = get_post_format();
-          if ($format == false) {
-            get_template_part( 'content', 'noticia' );
-          } else {
-            get_template_part( 'content', get_post_format() ); 
-          }
+      	if ($my_query->have_posts()) : {
+      		while ($my_query->have_posts()) : $my_query->the_post(); 
+        	$index++;
+        	$format = get_post_format();
+	        	if ($format == false) {
+	            	get_template_part( 'content', 'noticia' );
+	          	} else {
+	            	get_template_part( 'content', get_post_format() ); 
+	          	}
+        	endwhile;
+
+      	}
         ?>
-			<?php endwhile; ?>
 
 			<?php twentytwelve_content_nav( 'nav-below' ); ?>
 
