@@ -1245,10 +1245,12 @@ footer.entry-meta {
 #menu-item-443 a {
     color: transparent;
     background: url(../../../wp-content/uploads/2014/11/logo.jpg);
-    -webkit-background-size: 200px;
-    background-size: 200px;
     background-repeat: no-repeat;
-    background-position-y: -6px
+    background-position-y: 0px;
+  	height: 50px;
+  	line-height: 40px;
+  	-webkit-background-size: cover;
+  	background-size: cover;
     }
 
 .wp-video {

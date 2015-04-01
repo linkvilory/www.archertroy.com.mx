@@ -11,7 +11,7 @@ $( document ).ready(function() {
   if($(".carteles").length){
     setTimeout(function () {
         $(".carteles").animate({opacity: 1}, 1000);      
-    },1500);
+    },2000);
   }
 
   if($(".proyectos-recientes div").length){
