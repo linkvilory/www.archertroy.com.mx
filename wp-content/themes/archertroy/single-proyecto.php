@@ -15,7 +15,7 @@ get_header(); ?>
 
 			<?php while ( have_posts() ) : the_post(); ?>
 
-				<?php get_template_part( 'content', 'proyecto' ); ?>
+				<?php get_template_part( 'content', 'proyecto' ); $actualId = get_the_ID(); ?>
 
 				<div class="project-navigation">
 					<div class='entry-content-social-links'>
@@ -25,46 +25,43 @@ get_header(); ?>
 						<a id="googlePost" class="sficn icon-google-plus" alt="Google" target="_blank" href="https://plus.google.com/share?url=<?php echo get_permalink() ?>"></a>
 					</div>
 				<?php
-				/**
-				* Infinite next and previous post looping in WordPress
-				*/
-				if( get_adjacent_post(false, '', false) ) {
-				?>
-				
-				<div class="alignleft"><?php next_post_link( '%link', '<i class="icon-angle-left"></i> Anterior' . _x( '', 'Next post link', 'twentytwelve' ) . '' ); ?></div>
-				<?php	
-				//next_post_link('%link', '&larr; Anterior');
-				} else {
+
+				$arrayProjectos = array();
+				$countProject = 0;
+				$categoria = $_SESSION["categoria"];
 				$args = array('post_type' => 'proyecto',
                       'post_status' => 'publish',
-                      'orderby' => 'date',
-                      'order' => 'ASC');
-				$last = new WP_Query($args); $last->the_post();
-				?>
-				<div class="alignleft"><a href="<?php echo get_permalink() ?>"><i class="icon-angle-left"></i> Anterior</a></div>
-				<?php
-				//echo '<a href="' . get_permalink() . '">&larr; Anterior</a>';
-				wp_reset_query();
-				};
-				if( get_adjacent_post(false, '', true) ) {
-				?>
-				<div class="alignright"><?php previous_post_link( '%link', '' . _x( '', 'Previous post link', 'twentytwelve' ) . 'Siguiente <i class="icon-angle-right"></i>' ); ?></div>
-				<?php	
-				//previous_post_link('%link', 'Siguiente &rarr;');
-				} else {
-				$args = array('post_type' => 'proyecto',
-                      'post_status' => 'publish',
+                      'taxonomy' => 'media',
+        			  'term' => $categoria,
                       'orderby' => 'date',
                       'order' => 'DESC');
-				$first = new WP_Query($args); $first->the_post();
+				$last = new WP_Query($args); 
+				while ( $last->have_posts() ) : $last->the_post();
+				$arrayProjectos["$countProject"] = array(get_the_ID(), get_permalink());
+				if($actualId == get_the_ID()){
+					$orden = $countProject;
+				}
+				$countProject++;
+				endwhile;
+				$firstProject = 0;
+				$lastProject = count($arrayProjectos) - 1;
+				$anteriorProjecto = 0;
+				$siguienteProjecto = 0;
+				if($orden == $firstProject){
+					$anteriorProjecto = count($arrayProjectos) - 1;
+					$siguienteProjecto = $orden + 1;
+				} else if($orden == $lastProject){
+					$anteriorProjecto = $orden - 1;
+					$siguienteProjecto = $firstProject;
+				} else{
+					$anteriorProjecto = $orden - 1;
+					$siguienteProjecto = $orden + 1;
+				}
 				?>
-				<div class="alignright"><a href="<?php echo get_permalink() ?>">Siguiente <i class="icon-angle-right"></i></a></div>
-				<?php
-				//echo '<a href="' . get_permalink() . '">Siguiente &rarr;</a>';
-				wp_reset_query();
-				};
+
+				<div class="alignleft"><a href="<?php echo $arrayProjectos[$siguienteProjecto][1] ?>"><i class="icon-angle-left"></i> Anterior</a></div>
+				<div class="alignright"><a href="<?php echo $arrayProjectos[$anteriorProjecto][1] ?>">Siguiente <i class="icon-angle-right"></i></a></div>
 				
-				?> 
 				</div>
 
 				<?php comments_template( '', true ); ?>

@@ -2,12 +2,30 @@
  * Ejecucion de mostrar el contenido hasta que se cargue la pagina
  */
 $( document ).ready(function() {
-  
+jQuery.noConflict();
+jQuery('#cntctfrm_contact_form').parsley();
   $("#cntctfrm_contact_form").submit(function(e){
-    alert("¡Gracias!");
+    e.preventDefault();
     return false;
   });
+  $("#cntctfrm_contact_form_send").click(function(e){   
+   if(jQuery('#cntctfrm_contact_form').parsley().isValid()){
+    var nombre = $("#cntctfrm_contact_name").val();
+    var mail = $("#cntctfrm_contact_email").val();
+    var mensaje = $("#cntctfrm_contact_message").val();
+    var newsletter = $("#cntctfrm_newsletter").is(":checked");
 
+    $.ajax({
+          method: "POST",
+          url: "/wp-content/themes/archertroy/contact.php",
+          data: { nombre: nombre, mail: mail, mensaje: mensaje, newsletter: newsletter}
+        })
+        .done(function( msg ) {
+          $(".formulario").html("<h1>¡Gracias!</h1>");
+      });
+    
+   }
+  });
   if($(".carteles").length){
     setTimeout(function () {
         $(".carteles").animate({opacity: 1}, 1000);      

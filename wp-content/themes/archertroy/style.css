@@ -303,6 +303,10 @@ img.size-full, img.size-large, img.header-image, img.wp-post-image {
     max-width: 100%;
     height: auto
     }
+    
+.parsley-error {
+    border-color: red !important;
+}
 
 .grid {
     position: relative;
@@ -1844,12 +1848,6 @@ article.sticky .featured-post {
     text-decoration: none;
     margin: 0 0.5em;
     left: 45%
-    }
-
-.entry-content ol, .comment-content ol, .entry-content ul, .comment-content ul, .mu_register ul {
-    margin: 0 0 24px;
-    margin: 0 0 1.714285714rem;
-    line-height: 1.714285714
     }
 
 .entry-content ul ul, .comment-content ul ul, .entry-content ol ol, .comment-content ol ol, .entry-content ul ol, .comment-content ul ol, .entry-content ol ul, .comment-content ol ul {
@@ -4581,7 +4579,7 @@ section.interior .seccion-caballo {
     letter-spacing: 1px;
 }
 
-#cntctfrm_contact_form input[type="text"], #cntctfrm_contact_form textarea {
+#cntctfrm_contact_form input[type="text"], #cntctfrm_contact_form textarea, #cntctfrm_contact_form input[type="email"] {
     -moz-border-bottom-colors: none;
     -moz-border-left-colors: none;
     -moz-border-right-colors: none;

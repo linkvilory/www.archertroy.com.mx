@@ -43,5 +43,17 @@
   <script src="<?php echo get_template_directory_uri(); ?>/js/masonry-horizontal.js"></script>   
   <script src="<?php echo get_template_directory_uri(); ?>/js/fit-columns.js"></script>    
   <script src="<?php echo get_template_directory_uri(); ?>/js/lightbox.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/js/parsley.min.js"></script>
+<?php
+if(isset($_GET["c"])){
+?>
+<script type="text/javascript">
+$(".formulario").html("<h1>¡Gracias!, Correo confirmado.</h1>");
+</script>
+<?php
+}
+?>
+
+</body>
 </body>
 </html>

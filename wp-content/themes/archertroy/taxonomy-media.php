@@ -23,8 +23,8 @@ get_header(); ?>
 		<div id="content" role="main">
     	<article id="innerProyectos" class="page type-page status-publish hentry">
     		<header class="entry-header">
-    			<h1>Proyectos > <?= get_query_var($wp_query->query_vars['taxonomy']); ?></h1>
-    		</header>
+    			<h1>Proyectos > <?= get_query_var($wp_query->query_vars['taxonomy']); $_SESSION["categoria"] = get_query_var($wp_query->query_vars['taxonomy']);?></h1>
+            </header>
         <div class='grid proyectos'>
 			<?php while ( have_posts() ) : the_post(); ?>
         <div class='wp-caption'>
