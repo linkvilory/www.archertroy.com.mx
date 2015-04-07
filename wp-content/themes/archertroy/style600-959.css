@@ -523,29 +523,6 @@
     overflow: visible
     }
 
-.post-browse {
-    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
-    clear: none;
-    display: inline-block;
-    float: left;
-    height: 100%;
-    padding: 0;
-    position: relative;
-    text-align: right;
-    width: 100%
-    }
-
-.post-content {
-    width: 100%;
-    height: 100%;
-    display: block;
-    float: none;
-    clear: both;
-    position: relative;
-    margin: 0;
-    padding: 0
-    }
-
 .datos-persona {
     height: 100%;
     width: 100%
@@ -748,13 +725,6 @@ footer.entry-meta {
     opacity: 0
     }
 
-.blog-grid > div.blog-wp-caption, .blog-grid > a {
-    float: left;
-    height: 180px;
-    margin: 0 16px 16px 0;
-    width: 240px
-    }
-
 .mini-post .entry-content > p:last-of-type {
     padding-bottom: 2.5em
     }
@@ -934,88 +904,6 @@ footer.entry-meta {
     float: left
     }
 
-.blog-posts-header {
-    width: 510px;
-    height: 35px;
-    line-height: 40px;
-    border-top: 1px solid #CFCFCF;
-    border-bottom: 1px solid #CFCFCF;
-    display: block;
-    clear: both;
-    float: none;
-    overflow: hidden;
-    margin-bottom: 1em
-    }
-
-.blog-posts-header h2 {
-    display: inline-block;
-    float: left;
-    width: 20%;
-    margin: 0 0 0 1%
-    }
-
-.blog-posts-header .hamburger-menu-icon {
-    display: inline-block;
-    float: left;
-    width: 9%;
-    padding: 0 0.5%;
-    border-left: 1px solid #CFCFCF;
-    border-right: 1px solid #CFCFCF;
-    font-size: 22px;
-    text-align: center;
-    line-height: 46px;
-    overflow: hidden;
-    height: 35px
-    }
-
-.blog-posts-header form {
-    display: inline-block;
-    float: left;
-    width: 32%;
-    height: 35px;
-    padding: 0 3%;
-    border-right: 1px solid #CFCFCF;
-    margin: 0
-    }
-
-.blog-posts-header form input {
-    border: none;
-    -moz-border-radius: 0;
-    -webkit-border-radius: 0;
-    border-radius: 0;
-    border-bottom: 1px solid #CFCFCF;
-    width: 95%;
-    margin: 0;
-    padding: 0
-    }
-
-.blog-posts-header .header-social-links {
-    display: inline-block;
-    float: left;
-    clear: none;
-    margin: 0;
-    width: 28.5%;
-    padding: 0 0 0 1%;
-    text-align: justify;
-    -ms-text-justify: distribute-all-lines;
-    text-justify: distribute-all-lines
-    }
-
-.blog-posts-header .header-social-links > a {
-    display: inline-block;
-    text-decoration: none;
-    color: #4B4B4B;
-    vertical-align: top;
-    zoom: 1;
-    margin: 0
-    }
-
-.blog-posts-header .header-social-links:after {
-    content: "";
-    width: 100%;
-    display: inline-block
-    }
-
 .mini-post .entry-content .wp-caption:first-child {
     background: transparent;
     display: block;
@@ -1023,32 +911,6 @@ footer.entry-meta {
     position: relative;
     text-align: left;
     overflow: hidden;
-    text-transform: none !important
-    }
-
-.mini-post .entry-content .wp-caption:first-child .wp-caption-text {
-    background: transparent;
-    bottom: 0.7em;
-    color: #fff;
-    display: block;
-    line-height: 1.714285714;
-    font-family: optimaregular;
-    font-size: 20px;
-    left: 0;
-    right: 0;
-    margin: 0 !important;
-    max-width: 100%;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
-    filter: alpha(opacity=85);
-    opacity: 0.85;
-    padding: 1em 2em !important;
-    position: absolute;
-    z-index: 1;
-    text-transform: none !important
-    }
-
-.mini-post .entry-content > .wp-caption:first-child > .wp-caption-text {
-    background: transparent !important;
     text-transform: none !important
     }
 

@@ -50,7 +50,7 @@
 <body <?php body_class(); ?>>
   <!-- Landing Page Content -->
   <?php
-
+  unset($_SESSION["categoria"]);
   if($_SESSION["entro"] == 1){
 
   }else{

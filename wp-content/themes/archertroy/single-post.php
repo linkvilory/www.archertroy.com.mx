@@ -146,8 +146,8 @@ get_header(); ?>
       }
     });  
   }());
-    */
-  
+    */ 
+
   (function esperar_a_cargar_contenido_del_blog() {  
     var $tmp_node = $('<div>').html($(".archertroy-blog").html());
     var content_images = $tmp_node.find('img').length;

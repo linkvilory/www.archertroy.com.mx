@@ -94,7 +94,23 @@ get_header(); ?>
     <div id='post-visualization' class='post-content'></div>
   <!-- Post content should be visible in here -->
   </div>    
-    
+  <script type="text/javascript">
+  $(function() {
+    var post_id = $('.post-grid:first').attr('href');
+    $.ajax({
+      type: "GET",
+      url:  window.location.origin + "/wp-admin/admin-ajax.php",
+      dataType: 'html',
+      data: ({ action: 'visualize_post', id: post_id}),
+      success: function (data) {
+        load_visualization(data);
+      },
+      error: function (data) {
+        trace_error(data);
+      }
+    }); 
+  }); 
+  </script>
     
 <!-- ?php get_sidebar(); ? -->
 <?php get_footer(); ?>

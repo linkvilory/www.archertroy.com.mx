@@ -27,7 +27,7 @@ get_header(); ?>
     		</header>
         <div class='grid proyectos'>
 			<?php 
-
+			unset($_SESSION["categoria"]);
 			$ids = array();
 
         	$args = array('post_type' => 'proyecto',
