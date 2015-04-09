@@ -22,6 +22,7 @@
       <div class='post-info'>
         <?php echo "<div class='post-date'>" .  date_i18n( 'd F Y', strtotime( post_date ) )  . "</div>"; ?>
 			</div>
+      <!--
         <div class="navigation">
           <div class="alignleft">
           <?php
@@ -37,7 +38,7 @@
             <a href="<?php echo $next_post->ID; ?>" class="post-navigation-right">Siguiente <i class="icon-angle-right"></i></a>
             <?php endif; ?>
           </div>
-        </div> <!-- end navigation -->
+        </div>--> <!-- end navigation -->
 		</div><!-- .entry-content -->
 		<?php endif; ?>
 	</article><!-- #post -->

@@ -224,6 +224,7 @@
             });
           }); 
         }
+        ajustar_footer();
         mover_footer_al_fondo();
       }
       

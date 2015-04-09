@@ -175,11 +175,11 @@
     }
 
 .innerArticuloProyecto #ytplayer {
-    width: 640px;
+    width: 600px;
     height: 400px
     }
 
-.primerInnerPadding, #post-10, #post-12, #post-14, #innerProyectos {
+.primerInnerPadding, #post-10, #post-12, #post-14, #innerProyectos, .archertroy-blog  {
     padding: 0 20px;
     width: 100%;
     -moz-box-sizing: unset;
@@ -552,16 +552,18 @@
 
 .datos-persona .persona .nombre-persona {
     font-size: 14px;
+    line-height: 18px;
     color: #626161
     }
 
 .datos-persona .persona .puesto-persona {
     font-size: 12px;
+    line-height: 16px;
     color: #a3ada2
     }
 
 .datos-persona .handler, .datos-persona .handler a {
-    line-height: 3;
+    line-height: 16px;
     color: #252425;
     font-size: 12px;
     text-align: right
@@ -617,7 +619,7 @@ footer[role="contentinfo"] {
     height: 100%;
     overflow: visible;
     width: 1%;
-    display: block
+    display: none;
     }
 
 .social-links {
@@ -636,13 +638,15 @@ footer[role="contentinfo"] {
     }
 
 .reg {
-    font-family: "Helvetica neue", helvetica, sans-serif;
-    font-size: 9px;
-    font-weight: normal;
     display: inline-block;
     float: left;
-    margin: -2px 3px 0 0
-    }
+    font-family: optimaregular;
+    font-size: 30px;
+    font-weight: lighter;
+    height: 100%;
+    line-height: 30px;
+    margin: 0 5px 0 0;
+}
 
 .proyectos-recientes .wp-caption .wp-caption-text, .ultimas-noticias .wp-caption .wp-caption-text, .proyectos .wp-caption .wp-caption-text {
     -moz-hyphens: none;
@@ -668,7 +672,8 @@ footer[role="contentinfo"] {
     position: absolute;
     right: 0;
     text-align: left;
-    z-index: -1
+    z-index: -1;
+    line-height: 14px;
     }
 
 .gente > div .wp-caption-text {
@@ -1357,12 +1362,12 @@ section.tactica .seccion-arco {
 
 .seccion-arco .arco-1 {
     display: none;
-    left: 372px;
+    left: 365px;
+    margin: 0;
     position: absolute;
-    top: 52px;
+    top: 60px;
     width: 180px;
-    margin:0px;
-    }
+}
 
 .seccion-arco .target-1 {
     position: absolute;
@@ -1396,12 +1401,12 @@ section.tactica .seccion-arco {
 
 .arco-4 {
     display: none;
-    left: 385px;
+    left: 376px;
+    margin: 0;
     position: absolute;
-    top: 150px;
+    top: 157px;
     width: 170px;
-    margin:0px;
-    }
+}
 
 .target-4 {
     position: absolute;
@@ -1435,12 +1440,12 @@ section.tactica .seccion-arco {
 
 .arco-3 {
     display: none;
-    left: 14px;
+    left: 38px;
+    margin: 0;
     position: absolute;
-    top: 38px;
+    top: 45px;
     width: 180px;
-    margin:0px;
-    }
+}
 
 .target-3 {
     position: absolute;
@@ -1475,12 +1480,12 @@ section.tactica .seccion-arco {
 
 .arco-2 {
     display: none;
-    left: 7px;
+    left: 11px;
+    margin: 0;
     position: absolute;
-    top: 167px;
-    width: 180px;
-    margin:0px;
-    }
+    top: 175px;
+    width: 198px;
+}
 
 .target-2 {
     position: absolute;
@@ -1884,5 +1889,129 @@ section.interior .seccion-caballo {
 .amazingcarousel-prev, .amazingcarousel-next{
     display: none !important;
     }    
-  
+ 
+.post-browse {
+    background: none repeat scroll 0 0 #fff;
+    clear: none;
+    float: left;
+    height: 100%;
+    padding: 0 1% 0 0;
+    position: relative;
+    text-align: right;
+    width: 50%;
+}
+.post-content {
+    background: none repeat scroll 0 0 #e6e6e6;
+    float: left;
+    height: 100%;
+    position: relative;
+    width: 50%;
+}
+.mini-post .entry-content .wp-caption:first-child {
+    background: transparent;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: left;
+    overflow: hidden;
+    text-transform: none !important;
+    padding: 0;
+    }
+.mini-post .entry-content .wp-caption:first-child img {
+    margin: 0;
+}
+
+.mini-post .entry-content > .wp-caption:first-child > .wp-caption-text {
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDk2MCAxNTAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0iaGF0MCIgZ3JhZGllbnRVbml0cz0ib2JqZWN0Qm91bmRpbmdCb3giIHgxPSI1MCUiIHkxPSIxMDAlIiB4Mj0iNTAlIiB5Mj0iLTEuNDIxMDg1NDcxNTIwMmUtMTQlIj4KPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMCIgc3RvcC1vcGFjaXR5PSIwLjgiLz4KPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDAwIiBzdG9wLW9wYWNpdHk9IjAiLz4KICAgPC9saW5lYXJHcmFkaWVudD4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSI5NjAiIGhlaWdodD0iMTUwIiBmaWxsPSJ1cmwoI2hhdDApIiAvPgo8L3N2Zz4=);
+    background-image: -moz-linear-gradient(bottom, rgba(0,0,0,.65) 0%, rgba(0,0,0,0) 100%);
+    background-image: -o-linear-gradient(bottom, rgba(0,0,0,.65) 0%, rgba(0,0,0,0) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgba(0,0,0,.65) 0%, rgba(0,0,0,0) 100%);
+    background-image: linear-gradient(bottom, rgba(0,0,0,.65) 0%, rgba(0,0,0,0) 100%);
+    bottom: 0;
+    color: white;
+    font-family: optimaregular !important;
+    font-size: 2.5em;
+    height: 130px;
+    margin: 0;
+    padding: 0 20px;
+    position: absolute;
+    text-transform: none !important;
+    width: 100%;
+    line-height: 190px;
+    }
+
+.blog-wp-caption-text .caption-title, .wp-caption-text .caption-title {
+    font-family: optimaregular;
+    font-size: 20px;
+    height: 25px;
+    left: 20px;
+    line-height: 20px;
+    position: absolute;
+    text-align: left;
+    width: 100%;
+}
+.blog-grid > div.blog-wp-caption, .blog-grid > a {
+    display: table;
+    float: left;
+    margin: 0 0 2%;
+    width: 100%;
+}
+.blog-wp-caption-text .caption-date, .wp-caption-text .caption-date {
+    bottom: 0;
+    font-family: optimaregular;
+    font-size: 16px;
+    font-style: italic;
+    height: 20px;
+    left: 20px;
+    line-height: 16px;
+    position: absolute;
+    text-align: left;
+    text-transform: lowercase;
+    width: 100%;
+    }    
+.blog-posts-header {
+    border-bottom: 1px solid #cfcfcf;
+    display: block;
+    height: 100px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.blog-posts-header h2 {
+    border-bottom: 1px solid #cfcfcf;
+    border-right: 1px solid #cfcfcf;
+    float: left;
+    font-family: trajanregular;
+    font-size: 1.2rem;
+    height: 50px;
+    line-height: 3.2em;
+    text-align: left;
+    text-transform: uppercase;
+    vertical-align: middle;
+    width: 50%;
+}
+.blog-posts-header form {
+    border-bottom: 1px solid #cfcfcf;
+    border-right: 1px solid #cfcfcf;
+    display: inline-block;
+    float: left;
+    font-family: optimaregular;
+    height: 50px;
+    margin: 0;
+    padding: 0 20px;
+    width: 50%;
+}
+.blog-posts-header .header-social-links {
+    clear: none;
+    display: inline-block;
+    float: left;
+    height: 50px;
+    line-height: 60px;
+    padding: 0 20px;
+    text-align: justify;
+    width: 100%;
+}    
+
 }

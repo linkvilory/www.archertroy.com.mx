@@ -367,15 +367,16 @@ img.size-full, img.size-large, img.header-image, img.wp-post-image {
     }
 
 .project-navigation {
-    font-family: optimaregular;
-    display: block;
     clear: both;
+    display: block;
     float: none;
-    margin: 3em 1em;
-    width: 100%;
+    font-family: optimaregular;
+    margin: 20px 0 0;
+    padding: 0 20px;
+    position: relative;
     text-transform: uppercase;
-    position: relative
-    }
+    width: 100%;
+}
 
 .wonderplugincarousel {
     width: 100% !important;
@@ -393,31 +394,6 @@ img.size-full, img.size-large, img.header-image, img.wp-post-image {
 
 .gente > div .wp-caption-text {
     bottom: 0
-    }
-
-.blog-wp-caption-text .caption-title, .wp-caption-text .caption-title {
-    font-family: optimaregular;
-    font-size: 14px;
-    height: 16px;
-    left: 20px;
-    line-height: 14px;
-    position: absolute;
-    text-align: left;
-    width: 100%;
-    }
-
-.blog-wp-caption-text .caption-date, .wp-caption-text .caption-date {
-    bottom: 0;
-    font-family: optimaregular;
-    font-size: 12px;
-    font-style: italic;
-    height: 16px;
-    left: 20px;
-    line-height: 12px;
-    position: absolute;
-    text-align: left;
-    text-transform: lowercase;
-    width: 100%;
     }
 
 .proyectos-recientes, .ultimas-noticias, .proyectos {
@@ -592,16 +568,18 @@ img.attachment-post-thumbnail.wp-post-image {
 
 .datos-persona .persona .nombre-persona {
     font-size: 14px;
+    line-height: 18px;
     color: #626161
     }
 
 .datos-persona .persona .puesto-persona {
     font-size: 12px;
+    line-height: 16px;
     color: #a3ada2
     }
 
 .datos-persona .handler, .datos-persona .handler a {
-    line-height: 3;
+    line-height: 16px;
     color: #252425;
     font-size: 12px;
     text-align: right
@@ -929,12 +907,8 @@ a {
     margin-top: 1.714285714rem
     }
 
-.coverPhotoFront.Img.AgentsShield {
-    display: none
-    }
-
-.coverPhotoFront.Bg.AgentsShield {
-    background-image: url(../../../wp-content/uploads/2015/03/Agents-of-Shield-cover.jpg);
+.coverPhotoFront.Img.I00001 {
+    background-image: url(../../../wp-content/uploads/proyectos/activaciones-images/Canal-Sony-Shield-Cover.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -943,14 +917,9 @@ a {
     height: 230px;
     max-width: 100% !important;
     width: 100%
-    }
-
-.coverPhotoFront.Img.NosotrosNobles {
-    display: none
-    }
-
-.coverPhotoFront.Bg.NosotrosNobles {
-    background-image: url(../../../wp-content/uploads/2015/03/Nosotros-Los-Nobles-cover.jpg);
+    }    
+.coverPhotoFront.Img.I00002 {
+    background-image: url(../../../wp-content/uploads/proyectos/activaciones-images/Canon-The-Canon-Experience-Cover.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -959,107 +928,7 @@ a {
     height: 230px;
     max-width: 100% !important;
     width: 100%
-    }
-
-.coverPhotoFront.Img.HarryPotter {
-    display: none
-    }
-
-.coverPhotoFront.Bg.HarryPotter {
-    background-image: url(../../../wp-content/uploads/2015/02/Harry-Potter-La-Experiencia.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
-    }
-
-.coverPhotoFront.Img.Nike {
-    display: none
-    }
-
-.coverPhotoFront.Bg.Nike {
-    background-image: url(../../../wp-content/uploads/2015/02/Nike-PressKit.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
-    }
-
-.coverPhotoFront.Img.CaraCortada {
-    display: none
-    }
-
-.coverPhotoFront.Bg.CaraCortada {
-    background-image: url(../../../wp-content/uploads/2015/02/Cara-Cortada.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
-    }
-
-.coverPhotoFront.Img.Helix {
-    display: none
-    }
-
-.coverPhotoFront.Img.AmorPrimeraVisa {
-    display: none
-    }
-
-.coverPhotoFront.Bg.AmorPrimeraVisa {
-    background-image: url(../../../wp-content/uploads/2015/02/Amor-A-Primera-Visa.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
-    }
-
-.coverPhotoFront.Img.Helix {
-    display: none
-    }
-
-.coverPhotoFront.Bg.Helix {
-    background-image: url(../../../wp-content/uploads/2015/02/Helix.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
-    }
-
-.coverPhotoFront.Img.Cablevision {
-    display: none
-    }
-
-.coverPhotoFront.Bg.Cablevision {
-    background-image: url(../../../wp-content/uploads/2015/03/CablevisionLess959.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
-    }
+    }  
 
 .coverPhotoFront.Img.Home {
     display: none
@@ -1161,11 +1030,10 @@ a {
     width: 100%;
 }
 
-.innerArticuloProyectoGaleria.Desktop {
+.innerArticuloProyectoGaleria.Desktop, .innerArticuloProyectoGaleria {
     display: table;
-    padding: 0;
-    max-width: 320px;
-    width: 100%
+    padding: 0 20px;
+    width: 100%;
     }
 
 .innerArticuloProyectoGaleria.Movil > img {
@@ -1177,11 +1045,11 @@ a {
     }
 
 .innerArticuloProyecto #ytplayer {
-    width: 320px;
-    height: 200px
-    }
+    height: auto;
+    width: 100%;
+}
 
-.primerInnerPadding, #post-10, #post-12, #post-14, #innerProyectos {
+.primerInnerPadding, #post-10, #post-12, #post-14, #innerProyectos, .archertroy-blog  {
     padding: 0 20px;
     width: 100%;
     -moz-box-sizing: unset;
@@ -1204,7 +1072,7 @@ a {
     font-size: 1.15rem;
     font-weight: normal;
     letter-spacing: 1px;
-    line-height: 1.15rem;
+    line-height: 1.8rem;
     margin: 60px 0 20px;
     padding:0px;
 }
@@ -1635,7 +1503,7 @@ footer .site-info {
     }
 
 footer[role="contentinfo"] {
-    height: 104px;
+    height: 120px;
     width: 100%;
     margin-top: 40px
     }
@@ -1682,14 +1550,15 @@ footer[role="contentinfo"] {
     }
 
 .reg {
-    font-family: "Helvetica neue", helvetica, sans-serif;
-    font-size: 9px;
-    font-weight: normal;
     display: inline-block;
     float: left;
-    margin: -2px 3px 0 0;
-    height: 100%
-    }
+    font-family: optimaregular;
+    font-size: 30px;
+    font-weight: lighter;
+    height: 100%;
+    line-height: 30px;
+    margin: 0 5px 0 0;
+}
 
 .menu-toggle .icon-align-justify {
     height: 100%
@@ -1711,10 +1580,6 @@ article.sticky .featured-post {
     margin-bottom: 24px;
     margin-bottom: 1.714285714rem;
     text-align: center
-    }
-
-.entry-content, .entry-summary, .mu_register {
-    line-height: 1.714285714
     }
 
 .entry-content h2, .comment-content h2, .mu_register h2 {
@@ -2834,7 +2699,8 @@ body.template-front-page .site-content, body.attachment .site-content, body.full
     position: absolute;
     right: 0;
     text-align: left;
-    z-index: -1
+    z-index: -1;
+    line-height: 14px;
     }
 
 .gente > div .wp-caption-text {
@@ -2858,16 +2724,6 @@ body.template-front-page .site-content, body.attachment .site-content, body.full
     content: "";
     width: 100%;
     display: inline-block
-    }
-
-.mini-post .entry-content .wp-caption:first-child {
-    background: transparent;
-    display: block;
-    max-width: 100%;
-    position: relative;
-    text-align: left;
-    overflow: hidden;
-    text-transform: none !important
     }
 
 .mini-post .entry-content > p:last-of-type {
@@ -3021,10 +2877,6 @@ footer.entry-meta {
     content: "h  "
     }
 
-.videoWrapper {
-    padding: 20px 0 0
-    }
-
 .seccion-legion {
     display: block;
     margin: auto;
@@ -3102,6 +2954,7 @@ footer.entry-meta {
     hyphens: none;
     font-family: optimaregular;
     font-size: 1em;
+    line-height: 1.85em;
     word-wrap: normal
     }
 
@@ -3492,6 +3345,7 @@ section.tactica p#parrafo-tactica {
     text-align: justify;
     width: 100%;
     word-wrap: normal;
+    line-height: 1.85em;
     font-family: optimaregular
     }
 
@@ -3506,6 +3360,7 @@ section.tactica p#parrafo-tactica-dos {
     text-align: justify;
     width: 100%;
     word-wrap: normal;
+    line-height: 1.85em;
     font-family: optimaregular
     }
 
@@ -4370,6 +4225,175 @@ textarea {
 .hamburger-menu-icon {
     display: none !important
     }
+
+.archertroy-blog-margin-top {
+    background: none repeat scroll 0 0 #cfcfcf;
+    height: 1px;
+}
+
+.post-browse {
+    background: none repeat scroll 0 0 #fff;
+    clear: none;
+    float: left;
+    height: 100%;
+    padding: 0 1% 0 0;
+    position: relative;
+    text-align: right;
+    width: 100%;
+}
+.post-content {
+    background: none repeat scroll 0 0 #e6e6e6;
+    float: left;
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+.mini-post .entry-content .wp-caption:first-child {
+    background: transparent;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: left;
+    overflow: hidden;
+    text-transform: none !important;
+    padding: 0;
+    }
+.mini-post .entry-content .wp-caption:first-child img {
+    margin: 0;
+}
+
+.mini-post .entry-content > .wp-caption:first-child > .wp-caption-text {
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDk2MCAxNTAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0iaGF0MCIgZ3JhZGllbnRVbml0cz0ib2JqZWN0Qm91bmRpbmdCb3giIHgxPSI1MCUiIHkxPSIxMDAlIiB4Mj0iNTAlIiB5Mj0iLTEuNDIxMDg1NDcxNTIwMmUtMTQlIj4KPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMCIgc3RvcC1vcGFjaXR5PSIwLjgiLz4KPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDAwIiBzdG9wLW9wYWNpdHk9IjAiLz4KICAgPC9saW5lYXJHcmFkaWVudD4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSI5NjAiIGhlaWdodD0iMTUwIiBmaWxsPSJ1cmwoI2hhdDApIiAvPgo8L3N2Zz4=);
+    background-image: -moz-linear-gradient(bottom, rgba(0,0,0,.65) 0%, rgba(0,0,0,0) 100%);
+    background-image: -o-linear-gradient(bottom, rgba(0,0,0,.65) 0%, rgba(0,0,0,0) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgba(0,0,0,.65) 0%, rgba(0,0,0,0) 100%);
+    background-image: linear-gradient(bottom, rgba(0,0,0,.65) 0%, rgba(0,0,0,0) 100%);
+    bottom: 0;
+    color: white;
+    font-family: optimaregular !important;
+    font-size: 2.5em;
+    height: 130px;
+    margin: 0;
+    padding: 0 20px;
+    position: absolute;
+    text-transform: none !important;
+    width: 100%;
+    line-height: 190px;
+    }
+.blog-posts-header {
+    border-bottom: 1px solid #cfcfcf;
+    display: block;
+    height: 100px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.blog-posts-header h2 {
+    border-bottom: 1px solid #cfcfcf;
+    border-right: 1px solid #cfcfcf;
+    float: left;
+    font-family: trajanregular;
+    font-size: 1.2rem;
+    height: 50px;
+    line-height: 3.2em;
+    text-align: left;
+    text-transform: uppercase;
+    vertical-align: middle;
+    width: 50%;
+}
+.blog-posts-header form {
+    border-bottom: 1px solid #cfcfcf;
+    border-right: 1px solid #cfcfcf;
+    display: inline-block;
+    float: left;
+    font-family: optimaregular;
+    height: 50px;
+    margin: 0;
+    padding: 0 20px;
+    width: 50%;
+}
+.blog-posts-header form input {
+    border: none;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #CFCFCF;
+    width: 100%;
+    height: 25px;
+    margin: 1em 0 0 0;
+    padding: 0;
+    line-height: 1.5
+    }
+.blog-posts-header .header-social-links {
+    clear: none;
+    display: inline-block;
+    float: left;
+    height: 50px;
+    line-height: 60px;
+    padding: 0 20px;
+    text-align: justify;
+    width: 100%;
+} 
+.blog-posts-header .header-social-links > a {
+    color: #4b4b4b;
+    display: inline-block;
+    font-size: 18px;
+    margin: 0;
+    text-decoration: none;
+    vertical-align: top;
+}
+.blog-grid > div.blog-wp-caption, .blog-grid > a {
+    display: table;
+    float: left;
+    margin: 0 0 2%;
+    width: 100%;
+}
+.blog-wp-caption-text {
+    background: none repeat scroll 0 0 rgb(255, 255, 255);
+    color: #626161;
+    display: block;
+    filter: alpha(opacity=0);
+    font-family: optimaregular;
+    left: 0;
+    right: 0;
+    margin: 0 !important;
+    max-width: 100%;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+    padding: 5px 0 !important;
+    position: absolute;
+    height: 64px
+    }
+
+.blog-wp-caption-text .caption-title, .wp-caption-text .caption-title {
+    font-family: optimaregular;
+    font-size: 20px;
+    height: 25px;
+    left: 20px;
+    line-height: 20px;
+    position: absolute;
+    text-align: left;
+    width: 100%;
+}
+
+.blog-wp-caption-text .caption-date, .wp-caption-text .caption-date {
+    bottom: 0;
+    font-family: optimaregular;
+    font-size: 16px;
+    font-style: italic;
+    height: 20px;
+    left: 20px;
+    line-height: 16px;
+    position: absolute;
+    text-align: left;
+    text-transform: lowercase;
+    width: 100%;
+    }      
+
+
 
 .carteles {
     -moz-box-sizing: unset;

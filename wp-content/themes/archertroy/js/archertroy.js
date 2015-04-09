@@ -2,8 +2,12 @@
  * Ejecucion de mostrar el contenido hasta que se cargue la pagina
  */
 $( document ).ready(function() {
-jQuery.noConflict();
-jQuery('#cntctfrm_contact_form').parsley();
+
+if($(".formulario").length){
+  jQuery.noConflict();
+  jQuery('#cntctfrm_contact_form').parsley();
+}
+
   $("#cntctfrm_contact_form").submit(function(e){
     e.preventDefault();
     return false;
@@ -56,9 +60,9 @@ jQuery('#cntctfrm_contact_form').parsley();
     },1500);
   }
 
-  if($(".gente div").length){
+  if($(".gente .wp-caption.alignnone").length){
     setTimeout(function () {
-        $(".gente div").animate({opacity: 1}, 1000);      
+        $(".gente .wp-caption.alignnone").animate({opacity: 1}, 1000);      
     },1500);
   }
 
@@ -199,45 +203,6 @@ var $full_width_header = $('.entry-content p:first-child img:first'),
       $('#main').height(calc_height);
     }        
   }
-  
-  /* Cuando se visualiza el blog en dos columnas se toma como referencia la columna más alta para asignar la altura al contenedor. */
-
-  function ajustar_altura_columnas() { 
-    $('.wrapper, .mini-post, .post-browse').attr('style', '');            
-     var altura_final = 0,
-         posicion_footer = 0,
-         altura_proporcional = 0,
-         altura_nueva_publicacion = $('.mini-post').height(),
-         altura_visualizacion_publicaciones = $('.post-browse').height(),
-         espacio_para_navegacion = 224, 
-         separacion_footer = 0;
-     
-     if (es_movil()) {
-         separacion_footer = 60;
-     }
-            
-     if (altura_nueva_publicacion > altura_visualizacion_publicaciones) {         
-       altura_final = altura_nueva_publicacion;
-       altura_final += espacio_para_navegacion;
-       posicion_footer = altura_final + separacion_footer;
-     } else {
-       altura_final = altura_visualizacion_publicaciones;
-       altura_final += espacio_para_navegacion;
-       posicion_footer = altura_final + separacion_footer;
-     }
-   
-     altura_proporcional = altura_final + $('#masthead').outerHeight();
-   
-     if (altura_proporcional > $('#page').outerHeight()) {
-       $('.mini-post').height(altura_final);
-       $('.post-browse').height(altura_final);      
-       $('#main').height(posicion_footer);         
-     } else {
-        altura_final = ($('#page').outerHeight() - $('#masthead').outerHeight()) + espacio_para_navegacion;
-       $('.mini-post').height(altura_final);
-       $('.post-browse').height(altura_final);
-     }
-  }
 
     /* Crear masonry con las opciones generadas */
 
@@ -271,11 +236,13 @@ var $full_width_header = $('.entry-content p:first-child img:first'),
     } else if ($('.gente').length > 0) {
         opts = {
           gutter: 15,
-          itemSelector: 'div',
+          itemSelector: '.wp-caption.alignnone',
           transitionDuration: '1s'          
         }
-        create_and_build_masonry('.gente', opts);  
-        parse_people_data();
+        create_and_build_masonry('.gente', opts); 
+        if($('.datos-persona').length > 0){
+
+        }else{ parse_people_data(); }
     } else if ($(".grid").length > 0) { 
 
       if ($(window).outerWidth() < 600) {
@@ -309,54 +276,12 @@ var $full_width_header = $('.entry-content p:first-child img:first'),
     $('img',$tmp_node).load(function(){
       content_images--;
       if (content_images == 0) {
-        ajustar_altura_columnas();
+        
       }
     });
-    
-    /* 
-      Si es para escritorio dejar el comportamiento normal 
-      if ($(window).outerWidth() > 599) {    
-    */
-    if ($(window).outerWidth() > 959) {
-      $('#post-visualization').html($tmp_node.children());
-      $('.mini-post .wp-caption').css({"margin-top" : 0});        
-    } else {
-      /* 
-        Si el grid y la publicación están agrupados en el mismo contenedor 
-        visualizar el contenido 
-      */
-      if ($('.blog-wrapper').length > 0 || $('.blog-grid').parent() === $('#post-visualization').parent()) {
-        $('#post-visualization').html($tmp_node.children());
-        $('.mini-post .wp-caption').css({"margin-top" : 0});            
-        $('html, body').animate({scrollTop: -$('#post-visualization').offset().top}, 600);
-      } else {
-        /* Si no están agrupados agruparlos y visualizar el contenido*/
-          $('#post-visualization').remove();
-          $('.blog-grid').wrap("<div class='blog-wrapper'></div>");
-          $('.blog-wrapper').append("<div id='post-visualization' class='post-content'></div>");
-          $('#post-visualization').html($tmp_node.children());
-          /* Crecer el contenedor 180px para las noticias
-          if (window.location.pathname.search("noticia") !== -1) {            
-            var altura_ajustada = $(".mini-post").outerHeight() + 180;
-            $("#page, #main").height(altura_ajustada);
-          }
-           Crecer el contenedor 180px para las noticias
-          
-            Mover -285px para 320
-            Buscar tamaño para mover entre 600 y 960px
-          */
-          
-          var desplazar = 0;
-
-          if ($(window).outerWidth() > 599) {
-            desplazar = -515;
-          } else {
-            desplazar = -285;
-          }
-          $('.blog-wrapper').animate({'margin-left': desplazar}, 600);
-          $('.mini-post .wp-caption').css({"margin-top" : 0});        
-      }
-    }
+   
+    $('#post-visualization').html($tmp_node.children());
+    $('.mini-post .wp-caption').css({"margin-top" : 0});        
     
   }
   
@@ -420,11 +345,12 @@ var $full_width_header = $('.entry-content p:first-child img:first'),
   /* Al momento en que se cargan la ventana mandamos ejecutar las siguientes funciones. */
   window.onload = function () {
     asignar_clase_a_iconos_sociales();
-    ajustar_footer();  
     build_msnry_opts();
     quitar_marcas_de_agua();
     hacer_zoom_a_imagen();
     animaciones_legion();
+    ajustar_footer();
+    mover_footer_al_fondo();
   }
   
   

@@ -212,7 +212,7 @@
     display: table !important
     }
 
-.primerInnerPadding, #post-10, #post-12, #post-14, #innerProyectos {
+.primerInnerPadding, #post-10, #post-12, #post-14, #innerProyectos, .archertroy-blog  {
     padding: 0 20px;
     width: 100%;
     -moz-box-sizing: unset;
@@ -334,13 +334,6 @@ footer .site-info {
     width: 15%
     }
 
-.triangule {
-    float: left;
-    height: 100%;
-    overflow: visible;
-    width: 1%;
-    display: block
-    }
 
 .social-links {
     display: block;
@@ -356,15 +349,6 @@ footer .site-info {
     line-height: 40px;
     padding: 0;
     width: 84%
-    }
-
-.reg {
-    font-family: "Helvetica neue", helvetica, sans-serif;
-    font-size: 9px;
-    font-weight: normal;
-    display: inline-block;
-    float: left;
-    margin: -2px 3px 0 0
     }
 
 .site-content nav {
@@ -448,16 +432,18 @@ footer.entry-meta {
 
 .datos-persona .persona .nombre-persona {
     font-size: 14px;
+    line-height: 18px;
     color: #626161
     }
 
 .datos-persona .persona .puesto-persona {
     font-size: 12px;
+    line-height: 16px;
     color: #a3ada2
     }
 
 .datos-persona .handler, .datos-persona .handler a {
-    line-height: 3;
+    line-height: 16px;
     color: #252425;
     font-size: 12px;
     text-align: right
@@ -613,33 +599,8 @@ footer.entry-meta {
     position: absolute;
     right: 0;
     text-align: left;
-    z-index: -1
-    }
-
-
-.blog-wp-caption-text .caption-title, .wp-caption-text .caption-title {
-    font-family: optimaregular;
-    font-size: 20px;
-    height: 25px;
-    left: 20px;
-    line-height: 20px;
-    position: absolute;
-    text-align: left;
-    width: 100%;
-    }
-
-.blog-wp-caption-text .caption-date, .wp-caption-text .caption-date {
-    bottom: 0;
-    font-family: optimaregular;
-    font-size: 16px;
-    font-style: italic;
-    height: 20px;
-    left: 20px;
-    line-height: 16px;
-    position: absolute;
-    text-align: left;
-    text-transform: lowercase;
-    width: 100%;
+    z-index: -1;
+    line-height: 17px;
     }
 
 .project-navigation {
@@ -651,36 +612,6 @@ footer.entry-meta {
     width: 960px;
     text-transform: uppercase;
     position: relative
-    }
-
-.mini-post .entry-content .wp-caption:first-child {
-    background: transparent;
-    display: block;
-    max-width: 100%;
-    position: relative;
-    text-align: left;
-    overflow: hidden;
-    text-transform: none !important
-    }
-
-.blog-wp-caption-text {
-    background: none repeat scroll 0 0 rgb(255, 255, 255);
-    bottom: 0.7em;
-    color: #626161;
-    display: block;
-    filter: alpha(opacity=0);
-    font-family: optimaregular;
-    left: 0;
-    right: 0;
-    margin: 0 !important;
-    max-width: 100%;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: alpha(opacity=0);
-    opacity: 0;
-    padding: 5px 0 !important;
-    position: absolute;
-    z-index: -1;
-    height: 64px
     }
 
 .gente .wp-caption-text {
@@ -1141,12 +1072,13 @@ section.tactica .seccion-arco {
 
 .seccion-arco .arco-1 {
     display: none;
-    left: 810px;
+    left: 802px;
+    margin: 0;
     position: absolute;
-    top: 50px;
+    top: 66px;
     width: 345px;
-    margin:0px;
-    }
+}
+
 
 .seccion-arco .target-1 {
     position: absolute;
@@ -1180,12 +1112,12 @@ section.tactica .seccion-arco {
 
 .arco-4 {
     display: none;
-    left: 836px;
+    left: 823px;
+    margin: 0;
     position: absolute;
-    top: 303px;
+    top: 319px;
     width: 340px;
-    margin:0px;
-    }
+}
 
 .target-4 {
     position: absolute;
@@ -1219,12 +1151,12 @@ section.tactica .seccion-arco {
 
 .arco-3 {
     display: none;
-    left: 40px;
+    left: 80px;
+    margin: 0;
     position: absolute;
-    top: 118px;
+    top: 134px;
     width: 345px;
-    margin:0px;
-    }
+}
 
 .target-3 {
     position: absolute;
@@ -1258,12 +1190,12 @@ section.tactica .seccion-arco {
 
 .arco-2 {
     display: none;
-    left: 25px;
+    left: 43px;
+    margin: 0;
     position: absolute;
-    top: 461px;
-    width: 345px;
-    margin:0px;
-    }
+    top: 478px;
+    width: 358px;
+}
 
 .target-2 {
     position: absolute;

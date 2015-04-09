@@ -310,7 +310,7 @@
     width: 100%
     }
 
-#post-14, #post-12, #post-10, #innerProyectos {
+#post-14, #post-12, #post-10, #innerProyectos, .archertroy-blog {
     margin: auto;
     max-width: 1800px;
     width: 1800px;
@@ -524,13 +524,6 @@ footer .site-info {
     width: 15%
     }
 
-.triangule {
-    float: left;
-    height: 100%;
-    overflow: visible;
-    width: 1%;
-    display: block
-    }
 
 .social-links {
     display: block;
@@ -547,14 +540,6 @@ footer .site-info {
     width: 84%
     }
 
-.reg {
-    font-family: "Helvetica neue", helvetica, sans-serif;
-    font-size: 9px;
-    font-weight: normal;
-    display: inline-block;
-    float: left;
-    margin: -2px 3px 0 0
-    }
 
 .site-content nav {
     margin: 1em auto;
@@ -639,16 +624,18 @@ footer.entry-meta {
 
 .datos-persona .persona .nombre-persona {
     font-size: 17px;
+    line-height: 21px;
     color: #626161
     }
 
 .datos-persona .persona .puesto-persona {
     font-size: 16px;
+    line-height: 20px;
     color: #a3ada2
     }
 
 .datos-persona .handler, .datos-persona .handler a {
-    line-height: 3;
+    line-height: 20px;
     color: #252425;
     font-size: 16px;
     text-align: right;
@@ -836,25 +823,6 @@ footer.entry-meta {
     padding-top: 123px
     }
 
-.post-browse {
-    background: none repeat scroll 0 0 #fff;
-    clear: none;
-    float: left;
-    height: 100%;
-    padding: 0 1% 0 0;
-    position: relative;
-    text-align: right;
-    width: 50%;
-}
-
-.post-content {
-    background: none repeat scroll 0 0 #e6e6e6;
-    float: left;
-    height: 100%;
-    position: relative;
-    width: 50%;
-}
-
 .blog-posts-header {
     border-bottom: 1px solid #cfcfcf;
     display: block;
@@ -935,18 +903,11 @@ footer.entry-meta {
     margin: 0
     }
 
-
-.archertroy-blog {
-    margin: auto;
-    max-width: 1800px;
-    width: 1800px;
-}
-
 .blog-grid > div.blog-wp-caption, .blog-grid > a {
+    display: table;
     float: left;
-    height: 300px;
-    margin: 0 16px 16px 0;
-    width: 430px;
+    margin: 0 2% 2% 0;
+    width: 48%;
 }
 .blog-grid > div.blog-wp-caption:nth-child(even) {
     margin: 0;
@@ -965,11 +926,6 @@ footer.entry-meta {
     margin: 0.5rem 0
     }
 
-.archertroy-blog-margin-top {
-    background: none repeat scroll 0 0 #cfcfcf;
-    height: 1px;
-}
-
 .mini-post .entry-content .wp-caption:first-child {
     background: transparent;
     display: block;
@@ -980,7 +936,8 @@ footer.entry-meta {
     position: relative;
     text-align: left;
     overflow: hidden;
-    text-transform: none !important
+    text-transform: none !important;
+    padding: 0;
     }
 
 .project-navigation {
@@ -992,39 +949,6 @@ footer.entry-meta {
     width: 960px;
     text-transform: uppercase;
     position: relative
-    }
-
-.mini-post .entry-content .wp-caption:first-child {
-    background: transparent;
-    display: block;
-    max-width: 100%;
-    position: relative;
-    text-align: left;
-    overflow: hidden;
-    text-transform: none !important
-    }
-
-.mini-post .entry-content .wp-caption:first-child img {
-    margin: 0
-    }
-
-.mini-post .entry-content > .wp-caption:first-child > .wp-caption-text {
-    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDk2MCAxNTAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0iaGF0MCIgZ3JhZGllbnRVbml0cz0ib2JqZWN0Qm91bmRpbmdCb3giIHgxPSI1MCUiIHkxPSIxMDAlIiB4Mj0iNTAlIiB5Mj0iLTEuNDIxMDg1NDcxNTIwMmUtMTQlIj4KPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMCIgc3RvcC1vcGFjaXR5PSIwLjgiLz4KPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDAwIiBzdG9wLW9wYWNpdHk9IjAiLz4KICAgPC9saW5lYXJHcmFkaWVudD4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSI5NjAiIGhlaWdodD0iMTUwIiBmaWxsPSJ1cmwoI2hhdDApIiAvPgo8L3N2Zz4=);
-    background-image: -moz-linear-gradient(bottom, rgba(0,0,0,.65) 0%, rgba(0,0,0,0) 100%);
-    background-image: -o-linear-gradient(bottom, rgba(0,0,0,.65) 0%, rgba(0,0,0,0) 100%);
-    background-image: -webkit-linear-gradient(bottom, rgba(0,0,0,.65) 0%, rgba(0,0,0,0) 100%);
-    background-image: linear-gradient(bottom, rgba(0,0,0,.65) 0%, rgba(0,0,0,0) 100%);
-    bottom: 0;
-    color: white;
-    font-family: optimaregular !important;
-    font-size: 2.5em;
-    height: 130px;
-    margin: 0;
-    padding: 0 20px;
-    position: absolute;
-    text-transform: none !important;
-    width: 100%;
-    line-height: 190px;
     }
 
 #menu-item-658, #menu-item-31, #menu-item-30, #menu-item-443 {
@@ -1061,30 +985,6 @@ footer.entry-meta {
   	background-size: cover;
     }
 
-.blog-wp-caption-text .caption-title, .wp-caption-text .caption-title {
-    font-family: optimaregular;
-    font-size: 20px;
-    height: 25px;
-    left: 20px;
-    line-height: 20px;
-    position: absolute;
-    text-align: left;
-    width: 100%;
-    }
-
-.blog-wp-caption-text .caption-date, .wp-caption-text .caption-date {
-    bottom: 0;
-    font-family: optimaregular;
-    font-size: 16px;
-    font-style: italic;
-    height: 20px;
-    left: 20px;
-    line-height: 16px;
-    position: absolute;
-    text-align: left;
-    text-transform: lowercase;
-    width: 100%;
-    }
 
 .gente .wp-caption-text {
     bottom: 0.4em !important
@@ -1439,12 +1339,12 @@ section.tactica .seccion-arco {
 
 .seccion-arco .arco-1 {
     display: none;
-    left: 810px;
+    left: 804px;
     margin: 0;
     position: absolute;
-    top: 50px;
+    top: 67px;
     width: 355px;
-    }
+}
 
 .seccion-arco .target-1 {
     position: absolute;
@@ -1481,10 +1381,9 @@ section.tactica .seccion-arco {
     left: 825px;
     margin: 0;
     position: absolute;
-    top: 303px;
+    top: 319px;
     width: 340px;
-    }
-
+}
 .target-4 {
     position: absolute;
     width: 50px;
@@ -1517,12 +1416,12 @@ section.tactica .seccion-arco {
 
 .arco-3 {
     display: none;
-    left: 40px;
+    left: 50px;
     margin: 0;
     position: absolute;
-    top: 118px;
+    top: 135px;
     width: 374px;
-    }
+}
 
 .target-3 {
     position: absolute;
@@ -1556,12 +1455,12 @@ section.tactica .seccion-arco {
 
 .arco-2 {
     display: none;
-    left: 50px;
+    left: 55px;
     margin: 0;
     position: absolute;
-    top: 461px;
+    top: 478px;
     width: 345px;
-    }
+}
 
 .target-2 {
     position: absolute;
@@ -1939,7 +1838,8 @@ section.interior .seccion-caballo {
     right: 0;
     text-align: left;
     z-index: -1;
-    font-size: 13px
+    font-size: 13px;
+    line-height: 20px;
     }
 
 .contenedor-texto {
