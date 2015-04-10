@@ -220,7 +220,7 @@ var $full_width_header = $('.entry-content p:first-child img:first'),
       
       opts = {
         gutter: 0,      
-        itemSelector: 'a',
+        itemSelector: 'div.larger',
         columnWidth: 1,
         transitionDuration: '1s'          
       }
