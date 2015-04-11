@@ -53,6 +53,12 @@ if($(".formulario").length){
         $(".grid div").animate({opacity: 1}, 1000);      
     },1500);
   }
+
+  if($(".grid.proyectos").length){
+    setTimeout(function () {
+        $(".grid.proyectos").animate({opacity: 1}, 1000);      
+    },1500);
+  }
   
   if($(".clientes img").length){
     setTimeout(function () {
@@ -228,7 +234,7 @@ var $full_width_header = $('.entry-content p:first-child img:first'),
       
     } else if ($('.clientes').length > 0) {
         opts = {
-          gutter: 16,   
+          gutter: 10,   
           itemSelector: 'img',
           transitionDuration: '1s'          
         }

@@ -536,12 +536,16 @@ img.attachment-post-thumbnail.wp-post-image {
 #post-308 h1 {
     margin: 20px auto;
     max-width: 1800px;
+    padding: 0 20px;
+    box-sizing:unset;
 }
 .datos-persona {
     height: 100%;
     width: 100%
     }
-
+.wp-caption .wp-caption-text {
+    text-transform: uppercase;
+}
 .datos-persona .persona, .datos-persona .handler {
     font-family: optimaregular;
     text-transform: none;
@@ -601,7 +605,7 @@ img.attachment-post-thumbnail.wp-post-image {
     display: inline-block;
     vertical-align: top;
     zoom: 1;
-    margin-bottom: 16px;
+    margin-bottom: 10px;
     width: 50px;
     height: 50px;
     max-width: 50px;
@@ -1303,7 +1307,281 @@ a {
     max-width: 100% !important;
     width: 100%
     }  
-
+.coverPhotoFront.Img.I00037 {
+    background-image: url(../../../wp-content/uploads/proyectos/print-images/Alboa-Boliches-Cover.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: block;
+    height: 230px;
+    max-width: 100% !important;
+    width: 100%
+    } 
+.coverPhotoFront.Img.I00038 {
+    background-image: url(../../../wp-content/uploads/proyectos/print-images/Boliches-Amf-un-Mundo-de-Diversion-Cover.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: block;
+    height: 230px;
+    max-width: 100% !important;
+    width: 100%
+    } 
+.coverPhotoFront.Img.I00039 {
+    background-image: url(../../../wp-content/uploads/proyectos/print-images/British-Council-70-Anos-Cover.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: block;
+    height: 230px;
+    max-width: 100% !important;
+    width: 100%
+    } 
+.coverPhotoFront.Img.I00040 {
+    background-image: url(../../../wp-content/uploads/proyectos/print-images/British-Council-London-Mexfest-Cover.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: block;
+    height: 230px;
+    max-width: 100% !important;
+    width: 100%
+    } 
+.coverPhotoFront.Img.I00041 {
+    background-image: url(../../../wp-content/uploads/proyectos/print-images/Cablevision-Acdc-Cover.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: block;
+    height: 230px;
+    max-width: 100% !important;
+    width: 100%
+    } 
+.coverPhotoFront.Img.I00042 {
+    background-image: url(../../../wp-content/uploads/proyectos/print-images/Cablevision-Anunciate-Cover.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: block;
+    height: 230px;
+    max-width: 100% !important;
+    width: 100%
+    } 
+.coverPhotoFront.Img.I00043 {
+    background-image: url(../../../wp-content/uploads/proyectos/print-images/Cablevision-Va-Mas-Alla-Cover.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: block;
+    height: 230px;
+    max-width: 100% !important;
+    width: 100%
+    } 
+.coverPhotoFront.Img.I00044 {
+    background-image: url(../../../wp-content/uploads/proyectos/print-images/Canal-Sony-Mexicos-Next-Top-Model-Cover.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: block;
+    height: 230px;
+    max-width: 100% !important;
+    width: 100%
+    } 
+.coverPhotoFront.Img.I00045 {
+    background-image: url(../../../wp-content/uploads/proyectos/print-images/Cinemark-a-la-Mexicana-Cover.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: block;
+    height: 230px;
+    max-width: 100% !important;
+    width: 100%
+    } 
+.coverPhotoFront.Img.I00046 {
+    background-image: url(../../../wp-content/uploads/proyectos/print-images/Cinepolis-la-Jaula-Cover.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: block;
+    height: 230px;
+    max-width: 100% !important;
+    width: 100%
+    } 
+.coverPhotoFront.Img.I00047 {
+    background-image: url(../../../wp-content/uploads/proyectos/print-images/Danhos-Septiembre-Cover.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: block;
+    height: 230px;
+    max-width: 100% !important;
+    width: 100%
+    } 
+.coverPhotoFront.Img.I00048 {
+    background-image: url(../../../wp-content/uploads/proyectos/print-images/Danhos-Deltamano-Cover.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: block;
+    height: 230px;
+    max-width: 100% !important;
+    width: 100%
+    }
+.coverPhotoFront.Img.I00049 {
+    background-image: url(../../../wp-content/uploads/proyectos/print-images/Danhos-Parque-Duraznos-Cover.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: block;
+    height: 230px;
+    max-width: 100% !important;
+    width: 100%
+    }
+.coverPhotoFront.Img.I00050 {
+    background-image: url(../../../wp-content/uploads/proyectos/print-images/Danhos-Shoppingterapia-Cover.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: block;
+    height: 230px;
+    max-width: 100% !important;
+    width: 100%
+    }
+.coverPhotoFront.Img.I00051 {
+    background-image: url(../../../wp-content/uploads/proyectos/print-images/Danhos-Toreo-Cover.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: block;
+    height: 230px;
+    max-width: 100% !important;
+    width: 100%
+    }
+.coverPhotoFront.Img.I00052 {
+    background-image: url(../../../wp-content/uploads/proyectos/print-images/Imcine-Cinema-Mexico-Cover.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: block;
+    height: 230px;
+    max-width: 100% !important;
+    width: 100%
+    }
+.coverPhotoFront.Img.I00053 {
+    background-image: url(../../../wp-content/uploads/proyectos/print-images/Latam-Distribution-Obediencia-Perceta-Cover.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: block;
+    height: 230px;
+    max-width: 100% !important;
+    width: 100%
+    }
+.coverPhotoFront.Img.I00054 {
+    background-image: url(../../../wp-content/uploads/proyectos/print-images/Scotiabank-Mca-Cover.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: block;
+    height: 230px;
+    max-width: 100% !important;
+    width: 100%
+    }
+.coverPhotoFront.Img.I00055 {
+    background-image: url(../../../wp-content/uploads/proyectos/print-images/Scotiabank-Scotiaflex-Cover.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: block;
+    height: 230px;
+    max-width: 100% !important;
+    width: 100%
+    }
+.coverPhotoFront.Img.I00056 {
+    background-image: url(../../../wp-content/uploads/proyectos/print-images/Televisa-Cine-Amor-a-Primera-Visa-Cover.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: block;
+    height: 230px;
+    max-width: 100% !important;
+    width: 100%
+    }
+.coverPhotoFront.Img.I00057 {
+    background-image: url(../../../wp-content/uploads/proyectos/print-images/Televisa-Cine-Cantinflas-Cover.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: block;
+    height: 230px;
+    max-width: 100% !important;
+    width: 100%
+    }
+.coverPhotoFront.Img.I00058 {
+    background-image: url(../../../wp-content/uploads/proyectos/print-images/Televisa-Cine-Mas-Negro-Que-La-Noche-Cover.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: block;
+    height: 230px;
+    max-width: 100% !important;
+    width: 100%
+    }
+.coverPhotoFront.Img.I00059 {
+    background-image: url(../../../wp-content/uploads/proyectos/print-images/Universal-Metegol-Cover.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: block;
+    height: 230px;
+    max-width: 100% !important;
+    width: 100%
+    }
+.coverPhotoFront.Img.I00060 {
+    background-image: url(../../../wp-content/uploads/proyectos/print-images/Warner-Don-Gato-Cover.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: block;
+    height: 230px;
+    max-width: 100% !important;
+    width: 100%
+    }
+.coverPhotoFront.Img.I00061 {
+    background-image: url(../../../wp-content/uploads/proyectos/print-images/Warner-Nosotros-Los-Nobles-Cover.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: block;
+    height: 230px;
+    max-width: 100% !important;
+    width: 100%
+    }
 
 
 .coverPhotoFront.Img.Home {
@@ -1451,6 +1729,7 @@ a {
     line-height: 1.8rem;
     margin: 60px 0 20px;
     padding:0px;
+    color: #8c8c8c;
 }
 .primerInnerPadding h1:nth-child(1), .contacto h1 {
     margin: 60px 0 20px
@@ -1929,7 +2208,6 @@ footer[role="contentinfo"] {
     display: inline-block;
     float: left;
     font-family: optimaregular;
-    font-size: 30px;
     font-weight: lighter;
     height: 100%;
     line-height: 30px;
@@ -3050,7 +3328,9 @@ body.template-front-page .site-content, body.attachment .site-content, body.full
     margin-left: 48px;
     margin-left: 3.428571429rem
     }
-
+.grid.proyectos{
+    opacity:0;
+}
 .proyectos-recientes .wp-caption .wp-caption-text, .ultimas-noticias .wp-caption .wp-caption-text, .proyectos .wp-caption .wp-caption-text {
     -moz-hyphens: none;
     -webkit-hyphens: none;

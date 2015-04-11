@@ -4,16 +4,26 @@
 .site-header {
     height: 110px;
     margin: auto;
-    max-width: 1600px;
+    position: fixed;
+    max-width: 100%;
     padding: 0;
-    width: 100%
+    width: 100%;
+    background: white;
+    z-index: 99999;
     }
-
+.coverPhotoFront.Img{
+    margin-top:110px !important;
+}
+.site-header-dummy{
+    height: 110px;
+}
 .main-navigation {
     height: 100%;
+    margin: auto;
+    max-width: 1600px;
     text-align: center;
-    width: 100%
-    }
+    width: 100%;
+}
 
 .sidebar {
     border: medium none;
@@ -229,7 +239,8 @@
 .innerArticuloProyecto, .visualizador-noticias, .contacto {
     margin: auto;
     max-width: 1200px;
-    width: 1200px
+    width: 1200px;
+    margin: 110px auto auto;
     }
 
 .innerArticuloProyectoGaleria.Desktop {

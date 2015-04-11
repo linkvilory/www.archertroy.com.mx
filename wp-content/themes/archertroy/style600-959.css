@@ -637,17 +637,6 @@ footer[role="contentinfo"] {
     width: 64%;
     }
 
-.reg {
-    display: inline-block;
-    float: left;
-    font-family: optimaregular;
-    font-size: 30px;
-    font-weight: lighter;
-    height: 100%;
-    line-height: 30px;
-    margin: 0 5px 0 0;
-}
-
 .proyectos-recientes .wp-caption .wp-caption-text, .ultimas-noticias .wp-caption .wp-caption-text, .proyectos .wp-caption .wp-caption-text {
     -moz-hyphens: none;
     -webkit-hyphens: none;

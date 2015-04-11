@@ -92,11 +92,6 @@
     width: 100%
     }
 
-.main-navigation li a, .main-navigation li {
-    display: block;
-    text-decoration: none
-    }
-
 .mini-logo {
     margin: 5px 20px 0 0;
     cursor: pointer;
@@ -217,14 +212,6 @@
     letter-spacing: 0.5px
     }
 
-.sidebar .menu-menu-1-container > ul > li {
-    padding: 1em 0.875em 0.75em;
-    border-bottom: 1px solid #efefef;
-    text-align: left;
-    margin-left: 1em;
-    margin-right: 0
-    }
-
 .sidebar .menu-menu-1-container > ul > li > a {
     display: block
     }
@@ -252,38 +239,6 @@
     transform-origin: 50% 50%
     }
 
-.sidebar .menu-menu-1-container > ul > li > a:only-child:after {
-    display: none
-    }
-
-.sidebar .menu-menu-1-container > ul > li > ul {
-    margin-left: 1em;
-    line-height: 1.2em;
-    font-size: 0.85em;
-    max-height: 0;
-    overflow: hidden
-    }
-
-.sidebar .menu-menu-1-container > ul > li > ul > li {
-    -moz-transform: translatez(0);
-    -ms-transform: translatez(0);
-    -o-transform: translatez(0);
-    -webkit-transform: translatez(0);
-    transform: translatez(0);
-    margin: 0.35em 0;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: alpha(opacity=0);
-    opacity: 0
-    }
-
-.sidebar .menu-menu-1-container > ul > li > ul > li > a {
-    display: block;
-    color: #a4a4a4;
-    padding-left: 0;
-    line-height: 30px;
-    font-size: 11px
-    }
-
 .sidebar .menu-menu-1-container > ul > li > ul > li > a:focus, .sidebar .menu-menu-1-container > ul > li > ul > li > a:hover {
     color: #626161
     }
@@ -293,76 +248,6 @@
     filter: alpha(opacity=0);
     opacity: 0;
     margin: 2px 7px 0 0
-    }
-
-.sidebar .menu-menu-1-container > ul > li > ul > li:nth-child(1) {
-    -moz-transition: opacity 0.4s ease 0.125s;
-    -o-transition: opacity 0.4s ease 0.125s;
-    -webkit-transition: opacity 0.4s ease 0.125s;
-    transition: opacity 0.4s ease 0.125s
-    }
-
-.sidebar .menu-menu-1-container > ul > li > ul > li:nth-child(2) {
-    -moz-transition: opacity 0.4s ease 0.25s;
-    -o-transition: opacity 0.4s ease 0.25s;
-    -webkit-transition: opacity 0.4s ease 0.25s;
-    transition: opacity 0.4s ease 0.25s
-    }
-
-.sidebar .menu-menu-1-container > ul > li > ul > li:nth-child(3) {
-    -moz-transition: opacity 0.4s ease 0.375s;
-    -o-transition: opacity 0.4s ease 0.375s;
-    -webkit-transition: opacity 0.4s ease 0.375s;
-    transition: opacity 0.4s ease 0.375s
-    }
-
-.sidebar .menu-menu-1-container > ul > li > ul > li:nth-child(4) {
-    -moz-transition: opacity 0.4s ease 0.5s;
-    -o-transition: opacity 0.4s ease 0.5s;
-    -webkit-transition: opacity 0.4s ease 0.5s;
-    transition: opacity 0.4s ease 0.5s
-    }
-
-.sidebar .menu-menu-1-container > ul > li > ul > li:nth-child(5) {
-    -moz-transition: opacity 0.4s ease 0.625s;
-    -o-transition: opacity 0.4s ease 0.625s;
-    -webkit-transition: opacity 0.4s ease 0.625s;
-    transition: opacity 0.4s ease 0.625s
-    }
-
-.sidebar .menu-menu-1-container > ul > li > ul > li:nth-child(6) {
-    -moz-transition: opacity 0.4s ease 0.75s;
-    -o-transition: opacity 0.4s ease 0.75s;
-    -webkit-transition: opacity 0.4s ease 0.75s;
-    transition: opacity 0.4s ease 0.75s
-    }
-
-.sidebar .menu-menu-1-container > ul > li > ul > li:nth-child(7) {
-    -moz-transition: opacity 0.4s ease 0.875s;
-    -o-transition: opacity 0.4s ease 0.875s;
-    -webkit-transition: opacity 0.4s ease 0.875s;
-    transition: opacity 0.4s ease 0.875s
-    }
-
-.sidebar .menu-menu-1-container > ul > li > ul > li:nth-child(8) {
-    -moz-transition: opacity 0.4s ease 1s;
-    -o-transition: opacity 0.4s ease 1s;
-    -webkit-transition: opacity 0.4s ease 1s;
-    transition: opacity 0.4s ease 1s
-    }
-
-.sidebar .menu-menu-1-container > ul > li > ul > li:nth-child(9) {
-    -moz-transition: opacity 0.4s ease 1.125s;
-    -o-transition: opacity 0.4s ease 1.125s;
-    -webkit-transition: opacity 0.4s ease 1.125s;
-    transition: opacity 0.4s ease 1.125s
-    }
-
-.sidebar .menu-menu-1-container > ul > li > ul > li:nth-child(10) {
-    -moz-transition: opacity 0.4s ease 1.25s;
-    -o-transition: opacity 0.4s ease 1.25s;
-    -webkit-transition: opacity 0.4s ease 1.25s;
-    transition: opacity 0.4s ease 1.25s
     }
 
 .sidebar .menu-menu-1-container > ul > li > ul > li.current-menu-item a i {

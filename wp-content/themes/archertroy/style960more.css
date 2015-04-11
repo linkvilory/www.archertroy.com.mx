@@ -6,14 +6,21 @@
     margin: auto;
     max-width: 100%;
     padding: 0 20px;
-    width: 100%
+    width: 100%;
+    position: fixed;
+    background: white;
+    z-index: 99999;
     }
-
+.site-header-dummy{
+    height: 110px;
+}
 .main-navigation {
     height: 100%;
+    margin: auto;
+    max-width: 960px;
     text-align: center;
-    width: 100%
-    }
+    width: 100%;
+}
 
 .sidebar {
     border: medium none;
@@ -153,10 +160,19 @@
 
 .coverPhotoFront.Img{
     height: 520px !important;
+    background-attachment: fixed !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: auto 70% !important;
+    display: block !important;
+    height: 520px !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    margin-top:110px !important;
 }
 .coverPhotoFront.Img.Home {
     display: block;
-    height: auto;
+    height: auto!important;
     max-width: 100% !important;
     width: 100%
     }
@@ -171,7 +187,7 @@
 
 .coverPhotoFront.Img.Legion {
     display: block;
-    height: auto;
+    height: auto!important;
     max-width: 100% !important;
     width: 100%
     }
@@ -186,7 +202,7 @@
 
 .coverPhotoFront.Img.Contacto {
     display: block;
-    height: auto;
+    height: auto!important;
     max-width: 100% !important;
     width: 100%
     }
@@ -201,7 +217,7 @@
 
 .coverPhotoFront.Img.Brainbreak {
     display: block;
-    height: auto;
+    height: auto!important;
     max-width: 100% !important;
     width: 100%
     }
@@ -286,7 +302,8 @@
 .innerArticuloProyecto, .visualizador-noticias, .contacto {
     margin: auto;
     max-width: 960px;
-    width: 960px
+    width: 960px;
+    margin: 110px auto auto;
     }
 
 .innerArticuloProyectoGaleria.Desktop {
@@ -302,7 +319,7 @@
     height: 500px
     }
 
-.primerInnerPadding, #post-10, #post-12, #post-14, #innerProyectos, .archertroy-blog  {
+.primerInnerPadding, #post-10, #post-12, #post-14, #innerProyectos {
     padding: 0 20px;
     width: 100%;
     -moz-box-sizing: unset;
@@ -514,17 +531,6 @@ footer .site-info {
     padding: 0;
     width: 74%;
     }
-
-.reg {
-    display: inline-block;
-    float: left;
-    font-family: optimaregular;
-    font-size: 30px;
-    font-weight: lighter;
-    height: 100%;
-    line-height: 30px;
-    margin: 0 5px 0 0;
-}
 
 .proyectos-recientes .wp-caption .wp-caption-text, .ultimas-noticias .wp-caption .wp-caption-text, .proyectos .wp-caption .wp-caption-text {
     -moz-hyphens: none;

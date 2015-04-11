@@ -35,13 +35,13 @@ get_header(); ?>
 	<div id="primary" class="news-listing">
 
 		<div id="content" role="main" class='visualizador-noticias'>
-        <h1>Noticias</h1>
+        <h1>NOTICIAS</h1>
         <?php
 
         $index = 0;
       	$args = array(
           'post_type' => 'noticia',
-          'order' => 'ASC',
+          'order' => 'DESC',
           'orderby' => 'date',
           'posts_per_page' => 8
       	);

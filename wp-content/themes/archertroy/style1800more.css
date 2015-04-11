@@ -13,7 +13,13 @@
     width: 100%;
     z-index: 99
     }
-
+.main-navigation {
+    height: 100%;
+    margin: auto;
+    max-width: 1800px;
+    text-align: center;
+    width: 100%;
+}
 .landing-start {
     display: block;
     left: 20%;
@@ -63,7 +69,9 @@
     max-width: 211px;
     width: 211px
     }
-
+.coverPhotoFront.Img{
+    margin-top:86px !important;
+}
 .coverPhotoProyecto {
     display: block;
     height: auto;
@@ -278,7 +286,8 @@
 .innerArticuloProyecto, .visualizador-noticias, .contacto {
     margin: auto;
     max-width: 1200px;
-    width: 1200px
+    width: 1200px;
+    margin: 86px auto auto;
     }
 
 .innerArticuloProyectoGaleria.Desktop {
@@ -305,11 +314,16 @@
 .site-header {
     height: 86px;
     margin: auto;
-    max-width: 1800px;
+    position: fixed;
+    max-width: 100%;
     padding: 0;
-    width: 100%
+    width: 100%;
+    background: white;
+    z-index: 99999;
     }
-
+.site-header-dummy{
+    height: 86px;
+}
 #post-14, #post-12, #post-10, #innerProyectos, .archertroy-blog {
     margin: auto;
     max-width: 1800px;

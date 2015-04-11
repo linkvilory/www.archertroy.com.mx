@@ -33,9 +33,8 @@
       $index = 0;
       $args = array(
           'post_type' => 'proyecto',
-          'order' => 'DESC',
-          'orderby' => 'date',
-          'posts_per_page' => 8
+          'post__in' => array(1432, 1374, 1371, 1297, 1328, 1460, 1317, 1389),
+          'orderby'=>'post__in'
       );
       $my_query = new WP_Query($args);
 
@@ -85,7 +84,7 @@
           ); */
           $args = array(
               'post_type' => 'noticia',
-              'order' => 'ASC',
+              'order' => 'DESC',
               'orderby' => 'date',
               'posts_per_page' => 8
           );
