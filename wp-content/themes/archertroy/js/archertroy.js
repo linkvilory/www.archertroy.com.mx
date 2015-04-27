@@ -343,7 +343,7 @@ var $full_width_header = $('.entry-content p:first-child img:first'),
   
   
   $(window).on('resize', function () {
-    build_msnry_opts();
+    //build_msnry_opts();
     ajustar_footer();
     mover_footer_al_fondo();
   }); 

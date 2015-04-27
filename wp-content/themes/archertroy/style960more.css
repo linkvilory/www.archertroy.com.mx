@@ -6,21 +6,14 @@
     margin: auto;
     max-width: 100%;
     padding: 0 20px;
-    width: 100%;
-    position: fixed;
-    background: white;
-    z-index: 99999;
+    width: 100%
     }
-.site-header-dummy{
-    height: 110px;
-}
+
 .main-navigation {
     height: 100%;
-    margin: auto;
-    max-width: 960px;
     text-align: center;
-    width: 100%;
-}
+    width: 100%
+    }
 
 .sidebar {
     border: medium none;
@@ -158,21 +151,13 @@
     background-color: #7F7F7F
     }
 
-.coverPhotoFront.Img{
-    height: 520px !important;
-    background-attachment: fixed !important;
-    background-position: center center !important;
-    background-repeat: no-repeat !important;
-    background-size: auto 70% !important;
-    display: block !important;
-    height: 520px !important;
-    max-width: 100% !important;
-    width: 100% !important;
-    margin-top:110px !important;
-}
+.coverPhotoFront.Img {
+    height: 520px !important
+    }
+
 .coverPhotoFront.Img.Home {
     display: block;
-    height: auto!important;
+    height: auto !important;
     max-width: 100% !important;
     width: 100%
     }
@@ -187,7 +172,7 @@
 
 .coverPhotoFront.Img.Legion {
     display: block;
-    height: auto!important;
+    height: auto !important;
     max-width: 100% !important;
     width: 100%
     }
@@ -202,7 +187,7 @@
 
 .coverPhotoFront.Img.Contacto {
     display: block;
-    height: auto!important;
+    height: auto !important;
     max-width: 100% !important;
     width: 100%
     }
@@ -217,7 +202,7 @@
 
 .coverPhotoFront.Img.Brainbreak {
     display: block;
-    height: auto!important;
+    height: auto !important;
     max-width: 100% !important;
     width: 100%
     }
@@ -302,8 +287,7 @@
 .innerArticuloProyecto, .visualizador-noticias, .contacto {
     margin: auto;
     max-width: 960px;
-    width: 960px;
-    margin: 110px auto auto;
+    width: 960px
     }
 
 .innerArticuloProyectoGaleria.Desktop {
@@ -311,15 +295,15 @@
     margin: auto;
     width: 960px;
     max-width: 960px;
-    padding: 0 20px;
+    padding: 0 20px
     }
 
 .innerArticuloProyecto #ytplayer {
-    width: 960px;
+    width: 920px;
     height: 500px
     }
 
-.primerInnerPadding, #post-10, #post-12, #post-14, #innerProyectos {
+.primerInnerPadding, #post-10, #post-12, #post-14, #innerProyectos, .archertroy-blog {
     padding: 0 20px;
     width: 100%;
     -moz-box-sizing: unset;
@@ -431,7 +415,7 @@
     }
 
 #menu-item-443 {
-    display: inline-block;
+    display: inline-block
     }
 
 .sub-menu {
@@ -529,7 +513,7 @@ footer .site-info {
 .copyright {
     height: 40px;
     padding: 0;
-    width: 74%;
+    width: 74%
     }
 
 .proyectos-recientes .wp-caption .wp-caption-text, .ultimas-noticias .wp-caption .wp-caption-text, .proyectos .wp-caption .wp-caption-text {
@@ -552,12 +536,14 @@ footer .site-info {
     max-width: 100%;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
     opacity: 0;
     position: absolute;
     right: 0;
     text-align: left;
     z-index: -1;
-    line-height: 14px;
+    line-height: 14px
     }
 
 .gente > div .wp-caption-text {
@@ -632,6 +618,8 @@ footer.entry-meta {
     margin: 0 0 15px;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
     opacity: 0
     }
 
@@ -650,6 +638,8 @@ footer.entry-meta {
     padding: 10px 0 0 !important;
     position: absolute;
     width: 100%;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
     opacity: 0
@@ -719,7 +709,7 @@ footer.entry-meta {
     }
 
 .lugar {
-	float: left;
+    float: left;
     font-family: trajanregular;
     font-size: 1.15em;
     letter-spacing: 1px;
@@ -727,7 +717,7 @@ footer.entry-meta {
     text-align: center;
     text-transform: uppercase;
     width: 33.33%;
-    margin-top: 153px;
+    margin-top: 153px
     }
 
 .leyenda {
@@ -878,11 +868,11 @@ footer.entry-meta {
     color: transparent;
     background: url(../../../wp-content/uploads/2014/11/logo.jpg);
     background-repeat: no-repeat;
-    background-position-y: 0px;
-  	height: 50px;
-  	line-height: 40px;
-  	-webkit-background-size: cover;
-  	background-size: cover;
+    background-position-y: 0;
+    height: 50px;
+    line-height: 40px;
+    -webkit-background-size: cover;
+    background-size: cover
     }
 
 .wp-video {
@@ -1339,8 +1329,8 @@ section.tactica .seccion-arco {
     margin: 0;
     position: absolute;
     top: 66px;
-    width: 260px;
-}
+    width: 260px
+    }
 
 .seccion-arco .target-1 {
     position: absolute;
@@ -1378,8 +1368,8 @@ section.tactica .seccion-arco {
     margin: 0;
     position: absolute;
     top: 260px;
-    width: 260px;
-}
+    width: 260px
+    }
 
 .target-4 {
     position: absolute;
@@ -1417,8 +1407,8 @@ section.tactica .seccion-arco {
     margin: 0;
     position: absolute;
     top: 118px;
-    width: 300px;
-}
+    width: 300px
+    }
 
 .target-3 {
     position: absolute;
@@ -1456,8 +1446,8 @@ section.tactica .seccion-arco {
     margin: 0;
     position: absolute;
     top: 383px;
-    width: 300px;
-}
+    width: 300px
+    }
 
 .target-2 {
     position: absolute;
@@ -1590,7 +1580,7 @@ section.interior .seccion-caballo {
 .seccion-caballo .mensaje-izquierda-1 {
     display: none;
     font-family: trajanregular;
-    margin:0;
+    margin: 0;
     font-size: 0.8em;
     left: 0;
     position: absolute;
@@ -1613,7 +1603,7 @@ section.interior .seccion-caballo {
 .seccion-caballo .mensaje-izquierda-2 {
     display: none;
     font-family: trajanregular;
-    margin:0;
+    margin: 0;
     font-size: 0.8em;
     left: 20px;
     position: absolute;
@@ -1636,7 +1626,7 @@ section.interior .seccion-caballo {
 .seccion-caballo .mensaje-izquierda-3 {
     display: none;
     font-family: trajanregular;
-    margin:0;
+    margin: 0;
     font-size: 0.8em;
     left: 43px;
     position: absolute;
@@ -1659,7 +1649,7 @@ section.interior .seccion-caballo {
 .seccion-caballo .mensaje-izquierda-4 {
     display: none;
     font-family: trajanregular;
-    margin:0;
+    margin: 0;
     font-size: 0.8em;
     left: 5px;
     position: absolute;
@@ -1682,7 +1672,7 @@ section.interior .seccion-caballo {
 .seccion-caballo .mensaje-derecha-1 {
     display: none;
     font-family: trajanregular;
-    margin:0;
+    margin: 0;
     font-size: 0.8em;
     left: 504px;
     position: absolute;
@@ -1703,7 +1693,7 @@ section.interior .seccion-caballo {
 .seccion-caballo .mensaje-derecha-2 {
     display: none;
     font-family: trajanregular;
-    margin:0;
+    margin: 0;
     font-size: 0.8em;
     left: 710px;
     position: absolute;
@@ -1724,7 +1714,7 @@ section.interior .seccion-caballo {
 .seccion-caballo .mensaje-derecha-3 {
     display: none;
     font-family: trajanregular;
-    margin:0;
+    margin: 0;
     font-size: 0.8em;
     left: 745px;
     position: absolute;
@@ -1785,6 +1775,8 @@ section.interior .seccion-caballo {
     background: #fff;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     filter: alpha(opacity=100);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
     opacity: 1
     }
 
@@ -1802,12 +1794,12 @@ section.interior .seccion-caballo {
     }
 
 .contenedor-imagen {
-    float: left;
-}    
+    float: left
+    }
 
 .contenedor-texto {
     width: 680px;
-    margin: 20px 0 0 20px;
+    margin: 20px 0 0 20px
     }
 
 .fecha {
@@ -1819,7 +1811,7 @@ section.interior .seccion-caballo {
     letter-spacing: 1px;
     line-height: 1.7;
     text-transform: uppercase;
-    width: 120px;
+    width: 120px
     }
 
 .boton-noticia:focus {
@@ -1860,12 +1852,14 @@ section.interior .seccion-caballo {
 .boton-noticia:hover {
     background-color: #7F7F7F
     }
+
 .wonderplugincarousel {
-    max-width: 920px !important;
-}    
-.amazingcarousel-prev, .amazingcarousel-next{
-    display: block !important;
-    }  
+    max-width: 920px !important
+    }
+
+.amazingcarousel-prev, .amazingcarousel-next {
+    display: block !important
+    }
 
 .post-browse {
     background: none repeat scroll 0 0 #fff;
@@ -1875,15 +1869,17 @@ section.interior .seccion-caballo {
     padding: 0 1% 0 0;
     position: relative;
     text-align: right;
-    width: 50%;
-}
+    width: 50%
+    }
+
 .post-content {
     background: none repeat scroll 0 0 #e6e6e6;
     float: left;
     height: 100%;
     position: relative;
-    width: 50%;
-}
+    width: 50%
+    }
+
 .mini-post .entry-content .wp-caption:first-child {
     background: transparent;
     display: block;
@@ -1894,12 +1890,12 @@ section.interior .seccion-caballo {
     position: relative;
     text-align: left;
     overflow: hidden;
-    text-transform: none !important;
-    padding: 0;
+    text-transform: none !important
     }
+
 .mini-post .entry-content .wp-caption:first-child img {
-    margin: 0;
-}
+    margin: 0
+    }
 
 .mini-post .entry-content > .wp-caption:first-child > .wp-caption-text {
     background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDk2MCAxNTAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0iaGF0MCIgZ3JhZGllbnRVbml0cz0ib2JqZWN0Qm91bmRpbmdCb3giIHgxPSI1MCUiIHkxPSIxMDAlIiB4Mj0iNTAlIiB5Mj0iLTEuNDIxMDg1NDcxNTIwMmUtMTQlIj4KPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMCIgc3RvcC1vcGFjaXR5PSIwLjgiLz4KPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDAwIiBzdG9wLW9wYWNpdHk9IjAiLz4KICAgPC9saW5lYXJHcmFkaWVudD4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSI5NjAiIGhlaWdodD0iMTUwIiBmaWxsPSJ1cmwoI2hhdDApIiAvPgo8L3N2Zz4=);
@@ -1919,6 +1915,7 @@ section.interior .seccion-caballo {
     width: 100%;
     line-height: 190px;
     }
+    
     .blog-wp-caption-text {
     background: none repeat scroll 0 0 rgb(255, 255, 255);
     color: #626161;
@@ -1929,6 +1926,7 @@ section.interior .seccion-caballo {
     right: 0;
     margin: 0 !important;
     max-width: 100%;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
     opacity: 0;
@@ -1945,14 +1943,16 @@ section.interior .seccion-caballo {
     line-height: 20px;
     position: absolute;
     text-align: left;
-    width: 100%;
-}
+    width: 100%
+    }
+
 .blog-grid > div.blog-wp-caption, .blog-grid > a {
     display: table;
     float: left;
     margin: 0 2% 2% 0;
-    width: 48%;
-}
+    width: 48%
+    }
+
 .blog-wp-caption-text .caption-date, .wp-caption-text .caption-date {
     bottom: 0;
     font-family: optimaregular;
@@ -1964,15 +1964,17 @@ section.interior .seccion-caballo {
     position: absolute;
     text-align: left;
     text-transform: lowercase;
-    width: 100%;
-    }   
+    width: 100%
+    }
+
 .blog-posts-header {
     border-bottom: 1px solid #cfcfcf;
     display: block;
     height: 50px;
     margin-bottom: 20px;
-    width: 100%;
-}
+    width: 100%
+    }
+
 .blog-posts-header h2 {
     border-right: 1px solid #cfcfcf;
     float: left;
@@ -1983,8 +1985,9 @@ section.interior .seccion-caballo {
     text-align: left;
     text-transform: uppercase;
     vertical-align: middle;
-    width: 20%;
-}
+    width: 20%
+    }
+
 .blog-posts-header form {
     border-right: 1px solid #cfcfcf;
     display: inline-block;
@@ -1993,8 +1996,9 @@ section.interior .seccion-caballo {
     height: 100%;
     margin: 0;
     padding: 0 20px;
-    width: 40%;
-}
+    width: 40%
+    }
+
 .blog-posts-header form input {
     border: none;
     -moz-border-radius: 0;
@@ -2007,6 +2011,7 @@ section.interior .seccion-caballo {
     padding: 0;
     line-height: 1.5
     }
+
 .blog-posts-header .header-social-links {
     clear: none;
     display: inline-block;
@@ -2015,6 +2020,6 @@ section.interior .seccion-caballo {
     line-height: 60px;
     padding: 0 20px;
     text-align: justify;
-    width: 40%;
-}     
+    width: 40%
+    }
 }

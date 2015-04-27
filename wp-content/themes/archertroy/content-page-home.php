@@ -33,7 +33,7 @@
       $index = 0;
       $args = array(
           'post_type' => 'proyecto',
-          'post__in' => array(1432, 1374, 1371, 1297, 1328, 1460, 1317, 1389),
+          'post__in' => array(1432, 1374, 1371, 1297, 1624, 1460, 1317, 1389),
           'orderby'=>'post__in'
       );
       $my_query = new WP_Query($args);

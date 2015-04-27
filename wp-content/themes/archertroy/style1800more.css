@@ -1,7 +1,5 @@
 /* Resolución 1800 y mayores */
 @media screen and (min-width: 1800px) {
-
-
 .landing {
     background: url(../../../wp-content/uploads/2014/11/casco_1920.jpg) no-repeat scroll right center/cover rgba(0, 0, 0, 0);
     display: block;
@@ -13,13 +11,7 @@
     width: 100%;
     z-index: 99
     }
-.main-navigation {
-    height: 100%;
-    margin: auto;
-    max-width: 1800px;
-    text-align: center;
-    width: 100%;
-}
+
 .landing-start {
     display: block;
     left: 20%;
@@ -69,9 +61,7 @@
     max-width: 211px;
     width: 211px
     }
-.coverPhotoFront.Img{
-    margin-top:86px !important;
-}
+
 .coverPhotoProyecto {
     display: block;
     height: auto;
@@ -286,8 +276,7 @@
 .innerArticuloProyecto, .visualizador-noticias, .contacto {
     margin: auto;
     max-width: 1200px;
-    width: 1200px;
-    margin: 86px auto auto;
+    width: 1200px
     }
 
 .innerArticuloProyectoGaleria.Desktop {
@@ -297,7 +286,7 @@
     }
 
 .innerArticuloProyecto #ytplayer {
-    width: 1200px;
+    width: 1160px;
     height: 675px
     }
 
@@ -314,16 +303,11 @@
 .site-header {
     height: 86px;
     margin: auto;
-    position: fixed;
-    max-width: 100%;
+    max-width: 1800px;
     padding: 0;
-    width: 100%;
-    background: white;
-    z-index: 99999;
+    width: 100%
     }
-.site-header-dummy{
-    height: 86px;
-}
+
 #post-14, #post-12, #post-10, #innerProyectos, .archertroy-blog {
     margin: auto;
     max-width: 1800px;
@@ -396,6 +380,8 @@
     margin: 0.35em 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     filter: alpha(opacity=100);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
     opacity: 1
     }
 
@@ -409,6 +395,8 @@
     width: 180px;
     width: 12.85714286rem;
     white-space: normal;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     filter: alpha(opacity=100);
     opacity: 1
@@ -425,7 +413,7 @@
     }
 
 #menu-item-443 {
-    display: inline-block;
+    display: inline-block
     }
 
 .main-navigation ul.nav-menu, .main-navigation div.nav-menu > ul {
@@ -538,7 +526,6 @@ footer .site-info {
     width: 15%
     }
 
-
 .social-links {
     display: block;
     font-size: 16px;
@@ -553,7 +540,6 @@ footer .site-info {
     padding: 0;
     width: 84%
     }
-
 
 .site-content nav {
     margin: 1em auto;
@@ -574,6 +560,8 @@ footer.entry-meta {
     max-height: 171px;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
     opacity: 0
     }
 
@@ -583,6 +571,8 @@ footer.entry-meta {
     height: 348px;
     max-height: 348px;
     margin: 0 0 15px;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
     opacity: 0
@@ -603,6 +593,8 @@ footer.entry-meta {
     padding: 10px 0 0 !important;
     position: absolute;
     width: 100%;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
     opacity: 0
@@ -753,11 +745,12 @@ footer.entry-meta {
 
 .wonderplugincarousel {
     max-width: 1200px !important;
-    width: 1160px !important;
-}    
-.amazingcarousel-prev, .amazingcarousel-next{
-    display: block !important;
-    }  
+    width: 1160px !important
+    }
+
+.amazingcarousel-prev, .amazingcarousel-next {
+    display: block !important
+    }
 
 .proyectos-recientes, .ultimas-noticias, .proyectos {
     width: 100%;
@@ -802,7 +795,7 @@ footer.entry-meta {
     }
 
 .lugar {
-    margin-top: 153px;
+    margin-top: 153px
     }
 
 .leyenda {
@@ -842,8 +835,8 @@ footer.entry-meta {
     display: block;
     height: 50px;
     margin-bottom: 20px;
-    width: 100%;
-}
+    width: 100%
+    }
 
 .blog-posts-header h2 {
     border-right: 1px solid #cfcfcf;
@@ -855,8 +848,8 @@ footer.entry-meta {
     text-align: left;
     text-transform: uppercase;
     vertical-align: middle;
-    width: 20%;
-}
+    width: 20%
+    }
 
 .blog-posts-header .hamburger-menu-icon {
     display: inline-block;
@@ -880,8 +873,8 @@ footer.entry-meta {
     height: 100%;
     margin: 0;
     padding: 0 20px;
-    width: 40%;
-}
+    width: 40%
+    }
 
 .blog-posts-header form input {
     border: none;
@@ -904,8 +897,8 @@ footer.entry-meta {
     text-align: justify;
     width: 40%;
     line-height: 60px;
-    padding: 0 20px;
-}
+    padding: 0 20px
+    }
 
 .blog-posts-header .header-social-links > a {
     display: inline-block;
@@ -921,15 +914,17 @@ footer.entry-meta {
     display: table;
     float: left;
     margin: 0 2% 2% 0;
-    width: 48%;
-}
+    width: 48%
+    }
+
 .blog-grid > div.blog-wp-caption:nth-child(even) {
-    margin: 0;
-}
+    margin: 0
+    }
+
 .blog-grid {
     display: block;
-    width: 100%;
-}
+    width: 100%
+    }
 
 .blog-grid > div.wp-caption, .blog-grid > a {
     width: 49%;
@@ -950,8 +945,7 @@ footer.entry-meta {
     position: relative;
     text-align: left;
     overflow: hidden;
-    text-transform: none !important;
-    padding: 0;
+    text-transform: none !important
     }
 
 .project-navigation {
@@ -992,13 +986,12 @@ footer.entry-meta {
     color: transparent;
     background: url(../../../wp-content/uploads/2014/11/logo.jpg);
     background-repeat: no-repeat;
-    background-position-y: 0px;
-  	height: 50px;
-  	line-height: 40px;
-  	-webkit-background-size: cover;
-  	background-size: cover;
+    background-position-y: 0;
+    height: 50px;
+    line-height: 40px;
+    -webkit-background-size: cover;
+    background-size: cover
     }
-
 
 .gente .wp-caption-text {
     bottom: 0.4em !important
@@ -1284,7 +1277,7 @@ section.tactica {
     height: auto;
     margin: 60px auto 0;
     width: 100%;
-    overflow: visible;
+    overflow: visible
     }
 
 section.tactica h4.title-super {
@@ -1348,7 +1341,7 @@ section.tactica .seccion-arco {
     padding: 30px 0 0;
     position: relative;
     width: 100%;
-    overflow: visible;
+    overflow: visible
     }
 
 .seccion-arco .arco-1 {
@@ -1357,8 +1350,8 @@ section.tactica .seccion-arco {
     margin: 0;
     position: absolute;
     top: 67px;
-    width: 355px;
-}
+    width: 355px
+    }
 
 .seccion-arco .target-1 {
     position: absolute;
@@ -1396,8 +1389,9 @@ section.tactica .seccion-arco {
     margin: 0;
     position: absolute;
     top: 319px;
-    width: 340px;
-}
+    width: 340px
+    }
+
 .target-4 {
     position: absolute;
     width: 50px;
@@ -1434,8 +1428,8 @@ section.tactica .seccion-arco {
     margin: 0;
     position: absolute;
     top: 135px;
-    width: 374px;
-}
+    width: 374px
+    }
 
 .target-3 {
     position: absolute;
@@ -1473,8 +1467,8 @@ section.tactica .seccion-arco {
     margin: 0;
     position: absolute;
     top: 478px;
-    width: 345px;
-}
+    width: 345px
+    }
 
 .target-2 {
     position: absolute;
@@ -1608,7 +1602,7 @@ section.interior .seccion-caballo {
     display: none;
     font-family: trajanregular;
     font-size: 1em;
-    margin:0;
+    margin: 0;
     left: 36px;
     position: absolute;
     text-align: right;
@@ -1631,7 +1625,7 @@ section.interior .seccion-caballo {
     display: none;
     font-family: trajanregular;
     font-size: 1em;
-    margin:0;
+    margin: 0;
     left: 0;
     position: absolute;
     text-align: right;
@@ -1654,7 +1648,7 @@ section.interior .seccion-caballo {
     display: none;
     font-family: trajanregular;
     font-size: 1em;
-    margin:0;
+    margin: 0;
     left: 52px;
     position: absolute;
     text-align: right;
@@ -1677,7 +1671,7 @@ section.interior .seccion-caballo {
     display: none;
     font-family: trajanregular;
     font-size: 1em;
-    margin:0;
+    margin: 0;
     left: 0;
     position: absolute;
     text-align: right;
@@ -1700,7 +1694,7 @@ section.interior .seccion-caballo {
     display: none;
     font-family: trajanregular;
     font-size: 1em;
-    margin:0;
+    margin: 0;
     left: 620px;
     position: absolute;
     top: 45px;
@@ -1721,7 +1715,7 @@ section.interior .seccion-caballo {
     display: none;
     font-family: trajanregular;
     font-size: 1em;
-    margin:0;
+    margin: 0;
     left: 835px;
     position: absolute;
     top: 200px;
@@ -1742,7 +1736,7 @@ section.interior .seccion-caballo {
     display: none;
     font-family: trajanregular;
     font-size: 1em;
-    margin:0;
+    margin: 0;
     left: 934px;
     position: absolute;
     top: 470px;
@@ -1802,6 +1796,8 @@ section.interior .seccion-caballo {
     background: #fff;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     filter: alpha(opacity=100);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
     opacity: 1
     }
 
@@ -1847,13 +1843,15 @@ section.interior .seccion-caballo {
     max-width: 100%;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
     opacity: 0;
     position: absolute;
     right: 0;
     text-align: left;
     z-index: -1;
     font-size: 13px;
-    line-height: 20px;
+    line-height: 20px
     }
 
 .contenedor-texto {
@@ -1869,7 +1867,7 @@ section.interior .seccion-caballo {
     letter-spacing: 1px;
     line-height: 1.7;
     text-transform: uppercase;
-    width: 120px;
+    width: 120px
     }
 
 .boton-noticia:focus {

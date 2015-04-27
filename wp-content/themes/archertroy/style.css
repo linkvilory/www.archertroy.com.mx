@@ -298,12 +298,12 @@ img[class*="align"], img[class*="wp-image-"], img[class*="attachment-"] {
 img.size-full, img.size-large, img.header-image, img.wp-post-image {
     max-width: 100%;
     height: auto;
-    display: table;
+    display: table
     }
-    
+
 .parsley-error {
-    border-color: red !important;
-}
+    border-color: red !important
+    }
 
 .grid {
     position: relative;
@@ -375,16 +375,17 @@ img.size-full, img.size-large, img.header-image, img.wp-post-image {
     padding: 0 20px;
     position: relative;
     text-transform: uppercase;
-    width: 100%;
-}
+    width: 100%
+    }
 
 .wonderplugincarousel {
     width: 100% !important;
-    max-width: 320px !important;
-}    
-.amazingcarousel-prev, .amazingcarousel-next{
-    display: none !important;
-    }   
+    max-width: 320px !important
+    }
+
+.amazingcarousel-prev, .amazingcarousel-next {
+    display: none !important
+    }
 
 .blog-link {
     font-family: trajanregular;
@@ -496,6 +497,8 @@ img.attachment-post-thumbnail.wp-post-image {
     margin: 0 0 15px;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
     opacity: 0
     }
 
@@ -516,6 +519,8 @@ img.attachment-post-thumbnail.wp-post-image {
     width: 100%;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
     opacity: 0
     }
 
@@ -531,21 +536,26 @@ img.attachment-post-thumbnail.wp-post-image {
 
 #post-18 h1 {
     margin: 60px auto 20px;
-    max-width: 1200px;
-}
+    max-width: 1200px
+    }
+
 #post-308 h1 {
     margin: 20px auto;
     max-width: 1800px;
     padding: 0 20px;
-    box-sizing:unset;
-}
+    -moz-box-sizing: unset;
+    box-sizing: unset
+    }
+
 .datos-persona {
     height: 100%;
     width: 100%
     }
+
 .wp-caption .wp-caption-text {
-    text-transform: uppercase;
-}
+    text-transform: uppercase
+    }
+
 .datos-persona .persona, .datos-persona .handler {
     font-family: optimaregular;
     text-transform: none;
@@ -921,7 +931,8 @@ a {
     height: 230px;
     max-width: 100% !important;
     width: 100%
-    }    
+    }
+
 .coverPhotoFront.Img.I00002 {
     background-image: url(../../../wp-content/uploads/proyectos/activaciones-images/Canon-The-Canon-Experience-Cover.jpg);
     background-position: center center;
@@ -933,6 +944,7 @@ a {
     max-width: 100% !important;
     width: 100%
     }
+
 .coverPhotoFront.Img.I00003 {
     background-image: url(../../../wp-content/uploads/proyectos/activaciones-images/Disney-Avengers-Cover.jpg);
     background-position: center center;
@@ -943,7 +955,8 @@ a {
     height: 230px;
     max-width: 100% !important;
     width: 100%
-    }  
+    }
+
 .coverPhotoFront.Img.I00004 {
     background-image: url(../../../wp-content/uploads/proyectos/activaciones-images/Disney-Monsters-University-Cover.jpg);
     background-position: center center;
@@ -954,7 +967,8 @@ a {
     height: 230px;
     max-width: 100% !important;
     width: 100%
-    }  
+    }
+
 .coverPhotoFront.Img.I00005 {
     background-image: url(../../../wp-content/uploads/proyectos/activaciones-images/Paramount-Star-Trek-Cover.jpg);
     background-position: center center;
@@ -965,7 +979,8 @@ a {
     height: 230px;
     max-width: 100% !important;
     width: 100%
-    }  
+    }
+
 .coverPhotoFront.Img.I00006 {
     background-image: url(../../../wp-content/uploads/proyectos/activaciones-images/Paramount-Tortugas-Ninja-Cover.jpg);
     background-position: center center;
@@ -976,7 +991,8 @@ a {
     height: 230px;
     max-width: 100% !important;
     width: 100%
-    }  
+    }
+
 .coverPhotoFront.Img.I00007 {
     background-image: url(../../../wp-content/uploads/proyectos/activaciones-images/Paramount-Transformers-4-Cover.jpg);
     background-position: center center;
@@ -987,7 +1003,8 @@ a {
     height: 230px;
     max-width: 100% !important;
     width: 100%
-    }  
+    }
+
 .coverPhotoFront.Img.I00008 {
     background-image: url(../../../wp-content/uploads/proyectos/activaciones-images/Televisa-Cine-Juegos-Del-Hambre-Cover.jpg);
     background-position: center center;
@@ -998,7 +1015,8 @@ a {
     height: 230px;
     max-width: 100% !important;
     width: 100%
-    }  
+    }
+
 .coverPhotoFront.Img.I00009 {
     background-image: url(../../../wp-content/uploads/proyectos/activaciones-images/Warner-Harry-Potter-Cover.jpg);
     background-position: center center;
@@ -1009,7 +1027,8 @@ a {
     height: 230px;
     max-width: 100% !important;
     width: 100%
-    }  
+    }
+
 .coverPhotoFront.Img.I00010 {
     background-image: url(../../../wp-content/uploads/proyectos/activaciones-images/Warner-Hobbit-Cover.jpg);
     background-position: center center;
@@ -1020,7 +1039,8 @@ a {
     height: 230px;
     max-width: 100% !important;
     width: 100%
-    }  
+    }
+
 .coverPhotoFront.Img.I00011 {
     background-image: url(../../../wp-content/uploads/proyectos/digital-images/Fundacion-Donde-Guardianes-Cover.jpg);
     background-position: center center;
@@ -1031,7 +1051,8 @@ a {
     height: 230px;
     max-width: 100% !important;
     width: 100%
-    }  
+    }
+
 .coverPhotoFront.Img.I00012 {
     background-image: url(../../../wp-content/uploads/proyectos/digital-images/Televisa-Cine-No-Se-Aceptan-Devoluciones-Cover.jpg);
     background-position: center center;
@@ -1042,7 +1063,8 @@ a {
     height: 230px;
     max-width: 100% !important;
     width: 100%
-    }  
+    }
+
 .coverPhotoFront.Img.I00013 {
     background-image: url(../../../wp-content/uploads/proyectos/digital-images/Universal-Caracortada-Cover.jpg);
     background-position: center center;
@@ -1053,7 +1075,8 @@ a {
     height: 230px;
     max-width: 100% !important;
     width: 100%
-    }  
+    }
+
 .coverPhotoFront.Img.I00014 {
     background-image: url(../../../wp-content/uploads/proyectos/digital-images/Universal-Parque-Jurasico-Cover.jpg);
     background-position: center center;
@@ -1064,7 +1087,8 @@ a {
     height: 230px;
     max-width: 100% !important;
     width: 100%
-    }  
+    }
+
 .coverPhotoFront.Img.I00015 {
     background-image: url(../../../wp-content/uploads/proyectos/digital-images/Universal-Volver-Al-Futuro-Cover.jpg);
     background-position: center center;
@@ -1075,7 +1099,8 @@ a {
     height: 230px;
     max-width: 100% !important;
     width: 100%
-    }  
+    }
+
 .coverPhotoFront.Img.I00016 {
     background-image: url(../../../wp-content/uploads/proyectos/innovacion-images/Nike-Kit-Cover.jpg);
     background-position: center center;
@@ -1086,7 +1111,8 @@ a {
     height: 230px;
     max-width: 100% !important;
     width: 100%
-    }  
+    }
+
 .coverPhotoFront.Img.I00017 {
     background-image: url(../../../wp-content/uploads/proyectos/integradas-images/Cablevision-Va-Mas-Alla-Cover.jpg);
     background-position: center center;
@@ -1097,7 +1123,8 @@ a {
     height: 230px;
     max-width: 100% !important;
     width: 100%
-    }  
+    }
+
 .coverPhotoFront.Img.I00018 {
     background-image: url(../../../wp-content/uploads/proyectos/integradas-images/Televisa-Cine-Cantinflas-Cover.jpg);
     background-position: center center;
@@ -1108,7 +1135,8 @@ a {
     height: 230px;
     max-width: 100% !important;
     width: 100%
-    }  
+    }
+
 .coverPhotoFront.Img.I00019 {
     background-image: url(../../../wp-content/uploads/proyectos/integradas-images/Televisa-Cine-No-Se-Aceptan-Devoluciones-Cover.jpg);
     background-position: center center;
@@ -1119,7 +1147,8 @@ a {
     height: 230px;
     max-width: 100% !important;
     width: 100%
-    }  
+    }
+
 .coverPhotoFront.Img.I00020 {
     background-image: url(../../../wp-content/uploads/proyectos/integradas-images/Warner-Batman-Cover.jpg);
     background-position: center center;
@@ -1130,7 +1159,8 @@ a {
     height: 230px;
     max-width: 100% !important;
     width: 100%
-    }  
+    }
+
 .coverPhotoFront.Img.I00021 {
     background-image: url(../../../wp-content/uploads/proyectos/integradas-images/Warner-Harry-Potter-Cover.jpg);
     background-position: center center;
@@ -1141,7 +1171,8 @@ a {
     height: 230px;
     max-width: 100% !important;
     width: 100%
-    }  
+    }
+
 .coverPhotoFront.Img.I00022 {
     background-image: url(../../../wp-content/uploads/proyectos/integradas-images/Warner-Hobbit-Cover.jpg);
     background-position: center center;
@@ -1152,7 +1183,8 @@ a {
     height: 230px;
     max-width: 100% !important;
     width: 100%
-    }  
+    }
+
 .coverPhotoFront.Img.I00023 {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/Warner-Nosotros-Los-Nobles-Cover.jpg);
     background-position: center center;
@@ -1163,7 +1195,8 @@ a {
     height: 230px;
     max-width: 100% !important;
     width: 100%
-    }  
+    }
+
 .coverPhotoFront.Img.I00024 {
     background-image: url(../../../wp-content/uploads/proyectos/outdoor-images/Canal-Sony-Helix-Cover.jpg);
     background-position: center center;
@@ -1174,7 +1207,8 @@ a {
     height: 230px;
     max-width: 100% !important;
     width: 100%
-    }  
+    }
+
 .coverPhotoFront.Img.I00025 {
     background-image: url(../../../wp-content/uploads/proyectos/outdoor-images/Canal-Sony-Resurrection-Cover.jpg);
     background-position: center center;
@@ -1185,7 +1219,8 @@ a {
     height: 230px;
     max-width: 100% !important;
     width: 100%
-    }  
+    }
+
 .coverPhotoFront.Img.I00026 {
     background-image: url(../../../wp-content/uploads/proyectos/outdoor-images/Cuauhtemoc-Moctezuma-Heineken-Cover.jpg);
     background-position: center center;
@@ -1196,7 +1231,8 @@ a {
     height: 230px;
     max-width: 100% !important;
     width: 100%
-    }  
+    }
+
 .coverPhotoFront.Img.I00027 {
     background-image: url(../../../wp-content/uploads/proyectos/outdoor-images/Universal-Condominion-Cover.jpg);
     background-position: center center;
@@ -1207,7 +1243,8 @@ a {
     height: 230px;
     max-width: 100% !important;
     width: 100%
-    }  
+    }
+
 .coverPhotoFront.Img.I00028 {
     background-image: url(../../../wp-content/uploads/proyectos/outdoor-images/Universal-Robin-Hood-Cover.jpg);
     background-position: center center;
@@ -1218,7 +1255,8 @@ a {
     height: 230px;
     max-width: 100% !important;
     width: 100%
-    }  
+    }
+
 .coverPhotoFront.Img.I00029 {
     background-image: url(../../../wp-content/uploads/proyectos/radio-images/Arvm-Cover.jpg);
     background-position: center center;
@@ -1229,7 +1267,8 @@ a {
     height: 230px;
     max-width: 100% !important;
     width: 100%
-    }  
+    }
+
 .coverPhotoFront.Img.I00030 {
     background-image: url(../../../wp-content/uploads/proyectos/radio-images/Cablevision-Regreso-a-Clases-Cover.jpg);
     background-position: center center;
@@ -1240,7 +1279,8 @@ a {
     height: 230px;
     max-width: 100% !important;
     width: 100%
-    }  
+    }
+
 .coverPhotoFront.Img.I00031 {
     background-image: url(../../../wp-content/uploads/proyectos/radio-images/Canal-Sony-Helix-Cover.jpg);
     background-position: center center;
@@ -1251,7 +1291,8 @@ a {
     height: 230px;
     max-width: 100% !important;
     width: 100%
-    }  
+    }
+
 .coverPhotoFront.Img.I00032 {
     background-image: url(../../../wp-content/uploads/proyectos/tv-images/Las-Oscuras-Primaveras-Cover.jpg);
     background-position: center center;
@@ -1262,7 +1303,8 @@ a {
     height: 230px;
     max-width: 100% !important;
     width: 100%
-    }  
+    }
+
 .coverPhotoFront.Img.I00033 {
     background-image: url(../../../wp-content/uploads/proyectos/tv-images/Cablevision-Va-Mas-Alla-Cover.jpg);
     background-position: center center;
@@ -1273,7 +1315,8 @@ a {
     height: 230px;
     max-width: 100% !important;
     width: 100%
-    }  
+    }
+
 .coverPhotoFront.Img.I00034 {
     background-image: url(../../../wp-content/uploads/proyectos/tv-images/Cinepolis-Cineminuto-Cover.jpg);
     background-position: center center;
@@ -1284,7 +1327,8 @@ a {
     height: 230px;
     max-width: 100% !important;
     width: 100%
-    }  
+    }
+
 .coverPhotoFront.Img.I00035 {
     background-image: url(../../../wp-content/uploads/proyectos/tv-images/Danhos-Parque-Toreo-Cover.jpg);
     background-position: center center;
@@ -1295,7 +1339,8 @@ a {
     height: 230px;
     max-width: 100% !important;
     width: 100%
-    }  
+    }
+
 .coverPhotoFront.Img.I00036 {
     background-image: url(../../../wp-content/uploads/proyectos/tv-images/Televisa-Cine-Cesar-Chavez-Cover.jpg);
     background-position: center center;
@@ -1306,7 +1351,8 @@ a {
     height: 230px;
     max-width: 100% !important;
     width: 100%
-    }  
+    }
+
 .coverPhotoFront.Img.I00037 {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/Alboa-Boliches-Cover.jpg);
     background-position: center center;
@@ -1317,7 +1363,8 @@ a {
     height: 230px;
     max-width: 100% !important;
     width: 100%
-    } 
+    }
+
 .coverPhotoFront.Img.I00038 {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/Boliches-Amf-un-Mundo-de-Diversion-Cover.jpg);
     background-position: center center;
@@ -1328,7 +1375,8 @@ a {
     height: 230px;
     max-width: 100% !important;
     width: 100%
-    } 
+    }
+
 .coverPhotoFront.Img.I00039 {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/British-Council-70-Anos-Cover.jpg);
     background-position: center center;
@@ -1339,7 +1387,8 @@ a {
     height: 230px;
     max-width: 100% !important;
     width: 100%
-    } 
+    }
+
 .coverPhotoFront.Img.I00040 {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/British-Council-London-Mexfest-Cover.jpg);
     background-position: center center;
@@ -1350,7 +1399,8 @@ a {
     height: 230px;
     max-width: 100% !important;
     width: 100%
-    } 
+    }
+
 .coverPhotoFront.Img.I00041 {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/Cablevision-Acdc-Cover.jpg);
     background-position: center center;
@@ -1361,7 +1411,8 @@ a {
     height: 230px;
     max-width: 100% !important;
     width: 100%
-    } 
+    }
+
 .coverPhotoFront.Img.I00042 {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/Cablevision-Anunciate-Cover.jpg);
     background-position: center center;
@@ -1372,7 +1423,8 @@ a {
     height: 230px;
     max-width: 100% !important;
     width: 100%
-    } 
+    }
+
 .coverPhotoFront.Img.I00043 {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/Cablevision-Va-Mas-Alla-Cover.jpg);
     background-position: center center;
@@ -1383,7 +1435,8 @@ a {
     height: 230px;
     max-width: 100% !important;
     width: 100%
-    } 
+    }
+
 .coverPhotoFront.Img.I00044 {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/Canal-Sony-Mexicos-Next-Top-Model-Cover.jpg);
     background-position: center center;
@@ -1394,7 +1447,8 @@ a {
     height: 230px;
     max-width: 100% !important;
     width: 100%
-    } 
+    }
+
 .coverPhotoFront.Img.I00045 {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/Cinemark-a-la-Mexicana-Cover.jpg);
     background-position: center center;
@@ -1405,7 +1459,8 @@ a {
     height: 230px;
     max-width: 100% !important;
     width: 100%
-    } 
+    }
+
 .coverPhotoFront.Img.I00046 {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/Cinepolis-la-Jaula-Cover.jpg);
     background-position: center center;
@@ -1416,7 +1471,8 @@ a {
     height: 230px;
     max-width: 100% !important;
     width: 100%
-    } 
+    }
+
 .coverPhotoFront.Img.I00047 {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/Danhos-Septiembre-Cover.jpg);
     background-position: center center;
@@ -1427,7 +1483,8 @@ a {
     height: 230px;
     max-width: 100% !important;
     width: 100%
-    } 
+    }
+
 .coverPhotoFront.Img.I00048 {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/Danhos-Deltamano-Cover.jpg);
     background-position: center center;
@@ -1439,6 +1496,7 @@ a {
     max-width: 100% !important;
     width: 100%
     }
+
 .coverPhotoFront.Img.I00049 {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/Danhos-Parque-Duraznos-Cover.jpg);
     background-position: center center;
@@ -1450,6 +1508,7 @@ a {
     max-width: 100% !important;
     width: 100%
     }
+
 .coverPhotoFront.Img.I00050 {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/Danhos-Shoppingterapia-Cover.jpg);
     background-position: center center;
@@ -1461,6 +1520,7 @@ a {
     max-width: 100% !important;
     width: 100%
     }
+
 .coverPhotoFront.Img.I00051 {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/Danhos-Toreo-Cover.jpg);
     background-position: center center;
@@ -1472,6 +1532,7 @@ a {
     max-width: 100% !important;
     width: 100%
     }
+
 .coverPhotoFront.Img.I00052 {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/Imcine-Cinema-Mexico-Cover.jpg);
     background-position: center center;
@@ -1483,6 +1544,7 @@ a {
     max-width: 100% !important;
     width: 100%
     }
+
 .coverPhotoFront.Img.I00053 {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/Latam-Distribution-Obediencia-Perceta-Cover.jpg);
     background-position: center center;
@@ -1494,6 +1556,7 @@ a {
     max-width: 100% !important;
     width: 100%
     }
+
 .coverPhotoFront.Img.I00054 {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/Scotiabank-Mca-Cover.jpg);
     background-position: center center;
@@ -1505,6 +1568,7 @@ a {
     max-width: 100% !important;
     width: 100%
     }
+
 .coverPhotoFront.Img.I00055 {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/Scotiabank-Scotiaflex-Cover.jpg);
     background-position: center center;
@@ -1516,6 +1580,7 @@ a {
     max-width: 100% !important;
     width: 100%
     }
+
 .coverPhotoFront.Img.I00056 {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/Televisa-Cine-Amor-a-Primera-Visa-Cover.jpg);
     background-position: center center;
@@ -1527,6 +1592,7 @@ a {
     max-width: 100% !important;
     width: 100%
     }
+
 .coverPhotoFront.Img.I00057 {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/Televisa-Cine-Cantinflas-Cover.jpg);
     background-position: center center;
@@ -1538,6 +1604,7 @@ a {
     max-width: 100% !important;
     width: 100%
     }
+
 .coverPhotoFront.Img.I00058 {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/Televisa-Cine-Mas-Negro-Que-La-Noche-Cover.jpg);
     background-position: center center;
@@ -1549,6 +1616,7 @@ a {
     max-width: 100% !important;
     width: 100%
     }
+
 .coverPhotoFront.Img.I00059 {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/Universal-Metegol-Cover.jpg);
     background-position: center center;
@@ -1560,6 +1628,7 @@ a {
     max-width: 100% !important;
     width: 100%
     }
+
 .coverPhotoFront.Img.I00060 {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/Warner-Don-Gato-Cover.jpg);
     background-position: center center;
@@ -1571,6 +1640,7 @@ a {
     max-width: 100% !important;
     width: 100%
     }
+
 .coverPhotoFront.Img.I00061 {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/Warner-Nosotros-Los-Nobles-Cover.jpg);
     background-position: center center;
@@ -1583,6 +1653,17 @@ a {
     width: 100%
     }
 
+.coverPhotoFront.Img.I00062 {
+    background-image: url(../../../wp-content/uploads/proyectos/print-images/Hasbro-PlayDoh-Cover.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: block;
+    height: 230px;
+    max-width: 100% !important;
+    width: 100%
+    }
 
 .coverPhotoFront.Img.Home {
     display: none
@@ -1654,14 +1735,16 @@ a {
     width: 100%;
     padding: 0 20px
     }
+
 .innerArticuloProyectoGaleria.Desktop {
     display: table;
     margin: auto;
-    width: 320px;
-}
-.contacto{
-	overflow:visible;
-}
+    width: 320px
+    }
+
+.contacto {
+    overflow: visible
+    }
 
 .innerArticuloProyecto h1 {
     font-family: trajanregular;
@@ -1671,8 +1754,8 @@ a {
     margin: 0;
     padding: 60px 0 20px;
     text-align: justify;
-    width: 100%;
-}
+    width: 100%
+    }
 
 .innerArticuloProyecto p {
     font-family: optimaregular;
@@ -1681,13 +1764,13 @@ a {
     line-height: 1.8em;
     margin: 0;
     text-align: justify;
-    width: 100%;
-}
+    width: 100%
+    }
 
 .innerArticuloProyectoGaleria.Desktop, .innerArticuloProyectoGaleria {
     display: table;
     padding: 0 20px;
-    width: 100%;
+    width: 100%
     }
 
 .innerArticuloProyectoGaleria.Movil > img {
@@ -1701,13 +1784,11 @@ a {
 .innerArticuloProyecto #ytplayer {
     height: auto;
     width: 100%;
-}
+    }
 
-.primerInnerPadding, #post-10, #post-12, #post-14, #innerProyectos, .archertroy-blog  {
+.primerInnerPadding, #post-10, #post-12, #post-14, #innerProyectos, .archertroy-blog {
     padding: 0 20px;
     width: 100%;
-    -moz-box-sizing: unset;
-    box-sizing: unset
     }
 
 .brainbreakContainer {
@@ -1716,11 +1797,13 @@ a {
     -moz-box-sizing: box-sizing;
     box-sizing: box-sizing
     }
+
 .brainbreakContainer img {
     display: block;
     margin: auto;
-    max-width: 1200px;
-}    
+    max-width: 1200px
+    }
+
 .entry-content h1, .visualizador-noticias > h1 {
     font-family: trajanregular;
     font-size: 1.15rem;
@@ -1728,21 +1811,26 @@ a {
     letter-spacing: 1px;
     line-height: 1.8rem;
     margin: 60px 0 20px;
-    padding:0px;
-    color: #8c8c8c;
-}
+    padding: 0;
+    color: #8c8c8c
+    }
+
 .primerInnerPadding h1:nth-child(1), .contacto h1 {
     margin: 60px 0 20px
     }
+
 .primerInnerPadding h1:nth-child(3) {
     margin: 20px 0 20px
     }
+
 #post-10 h1, #post-12 h1, #post-14 h1 {
-    margin: 20px 0;
-}
-.visualizador-noticias > h1{
-	margin: 20px 0;
-}
+    margin: 20px 0
+    }
+
+.visualizador-noticias > h1 {
+    margin: 20px 0
+    }
+
 #innerProyectos h1 {
     font-family: trajanregular;
     font-size: 1.2em;
@@ -1807,7 +1895,7 @@ a {
     position: fixed;
     top: 0;
     width: 15.625em;
-    z-index: 9999;
+    z-index: 9999
     }
 
 .pushed .sidebar {
@@ -1847,7 +1935,7 @@ a {
     font-size: 1.2em;
     color: #a4a4a4;
     font-family: "iconsStudioIndigo";
-    content: "";
+    content: "%uE624";
     -moz-transform-origin: 50% 50%;
     -ms-transform-origin: 50% 50%;
     -o-transform-origin: 50% 50%;
@@ -1876,6 +1964,8 @@ a {
     margin: 0.35em 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
     opacity: 0
     }
 
@@ -1889,6 +1979,8 @@ a {
     }
 
 .sidebar .mainMenu > ul > li > ul > li > a i {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
     opacity: 0;
@@ -1968,6 +2060,8 @@ a {
 .sidebar .mainMenu > ul > li > ul > li.current-menu-item a i {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     filter: alpha(opacity=100);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
     opacity: 1
     }
 
@@ -1984,6 +2078,8 @@ a {
     }
 
 .sidebar .mainMenu > ul > li.current-menu-parent > ul > li, .sidebar .mainMenu > ul > li.current-menu-item > ul > li {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     filter: alpha(opacity=100);
     opacity: 1
@@ -2189,13 +2285,13 @@ footer[role="contentinfo"] {
     }
 
 .copyright {
-	clear: none;
+    clear: none;
     display: inline-block;
     float: left;
     font-size: 0.7em;
     letter-spacing: 1px;
     line-height: 1em;
-	font-family: optimaregular;    
+    font-family: optimaregular;
     height: 60%;
     line-height: 14px;
     padding: 0 10px 10px 10px;
@@ -2211,8 +2307,8 @@ footer[role="contentinfo"] {
     font-weight: lighter;
     height: 100%;
     line-height: 30px;
-    margin: 0 5px 0 0;
-}
+    margin: 0 5px 0 0
+    }
 
 .menu-toggle .icon-align-justify {
     height: 100%
@@ -2707,9 +2803,6 @@ article.format-quote .entry-content blockquote {
     font-size: 0.714285714rem
     }
 
-.comments-area .bypostauthor cite b {
-    }
-
 a.comment-reply-link, a.comment-edit-link {
     color: #686868;
     font-size: 13px;
@@ -2983,7 +3076,7 @@ img#wpstats {
     }
 
 .lugar {
-	float: none;
+    float: none;
     font-family: trajanregular;
     font-size: 1.15em;
     letter-spacing: 1px;
@@ -2991,7 +3084,7 @@ img#wpstats {
     text-align: center;
     text-transform: uppercase;
     width: 100%;
-    margin-top: 60px;
+    margin-top: 60px
     }
 
 .leyenda {
@@ -3208,14 +3301,15 @@ body.template-front-page .site-content, body.attachment .site-content, body.full
     line-height: 1.8em;
     margin: 0 auto;
     padding: 20px 20px 0;
-    width: inherit;
+    width: inherit
     }
 
-
 .mini-post img {
-    width: 100%;
+    height: auto !important;
+    margin-bottom: 0.2em;
     margin-top: 0;
-    margin-bottom: 0.2em
+    max-width: unset !important;
+    width: 100% !important;
     }
 
 .widget-area {
@@ -3328,9 +3422,13 @@ body.template-front-page .site-content, body.attachment .site-content, body.full
     margin-left: 48px;
     margin-left: 3.428571429rem
     }
-.grid.proyectos{
-    opacity:0;
-}
+
+.grid.proyectos {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0
+    }
+
 .proyectos-recientes .wp-caption .wp-caption-text, .ultimas-noticias .wp-caption .wp-caption-text, .proyectos .wp-caption .wp-caption-text {
     -moz-hyphens: none;
     -webkit-hyphens: none;
@@ -3351,12 +3449,14 @@ body.template-front-page .site-content, body.attachment .site-content, body.full
     max-width: 100%;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
     opacity: 0;
     position: absolute;
     right: 0;
     text-align: left;
     z-index: -1;
-    line-height: 14px;
+    line-height: 14px
     }
 
 .gente > div .wp-caption-text {
@@ -3489,7 +3589,7 @@ body.template-front-page .site-content, body.attachment .site-content, body.full
     }
 
 #___plus_0 > iframe {
-    width: 78px !important    
+    width: 78px !important
     }
 
 footer.entry-meta {
@@ -3565,7 +3665,7 @@ footer.entry-meta {
     width: 100%;
     display: block !important;
     margin: auto !important;
-    padding: 0 20px;
+    padding: 0 20px
     }
 
 .firmImg {
@@ -4043,7 +4143,7 @@ section.tactica .seccion-arco {
     margin-bottom: 20px;
     margin-left: 0;
     margin-right: 0;
-    margin-top: 0;
+    margin-top: 0
     }
 
 .seccion-arco .target-1 {
@@ -4085,7 +4185,7 @@ section.tactica .seccion-arco {
     margin-bottom: 20px;
     margin-left: 0;
     margin-right: 0;
-    margin-top: 0;
+    margin-top: 0
     }
 
 .target-4 {
@@ -4127,7 +4227,7 @@ section.tactica .seccion-arco {
     margin-bottom: 20px;
     margin-left: 0;
     margin-right: 0;
-    margin-top: 0;
+    margin-top: 0
     }
 
 .target-3 {
@@ -4169,7 +4269,7 @@ section.tactica .seccion-arco {
     margin-bottom: 20px;
     margin-left: 0;
     margin-right: 0;
-    margin-top: 0;
+    margin-top: 0
     }
 
 .target-2 {
@@ -4528,6 +4628,8 @@ section.interior .seccion-caballo {
     background: #fff;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     filter: alpha(opacity=100);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
     opacity: 1
     }
 
@@ -4545,6 +4647,8 @@ section.interior .seccion-caballo {
     }
 
 .hidden {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
     opacity: 0
@@ -4634,8 +4738,8 @@ section.interior .seccion-caballo {
     float: none;
     margin-bottom: 20px;
     padding-bottom: 20px;
-    width: 100%;
-}
+    width: 100%
+    }
 
 .contenedor-imagen {
     margin: auto;
@@ -4643,16 +4747,16 @@ section.interior .seccion-caballo {
     max-width: 211px;
     min-height: 200px;
     min-width: 200px;
-    overflow: hidden;
-}
+    overflow: hidden
+    }
 
 .contenedor-imagen img {
     height: 100% !important;
     margin: auto;
     max-height: 211px;
     max-width: 211px;
-    width: 100% !important;
-}
+    width: 100% !important
+    }
 
 .contenedor-texto {
     display: inline-block;
@@ -4669,8 +4773,8 @@ section.interior .seccion-caballo {
     letter-spacing: 1px;
     line-height: 1.15em;
     margin: 0 0 20px;
-    text-transform: uppercase;
-}
+    text-transform: uppercase
+    }
 
 .contenedor-texto p {
     color: #808080;
@@ -4678,16 +4782,16 @@ section.interior .seccion-caballo {
     font-size: 1em;
     letter-spacing: 1px;
     line-height: 1.9em;
-    text-align: justify;
-}
+    text-align: justify
+    }
 
 .datos-extra {
     font-family: optimaregular;
     font-size: 1.15em;
     margin: 20px 0 0;
     text-transform: uppercase;
-    vertical-align: bottom;
-}
+    vertical-align: bottom
+    }
 
 .fecha {
     color: #9fad9f;
@@ -4698,7 +4802,7 @@ section.interior .seccion-caballo {
     letter-spacing: 1px;
     line-height: 1.7;
     text-transform: uppercase;
-    width: 120px;
+    width: 120px
     }
 
 .boton-noticia:focus {
@@ -4749,6 +4853,8 @@ section.interior .seccion-caballo {
 .amazingcarousel-image > div, .amazing-hack, .amazing-hack a {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)" !important;
     filter: alpha(opacity=0) !important;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)" !important;
+    filter: alpha(opacity=0) !important;
     opacity: 0 !important;
     display: none !important
     }
@@ -4773,8 +4879,8 @@ section.interior .seccion-caballo {
 
 #cntctfrm_contact_form > div {
     font-family: optimaregular;
-    letter-spacing: 1px;
-}
+    letter-spacing: 1px
+    }
 
 #cntctfrm_contact_form input[type="text"], #cntctfrm_contact_form textarea, #cntctfrm_contact_form input[type="email"] {
     -moz-border-bottom-colors: none;
@@ -4795,7 +4901,7 @@ section.interior .seccion-caballo {
     color: #919191;
     font-family: optimaregular;
     font-size: 1em;
-    margin: 0 0 20px 0!important;
+    margin: 0 0 20px 0 !important;
     letter-spacing: 1px;
     width: 90%
     }
@@ -4823,7 +4929,7 @@ textarea {
     }
 
 [class^="icon-"]:before, [class*=" icon-"]:before {
-    font-family: "untitled-font-1" !important;
+    font-family: "untitled-font-1";
     font-style: normal !important;
     font-weight: normal !important;
     font-variant: normal !important;
@@ -4835,47 +4941,47 @@ textarea {
     }
 
 .icon-facebook:before {
-    content: "a"
+    content: "a" !important
     }
 
 .icon-twitter:before {
-    content: "b"
+    content: "b" !important
     }
 
 .icon-instagram:before {
-    content: "c"
+    content: "c" !important
     }
 
 .icon-pinterest:before {
-    content: "d"
+    content: "d" !important
     }
 
 .icon-youtube-play:before {
-    content: "e"
+    content: "e" !important
     }
 
 .icon-google-plus:before {
-    content: "f"
+    content: "f" !important
     }
 
 .icon-align-justify:before {
-    content: "g"
+    content: "g" !important
     }
 
 .icon-search-find:before {
-    content: "h"
+    content: "h" !important
     }
 
 .icon-angle-left:before {
-    content: "i"
+    content: "i" !important
     }
 
 .icon-angle-right:before {
-    content: "j"
+    content: "j" !important
     }
 
 .icon-pinterest-1:before {
-    content: "k"
+    content: "k" !important
     }
 
 .hamburger-menu-icon {
@@ -4884,8 +4990,8 @@ textarea {
 
 .archertroy-blog-margin-top {
     background: none repeat scroll 0 0 #cfcfcf;
-    height: 1px;
-}
+    height: 1px
+    }
 
 .post-browse {
     background: none repeat scroll 0 0 #fff;
@@ -4895,31 +5001,33 @@ textarea {
     padding: 0 1% 0 0;
     position: relative;
     text-align: right;
-    width: 100%;
-}
+    width: 100%
+    }
+
 .post-content {
     background: none repeat scroll 0 0 #e6e6e6;
     float: left;
     height: 100%;
     position: relative;
-    width: 100%;
-}
+    width: 100%
+    }
+
 .mini-post .entry-content .wp-caption:first-child {
     background: transparent;
     display: block;
-    width: 100%;
+    width: 100%!important;
     max-width: 100%;
     margin: 0;
     padding: 0;
     position: relative;
     text-align: left;
     overflow: hidden;
-    text-transform: none !important;
-    padding: 0;
+    text-transform: none !important
     }
+
 .mini-post .entry-content .wp-caption:first-child img {
-    margin: 0;
-}
+    margin: 0
+    }
 
 .mini-post .entry-content > .wp-caption:first-child > .wp-caption-text {
     background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDk2MCAxNTAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0iaGF0MCIgZ3JhZGllbnRVbml0cz0ib2JqZWN0Qm91bmRpbmdCb3giIHgxPSI1MCUiIHkxPSIxMDAlIiB4Mj0iNTAlIiB5Mj0iLTEuNDIxMDg1NDcxNTIwMmUtMTQlIj4KPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMCIgc3RvcC1vcGFjaXR5PSIwLjgiLz4KPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDAwIiBzdG9wLW9wYWNpdHk9IjAiLz4KICAgPC9saW5lYXJHcmFkaWVudD4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSI5NjAiIGhlaWdodD0iMTUwIiBmaWxsPSJ1cmwoI2hhdDApIiAvPgo8L3N2Zz4=);
@@ -4939,13 +5047,15 @@ textarea {
     width: 100%;
     line-height: 190px;
     }
+
 .blog-posts-header {
     border-bottom: 1px solid #cfcfcf;
     display: block;
     height: 100px;
     margin-bottom: 20px;
-    width: 100%;
-}
+    width: 100%
+    }
+
 .blog-posts-header h2 {
     border-bottom: 1px solid #cfcfcf;
     border-right: 1px solid #cfcfcf;
@@ -4957,8 +5067,9 @@ textarea {
     text-align: left;
     text-transform: uppercase;
     vertical-align: middle;
-    width: 50%;
-}
+    width: 50%
+    }
+
 .blog-posts-header form {
     border-bottom: 1px solid #cfcfcf;
     border-right: 1px solid #cfcfcf;
@@ -4968,8 +5079,9 @@ textarea {
     height: 50px;
     margin: 0;
     padding: 0 20px;
-    width: 50%;
-}
+    width: 50%
+    }
+
 .blog-posts-header form input {
     border: none;
     -moz-border-radius: 0;
@@ -4982,6 +5094,7 @@ textarea {
     padding: 0;
     line-height: 1.5
     }
+
 .blog-posts-header .header-social-links {
     clear: none;
     display: inline-block;
@@ -4990,22 +5103,25 @@ textarea {
     line-height: 60px;
     padding: 0 20px;
     text-align: justify;
-    width: 100%;
-} 
+    width: 100%
+    }
+
 .blog-posts-header .header-social-links > a {
     color: #4b4b4b;
     display: inline-block;
     font-size: 18px;
     margin: 0;
     text-decoration: none;
-    vertical-align: top;
-}
+    vertical-align: top
+    }
+
 .blog-grid > div.blog-wp-caption, .blog-grid > a {
     display: table;
     float: left;
     margin: 0 0 2%;
-    width: 100%;
-}
+    width: 100%
+    }
+
 .blog-wp-caption-text {
     background: none repeat scroll 0 0 rgb(255, 255, 255);
     color: #626161;
@@ -5016,6 +5132,7 @@ textarea {
     right: 0;
     margin: 0 !important;
     max-width: 100%;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
     opacity: 0;
@@ -5032,8 +5149,8 @@ textarea {
     line-height: 20px;
     position: absolute;
     text-align: left;
-    width: 100%;
-}
+    width: 100%
+    }
 
 .blog-wp-caption-text .caption-date, .wp-caption-text .caption-date {
     bottom: 0;
@@ -5046,18 +5163,10 @@ textarea {
     position: absolute;
     text-align: left;
     text-transform: lowercase;
-    width: 100%;
-    }      
-
-
+    width: 100%
+    }
 
 .carteles {
-    -moz-box-sizing: unset;
-    box-sizing: unset;
-    margin: auto;
-    max-width: 1800px !important;
-    min-width: 280px !important;
-    padding: 0 20px !important;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
     opacity: 0
@@ -5067,58 +5176,10 @@ textarea {
     margin: 0 !important
     }
 
-/*
-.larger {
-    margin: 0 10px 10px 0;
-    width: 441px !important;
-    height: 630px !important;
-    }
-
-.shorter {
-    height: 310px !important;
-    margin: 0 10px 10px 0;
-    width: 218px !important
-    }
-
-.smaller {
-    height: 150px !important;
-    width: 105px !important;
-    }
-
-.smaller.left {
-    margin: 0 0 11px 0
-    }
-
-.smaller.right {
-    margin: 0 8px 11px 0
-    }
-*/
-
 .carteles a, .contenedor-mediano {
     display: block;
     float: left;
 }
-
-.larger {
-    margin: 0 10px 10px 0;
-    width: 441px !important;
-    height: 630px !important;
-    }
-
-.larger:nth-child(4n+0) {
-    margin-right: 0 !important;
-}
-
-.shorter, .contenedor-mediano {
-    height: 310px !important;
-/* margin: 0 10px 10px 0; */
-    width: 215.5px !important
-    }
-
-.smaller {
-    height: 150px !important;
-    width: 102.5px !important;
-    }
 
 .contenedor-mediano:nth-child(1), .contenedor-mediano > .contenedor-chico:nth-child(1) {
     margin-right: 10px;
@@ -5136,146 +5197,284 @@ textarea {
 .final{
     margin-right: 0px !important;
 }
-/*
+
+
 @media screen and (min-width: 200px) and (max-width: 399px){
 
 .carteles {
     -moz-box-sizing: unset;
     box-sizing: unset;
     margin: auto;
-    max-width: 1800px !important;
-    min-width: 280px !important;
-    padding: 0 20px !important
+    width: 320px !important;
     }
 
 .larger {
-    margin: 0 10px 2px 0;
-    max-width: 211px !important;
-    min-width: 211px !important;
-    max-height: 313px !important;
-    min-height: 313px !important;
-    width: 100% !important
-    }
+    height: 457px !important;
+    margin: 0 0 10px;
+    width: 320px !important;
+}
+
+.larger:nth-child(1n+0) {
+    margin-right: 0 !important;
+}
+
+.shorter, .contenedor-mediano {
+    height: 221px !important;
+    width: 155px !important;
+}
+
+.smaller {
+    height: 103px !important;
+    width: 72px !important;
+}
 
 }
 
 @media screen and (min-width: 400px) and (max-width: 599px){
 
 .carteles {
-    max-width: 100% !important
+    -moz-box-sizing: unset;
+    box-sizing: unset;
+    margin: auto;
+    width: 320px !important;
     }
 
 .larger {
-    max-width: 211px !important;
-    min-width: 211px !important;
-    max-height: 313px !important;
-    min-height: 313px !important
-    }
+    height: 457px !important;
+    margin: 0 0 10px;
+    width: 320px !important;
+}
+
+.larger:nth-child(1n+0) {
+    margin-right: 0 !important;
+}
+
+.shorter, .contenedor-mediano {
+    height: 221px !important;
+    width: 155px !important;
+}
+
+.smaller {
+    height: 103px !important;
+    width: 72px !important;
+}
 
 }
 
 @media screen and (min-width: 600px) and (max-width: 799px){
 
 .carteles {
-    max-width: 100% !important
+    -moz-box-sizing: unset;
+    box-sizing: unset;
+    margin: auto;
+    max-width: 600px !important
     }
 
 .larger {
-    max-width: 211px !important;
-    min-width: 211px !important;
-    max-height: 313px !important;
-    min-height: 313px !important
-    }
+    height: 423px !important;
+    margin: 0 10px 10px 0;
+    width: 295px !important;
+}
+
+.larger:nth-child(2n+0) {
+    margin-right: 0 !important;
+}
+
+.shorter, .contenedor-mediano {
+    height: 203px !important;
+    width: 142px !important;
+}
+
+.smaller {
+    height: 94px !important;
+    width: 66px !important;
+}
 
 }
 
 @media screen and (min-width: 800px) and (max-width: 999px){
 
 .carteles {
-    max-width: 100% !important
+    -moz-box-sizing: unset;
+    box-sizing: unset;
+    margin: auto;
+    max-width: 600px !important
     }
 
 .larger {
-    max-width: 211px !important;
-    min-width: 211px !important;
-    max-height: 313px !important;
-    min-height: 313px !important
-    }
+    height: 423px !important;
+    margin: 0 10px 10px 0;
+    width: 295px !important;
+}
+
+.larger:nth-child(2n+0) {
+    margin-right: 0 !important;
+}
+
+.shorter, .contenedor-mediano {
+    height: 203px !important;
+    width: 142px !important;
+}
+
+.smaller {
+    height: 94px !important;
+    width: 66px !important;
+}
 
 }
 
 @media screen and (min-width: 1000px) and (max-width: 1199px) {
 
 .carteles {
+    -moz-box-sizing: unset;
+    box-sizing: unset;
+    margin: auto;
     max-width: 1000px !important
     }
 
 .larger {
-    max-width: 211px !important;
-    min-width: 211px !important;
-    max-height: 313px !important;
-    min-height: 313px !important
-    }
+    height: 466px !important;
+    margin: 0 10px 10px 0;
+    width: 326px !important;
+}
+
+.larger:nth-child(3n+0) {
+    margin-right: 0 !important;
+}
+
+.shorter, .contenedor-mediano {
+    height: 226px !important;
+    width: 158px !important;
+}
+
+.smaller {
+    height: 106px !important;
+    width: 74px !important;
+}
 
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1399px){
 
 .carteles {
-    max-width: 1200px !important
+    -moz-box-sizing: unset;
+    box-sizing: unset;
+    margin: auto;
+    max-width: 1000px !important
     }
 
 .larger {
-    max-width: 250px !important;
-    min-width: 211px !important;
-    max-height: 628px !important;
-    min-height: 313px !important
-    }
+    height: 466px !important;
+    margin: 0 10px 10px 0;
+    width: 326px !important;
+}
+
+.larger:nth-child(3n+0) {
+    margin-right: 0 !important;
+}
+
+.shorter, .contenedor-mediano {
+    height: 226px !important;
+    width: 158px !important;
+}
+
+.smaller {
+    height: 106px !important;
+    width: 74px !important;
+}
 
 }
 
 @media screen and (min-width: 1400px) and (max-width: 1599px) {
 
 .carteles {
+    -moz-box-sizing: unset;
+    box-sizing: unset;
+    margin: auto;
     max-width: 1400px !important
     }
 
 .larger {
-    max-width: 300px !important;
-    min-width: 211px !important;
-    max-height: 628px !important;
-    min-height: 313px !important
-    }
+    height: 489px !important;
+    margin: 0 10px 10px 0;
+    width: 342px !important;
+}
+
+.larger:nth-child(4n+0) {
+    margin-right: 0 !important;
+}
+
+.shorter, .contenedor-mediano {
+    height: 239px !important;
+    width: 166px !important;
+}
+
+.smaller {
+    height: 113px !important;
+    width: 78px !important;
+}
 
 }
 
 @media screen and (min-width: 1600px) and (max-width: 1799px) {
 
 .carteles {
+    -moz-box-sizing: unset;
+    box-sizing: unset;
+    margin: auto;
     max-width: 1600px !important
     }
 
+
 .larger {
-    max-width: 367px !important;
-    min-width: 211px !important;
-    max-height: 628px !important;
-    min-height: 313px !important
-    }
+    height: 560px !important;
+    margin: 0 10px 10px 0;
+    width: 392px !important;
+}
+
+.larger:nth-child(4n+0) {
+    margin-right: 0 !important;
+}
+
+.shorter, .contenedor-mediano {
+    height: 275px !important;
+    width: 191px !important;
+}
+
+.smaller {
+    height: 132px !important;
+    width: 90px !important;
+}
 
 }
 
 @media screen and (min-width: 1800px) {
 
 .carteles {
+    -moz-box-sizing: unset;
+    box-sizing: unset;
+    margin: auto;
     max-width: 1800px !important;
     }
 
 .larger {
-    max-width: 438px !important;
-    min-width: 211px !important;
-    max-height: 628px !important;
-    min-height: 313px !important
+    margin: 0 10px 10px 0;
+    width: 441px !important;
+    height: 630px !important;
+    }
+
+.larger:nth-child(4n+0) {
+    margin-right: 0 !important;
+}
+
+.shorter, .contenedor-mediano {
+    height: 310px !important;
+    width: 215.5px !important
+    }
+
+.smaller {
+    height: 150px !important;
+    width: 102.5px !important;
     }
 
 }
-*/

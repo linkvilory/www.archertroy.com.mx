@@ -1,0 +1,2 @@
+[15-Apr-2015 13:21:31 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/archer/public_html/wp-content/themes/archertroy/index.php on line 17
+[17-Apr-2015 13:04:03 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/archer/public_html/wp-content/themes/archertroy/index.php on line 17

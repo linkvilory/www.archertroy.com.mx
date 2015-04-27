@@ -29,6 +29,7 @@
     <link type="text/css" href="<?php echo get_template_directory_uri(); ?>/style960more.css?ver=4.1.1" rel="stylesheet">
     <link type="text/css" href="<?php echo get_template_directory_uri(); ?>/style1600more.css?ver=4.1.1" rel="stylesheet">
     <link type="text/css" href="<?php echo get_template_directory_uri(); ?>/style1800more.css?ver=4.1.1" rel="stylesheet">
+    <link type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/animate.css" rel="stylesheet">
 		<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico">
 		<link rel="icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" type="image/x-icon">
 		<link rel="apple-touch-icon" sizes="57x57" href="<?php echo get_stylesheet_directory_uri(); ?>/apple-touch-icon-57x57.png">
@@ -46,6 +47,11 @@
 		<link rel="icon" type="image/png" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon-16x16.png" sizes="16x16">
 		<meta name="msapplication-TileColor" content="#ffffff">
 		<meta name="msapplication-TileImage" content="mstile-144x144.png">
+    <meta property="og:url" content="http://archertroy.com" />
+    <meta property="og:title" content="Archer Troy - Sitio Oficial" />
+    <meta property="og:description" content="Archer Troy es una agencia integral e independiente. Nuestra arma de conquista son las ideas, entre mas grandes, más poderosas: Ideas que Conquistan." />
+    <meta property="og:site_name" content="archertroy" />
+    <meta property="og:image" content="http://archertroy.com/wp-content/uploads/image-share/image-share-archer-troy.jpg" />
 </head>
 <body <?php body_class(); ?>>
   <!-- Landing Page Content -->
@@ -226,6 +232,7 @@
         }
         ajustar_footer();
         mover_footer_al_fondo();
+
       }
       
       $(window).on('resize', function () {
