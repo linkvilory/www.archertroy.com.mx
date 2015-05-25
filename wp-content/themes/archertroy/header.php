@@ -48,6 +48,8 @@
 
 		<link type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/font-awesome.css?ver=4.1.1" rel="stylesheet">
 		<link type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/audiotag.css?ver=4.1.1" rel="stylesheet">
+		<link type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/animate.css?ver=4.1.1" rel="stylesheet">
+
 
 		<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico">
 		<link rel="icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" type="image/x-icon">	
@@ -162,6 +164,19 @@
 
 <?php
 
+ }elseif($_SERVER['REQUEST_URI'] == "/posters/"){
+
+?>
+
+	<meta property="og:url" content="http://archertroy.com/posters/" />
+	<meta property="og:title" content="Archer Troy - Posters" />
+	<meta property="og:description" content="" />
+	<meta property="og:site_name" content="archertroy" />
+	<meta property="og:image" content="http://archertroy.com/wp-content/uploads/image-share/image-share-posters.jpg" />
+
+
+<?php
+
  }else{
 
  	if (is_single()){
@@ -169,8 +184,8 @@
 ?>
 
 	<meta property="og:url" content="<?php the_permalink(); ?>" />
-	<meta property="og:title" content="<?php the_title(); ?>" />
-	<meta property="og:description" content="<?php echo strip_tags(get_the_excerpt($post->ID)); ?>" />
+	<meta property="og:title" content="<?php the_title(); ?> - Proyecto" />
+	<meta property="og:description" content="<?php echo strip_tags($post->post_content); ?>" />
 	<meta property="og:site_name" content="archertroy" />
 	<?php $fb_image = wp_get_attachment_image_src(get_post_thumbnail_id( get_the_ID() ), 'thumbnail'); ?>
 	<meta property="og:image" content="<?php echo $fb_image[0]; ?>" />

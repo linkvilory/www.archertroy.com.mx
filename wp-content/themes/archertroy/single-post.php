@@ -1,20 +1,5 @@
 <?php
 /**
- * The template for displaying all pages
- *
- * This is the template that displays all pages by default.
- * Please note that this is the WordPress construct of pages
- * and that other 'pages' on your WordPress site will use a
- * different template.
- *
- * @package WordPress
- * @subpackage Twenty_Twelve
- * @since Twenty Twelve 1.0
- */
-
-get_header(); ?>
-<?php
-/**
  * The main template file
  *
  * This is the most generic template file in a WordPress theme
@@ -46,11 +31,11 @@ get_header(); ?>
         
       	<div class='header-social-links'>
     			<a href='https://www.facebook.com/archertroy' class='icon-facebook' target='_blank'></a>
-    			<a href='https://twitter.com/ArcherTroy' class='icon-twitter' target='_blank'></a>
-    			<a href='http://instagram.com/archertroy' class='icon-instagram' target='_blank'></a>
-    			<a href='http://www.pinterest.com/archertroyp' class='icon-pinterest-1' target='_blank'></a>
-    			<a href='https://www.youtube.com/ConquistasArcher' class='icon-youtube-play' target='_blank'></a>
-    			<a href='https://plus.google.com/105080074709822071277/posts' class='icon-google-plus' target='_blank'></a>
+          <a href='https://twitter.com/ArcherTroy' class='icon-twitter' target='_blank'></a>
+          <a href='http://instagram.com/archertroy' class='icon-instagram' target='_blank'></a>
+          <a href='http://www.pinterest.com/archertroyp' class='icon-pinterest' target='_blank'></a>
+          <a href='https://www.youtube.com/ConquistasArcher' class='icon-youtube-play' target='_blank'></a>
+          <a href='https://www.linkedin.com/company/archer-troy-publicidad-s-a-de-c-v-?trk=company_logo' class='icon-linkedin' target='_blank'></a>
     		</div>
       </div>
     <?php

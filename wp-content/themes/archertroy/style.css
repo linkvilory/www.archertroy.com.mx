@@ -1,3 +1,7 @@
+/*
+ * Especial Style
+ */
+
 @-ms-viewport {
     width: device-width;
     }
@@ -26,45 +30,45 @@
     font-weight: normal;
     }
 
-@font-face {
-    font-family: "untitled-font-1";
-    src: url(/wp-content/themes/archertroy/fonts/redes-webfont.eot);
-    src: url(/wp-content/themes/archertroy/fonts/redes-webfont.eot?#iefix) format("embedded-opentype"), url(/wp-content/themes/archertroy/fonts/redes-webfont.woff2) format("woff2"), url(/wp-content/themes/archertroy/fonts/redes-webfont.woff) format("woff"), url(/wp-content/themes/archertroy/fonts/redes-webfont.ttf) format("truetype"), url(/wp-content/themes/archertroy/fonts/redes-webfont.svg#untitled-font-1) format("svg");
-    font-weight: normal;
-    font-style: normal
-    }
+/*
+ * Fonts
+ */
 
 @font-face {
-    font-family: "optimabold";
+    font-family: "optimaB";
     src: url(/wp-content/themes/archertroy/fonts/Optima-Bold-webfont.eot);
-    src: url(/wp-content/themes/archertroy/fonts/Optima-Bold-webfont.eot?#iefix) format("embedded-opentype"), url(/wp-content/themes/archertroy/fonts/Optima-Bold-webfont.woff2) format("woff2"), url(/wp-content/themes/archertroy/fonts/Optima-Bold-webfont.woff) format("woff"), url(/wp-content/themes/archertroy/fonts/Optima-Bold-webfont.ttf) format("truetype"), url(/wp-content/themes/archertroy/fonts/Optima-Bold-webfont.svg#optimabold) format("svg");
+    src: url(/wp-content/themes/archertroy/fonts/Optima-Bold-webfont.eot?#iefix) format("embedded-opentype"), url(/wp-content/themes/archertroy/fonts/Optima-Bold-webfont.woff2) format("woff2"), url(/wp-content/themes/archertroy/fonts/Optima-Bold-webfont.woff) format("woff"), url(/wp-content/themes/archertroy/fonts/Optima-Bold-webfont.ttf) format("truetype"), url(/wp-content/themes/archertroy/fonts/Optima-Bold-webfont.svg#optimaB) format("svg");
     font-weight: normal;
     font-style: normal
     }
 
 @font-face {
-    font-family: "optimaregular";
+    font-family: "optimaR";
     src: url(/wp-content/themes/archertroy/fonts/Optima-Regular-webfont.eot);
-    src: url(/wp-content/themes/archertroy/fonts/Optima-Regular-webfont.eot?#iefix) format("embedded-opentype"), url(/wp-content/themes/archertroy/fonts/Optima-Regular-webfont.woff2) format("woff2"), url(/wp-content/themes/archertroy/fonts/Optima-Regular-webfont.woff) format("woff"), url(/wp-content/themes/archertroy/fonts/Optima-Regular-webfont.ttf) format("truetype"), url(/wp-content/themes/archertroy/fonts/Optima-Regular-webfont.svg#optimaregular) format("svg");
+    src: url(/wp-content/themes/archertroy/fonts/Optima-Regular-webfont.eot?#iefix) format("embedded-opentype"), url(/wp-content/themes/archertroy/fonts/Optima-Regular-webfont.woff2) format("woff2"), url(/wp-content/themes/archertroy/fonts/Optima-Regular-webfont.woff) format("woff"), url(/wp-content/themes/archertroy/fonts/Optima-Regular-webfont.ttf) format("truetype"), url(/wp-content/themes/archertroy/fonts/Optima-Regular-webfont.svg#optimaR) format("svg");
     font-weight: normal;
     font-style: normal
     }
 
 @font-face {
-    font-family: "trajanbold";
+    font-family: "trajanB";
     src: url(/wp-content/themes/archertroy/fonts/Trajan-Bold-webfont.eot);
-    src: url(/wp-content/themes/archertroy/fonts/Trajan-Bold-webfont.eot?#iefix) format("embedded-opentype"), url(/wp-content/themes/archertroy/fonts/Trajan-Bold-webfont.woff2) format("woff2"), url(/wp-content/themes/archertroy/fonts/Trajan-Bold-webfont.woff) format("woff"), url(/wp-content/themes/archertroy/fonts/Trajan-Bold-webfont.ttf) format("truetype"), url(/wp-content/themes/archertroy/fonts/Trajan-Bold-webfont.svg#trajanbold) format("svg");
+    src: url(/wp-content/themes/archertroy/fonts/Trajan-Bold-webfont.eot?#iefix) format("embedded-opentype"), url(/wp-content/themes/archertroy/fonts/Trajan-Bold-webfont.woff2) format("woff2"), url(/wp-content/themes/archertroy/fonts/Trajan-Bold-webfont.woff) format("woff"), url(/wp-content/themes/archertroy/fonts/Trajan-Bold-webfont.ttf) format("truetype"), url(/wp-content/themes/archertroy/fonts/Trajan-Bold-webfont.svg#trajanB) format("svg");
     font-weight: normal;
     font-style: normal
     }
 
 @font-face {
-    font-family: "trajanregular";
+    font-family: "trajanR";
     src: url(/wp-content/themes/archertroy/fonts/Trajan-Regular-webfont.eot);
-    src: url(/wp-content/themes/archertroy/fonts/Trajan-Regular-webfont.eot?#iefix) format("embedded-opentype"), url(/wp-content/themes/archertroy/fonts/Trajan-Regular-webfont.woff2) format("woff2"), url(/wp-content/themes/archertroy/fonts/Trajan-Regular-webfont.woff) format("woff"), url(/wp-content/themes/archertroy/fonts/Trajan-Regular-webfont.ttf) format("truetype"), url(/wp-content/themes/archertroy/fonts/Trajan-Regular-webfont.svg#trajanregular) format("svg");
+    src: url(/wp-content/themes/archertroy/fonts/Trajan-Regular-webfont.eot?#iefix) format("embedded-opentype"), url(/wp-content/themes/archertroy/fonts/Trajan-Regular-webfont.woff2) format("woff2"), url(/wp-content/themes/archertroy/fonts/Trajan-Regular-webfont.woff) format("woff"), url(/wp-content/themes/archertroy/fonts/Trajan-Regular-webfont.ttf) format("truetype"), url(/wp-content/themes/archertroy/fonts/Trajan-Regular-webfont.svg#trajanR) format("svg");
     font-weight: normal;
     font-style: normal
     }
+
+/*
+ * Generic style
+ */
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
     margin: 0;
@@ -76,7 +80,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 body {
     line-height: 1;
-    overflow: hidden
+    overflow: hidden;
+    text-rendering: optimizeLegibility;
+    color: #444
     }
 
 ol, ul {
@@ -114,6 +120,11 @@ html {
     height: 100%
     }
 
+a {
+    outline: none;
+    color: #626161
+    }
+
 a:focus {
     outline: none;
     outline: 0
@@ -121,6 +132,11 @@ a:focus {
 
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
     display: block
+    }
+
+embed, iframe, object, video {
+    display: block;
+    margin: 0 auto
     }
 
 audio, canvas, video {
@@ -181,20 +197,6 @@ img {
     content: ""
     }
 
-.archive-title, .page-title, .widget-title, .entry-content th, .comment-content th {
-    font-size: 11px;
-    font-size: 0.785714286rem;
-    line-height: 2.181818182;
-    text-transform: uppercase;
-    color: #636363
-    }
-
-article.format-quote footer.entry-meta, article.format-link footer.entry-meta, article.format-status footer.entry-meta {
-    font-size: 11px;
-    font-size: 0.785714286rem;
-    line-height: 2.181818182
-    }
-
 input, select, textarea {
     border: 1px solid #ccc;
     font-family: inherit;
@@ -208,7 +210,8 @@ button, input {
 textarea {
     font-size: 100%;
     overflow: auto;
-    vertical-align: top
+    vertical-align: top;
+    resize: none
     }
 
 input[type="checkbox"], input[type="radio"], input[type="file"], input[type="hidden"], input[type="image"], input[type="color"] {
@@ -273,20 +276,13 @@ button[disabled], input[disabled] {
     cursor: default
     }
 
-.bypostauthor cite span {
-    color: #fff;
-    background-color: #9fad9f;
-    background-image: none;
-    border: 1px solid #1f6f93;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
-    border-radius: 2px;
-    -moz-box-shadow: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    padding: 0
-    }
+/*
+ * Template Style Archer Troy
+ */
 
+
+
+/* Img's */ 
 .entry-content img, .comment-content img, .widget img {
     max-width: 100%
     }
@@ -298,32 +294,18 @@ img[class*="align"], img[class*="wp-image-"], img[class*="attachment-"] {
 img.size-full, img.size-large, img.header-image, img.wp-post-image {
     max-width: 100%;
     height: auto;
-    display: table
     }
 
+img.attachment-post-thumbnail.wp-post-image {
+    max-width: auto
+    }
+
+/* Forma de contacto */
 .parsley-error {
     border-color: red !important
     }
 
-.grid {
-    position: relative;
-    line-height: 1.714285714;
-    margin: 0;
-    padding: 0;
-    display: block;
-    clear: both;
-    float: none;
-    text-align: justify;
-    -ms-text-justify: distribute-all-lines;
-    text-justify: distribute-all-lines
-    }
-
-.grid:after {
-    content: "";
-    width: 100%;
-    display: inline-block
-    }
-
+/* Botones */
 .boton-Cartel:focus {
     outline: 0
     }
@@ -340,7 +322,7 @@ img.size-full, img.size-large, img.header-image, img.wp-post-image {
     border: medium none;
     color: white;
     float: right;
-    font-family: "optimaregular";
+    font-family: optimaR;
     font-size: 18px;
     letter-spacing: 2px;
     min-height: 32px;
@@ -358,125 +340,131 @@ img.size-full, img.size-large, img.header-image, img.wp-post-image {
     background-color: #7F7F7F
     }
 
+.boton-Archer:focus {
+    outline: 0
+    }
+
+.boton-Archer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0
+    }
+
+.boton-Archer {
+    font-family: optimaR;
+    font-size: 18px;
+    letter-spacing: 2px;
+    position: relative;
+    border: none;
+    min-width: 162px;
+    min-height: 32px;
+    background-color: #7F7F7F;
+    color: white;
+    vertical-align: middle;
+    text-transform: uppercase;
+    margin: 18px 0 0;
+    -moz-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s
+    }
+
+.boton-Archer:hover {
+    background-color: #7F7F7F
+    }
+
+.boton-noticia:focus {
+    outline: 0
+    }
+
+.boton-noticia::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0
+    }
+
+.boton-noticia {
+    background-color: #ccc;
+    border: medium none;
+    color: white;
+    display: block;
+    font-family: optimaR;
+    font-size: 18px;
+    height: 32px;
+    letter-spacing: 2px;
+    line-height: 34px;
+    min-height: 32px;
+    min-width: 120px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: middle;
+    width: 120px;
+    float: right;
+    -moz-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s
+    }
+
+.boton-noticia:hover {
+    background-color: #7F7F7F
+    }    
+
+/* Social Buttons */
+.project-navigation {
+    clear: both;
+    display: block;
+    float: none;
+    font-family: optimaR;
+    margin: 20px 0 0;
+    padding: 0 20px;
+    position: relative;
+    text-transform: uppercase;
+    width: 100%;
+    overflow: visible;
+    height: 40px;
+    }
+
 .entry-content-social-links {
     margin: 0 auto;
     text-align: center;
     padding: 0;
     position: relative;
-    height: 40px
+    height: 40px;
+    overflow: visible;
     }
 
-.project-navigation {
-    clear: both;
-    display: block;
-    float: none;
-    font-family: optimaregular;
-    margin: 20px 0 0;
-    padding: 0 20px;
-    position: relative;
-    text-transform: uppercase;
-    width: 100%
-    }
-
+/* Carruseles */
 .wonderplugincarousel {
     width: 100% !important;
-    max-width: 320px !important
+    max-width: 320px !important;
+    margin: 20px auto !important;
+    overflow: visible
     }
 
 .amazingcarousel-prev, .amazingcarousel-next {
     display: none !important
     }
 
+.amazingcarousel-image > div, .amazing-hack, .amazing-hack a {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)" !important;
+    filter: alpha(opacity=0) !important;
+    opacity: 0 !important;
+    display: none !important
+    }
+
+/* Seccion BLOG */
 .blog-link {
-    font-family: trajanregular;
+    font-family: trajanR;
     font-weight: normal;
     text-decoration: none
     }
 
-.gente > div .wp-caption-text {
-    bottom: 0
-    }
-
-.proyectos-recientes, .ultimas-noticias, .proyectos {
-    -moz-box-sizing: unset;
-    box-sizing: unset;
-    max-width: 100%;
-    width: 100%;
-    border-bottom: 1px solid #9fad9f;
-    clear: both;
-    display: table;
-    float: none;
-    margin: 0;
-    padding: 0 0 4px;
-    position: relative;
-    text-align: justify
-    }
-
-.proyectos, .ultimas-noticias {
-    border: 0 none
-    }
-
-.proyectos-recientes > div, .proyectos-recientes a, .proyectos-recientes img, .ultimas-noticias > div, .ultimas-noticias a, .ultimas-noticias img, .proyectos > div, .proyectos a, .proyectos img {
-    display: inline-block;
-    float: left;
-    max-width: 131px;
-    vertical-align: top;
-    width: 131px;
-    height: 131px;
-    max-height: 131px;
-    margin-bottom: 16px
-    }
-
-img.attachment-post-thumbnail.wp-post-image {
-    max-width: auto
-    }
-
-.proyectos-recientes > span, .proyectos-recientes > span {
-    display: block;
-    clear: both;
-    float: none;
-    position: absolute;
-    bottom: 0;
-    left: 32px
-    }
-
-.proyectos-recientes > span a, .proyectos-recientes > span a {
-    color: #fff
-    }
-
-.proyectos-recientes:after, .ultimas-noticias:after {
-    content: "";
-    width: 100%;
-    display: inline-block
-    }
-
-.noticias {
-    position: relative;
-    margin: 0;
-    padding: 0;
-    display: block;
-    clear: both;
-    float: none;
-    text-align: justify;
-    -ms-text-justify: distribute-all-lines;
-    text-justify: distribute-all-lines
-    }
-
-.noticias > div {
-    width: 272px;
-    max-width: 272px;
-    display: inline-block;
-    vertical-align: top;
-    zoom: 1;
-    margin: 0.5rem 0
-    }
-
-.noticias:after {
-    content: "";
-    width: 100%;
-    display: inline-block
-    }
-
+/* Seccion GENTE */
 .gente {
     position: relative;
     margin: 0;
@@ -490,23 +478,21 @@ img.attachment-post-thumbnail.wp-post-image {
     }
 
 .gente > div {
-    width: 250px;
-    max-width: 250px;
-    height: 250px;
-    max-height: 250px;
+    width: 300px;
+    max-width: 300px;
+    height: 300px;
+    max-height: 300px;
     margin: 0 0 15px;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: alpha(opacity=0);
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
     opacity: 0
     }
 
 .gente div img {
-    height: 250px;
+    height: 300px;
     margin: 0;
     padding: 0;
-    width: 250px
+    width: 300px
     }
 
 .gente > div .wp-caption-text {
@@ -517,8 +503,6 @@ img.attachment-post-thumbnail.wp-post-image {
     padding: 10px 0 0 !important;
     position: absolute;
     width: 100%;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: alpha(opacity=0);
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
     opacity: 0
@@ -534,30 +518,13 @@ img.attachment-post-thumbnail.wp-post-image {
     display: inline-block
     }
 
-#post-18 h1 {
-    margin: 60px auto 20px;
-    max-width: 1200px
-    }
-
-#post-308 h1 {
-    margin: 20px auto;
-    max-width: 1800px;
-    padding: 0 20px;
-    -moz-box-sizing: unset;
-    box-sizing: unset
-    }
-
 .datos-persona {
     height: 100%;
     width: 100%
     }
 
-.wp-caption .wp-caption-text {
-    text-transform: uppercase
-    }
-
 .datos-persona .persona, .datos-persona .handler {
-    font-family: optimaregular;
+    font-family: optimaR;
     text-transform: none;
     display: inline-block;
     float: left
@@ -581,24 +548,168 @@ img.attachment-post-thumbnail.wp-post-image {
     }
 
 .datos-persona .persona .nombre-persona {
-    font-size: 14px;
-    line-height: 18px;
-    color: #626161
-    }
+    color: #626161;
+    font-size: 1em;
+    line-height: 25px;
+}
 
 .datos-persona .persona .puesto-persona {
-    font-size: 12px;
-    line-height: 16px;
-    color: #a3ada2
-    }
+    color: #a3ada2;
+    font-size: 0.8em;
+    line-height: 20px;
+}
 
 .datos-persona .handler, .datos-persona .handler a {
-    line-height: 16px;
+    line-height: 20px;
     color: #252425;
-    font-size: 12px;
+    font-size: 0.9em;
     text-align: right
     }
 
+/* Masonry */
+.proyectos-recientes, .ultimas-noticias, .proyectos {
+    -moz-box-sizing: unset;
+    box-sizing: unset;
+    max-width: 100%;
+    width: 100%;
+    border-bottom: 1px solid #9fad9f;
+    clear: both;
+    display: table;
+    float: none;
+    margin: 0;
+    padding: 0 0 4px;
+    position: relative;
+    text-align: justify
+    }
+
+.proyectos, .ultimas-noticias {
+    border: 0 none
+    }
+
+.proyectos-recientes > div, .proyectos-recientes a, .proyectos-recientes img, .ultimas-noticias > div, .ultimas-noticias a, .ultimas-noticias img, .proyectos > div, .proyectos a, .proyectos img {
+    display: inline-block;
+    float: left;
+    max-width: 132px;
+    vertical-align: top;
+    width: 132px;
+    height: 132px;
+    max-height: 132px;
+    margin-bottom: 16px
+    }
+
+.proyectos-recientes > span, .proyectos-recientes > span {
+    display: block;
+    clear: both;
+    float: none;
+    position: absolute;
+    bottom: 0;
+    left: 32px
+    }
+
+.proyectos-recientes > span a, .proyectos-recientes > span a {
+    color: #fff
+    }
+
+.proyectos-recientes:after, .ultimas-noticias:after {
+    content: "";
+    width: 100%;
+    display: inline-block
+    }
+
+/* Footer */
+.footer-border-top {
+    border-top: 1px solid #CFCFCF !important;
+    width: 100%;
+    height: 95px
+    }
+
+footer[role="contentinfo"] a {
+    text-decoration: none;
+    display: inline-block;
+    }
+
+footer[role="contentinfo"] a:hover {
+    color: #9fad9f
+    }
+
+.social-links a {
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    margin: 0 2%;
+    text-decoration: none;
+    line-height: 60px;
+}
+
+footer .site-info {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    height: 100%
+    }
+
+footer[role="contentinfo"] {
+    height: 120px;
+    width: 100%;
+    margin-top: 40px
+    }
+
+.solid {
+    background: none repeat scroll 0 0 #242524;
+    clear: both;
+    float: none;
+    height: 40%;
+    width: 100%;
+    overflow: visible;
+    }
+
+.triangule {
+    float: left;
+    height: 100%;
+    overflow: visible;
+    width: 1%;
+    display: none
+    }
+
+.social-links {
+    display: block;
+    font-size: 16px;
+    height: 100%;
+    line-height: 50px;
+    text-align: center;
+    width: 100%;
+    overflow: visible;
+    }
+
+.copyright {
+    clear: none;
+    display: inline-block;
+    float: left;
+    font-size: 8px;
+    letter-spacing: 1px;
+    line-height: 1em;
+    font-family: optimaR;
+    height: 60%;
+    line-height: 14px;
+    padding: 0 10px 10px 10px;
+    text-align: justify;
+    width: 100%;
+    word-wrap: break-word
+    }
+
+.reg {
+    display: inline-block;
+    float: left;
+    font-family: optimaR;
+    font-weight: lighter;
+    height: 100%;
+    line-height: 30px;
+    margin: 0 5px 0 0
+    }
+
+/*
+ * Clientes
+ */
 .clientes {
     position: relative;
     margin: 0;
@@ -616,10 +727,10 @@ img.attachment-post-thumbnail.wp-post-image {
     vertical-align: top;
     zoom: 1;
     margin-bottom: 10px;
-    width: 50px;
-    height: 50px;
-    max-width: 50px;
-    max-height: 50px
+    width: 98px;
+    height: 98px;
+    max-width: 98px;
+    max-height: 98px
     }
 
 .clientes:after {
@@ -628,54 +739,17 @@ img.attachment-post-thumbnail.wp-post-image {
     display: inline-block
     }
 
-.project-links {
-    display: block;
-    margin: 0 auto;
-    width: 500px;
-    text-align: center
+#post-18 h1 {
+    margin: 60px auto 20px;
+    max-width: 1200px
     }
 
-.project-links a {
-    text-decoration: none;
-    display: inline-block;
-    margin: 0 0.5em
-    }
-
-.columnas {
-    display: block;
-    float: none;
-    clear: both;
-    margin: 0 0.5em
-    }
-
-.columnas:last-child {
-    overflow: hidden
-    }
-
-.centrar {
-    text-align: center;
-    padding-top: 117px
-    }
-
-.agrandar-imagen-contacto {
-    -moz-transform: scale(2);
-    -ms-transform: scale(2);
-    -o-transform: scale(2);
-    -webkit-transform: scale(2);
-    transform: scale(2)
-    }
-
-#secondary {
-    width: 0 !important;
-    height: 0 !important;
-    position: absolute !important;
-    top: -10000px !important;
-    display: none !important
-    }
-
-embed, iframe, object, video {
-    display: block;
-    margin: 0 auto
+#post-308 h1 {
+    margin: 20px auto;
+    max-width: 1800px;
+    padding: 0 20px;
+    -moz-box-sizing: unset;
+    box-sizing: unset
     }
 
 .entry-content .twitter-tweet-rendered {
@@ -683,7 +757,7 @@ embed, iframe, object, video {
     }
 
 .alignleft {
-    font-family: optimaregular;
+    font-family: optimaR;
     float: left;
     background: transparent;
     position: absolute;
@@ -692,7 +766,7 @@ embed, iframe, object, video {
     }
 
 .alignright {
-    font-family: optimaregular;
+    font-family: optimaR;
     float: right;
     background: transparent;
     position: absolute;
@@ -824,26 +898,10 @@ img.wp-smiley, .rsswidget img {
     margin-top: 0
     }
 
-html {
-    font-size: 87.5%
-    }
-
-body {
-    font-size: 14px;
-    font-size: 1rem;
-    text-rendering: optimizeLegibility;
-    color: #444
-    }
-
-a {
-    outline: none;
-    color: #626161
-    }
-
 #main {
-    margin-top: 1em;
     display: table;
-    width: 100%
+    width: 100%;
+    padding-top: 80px;
     }
 
 #main:after {
@@ -902,7 +960,7 @@ a {
 
 .site-header h1 {
     font-size: 24px;
-    font-size: 1.714285714rem;
+    font-size: 1.15em;
     line-height: 1.285714286;
     margin-bottom: 14px;
     margin-bottom: 1rem
@@ -921,748 +979,283 @@ a {
     margin-top: 1.714285714rem
     }
 
-.coverPhotoFront.Img.I00001 {
-    background-image: url(../../../wp-content/uploads/proyectos/activaciones-images/Canal-Sony-Shield-Cover.jpg);
-    background-position: center center;
+.coverPhotoFront{
+    background-position: left center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
     display: block;
     height: 230px;
     max-width: 100% !important;
-    width: 100%
+    width: 100%;
+    position: relative;
+    -moz-transition: background-position 2s;
+    -o-transition: background-position 2s;
+    -webkit-transition: background-position 2s;
+    transition: background-position 2s
+}
+
+.animationBg.icon-angle-right {
+    background: none repeat scroll 0 0 #242524;
+    bottom: 0;
+    color: white;
+    cursor: pointer;
+    font-size: 28px;
+    padding: 5px 10px;
+    position: absolute;
+    right: 0;
+}
+
+.coverPhotoFront.right{
+    background-position: right center;
+}
+
+.coverPhotoFront.Img.I00001 {
+    background-image: url(../../../wp-content/uploads/proyectos/activaciones-images/Canal-Sony-Shield-Cover.jpg);
     }
 
 .coverPhotoFront.Img.I00002 {
     background-image: url(../../../wp-content/uploads/proyectos/activaciones-images/Canon-The-Canon-Experience-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00003 {
     background-image: url(../../../wp-content/uploads/proyectos/activaciones-images/Disney-Avengers-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00004 {
     background-image: url(../../../wp-content/uploads/proyectos/activaciones-images/Disney-Monsters-University-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00005 {
     background-image: url(../../../wp-content/uploads/proyectos/activaciones-images/Paramount-Star-Trek-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00006 {
     background-image: url(../../../wp-content/uploads/proyectos/activaciones-images/Paramount-Tortugas-Ninja-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00007 {
     background-image: url(../../../wp-content/uploads/proyectos/activaciones-images/Paramount-Transformers-4-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00008 {
     background-image: url(../../../wp-content/uploads/proyectos/activaciones-images/Televisa-Cine-Juegos-Del-Hambre-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00009 {
     background-image: url(../../../wp-content/uploads/proyectos/activaciones-images/Warner-Harry-Potter-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00010 {
     background-image: url(../../../wp-content/uploads/proyectos/activaciones-images/Warner-Hobbit-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00011 {
     background-image: url(../../../wp-content/uploads/proyectos/digital-images/Fundacion-Donde-Guardianes-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00012 {
     background-image: url(../../../wp-content/uploads/proyectos/digital-images/Televisa-Cine-No-Se-Aceptan-Devoluciones-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00013 {
     background-image: url(../../../wp-content/uploads/proyectos/digital-images/Universal-Caracortada-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00014 {
     background-image: url(../../../wp-content/uploads/proyectos/digital-images/Universal-Parque-Jurasico-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00015 {
     background-image: url(../../../wp-content/uploads/proyectos/digital-images/Universal-Volver-Al-Futuro-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00016 {
     background-image: url(../../../wp-content/uploads/proyectos/innovacion-images/Nike-Kit-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00017 {
     background-image: url(../../../wp-content/uploads/proyectos/integradas-images/Cablevision-Va-Mas-Alla-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00018 {
     background-image: url(../../../wp-content/uploads/proyectos/integradas-images/Televisa-Cine-Cantinflas-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00019 {
     background-image: url(../../../wp-content/uploads/proyectos/integradas-images/Televisa-Cine-No-Se-Aceptan-Devoluciones-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00020 {
     background-image: url(../../../wp-content/uploads/proyectos/integradas-images/Warner-Batman-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00021 {
     background-image: url(../../../wp-content/uploads/proyectos/integradas-images/Warner-Harry-Potter-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00022 {
     background-image: url(../../../wp-content/uploads/proyectos/integradas-images/Warner-Hobbit-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00023 {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/Warner-Nosotros-Los-Nobles-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00024 {
     background-image: url(../../../wp-content/uploads/proyectos/outdoor-images/Canal-Sony-Helix-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00025 {
     background-image: url(../../../wp-content/uploads/proyectos/outdoor-images/Canal-Sony-Resurrection-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00026 {
     background-image: url(../../../wp-content/uploads/proyectos/outdoor-images/Cuauhtemoc-Moctezuma-Heineken-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00027 {
     background-image: url(../../../wp-content/uploads/proyectos/outdoor-images/Universal-Condominion-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00028 {
     background-image: url(../../../wp-content/uploads/proyectos/outdoor-images/Universal-Robin-Hood-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00029 {
     background-image: url(../../../wp-content/uploads/proyectos/radio-images/Arvm-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00030 {
     background-image: url(../../../wp-content/uploads/proyectos/radio-images/Cablevision-Regreso-a-Clases-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00031 {
     background-image: url(../../../wp-content/uploads/proyectos/radio-images/Canal-Sony-Helix-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00032 {
     background-image: url(../../../wp-content/uploads/proyectos/tv-images/Las-Oscuras-Primaveras-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00033 {
     background-image: url(../../../wp-content/uploads/proyectos/tv-images/Cablevision-Va-Mas-Alla-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00034 {
     background-image: url(../../../wp-content/uploads/proyectos/tv-images/Cinepolis-Cineminuto-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00035 {
     background-image: url(../../../wp-content/uploads/proyectos/tv-images/Danhos-Parque-Toreo-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00036 {
     background-image: url(../../../wp-content/uploads/proyectos/tv-images/Televisa-Cine-Cesar-Chavez-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00037 {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/Alboa-Boliches-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00038 {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/Boliches-Amf-un-Mundo-de-Diversion-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00039 {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/British-Council-70-Anos-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00040 {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/British-Council-London-Mexfest-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00041 {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/Cablevision-Acdc-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00042 {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/Cablevision-Anunciate-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00043 {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/Cablevision-Va-Mas-Alla-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00044 {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/Canal-Sony-Mexicos-Next-Top-Model-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00045 {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/Cinemark-a-la-Mexicana-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00046 {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/Cinepolis-la-Jaula-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00047 {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/Danhos-Septiembre-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00048 {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/Danhos-Deltamano-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00049 {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/Danhos-Parque-Duraznos-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00050 {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/Danhos-Shoppingterapia-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00051 {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/Danhos-Toreo-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00052 {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/Imcine-Cinema-Mexico-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00053 {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/Latam-Distribution-Obediencia-Perceta-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00054 {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/Scotiabank-Mca-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00055 {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/Scotiabank-Scotiaflex-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00056 {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/Televisa-Cine-Amor-a-Primera-Visa-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00057 {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/Televisa-Cine-Cantinflas-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00058 {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/Televisa-Cine-Mas-Negro-Que-La-Noche-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00059 {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/Universal-Metegol-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00060 {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/Warner-Don-Gato-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00061 {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/Warner-Nosotros-Los-Nobles-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.I00062 {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/Hasbro-PlayDoh-Cover.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.Home {
@@ -1671,14 +1264,6 @@ a {
 
 .coverPhotoFront.Bg.Home {
     background-image: url(../../../wp-content/uploads/cover/homeLess959.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.Legion {
@@ -1687,14 +1272,6 @@ a {
 
 .coverPhotoFront.Bg.Legion {
     background-image: url(../../../wp-content/uploads/cover/legionLess959.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.Contacto {
@@ -1703,14 +1280,6 @@ a {
 
 .coverPhotoFront.Bg.Contacto {
     background-image: url(../../../wp-content/uploads/cover/contactoLess959.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .coverPhotoFront.Img.Brainbreak {
@@ -1719,14 +1288,6 @@ a {
 
 .coverPhotoFront.Bg.Brainbreak {
     background-image: url(../../../wp-content/uploads/cover/brainbreakLess599.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
-    height: 230px;
-    max-width: 100% !important;
-    width: 100%
     }
 
 .innerArticuloProyecto, .visualizador-noticias, .contacto {
@@ -1747,7 +1308,7 @@ a {
     }
 
 .innerArticuloProyecto h1 {
-    font-family: trajanregular;
+    font-family: trajanR;
     font-size: 1.15em;
     letter-spacing: 1px;
     line-height: 1.15em;
@@ -1758,11 +1319,11 @@ a {
     }
 
 .innerArticuloProyecto p {
-    font-family: optimaregular;
-    font-size: 1.15em;
+    font-family: optimaR;
+    font-size: 1em;
     letter-spacing: 1px;
     line-height: 1.8em;
-    margin: 0;
+    margin-bottom: 40px;
     text-align: justify;
     width: 100%
     }
@@ -1786,7 +1347,7 @@ a {
     width: 100%;
     }
 
-.primerInnerPadding, #post-10, #post-12, #post-14, #innerProyectos, .archertroy-blog {
+.primerInnerPadding, #post-0, #post-10, #post-12, #post-14, #innerProyectos, .archertroy-blog {
     padding: 0 20px;
     width: 100%;
     }
@@ -1805,8 +1366,8 @@ a {
     }
 
 .entry-content h1, .visualizador-noticias > h1 {
-    font-family: trajanregular;
-    font-size: 1.15rem;
+    font-family: trajanR;
+    font-size: 1rem;
     font-weight: normal;
     letter-spacing: 1px;
     line-height: 1.8rem;
@@ -1832,11 +1393,18 @@ a {
     }
 
 #innerProyectos h1 {
-    font-family: trajanregular;
-    font-size: 1.2em;
+    font-family: trajanR;
+    font-size: 1.15em;
     margin: 0 0 20px;
     text-transform: uppercase
     }
+
+.site-header {
+    background: none repeat scroll 0 0 white;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
 
 .main-navigation {
     height: 80px;
@@ -1844,24 +1412,8 @@ a {
     width: 100%
     }
 
-.main-navigation li {
-    margin-top: 24px;
-    margin-top: 1.714285714rem;
-    font-size: 12px;
-    font-size: 0.857142857rem;
-    line-height: 1.42857143
-    }
-
-.main-navigation a {
-    color: #5e5e5e
-    }
-
 .main-navigation a:hover, .main-navigation a:focus {
     color: #9fad9f
-    }
-
-.main-navigation ul.nav-menu, .main-navigation div.nav-menu > ul {
-    display: none
     }
 
 .main-navigation ul.nav-menu.toggled-on, .menu-toggle {
@@ -1902,412 +1454,9 @@ a {
     left: 0
     }
 
-.sidebar .mainMenu {
-    font-size: 1em;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 0.5px
-    }
-
-.sidebar .mainMenu > ul > li {
-    padding: 1em 0.875em 0.75em;
-    border-bottom: 1px solid #252829
-    }
-
-.sidebar .mainMenu > ul > li > a {
-    display: block
-    }
-
-.sidebar .mainMenu > ul > li > a > i {
-    position: relative;
-    top: -2px;
-    vertical-align: middle;
-    margin-right: 0.5em;
-    font-size: 1.9em;
-    color: #a4a4a4
-    }
-
-.sidebar .mainMenu > ul > li > a:after {
-    position: relative;
-    top: -1px;
-    display: inline-block;
-    vertical-align: middle;
-    font-size: 1.2em;
-    color: #a4a4a4;
-    font-family: "iconsStudioIndigo";
-    content: "%uE624";
-    -moz-transform-origin: 50% 50%;
-    -ms-transform-origin: 50% 50%;
-    -o-transform-origin: 50% 50%;
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 50% 50%
-    }
-
-.sidebar .mainMenu > ul > li > a:only-child:after {
-    display: none
-    }
-
-.sidebar .mainMenu > ul > li > ul {
-    margin-left: 3.3em;
-    line-height: 1.2em;
-    font-size: 0.85em;
-    max-height: 0;
-    overflow: hidden
-    }
-
-.sidebar .mainMenu > ul > li > ul > li {
-    -moz-transform: translatez(0);
-    -ms-transform: translatez(0);
-    -o-transform: translatez(0);
-    -webkit-transform: translatez(0);
-    transform: translatez(0);
-    margin: 0.35em 0;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: alpha(opacity=0);
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: alpha(opacity=0);
-    opacity: 0
-    }
-
-.sidebar .mainMenu > ul > li > ul > li > a {
-    display: block;
-    color: #a4a4a4
-    }
-
-.sidebar .mainMenu > ul > li > ul > li > a:focus, .sidebar .mainMenu > ul > li > ul > li > a:hover {
-    color: white
-    }
-
-.sidebar .mainMenu > ul > li > ul > li > a i {
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: alpha(opacity=0);
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: alpha(opacity=0);
-    opacity: 0;
-    margin: 2px 7px 0 0
-    }
-
-.sidebar .mainMenu > ul > li > ul > li:nth-child(1) {
-    -moz-transition: opacity 0.4s ease 0.125s;
-    -o-transition: opacity 0.4s ease 0.125s;
-    -webkit-transition: opacity 0.4s ease 0.125s;
-    transition: opacity 0.4s ease 0.125s
-    }
-
-.sidebar .mainMenu > ul > li > ul > li:nth-child(2) {
-    -moz-transition: opacity 0.4s ease 0.25s;
-    -o-transition: opacity 0.4s ease 0.25s;
-    -webkit-transition: opacity 0.4s ease 0.25s;
-    transition: opacity 0.4s ease 0.25s
-    }
-
-.sidebar .mainMenu > ul > li > ul > li:nth-child(3) {
-    -moz-transition: opacity 0.4s ease 0.375s;
-    -o-transition: opacity 0.4s ease 0.375s;
-    -webkit-transition: opacity 0.4s ease 0.375s;
-    transition: opacity 0.4s ease 0.375s
-    }
-
-.sidebar .mainMenu > ul > li > ul > li:nth-child(4) {
-    -moz-transition: opacity 0.4s ease 0.5s;
-    -o-transition: opacity 0.4s ease 0.5s;
-    -webkit-transition: opacity 0.4s ease 0.5s;
-    transition: opacity 0.4s ease 0.5s
-    }
-
-.sidebar .mainMenu > ul > li > ul > li:nth-child(5) {
-    -moz-transition: opacity 0.4s ease 0.625s;
-    -o-transition: opacity 0.4s ease 0.625s;
-    -webkit-transition: opacity 0.4s ease 0.625s;
-    transition: opacity 0.4s ease 0.625s
-    }
-
-.sidebar .mainMenu > ul > li > ul > li:nth-child(6) {
-    -moz-transition: opacity 0.4s ease 0.75s;
-    -o-transition: opacity 0.4s ease 0.75s;
-    -webkit-transition: opacity 0.4s ease 0.75s;
-    transition: opacity 0.4s ease 0.75s
-    }
-
-.sidebar .mainMenu > ul > li > ul > li:nth-child(7) {
-    -moz-transition: opacity 0.4s ease 0.875s;
-    -o-transition: opacity 0.4s ease 0.875s;
-    -webkit-transition: opacity 0.4s ease 0.875s;
-    transition: opacity 0.4s ease 0.875s
-    }
-
-.sidebar .mainMenu > ul > li > ul > li:nth-child(8) {
-    -moz-transition: opacity 0.4s ease 1s;
-    -o-transition: opacity 0.4s ease 1s;
-    -webkit-transition: opacity 0.4s ease 1s;
-    transition: opacity 0.4s ease 1s
-    }
-
-.sidebar .mainMenu > ul > li > ul > li:nth-child(9) {
-    -moz-transition: opacity 0.4s ease 1.125s;
-    -o-transition: opacity 0.4s ease 1.125s;
-    -webkit-transition: opacity 0.4s ease 1.125s;
-    transition: opacity 0.4s ease 1.125s
-    }
-
-.sidebar .mainMenu > ul > li > ul > li:nth-child(10) {
-    -moz-transition: opacity 0.4s ease 1.25s;
-    -o-transition: opacity 0.4s ease 1.25s;
-    -webkit-transition: opacity 0.4s ease 1.25s;
-    transition: opacity 0.4s ease 1.25s
-    }
-
-.sidebar .mainMenu > ul > li > ul > li.current-menu-item a i {
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-    filter: alpha(opacity=100);
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-    filter: alpha(opacity=100);
-    opacity: 1
-    }
-
-.sidebar .mainMenu > ul > li.current-menu-parent > a:after, .sidebar .mainMenu > ul > li.current-menu-item > a:after {
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    -webkit-transform: rotate(90deg);
-    transform: rotate(90deg)
-    }
-
-.sidebar .mainMenu > ul > li.current-menu-parent > ul, .sidebar .mainMenu > ul > li.current-menu-item > ul {
-    max-height: 10.625em
-    }
-
-.sidebar .mainMenu > ul > li.current-menu-parent > ul > li, .sidebar .mainMenu > ul > li.current-menu-item > ul > li {
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-    filter: alpha(opacity=100);
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-    filter: alpha(opacity=100);
-    opacity: 1
-    }
-
-.sidebar .mainMenu .menu-item i:before {
-    content: ""
-    }
-
-.sidebar .mainMenu .menu-item-1397 i:before {
-    content: ""
-    }
-
-.sidebar .mainMenu .menu-item-1411 i:before {
-    content: ""
-    }
-
-.sidebar .mainMenu .menu-item-42 i:before {
-    content: ""
-    }
-
-.sidebar .mainMenu .menu-item-1400 i:before {
-    content: ""
-    }
-
-.sidebar .mainMenu .menu-item-1415 i:before {
-    content: ""
-    }
-
-.sidebar .mainMenu .menu-item-39 i:before {
-    content: ""
-    }
-
-.sidebar .mainMenu .menu-item-40 i:before {
-    content: ""
-    }
-
-.sidebar .mainMenu .menu-item-41 i:before {
-    content: ""
-    }
-
-.sidebar .mainMenu .sub-menu .menu-item i:before {
-    content: ""
-    }
-
-.sidebar .footerDetails {
-    margin: 1.92308em 1.15385em;
-    font-size: 0.8125em;
-    color: #a4a4a4
-    }
-
-.sidebar .footerDetails li {
-    margin-top: 5px;
-    margin-top: 0.3125rem;
-    text-transform: uppercase
-    }
-
-.sidebar .footerDetails li a {
-    color: #a4a4a4
-    }
-
-.sidebar .footerDetails li a:focus, .sidebar .footerDetails li a:hover {
-    color: white
-    }
-
-.sidebar .footerDetails .copyright li, .sidebar .footerDetails .textPages li, .sidebar .footerDetails .credit li {
-    text-transform: none
-    }
-
-.sidebar .footerDetails .textPages {
-    margin-top: 1.53846em
-    }
-
-.sidebar .footerDetails .credit {
-    margin-top: 1.15385em
-    }
-
-.sidebar .footerDetails .credit a {
-    color: #737575
-    }
-
-.sidebar .footerDetails .credit a:hover {
-    color: #76c044
-    }
 
 #menu-item-443 {
     display: none
-    }
-
-section[role="banner"] {
-    margin-bottom: 48px;
-    margin-bottom: 3.428571429rem
-    }
-
-.widget-area .widget {
-    -moz-hyphens: auto;
-    -webkit-hyphens: auto;
-    hyphens: auto;
-    margin-bottom: 48px;
-    margin-bottom: 3.428571429rem;
-    word-wrap: break-word
-    }
-
-.widget-area .widget h3 {
-    margin-bottom: 24px;
-    margin-bottom: 1.714285714rem
-    }
-
-.widget-area .widget p, .widget-area .widget li, .widget-area .widget .textwidget {
-    font-size: 13px;
-    font-size: 0.928571429rem;
-    line-height: 1.846153846
-    }
-
-.widget-area .widget p {
-    margin-bottom: 24px;
-    margin-bottom: 1.714285714rem
-    }
-
-.widget-area .textwidget ul {
-    list-style: disc outside;
-    margin: 0 0 24px;
-    margin: 0 0 1.714285714rem
-    }
-
-.widget-area .textwidget li {
-    margin-left: 36px;
-    margin-left: 2.571428571rem
-    }
-
-.widget-area .widget a {
-    color: #757575
-    }
-
-.widget-area .widget a:hover {
-    color: #9fad9f
-    }
-
-.widget-area .widget a:visited {
-    color: #9f9f9f
-    }
-
-.widget-area #s {
-    width: 53.6666666667%
-    }
-
-.footer-border-top {
-    border-top: 1px solid #CFCFCF !important;
-    width: 100%;
-    height: 95px
-    }
-
-footer[role="contentinfo"] a {
-    text-decoration: none
-    }
-
-footer[role="contentinfo"] a:hover {
-    color: #9fad9f
-    }
-
-.social-links a {
-    color: #fff;
-    margin: 0 0.4em;
-    text-decoration: none
-    }
-
-footer .site-info {
-    width: 100%;
-    position: relative;
-    margin: 0 auto;
-    height: 100%
-    }
-
-footer[role="contentinfo"] {
-    height: 120px;
-    width: 100%;
-    margin-top: 40px
-    }
-
-.solid {
-    background: none repeat scroll 0 0 #242524;
-    clear: both;
-    float: none;
-    height: 40%;
-    width: 100%
-    }
-
-.triangule {
-    float: left;
-    height: 100%;
-    overflow: visible;
-    width: 1%;
-    display: none
-    }
-
-.social-links {
-    display: block;
-    font-size: 16px;
-    height: 100%;
-    line-height: 50px;
-    text-align: center;
-    width: 100%
-    }
-
-.copyright {
-    clear: none;
-    display: inline-block;
-    float: left;
-    font-size: 0.7em;
-    letter-spacing: 1px;
-    line-height: 1em;
-    font-family: optimaregular;
-    height: 60%;
-    line-height: 14px;
-    padding: 0 10px 10px 10px;
-    text-align: justify;
-    width: 100%;
-    word-wrap: break-word
-    }
-
-.reg {
-    display: inline-block;
-    float: left;
-    font-family: optimaregular;
-    font-weight: lighter;
-    height: 100%;
-    line-height: 30px;
-    margin: 0 5px 0 0
     }
 
 .menu-toggle .icon-align-justify {
@@ -2315,7 +1464,8 @@ footer[role="contentinfo"] {
     }
 
 .entry-meta {
-    clear: both
+    clear: both;
+    display: none !important;
     }
 
 .entry-title {
@@ -2334,7 +1484,7 @@ article.sticky .featured-post {
 
 .entry-content h2, .comment-content h2, .mu_register h2 {
     font-size: 18px;
-    font-size: 1.285714286rem;
+    font-size: 1.15em;
     line-height: 1.6
     }
 
@@ -2363,7 +1513,7 @@ article.sticky .featured-post {
     }
 
 .entry-summary p, .comment-content p, .mu_register p {
-    font-family: optimaregular;
+    font-family: optimaR;
     width: 220px;
     margin: 0 0 24px;
     margin: 0 0 1.714285714rem;
@@ -2514,368 +1664,8 @@ img.aligncenter, .wp-caption.aligncenter {
     line-height: 1.714285714
     }
 
-footer.entry-meta {
-    margin-top: 24px;
-    margin-top: 1.714285714rem;
-    font-size: 13px;
-    font-size: 0.928571429rem;
-    line-height: 1.846153846;
-    color: #757575
-    }
-
 .single-author .entry-meta .by-author {
     display: none
-    }
-
-.mu_register h2 {
-    color: #757575;
-    font-weight: normal
-    }
-
-.archive-header, .page-header {
-    margin-bottom: 48px;
-    margin-bottom: 3.428571429rem;
-    padding-bottom: 22px;
-    padding-bottom: 1.571428571rem
-    }
-
-.archive-meta {
-    color: #757575;
-    font-size: 12px;
-    font-size: 0.857142857rem;
-    line-height: 2;
-    margin-top: 22px;
-    margin-top: 1.571428571rem
-    }
-
-.attachment .entry-content .mejs-audio {
-    max-width: 400px
-    }
-
-.attachment .entry-content .mejs-container {
-    margin-bottom: 24px
-    }
-
-.article.attachment {
-    overflow: hidden
-    }
-
-.image-attachment div.attachment {
-    text-align: center
-    }
-
-.image-attachment div.attachment p {
-    text-align: center
-    }
-
-.image-attachment div.attachment img {
-    display: block;
-    height: auto;
-    margin: 0 auto;
-    max-width: 100%
-    }
-
-.image-attachment .entry-caption {
-    margin-top: 8px;
-    margin-top: 0.571428571rem
-    }
-
-article.format-aside h1 {
-    margin-bottom: 24px;
-    margin-bottom: 1.714285714rem
-    }
-
-article.format-aside h1 a {
-    text-decoration: none;
-    color: #4d525a
-    }
-
-article.format-aside h1 a:hover {
-    color: #2e3542
-    }
-
-article.format-aside .aside {
-    padding: 24px 24px 0;
-    padding: 1.714285714rem;
-    background: #d2e0f9;
-    border-left: 22px solid #a8bfe8
-    }
-
-article.format-aside p {
-    font-size: 13px;
-    font-size: 0.928571429rem;
-    line-height: 1.846153846;
-    color: #4a5466
-    }
-
-article.format-aside blockquote:last-child, article.format-aside p:last-child {
-    margin-bottom: 0
-    }
-
-article.format-image footer h1 {
-    font-size: 13px;
-    font-size: 0.928571429rem;
-    line-height: 1.846153846;
-    font-weight: normal
-    }
-
-article.format-image footer h2 {
-    font-size: 11px;
-    font-size: 0.785714286rem;
-    line-height: 2.181818182
-    }
-
-article.format-image footer a h2 {
-    font-weight: normal
-    }
-
-article.format-link header {
-    padding: 0 10px;
-    padding: 0 0.714285714rem;
-    float: right;
-    font-size: 11px;
-    font-size: 0.785714286rem;
-    line-height: 2.181818182;
-    font-weight: bold;
-    font-style: italic;
-    text-transform: uppercase;
-    color: #848484;
-    background-color: #ebebeb;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
-    border-radius: 3px
-    }
-
-article.format-link .entry-content {
-    max-width: 80%;
-    float: left
-    }
-
-article.format-link .entry-content a {
-    font-size: 22px;
-    font-size: 1.571428571rem;
-    line-height: 1.090909091;
-    text-decoration: none
-    }
-
-article.format-quote .entry-content p {
-    margin: 0;
-    padding-bottom: 24px;
-    padding-bottom: 1.714285714rem
-    }
-
-article.format-quote .entry-content blockquote {
-    display: block;
-    padding: 24px 24px 0;
-    padding: 1.714285714rem 1.714285714rem 0;
-    font-size: 15px;
-    font-size: 1.071428571rem;
-    line-height: 1.6;
-    font-style: normal;
-    color: #6a6a6a;
-    background: #efefef
-    }
-
-.comments-title {
-    margin-bottom: 48px;
-    margin-bottom: 3.428571429rem;
-    font-size: 16px;
-    font-size: 1.142857143rem;
-    line-height: 1.5;
-    font-weight: normal
-    }
-
-.comments-area article {
-    margin: 24px 0;
-    margin: 1.714285714rem 0
-    }
-
-.comments-area article header {
-    margin: 0 0 48px;
-    margin: 0 0 3.428571429rem;
-    overflow: hidden;
-    position: relative
-    }
-
-.comments-area article header img {
-    float: left;
-    padding: 0;
-    line-height: 0
-    }
-
-.comments-area article header cite, .comments-area article header time {
-    display: block;
-    margin-left: 85px;
-    margin-left: 6.071428571rem
-    }
-
-.comments-area article header cite {
-    font-style: normal;
-    font-size: 15px;
-    font-size: 1.071428571rem;
-    line-height: 1.42857143
-    }
-
-.comments-area cite b {
-    font-weight: normal
-    }
-
-.comments-area article header time {
-    line-height: 1.714285714;
-    text-decoration: none;
-    font-size: 12px;
-    font-size: 0.857142857rem;
-    color: #5e5e5e
-    }
-
-.comments-area article header a {
-    text-decoration: none;
-    color: #5e5e5e
-    }
-
-.comments-area article header a:hover {
-    color: #9fad9f
-    }
-
-.comments-area article header cite a {
-    color: #444
-    }
-
-.comments-area article header cite a:hover {
-    text-decoration: underline
-    }
-
-.comments-area article header h4 {
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 6px 12px;
-    padding: 0.428571429rem 0.857142857rem;
-    font-size: 12px;
-    font-size: 0.857142857rem;
-    font-weight: normal;
-    color: #fff;
-    background-color: #0088d0;
-    background-repeat: repeat-x;
-    background-image: -moz-linear-gradient(top, #009cee, #0088d0);
-    background-image: -o-linear-gradient(top, #009cee, #0088d0);
-    background-image: -webkit-linear-gradient(top, #009cee, #0088d0);
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #009cee), color-stop(1, #0088d0));
-    filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#009cee, EndColorStr=#0088d0)";
-    background-image: linear-gradient(top, #009cee, #0088d0);
-    background-image: -moz-linear-gradient(top, #009cee, #0088d0);
-    background-image: -o-linear-gradient(top, #009cee, #0088d0);
-    background-image: -webkit-linear-gradient(top, #009cee, #0088d0);
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #009cee), color-stop(1, #0088d0));
-    filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#009cee, EndColorStr=#0088d0)";
-    background-image: linear-gradient(top, #009cee, #0088d0);
-    background-image: -moz-linear-gradient(top, #009cee, #0088d0);
-    background-image: -o-linear-gradient(top, #009cee, #0088d0);
-    background-image: -webkit-linear-gradient(top, #009cee, #0088d0);
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #009cee), color-stop(1, #0088d0));
-    filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#009cee, EndColorStr=#0088d0)";
-    background-image: linear-gradient(top, #009cee, #0088d0);
-    background-image: -moz-linear-gradient(top, #009cee, #0088d0);
-    background-image: -o-linear-gradient(top, #009cee, #0088d0);
-    background-image: -webkit-linear-gradient(top, #009cee, #0088d0);
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #009cee), color-stop(1, #0088d0));
-    filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#009cee, EndColorStr=#0088d0)";
-    background-image: linear-gradient(top, #009cee, #0088d0);
-    background-image: -moz-linear-gradient(top, #009cee, #0088d0);
-    background-image: -o-linear-gradient(top, #009cee, #0088d0);
-    background-image: -webkit-linear-gradient(top, #009cee, #0088d0);
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #009cee), color-stop(1, #0088d0));
-    filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#009cee, EndColorStr=#0088d0)";
-    background-image: linear-gradient(top, #009cee, #0088d0);
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
-    border: 1px solid #007cbd
-    }
-
-.comments-area .bypostauthor cite span {
-    position: absolute;
-    margin-left: 5px;
-    margin-left: 0.357142857rem;
-    padding: 2px 5px;
-    padding: 0.142857143rem 0.357142857rem;
-    font-size: 10px;
-    font-size: 0.714285714rem
-    }
-
-a.comment-reply-link, a.comment-edit-link {
-    color: #686868;
-    font-size: 13px;
-    font-size: 0.928571429rem;
-    line-height: 1.846153846
-    }
-
-a.comment-reply-link:hover, a.comment-edit-link:hover {
-    color: #9fad9f
-    }
-
-.commentlist .pingback {
-    line-height: 1.714285714;
-    margin-bottom: 24px;
-    margin-bottom: 1.714285714rem
-    }
-
-#respond {
-    margin-top: 48px;
-    margin-top: 3.428571429rem
-    }
-
-#respond h3#reply-title {
-    font-size: 16px;
-    font-size: 1.142857143rem;
-    line-height: 1.5
-    }
-
-#respond h3#reply-title #cancel-comment-reply-link {
-    margin-left: 10px;
-    margin-left: 0.714285714rem;
-    font-weight: normal;
-    font-size: 12px;
-    font-size: 0.857142857rem
-    }
-
-#respond form {
-    margin: 24px 0;
-    margin: 1.714285714rem 0
-    }
-
-#respond form p {
-    margin: 11px 0;
-    margin: 0.785714286rem 0
-    }
-
-#respond form p.logged-in-as {
-    margin-bottom: 24px;
-    margin-bottom: 1.714285714rem
-    }
-
-#respond form label {
-    display: block;
-    line-height: 1.714285714
-    }
-
-#respond form input[type="text"], #respond form textarea {
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    font-size: 12px;
-    font-size: 0.857142857rem;
-    line-height: 1.714285714;
-    padding: 10px;
-    padding: 0.714285714rem;
-    width: 100%
-    }
-
-#respond form p.form-allowed-tags {
-    margin: 0;
-    font-size: 12px;
-    font-size: 0.857142857rem;
-    line-height: 2;
-    color: #5e5e5e
     }
 
 .required {
@@ -3025,40 +1815,6 @@ img#wpstats {
     cursor: pointer
     }
 
-.boton-Archer:focus {
-    outline: 0
-    }
-
-.boton-Archer::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0
-    }
-
-.boton-Archer {
-    font-family: "optimaregular";
-    font-size: 18px;
-    letter-spacing: 2px;
-    position: relative;
-    border: none;
-    min-width: 162px;
-    min-height: 32px;
-    background-color: #7F7F7F;
-    color: white;
-    vertical-align: middle;
-    text-transform: uppercase;
-    margin: 18px 0 0;
-    -moz-transition: background-color 0.5s;
-    -o-transition: background-color 0.5s;
-    -webkit-transition: background-color 0.5s;
-    transition: background-color 0.5s
-    }
-
-.boton-Archer:hover {
-    background-color: #7F7F7F
-    }
-
 .coverPhoto {
     background-image: url(/wp-content/uploads/2014/11/header1.jpg);
     background-position: center center;
@@ -3077,7 +1833,7 @@ img#wpstats {
 
 .lugar {
     float: none;
-    font-family: trajanregular;
+    font-family: trajanR;
     font-size: 1.15em;
     letter-spacing: 1px;
     line-height: 2.3em;
@@ -3087,11 +1843,16 @@ img#wpstats {
     margin-top: 60px
     }
 
+.formulario > h1 {
+    font-size: 1.15em;
+}
+
 .leyenda {
     float: none;
+    margin-top: 60px;
     overflow: visible;
-    width: 100%
-    }
+    width: 100%;
+}
 
 .leyenda img {
     display: block;
@@ -3112,7 +1873,7 @@ img#wpstats {
     }
 
 #cntctfrm_contact_form input[type="submit"] {
-    font-family: "optimaregular";
+    font-family: optimaR;
     font-size: 18px;
     letter-spacing: 2px;
     position: relative;
@@ -3154,7 +1915,7 @@ img#wpstats {
     }
 
 .ver-mapa {
-    font-family: "optimaregular";
+    font-family: optimaR;
     font-size: 18px;
     letter-spacing: 2px;
     position: relative;
@@ -3175,7 +1936,40 @@ img#wpstats {
 .ver-mapa:hover {
     background-color: #7F7F7F
     }
+.error404Contacto:focus {
+    outline: 0
+    }
 
+.error404Contacto::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0
+    }
+
+.error404Contacto{
+    font-family: optimaR;
+    font-size: 18px;
+    letter-spacing: 2px;
+    position: relative;
+    border: none;
+    min-width: 162px;
+    min-height: 32px;
+    background-color: #ccc;
+    color: white;
+    margin: 0 auto 20px;
+    display: block;
+    text-transform: uppercase;
+    vertical-align: middle;
+    -moz-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s
+    }
+
+.error404Contacto:hover {
+    background-color: #7F7F7F
+    }
 .texto-noticia {
     font-size: 9px
     }
@@ -3214,12 +2008,12 @@ body.template-front-page .site-content, body.attachment .site-content, body.full
     }
 
 .mini-post {
-    font-family: optimaregular;
+    font-family: optimaR;
     color: #8A8A8A
     }
 
 .navigation {
-    font-family: optimaregular;
+    font-family: optimaR;
     height: 30px;
     color: #808080;
     font-size: 16px;
@@ -3241,18 +2035,23 @@ body.template-front-page .site-content, body.attachment .site-content, body.full
     }
 
 .project-navigation i {
-    font-size: 18px;
-    vertical-align: bottom
+    font-size: 40px;
+    vertical-align: middle;
+    line-height: 40px;
     }
+
+.alignleft a span, .alignright a span {
+    display: none;
+}
 
 .project-navigation a {
     color: #626161;
-    font-size: 14px;
-    line-height: 22px;
-    vertical-align: top;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 40px;
+    padding: 0 10px;
     text-decoration: none;
-    overflow: hidden
-    }
+}
 
 .post-navigation-left, .post-navigation-left:visited, .post-navigation-left:active, .post-navigation-left:focus, .post-navigation-left:hover {
     font-size: 18px;
@@ -3295,13 +2094,18 @@ body.template-front-page .site-content, body.attachment .site-content, body.full
     }
 
 .mini-post .entry-content p {
-    font-family: optimaregular;
-    font-size: 1.2em;
+    font-family: optimaR;
+    font-size: 1em;
     letter-spacing: 1px;
     line-height: 1.8em;
     margin: 0 auto;
     padding: 20px 20px 0;
     width: inherit
+    }
+
+.mini-post .entry-content p:first-child() {
+    font-size: 1.15em;
+    line-height: 1.8em;
     }
 
 .mini-post img {
@@ -3341,7 +2145,9 @@ body.template-front-page .site-content, body.attachment .site-content, body.full
 .main-navigation li a {
     border-bottom: 0;
     color: #626161;
+    font-family: optimaR;
     font-size: 13px;
+    letter-spacing: 1px;
     line-height: 3.692307692;
     text-transform: uppercase;
     white-space: nowrap;
@@ -3442,13 +2248,11 @@ body.template-front-page .site-content, body.attachment .site-content, body.full
     background: none repeat scroll 0 0 rgb(255, 255, 255);
     color: #626161;
     display: block;
-    font-family: optimaregular !important;
-    font-size: 10px !important;
+    font-family: optimaR !important;
+    font-size: 11px !important;
     left: 0;
     margin: 0 !important;
     max-width: 100%;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: alpha(opacity=0);
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
     opacity: 0;
@@ -3456,7 +2260,9 @@ body.template-front-page .site-content, body.attachment .site-content, body.full
     right: 0;
     text-align: left;
     z-index: -1;
-    line-height: 14px
+    line-height: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
     }
 
 .gente > div .wp-caption-text {
@@ -3500,102 +2306,6 @@ body.template-front-page .site-content, body.attachment .site-content, body.full
     display: none !important
     }
 
-.sfsi_wDiv {
-    text-align: center !important;
-    position: relative !important;
-    height: 40px !important;
-    width: auto !important
-    }
-
-.sfsi_wicons {
-    padding: 0 !important;
-    margin: 0 !important;
-    text-align: center;
-    vertical-align: bottom;
-    height: 30px !important
-    }
-
-.sfsi_wDiv div.inerCnt a.sficn {
-    display: block;
-    width: 40px;
-    height: 40px;
-    line-height: 40px
-    }
-
-.sfsi_wDiv div.inerCnt a.sficn img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding-bottom: 0;
-    padding-top: 0
-    }
-
-#sfsi_holder {
-    height: 40px !important
-    }
-
-.g-plus {
-    display: inline-block;
-    font-size: 9px;
-    text-transform: none;
-    line-height: 1;
-    word-wrap: normal
-    }
-
-.sfsi_wDiv div.inerCnt a.icon-instagram {
-    display: block;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    height: 40px;
-    width: 40px;
-    margin: 0;
-    padding: 0;
-    left: 0
-    }
-
-.fb_iframe_widget {
-    width: 70px !important
-    }
-
-.fb_iframe_widget > span {
-    width: 70px !important
-    }
-
-.twt_tool_bdr .inside .icon2 {
-    width: 60px
-    }
-
-#twitter-widget-0 {
-    width: 100% !important;
-    max-width: 100% !important
-    }
-
-#___ytsubscribe_0 {
-    position: relative !important;
-    left: 0 !important;
-    width: 110px !important;
-    height: 25px !important
-    }
-
-#___ytsubscribe_0 > iframe {
-    top: 0 !important;
-    width: 110px !important;
-    height: 25px !important
-    }
-
-#___plus_0 {
-    width: 78px !important
-    }
-
-#___plus_0 > iframe {
-    width: 78px !important
-    }
-
-footer.entry-meta {
-    display: none
-    }
-
 .mini-logo {
     margin: 5px 20px 0 0;
     cursor: pointer;
@@ -3623,16 +2333,9 @@ footer.entry-meta {
     width: 100%
     }
 
-.blog-posts-header form :-ms-input-placeholder::before {
-    font-family: "untitled-font-1" !important;
-    content: "h  "
-    }
-
-.blog-posts-header form input:-moz-placeholder::before {
-    font-family: "untitled-font-1" !important;
-    content: "h  "
-    }
-
+/*
+ * Legion
+ */
 .seccion-legion {
     display: block;
     margin: auto;
@@ -3648,23 +2351,30 @@ footer.entry-meta {
     }
 
 .corchete1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 60px;
     max-width: 470px !important;
-    width: 100%
+    width: 100%;
     }
 
 .corchete2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 60px;
     max-width: 397px !important;
     width: 100%
     }
 
 .corchete3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 60px;
     max-width: 547px !important;
     width: 100%;
-    display: block !important;
-    margin: auto !important;
     padding: 0 20px
     }
 
@@ -3673,7 +2383,7 @@ footer.entry-meta {
     max-width: 300px !important;
     width: 100%;
     display: block;
-    margin: auto
+    margin: 60px auto 0;
     }
 
 .filosofiaImg {
@@ -3700,104 +2410,37 @@ footer.entry-meta {
     width: 100%
     }
 
-.seccion-legion p {
-    display: table !important
-    }
-
 .texto {
     -moz-hyphens: none;
     -webkit-hyphens: none;
     hyphens: none;
-    font-family: optimaregular;
+    font-family: optimaR;
     font-size: 1em;
     line-height: 1.85em;
-    word-wrap: normal
+    word-wrap: normal;
+    letter-spacing: 1px;
     }
 
-.second-tag-line > p {
-    margin: 60px auto 0 !important
+.column .paragraph.trajan {
+    color: #ccc!important;
+    font-family: trajanR!important;
     }
 
-.entry-content .legion-page-left-paragraph-one {
+.column .paragraph {
+    font-family: optimaR;
+    font-weight: lighter;
+    margin: 16px 0 0 0;
+    text-align: justify;
     -moz-hyphens: none;
     -webkit-hyphens: none;
     hyphens: none;
-    color: #ccc;
-    font-family: trajanregular;
-    font-size: 1rem;
-    line-height: 2;
-    margin: 16px 0 0;
+    color: #8c8c8c;
+    font-size: 1em ;
+    line-height: 1.75;
     text-align: justify;
     width: 100%;
-    word-wrap: normal
-    }
-
-.entry-content .legion-page-right-paragraph-one {
-    font-family: optimaregular !important;
-    font-size: 1rem;
-    font-weight: lighter;
-    margin: 16px 0 0 0;
-    text-align: justify
-    }
-
-.entry-content .legion-page-left-paragraph-two {
-    display: inline-block;
-    font-family: optimaregular !important;
-    font-size: 1rem;
-    font-weight: lighter;
-    margin: 16px 0 0;
-    max-width: 1350px;
-    padding: 0;
-    text-align: justify
-    }
-
-.entry-content .legion-page-left-paragraph-two:nth-child(1) {
-    margin: 30px 0 0
-    }
-
-.entry-content .legion-page-right-paragraph-two {
-    display: inline-block;
-    font-family: optimaregular !important;
-    font-size: 1rem;
-    font-weight: lighter;
-    margin: 16px 0 0 0;
-    max-width: 1350px;
-    padding: 0;
-    text-align: justify
-    }
-
-.entry-content .legion-page-right-paragraph-two:nth-child(1) {
-    margin: 30px 0 0 0
-    }
-
-.entry-content .legion-page-left-paragraph-three {
-    display: inline-block;
-    font-family: optimaregular !important;
-    font-size: 1rem;
-    font-weight: lighter;
-    margin: 16px 0 0;
-    max-width: 1350px;
-    padding: 0;
-    text-align: justify
-    }
-
-.entry-content .legion-page-left-paragraph-three:nth-child(1) {
-    margin: 60px 0 0
-    }
-
-.entry-content .legion-page-right-paragraph-three {
-    display: inline-block;
-    font-family: optimaregular !important;
-    font-size: 1rem;
-    font-weight: lighter;
-    margin: 16px 0 0 0;
-    max-width: 1350px;
-    padding: 0;
-    text-align: justify
-    }
-
-.entry-content .legion-page-right-paragraph-three:nth-child(1) {
-    margin: 20px 0 0 0
+    word-wrap: normal;
+    letter-spacing: 1px;
     }
 
 section.legion {
@@ -3806,82 +2449,15 @@ section.legion {
     width: 100%
     }
 
-section.legion h4.title-super {
-    color: #d1d2d4;
-    text-transform: uppercase;
-    font-size: 45px;
-    line-height: 1;
-    margin: 0 !important
-    }
-
-section.legion h1.title {
-    color: #d1d2d4;
-    text-transform: uppercase;
-    font-size: 182px !important;
-    margin: 0 0 20px 0 !important
-    }
-
-section.legion div.column-left {
+section.legion div.column{
     display: block;
     margin: 0;
     padding: 0;
     width: 100%
     }
 
-section.legion div.column-right {
-    display: block;
-    margin: 0;
-    padding: 0;
-    width: 100%
-    }
-
-section.legion ol.first-list {
-    font-size: 20px;
-    margin-top: 15px
-    }
-
-section.legion ol.first-list li {
-    margin: 0
-    }
-
-section.legion .first-tag-line {
-    position: relative;
-    color: #B1BDAD;
-    width: 94%;
-    font-size: 28px;
-    line-height: 1.1;
-    text-align: left
-    }
-
-section.legion span.left-bracket {
-    position: absolute;
-    top: 45%;
-    left: -2.5%;
-    font-weight: 100
-    }
-
-section.legion span.upper {
-    word-spacing: 9px
-    }
-
-section.legion span.right-bracket {
-    position: absolute;
-    top: 45%;
-    right: -0.5%;
-    font-weight: 100
-    }
-
-section.legion .column-right p, section.legion .column-right p:nth-child(2) {
-    -moz-hyphens: none;
-    -webkit-hyphens: none;
-    hyphens: none;
-    color: #8c8c8c !important;
-    font-family: optimaregular !important;
-    font-size: 1.2em !important;
-    line-height: 1.75;
-    text-align: justify;
-    width: 100% !important;
-    word-wrap: normal
+.column p, .column p:nth-child(2) {
+    
     }
 
 section.filosofia {
@@ -3891,141 +2467,11 @@ section.filosofia {
     width: 100%
     }
 
-section.filosofia h4.title-super {
-    color: #d1d2d4;
-    text-transform: uppercase;
-    font-size: 45px;
-    line-height: 1;
-    margin: 0 !important
-    }
-
-section.filosofia h1.title {
-    color: #d1d2d4;
-    text-transform: uppercase;
-    font-size: 182px !important;
-    margin: 0 !important;
-    line-height: 190px
-    }
-
-section.filosofia h2.title-sub {
-    color: #939598;
-    font-size: 90px;
-    margin: 0 0 90px 20px !important;
-    line-height: 0
-    }
-
-section.filosofia div.column-left {
-    display: table-row;
-    margin: 0;
-    padding: 0;
-    width: 100%
-    }
-
-section.filosofia div.column-right {
-    display: table-row;
-    margin: 0;
-    padding: 0;
-    width: 100%
-    }
-
-section.filosofia .column-left p, section.filosofia .column-left p:nth-child(2) {
-    -moz-hyphens: none;
-    -webkit-hyphens: none;
-    hyphens: none;
-    color: #8c8c8c !important;
-    font-family: optimaregular !important;
-    font-size: 1.2em !important;
-    line-height: 1.85;
-    padding: 0 !important;
-    text-align: justify;
-    width: 100% !important;
-    word-wrap: normal
-    }
-
-section.filosofia .column-right p, section.filosofia .column-right p:nth-child(2) {
-    -moz-hyphens: none;
-    -webkit-hyphens: none;
-    hyphens: none;
-    color: #8c8c8c !important;
-    font-family: optimaregular !important;
-    font-size: 1.2em !important;
-    line-height: 1.85;
-    padding: 0 !important;
-    text-align: justify;
-    width: 100% !important;
-    word-wrap: normal
-    }
-
 section.metodologia {
     display: table;
     height: auto;
     margin: 50px auto 0;
     width: 100%
-    }
-
-section.metodologia h4.title-super {
-    color: #d1d2d4;
-    text-transform: uppercase;
-    font-size: 45px;
-    line-height: 1;
-    margin: 0 0 10px 0 !important
-    }
-
-section.metodologia h1.title {
-    color: #d1d2d4;
-    text-transform: uppercase;
-    font-size: 182px !important;
-    margin: 0 !important;
-    line-height: 185px
-    }
-
-section.metodologia h2.title-sub {
-    color: #939598;
-    font-size: 90px;
-    margin: 0 0 90px 30px !important;
-    line-height: 0
-    }
-
-section.metodologia div.column-left {
-    display: table-row;
-    margin: 0;
-    padding: 0;
-    width: 100%
-    }
-
-section.metodologia div.column-right {
-    display: table-row;
-    margin: 0;
-    padding: 0;
-    width: 100%
-    }
-
-section.metodologia .column-left p, section.metodologia .column-left p:nth-child(2) {
-    -moz-hyphens: none;
-    -webkit-hyphens: none;
-    hyphens: none;
-    color: #8c8c8c !important;
-    font-family: optimaregular !important;
-    font-size: 1.2em !important;
-    line-height: 1.85;
-    padding: 0 !important;
-    text-align: justify;
-    width: 100% !important;
-    word-wrap: normal
-    }
-
-section.metodologia .column-right p, section.metodologia .column-right p:nth-child(2) {
-    -moz-hyphens: none;
-    -webkit-hyphens: none;
-    hyphens: none;
-    color: #8c8c8c !important;
-    font-family: optimaregular !important;
-    font-size: 1.2em !important;
-    line-height: 1.85;
-    padding: 0 !important;
-    text-align: justify;
-    width: 95% !important;
-    word-wrap: normal
     }
 
 section.metodologia .second-tag-line {
@@ -4038,29 +2484,6 @@ section.metodologia .second-tag-line {
     text-align: justify
     }
 
-section.metodologia span.upper {
-    word-spacing: 16px;
-    display: block
-    }
-
-section.metodologia span.lower {
-    display: block
-    }
-
-section.metodologia span.left-bracket {
-    position: absolute;
-    top: 50px;
-    left: -25px;
-    font-size: 40px
-    }
-
-section.metodologia span.right-bracket {
-    position: absolute;
-    top: 50px;
-    right: -25px;
-    font-size: 40px
-    }
-
 section.tactica {
     display: table;
     height: auto;
@@ -4068,41 +2491,19 @@ section.tactica {
     width: 100%
     }
 
-section.tactica h4.title-super {
-    color: #d1d2d4;
-    text-transform: uppercase;
-    font-size: 45px;
-    line-height: 1;
-    margin: 0 !important
-    }
-
-section.tactica h1.title {
-    color: #939598;
-    text-transform: uppercase;
-    font-size: 130px !important;
-    margin: 0 !important;
-    line-height: 120px
-    }
-
-section.tactica h2.title-sub {
-    color: #d1d3d4;
-    font-size: 45px;
-    margin: 0 0 90px 15px !important;
-    line-height: 1
-    }
-
 section.tactica p#parrafo-tactica {
     -moz-hyphens: none;
     -webkit-hyphens: none;
     hyphens: none;
     float: left;
-    font-size: 1.2em;
-    margin: 60px 0 0;
+    font-size: 1em;
+    margin: 16px 0 0;
     text-align: justify;
     width: 100%;
     word-wrap: normal;
     line-height: 1.85em;
-    font-family: optimaregular
+    font-family: optimaR;
+    letter-spacing: 1px;
     }
 
 section.tactica p#parrafo-tactica-dos {
@@ -4111,13 +2512,14 @@ section.tactica p#parrafo-tactica-dos {
     hyphens: none;
     color: #ccc;
     float: left;
-    font-size: 1.2em;
-    margin: 20px 0 0;
+    font-size: 1em;
+    margin: 16px 0 0;
     text-align: justify;
     width: 100%;
     word-wrap: normal;
     line-height: 1.85em;
-    font-family: optimaregular
+    font-family: optimaR;
+    letter-spacing: 1px;
     }
 
 section.tactica .seccion-arco {
@@ -4134,245 +2536,11 @@ section.tactica .seccion-arco {
     width: 100%
     }
 
-.seccion-arco .arco-1 {
-    display: block;
-    left: unset;
-    position: unset;
-    top: unset;
-    width: 100%;
-    margin-bottom: 20px;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0
-    }
-
-.seccion-arco .target-1 {
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    top: 152px;
-    left: 900px;
-    cursor: pointer
-    }
-
-.seccion-arco .arco-1 .indice {
-    color: #9fad9f;
-    display: inline-block;
-    float: left;
-    font-family: "TrajanPro-Regular", "Lusitana", Times, serif;
-    font-size: 25px;
-    height: 100%;
-    margin-right: 5px;
-    text-align: center;
-    width: 20px
-    }
-
-.seccion-arco .arco-1 .titulo {
-    color: #8c8c8c;
-    display: inline;
-    font-family: trajanregular;
-    font-size: 1.1em;
-    margin-right: 5px;
-    text-align: center
-    }
-
-.arco-4 {
-    display: block;
-    left: unset;
-    position: unset;
-    top: unset;
-    width: 100%;
-    margin-bottom: 20px;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0
-    }
-
-.target-4 {
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    top: 406px;
-    left: 920px;
-    cursor: pointer
-    }
-
-.seccion-arco .arco-4 .indice {
-    color: #9fad9f;
-    display: inline-block;
-    float: left;
-    font-family: "TrajanPro-Regular", "Lusitana", Times, serif;
-    font-size: 25px;
-    height: 100%;
-    margin-right: 5px;
-    text-align: center;
-    width: 25px
-    }
-
-.seccion-arco .arco-4 .titulo {
-    color: #8c8c8c;
-    display: inline;
-    font-family: trajanregular;
-    font-size: 1.1em;
-    margin-right: 5px;
-    text-align: center
-    }
-
-.arco-3 {
-    display: block;
-    left: unset;
-    position: unset;
-    top: unset;
-    width: 100%;
-    margin-bottom: 20px;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0
-    }
-
-.target-3 {
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    top: 220px;
-    left: 460px
-    }
-
-.seccion-arco .arco-3 .indice {
-    color: #9fad9f;
-    display: inline-block;
-    float: left;
-    font-family: "TrajanPro-Regular", "Lusitana", Times, serif;
-    font-size: 25px;
-    height: 100%;
-    margin-right: 5px;
-    text-align: center;
-    width: 25px
-    }
-
-.seccion-arco .arco-3 .titulo {
-    color: #8c8c8c;
-    display: inline;
-    font-family: trajanregular;
-    font-size: 1.1em;
-    margin-right: 5px;
-    text-align: center;
-    word-wrap: normal
-    }
-
-.arco-2 {
-    display: block;
-    left: unset;
-    position: unset;
-    top: unset;
-    width: 100%;
-    margin-bottom: 20px;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0
-    }
-
-.target-2 {
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    top: 560px;
-    left: 440px;
-    cursor: pointer
-    }
-
-.seccion-arco .arco-2 .indice {
-    color: #9fad9f;
-    display: inline-block;
-    float: left;
-    font-family: "TrajanPro-Regular", "Lusitana", Times, serif;
-    font-size: 25px;
-    height: 100%;
-    margin-right: 5px;
-    text-align: center;
-    width: 20px
-    }
-
-.seccion-arco .arco-2 .titulo {
-    color: #8c8c8c;
-    display: inline;
-    font-family: trajanregular;
-    font-size: 1.1em;
-    margin-right: 0.3em;
-    text-align: center
-    }
-
 section.interior {
     display: table;
     height: auto;
     margin: 50px auto 0;
     width: 100%
-    }
-
-section.interior h1.title {
-    color: #939598;
-    text-transform: uppercase;
-    font-size: 130px !important;
-    margin: 0 !important;
-    line-height: 120px
-    }
-
-section.interior h2.title-sub {
-    color: #d1d3d4;
-    font-size: 65px;
-    margin: 0 0 90px 10px !important;
-    line-height: 1
-    }
-
-section.interior .third-tag-line {
-    position: relative;
-    margin-top: 100px;
-    color: #B1BDAD;
-    font-size: 36px;
-    line-height: 1.1;
-    text-align: center
-    }
-
-section.interior span.left-bracket {
-    position: absolute;
-    top: 30px;
-    left: 260px;
-    font-size: 50px
-    }
-
-section.interior span.right-bracket {
-    position: absolute;
-    top: 30px;
-    right: 260px;
-    font-size: 50px
-    }
-
-section.interior span.upper {
-    display: block;
-    font-size: 26px;
-    line-height: 0
-    }
-
-section.interior span.lower {
-    display: block;
-    font-size: 53px;
-    line-height: 0
-    }
-
-section.interior div.born-archer {
-    margin: 0 auto;
-    text-align: center;
-    font-size: 65px
-    }
-
-section.interior span.born {
-    display: inline;
-    color: #bfbfbf
-    }
-
-section.interior span.archer {
-    display: inline;
-    color: #8c8c8c
     }
 
 section.interior .seccion-caballo {
@@ -4382,206 +2550,172 @@ section.interior .seccion-caballo {
     padding: 30px 0 0
     }
 
-.seccion-caballo div.conquistar-interno {
-    width: 283px;
-    height: 283px;
-    -moz-border-radius: 100%;
-    -webkit-border-radius: 100%;
-    border-radius: 100%;
-    text-align: center;
-    border: 5px solid #a6a6a6;
+/*
+ * Táctica Animación
+ */
+.arco-1, .arco-2, .arco-3, .arco-4{
     display: block;
-    margin: 13px
-    }
-
-.seccion-caballo div.conquistar-tag {
-    color: #bfbfbf;
-    font-size: 30px;
-    text-align: center;
-    line-height: 40px;
-    margin-top: 80px
-    }
-
-.seccion-caballo .mensaje-izquierda-1 {
-    display: block;
-    font-family: trajanregular;
+    left: unset;
+    position: unset;
+    top: unset;
+    width: 100%;
     margin-bottom: 20px;
     margin-left: 0;
     margin-right: 0;
-    margin-top: 0;
-    font-size: 1em;
-    left: unset;
-    position: unset;
-    text-align: left;
-    top: unset;
-    width: 100%;
-    z-index: 10
+    margin-top: 0
+} 
+
+.target-1, .target-2, .target-3, .target4{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    cursor: pointer
+} 
+
+.seccion-arco .indice {
+    color: #9fad9f;
+    display: inline-block;
+    float: left;
+    font-family: trajanR;
+    font-size: 25px;
+    height: 50px;
+    line-height: 40px;
+    margin-right: 5px;
+    padding: 5px;
+    text-align: center;
+    width: 50px;
+}
+
+.seccion-arco .titulo{
+    color: #8c8c8c;
+    display: inline;
+    font-family: trajanR;
+    font-size: 1.1em;
+    text-align: center
+}
+
+.target-1 {
+    top: 152px;
+    left: 900px;
     }
 
-.seccion-caballo .mensaje-izquierda-1 .barra-horizontal-1 {
+.seccion-arco .arco-1 .indice {
+
+    }
+
+.seccion-arco .arco-1 .titulo {
+    margin-right: 5px;
+    }
+
+.target-2 {
+    top: 560px;
+    left: 440px;
+    }
+
+.seccion-arco .arco-2 .indice {
+
+    }
+
+.seccion-arco .arco-2 .titulo {
+    margin-right: 5px;
+    }
+
+.target-3 {
+    top: 220px;
+    left: 460px
+    }
+
+.seccion-arco .arco-3 .indice {
+
+    }
+
+.seccion-arco .arco-3 .titulo {
+    margin-right: 5px;
+    }
+
+.target-4 {
+    top: 406px;
+    left: 920px;
+    }
+
+.seccion-arco .arco-4 .indice {
+
+    }
+
+.seccion-arco .arco-4 .titulo {
+    margin-right: 5px;
+    }
+
+/*
+ * Idea Animacion
+ */
+.mensaje-izquierda-1, .mensaje-izquierda-2, .mensaje-izquierda-3, .mensaje-izquierda-4,
+.mensaje-derecha-1, .mensaje-derecha-2, .mensaje-derecha-3{
+    display: block;
+    font-family: trajanR;
+    margin: 0 0 20px 0;
+    left: unset;
+    position: unset;
+    top: unset;
+    width: 100%;
+    z-index: 10;
+    font-size: 1em !important;
+    letter-spacing: 1px;
+    line-height: 25px;
+    text-align: left;
+}
+
+.mensaje-izquierda-4{
+    margin: 0px;
+}
+
+.barra-horizontal-1, .barra-horizontal-2, .barra-horizontal-3, .barra-horizontal-4{
     background: none repeat scroll 0 0 #93a49a;
     height: 2px;
-    left: 144px;
     position: absolute;
+    display: none
+}
+
+.seccion-caballo .mensaje-izquierda-1 .barra-horizontal-1 {
+    left: 144px;
     top: 10px;
     width: 55px;
-    display: none
-    }
-
-.seccion-caballo .mensaje-izquierda-2 {
-    display: block;
-    font-family: trajanregular;
-    margin-bottom: 20px;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    font-size: 1em;
-    left: unset;
-    position: unset;
-    text-align: left;
-    top: unset;
-    width: 100%;
-    z-index: 10
     }
 
 .seccion-caballo .mensaje-izquierda-2 .barra-horizontal-2 {
-    background: none repeat scroll 0 0 #93a49a;
-    height: 2px;
     left: 124px;
-    position: absolute;
     top: 10px;
     width: 65px;
-    display: none
-    }
-
-.seccion-caballo .mensaje-izquierda-3 {
-    display: block;
-    font-family: trajanregular;
-    margin-bottom: 20px;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    font-size: 1em;
-    left: unset;
-    position: unset;
-    text-align: left;
-    top: unset;
-    width: 100%;
-    z-index: 10
     }
 
 .seccion-caballo .mensaje-izquierda-3 .barra-horizontal-3 {
-    background: none repeat scroll 0 0 #93a49a;
-    height: 2px;
     left: 144px;
-    position: absolute;
     top: 10px;
     width: 90px;
-    display: none
-    }
-
-.seccion-caballo .mensaje-izquierda-4 {
-    display: block;
-    font-family: trajanregular;
-    margin-bottom: 20px;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    font-size: 1em;
-    left: unset;
-    position: unset;
-    text-align: left;
-    top: unset;
-    width: 100%;
-    z-index: 10
     }
 
 .seccion-caballo .mensaje-izquierda-4 .barra-horizontal-4 {
-    background: none repeat scroll 0 0 #93a49a;
-    height: 2px;
     left: 144px;
-    position: absolute;
     top: 10px;
     width: 33px;
-    display: none
-    }
-
-.seccion-caballo .mensaje-derecha-1 {
-    display: block;
-    font-family: trajanregular;
-    margin-bottom: 20px;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    font-size: 1em;
-    left: unset;
-    position: unset;
-    text-align: left;
-    top: unset;
-    width: 100%;
-    z-index: 10
     }
 
 .seccion-caballo .mensaje-derecha-1 .barra-horizontal-1 {
-    background: none repeat scroll 0 0 #93a49a;
-    height: 2px;
     left: -125px;
-    position: absolute;
     top: 10px;
     width: 120px;
-    display: none
-    }
-
-.seccion-caballo .mensaje-derecha-2 {
-    display: block;
-    font-family: trajanregular;
-    margin-bottom: 20px;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    font-size: 1em;
-    left: unset;
-    position: unset;
-    text-align: left;
-    top: unset;
-    width: 100%;
-    z-index: 10
     }
 
 .seccion-caballo .mensaje-derecha-2 .barra-horizontal-2 {
-    background: none repeat scroll 0 0 #93a49a;
-    height: 2px;
     left: -144px;
-    position: absolute;
     top: 10px;
     width: 140px;
-    display: none
-    }
-
-.seccion-caballo .mensaje-derecha-3 {
-    display: block;
-    font-family: trajanregular;
-    margin-bottom: 20px;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    font-size: 1em;
-    left: unset;
-    position: unset;
-    text-align: left;
-    top: unset;
-    width: 100%;
-    z-index: 10
     }
 
 .seccion-caballo .mensaje-derecha-3 .barra-horizontal-3 {
-    background: none repeat scroll 0 0 #93a49a;
-    height: 2px;
     left: -47px;
-    position: absolute;
     top: 10px;
     width: 44px;
-    display: none
     }
 
 .seccion-caballo .linea-superior {
@@ -4590,47 +2724,6 @@ section.interior .seccion-caballo {
 
 .seccion-caballo .linea-inferior {
     color: #b1bdad
-    }
-
-.seccion-caballo .caballo-target {
-    position: absolute;
-    z-index: 2;
-    top: 194px;
-    left: 696px;
-    width: 55px;
-    height: 55px;
-    display: block;
-    cursor: pointer;
-    background: url(img/click-target.png) 42% 50% no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    -webkit-animation: girar_imagen 3s linear infinite;
-    -moz-animation: girar_imagen 3s linear infinite;
-    animation: girar_imagen 3s linear infinite
-    }
-
-@-moz-keyframes girar_imagen { 100% { -moz-transform: rotate(360deg); } }
-@-webkit-keyframes girar_imagen { 100% { -webkit-transform: rotate(360deg); } }
-@keyframes girar_imagen { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
-
-
-.seccion-caballo div.conquistar-externo {
-    position: absolute;
-    z-index: 2;
-    top: 85px;
-    left: 615px;
-    width: 230px;
-    height: 230px;
-    -moz-border-radius: 100%;
-    -webkit-border-radius: 100%;
-    border-radius: 100%;
-    border: 2px solid #fff;
-    background: #fff;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-    filter: alpha(opacity=100);
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-    filter: alpha(opacity=100);
-    opacity: 1
     }
 
 .imagen-ballesta {
@@ -4649,88 +2742,12 @@ section.interior .seccion-caballo {
 .hidden {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: alpha(opacity=0);
     opacity: 0
     }
 
-.seccion-caballo .mensaje-izquierda-1 .barra-horizontal-1, .seccion-caballo .mensaje-izquierda-2 .barra-horizontal-2, .seccion-caballo .mensaje-izquierda-3 .barra-horizontal-3, .seccion-caballo .mensaje-izquierda-4 .barra-horizontal-4, .seccion-caballo .mensaje-derecha-1 .barra-horizontal-1, .seccion-caballo .mensaje-derecha-2 .barra-horizontal-2, .seccion-caballo .mensaje-derecha-3 .barra-horizontal-3 {
-    overflow: hidden
-    }
-
-.seccion-caballo .mensaje-derecha-1 .barra-horizontal-1 .white-space, .seccion-caballo .mensaje-derecha-2 .barra-horizontal-2 .white-space, .seccion-caballo .mensaje-derecha-3 .barra-horizontal-3 .white-space {
-    display: table;
-    height: 2px;
-    background: rgba(255, 255, 255, 0.9);
-    width: 10px;
-    z-index: 10000
-    }
-
-.seccion-caballo .mensaje-derecha-1 .barra-horizontal-1 .white-space {
-    -webkit-animation: mover_hacia_izquierda 2.1s linear infinite;
-    -moz-animation: mover_hacia_izquierda 2.1s linear infinite;
-    animation: mover_hacia_izquierda 2.1s linear infinite
-    }
-
-.seccion-caballo .mensaje-derecha-2 .barra-horizontal-2 .white-space {
-    -webkit-animation: mover_hacia_izquierda 2.5s linear infinite;
-    -moz-animation: mover_hacia_izquierda 2.5s linear infinite;
-    animation: mover_hacia_izquierda 2.5s linear infinite
-    }
-
-.seccion-caballo .mensaje-derecha-3 .barra-horizontal-3 .white-space {
-    -webkit-animation: mover_hacia_izquierda 1.5s linear infinite;
-    -moz-animation: mover_hacia_izquierda 1.5s linear infinite;
-    animation: mover_hacia_izquierda 1.5s linear infinite
-    }
-
-@-moz-keyframes mover_hacia_izquierda { 100% { -moz-transform: translate(1000%); } }
-@-webkit-keyframes mover_hacia_izquierda { 100% { -webkit-transform: translate(1000%); } }
-@keyframes mover_hacia_izquierda { 100% { -webkit-transform: translate(1000%); transform: translate(1000%); } }
-
-.seccion-caballo .mensaje-izquierda-1 .barra-horizontal-1 .white-space, .seccion-caballo .mensaje-izquierda-2 .barra-horizontal-2 .white-space, .seccion-caballo .mensaje-izquierda-3 .barra-horizontal-3 .white-space, .seccion-caballo .mensaje-izquierda-4 .barra-horizontal-4 .white-space {
-    display: table;
-    height: 2px;
-    background: rgba(255, 255, 255, 0.9);
-    position: absolute;
-    right: 0%;
-    width: 10px;
-    z-index: 10000
-    }
-
-.seccion-caballo .mensaje-izquierda-1 .barra-horizontal-1 .white-space {
-    -webkit-animation: mover_hacia_derecha 3.7s linear infinite;
-    -moz-animation: mover_hacia_derecha 3.7s linear infinite;
-    animation: mover_hacia_derecha 3.7s linear infinite
-    }
-
-.seccion-caballo .mensaje-izquierda-2 .barra-horizontal-2 .white-space {
-    -webkit-animation: mover_hacia_derecha 2.4s linear infinite;
-    -moz-animation: mover_hacia_derecha 2.4s linear infinite;
-    animation: mover_hacia_derecha 2.4s linear infinite
-    }
-
-.seccion-caballo .mensaje-izquierda-3 .barra-horizontal-3 .white-space {
-    -webkit-animation: mover_hacia_derecha 2.7s linear infinite;
-    -moz-animation: mover_hacia_derecha 2.7s linear infinite;
-    animation: mover_hacia_derecha 2.7s linear infinite
-    }
-
-.seccion-caballo .mensaje-izquierda-4 .barra-horizontal-4 .white-space {
-    -webkit-animation: mover_hacia_derecha 3.2s linear infinite;
-    -moz-animation: mover_hacia_derecha 3.2s linear infinite;
-    animation: mover_hacia_derecha 3.2s linear infinite
-    }
-
-@-moz-keyframes mover_hacia_derecha { 100% { -moz-transform: translate(-1500%); } }
-@-webkit-keyframes mover_hacia_derecha { 100% { -webkit-transform: translate(-1500%); } }
-@keyframes mover_hacia_derecha { 100% { -webkit-transform: translate(-1500%); transform: translate(-1500%); } }
-
-
-.no-results, .not-found {
-    height: 660px
-    }
-
+/*
+ * Seccion Noticias
+ */
 .listado-noticias {
     border-bottom: 1px solid #ced5cb;
     clear: both;
@@ -4765,28 +2782,28 @@ section.interior .seccion-caballo {
     width: 100%
     }
 
-.titulo {
+.contenedor-texto .titulo {
     color: #808080;
-    font-family: trajanregular;
+    font-family: trajanR;
     font-size: 1.15em;
     font-weight: normal;
     letter-spacing: 1px;
-    line-height: 1.15em;
+    line-height: 1.8em;
     margin: 0 0 20px;
     text-transform: uppercase
     }
 
 .contenedor-texto p {
     color: #808080;
-    font-family: optimaregular;
+    font-family: optimaR;
     font-size: 1em;
     letter-spacing: 1px;
-    line-height: 1.9em;
+    line-height: 1.8em;
     text-align: justify
     }
 
 .datos-extra {
-    font-family: optimaregular;
+    font-family: optimaR;
     font-size: 1.15em;
     margin: 20px 0 0;
     text-transform: uppercase;
@@ -4797,7 +2814,7 @@ section.interior .seccion-caballo {
     color: #9fad9f;
     display: inline-block;
     float: left;
-    font-family: optimaregular;
+    font-family: optimaR;
     height: 1.5em;
     letter-spacing: 1px;
     line-height: 1.7;
@@ -4805,60 +2822,9 @@ section.interior .seccion-caballo {
     width: 120px
     }
 
-.boton-noticia:focus {
-    outline: 0
-    }
-
-.boton-noticia::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0
-    }
-
-.boton-noticia {
-    background-color: #ccc;
-    border: medium none;
-    color: white;
-    display: block;
-    font-family: "optimaregular";
-    font-size: 18px;
-    height: 32px;
-    letter-spacing: 2px;
-    line-height: 34px;
-    min-height: 32px;
-    min-width: 120px;
-    position: relative;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    vertical-align: middle;
-    width: 120px;
-    float: right;
-    -moz-transition: background-color 0.5s;
-    -o-transition: background-color 0.5s;
-    -webkit-transition: background-color 0.5s;
-    transition: background-color 0.5s
-    }
-
-.boton-noticia:hover {
-    background-color: #7F7F7F
-    }
-
-.wonderplugincarousel {
-    margin: 20px auto !important;
-    overflow: visible
-    }
-
-.amazingcarousel-image > div, .amazing-hack, .amazing-hack a {
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)" !important;
-    filter: alpha(opacity=0) !important;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)" !important;
-    filter: alpha(opacity=0) !important;
-    opacity: 0 !important;
-    display: none !important
-    }
-
+/*
+ * Seccion Blog
+ */
 .wp-caption, .blog-wp-caption {
     background: transparent;
     display: block;
@@ -4876,118 +2842,6 @@ section.interior .seccion-caballo {
     position: absolute;
     left: 0
     }
-
-#cntctfrm_contact_form > div {
-    font-family: optimaregular;
-    letter-spacing: 1px
-    }
-
-#cntctfrm_contact_form input[type="text"], #cntctfrm_contact_form textarea, #cntctfrm_contact_form input[type="email"] {
-    -moz-border-bottom-colors: none;
-    -moz-border-left-colors: none;
-    -moz-border-right-colors: none;
-    -moz-border-top-colors: none;
-    border-color: -moz-use-text-color -moz-use-text-color #ccc #ccc;
-    -moz-border-image: none;
-    -ms-border-image: none;
-    -o-border-image: none;
-    -webkit-border-image: none;
-    border-image: none;
-    -moz-border-radius: 0;
-    -webkit-border-radius: 0;
-    border-radius: 0;
-    border-style: none none solid solid;
-    border-width: medium medium 1px 1px;
-    color: #919191;
-    font-family: optimaregular;
-    font-size: 1em;
-    margin: 0 0 20px 0 !important;
-    letter-spacing: 1px;
-    width: 90%
-    }
-
-#cntctfrm_contact_message {
-    width: 100%;
-    height: 50px
-    }
-
-textarea {
-    resize: none
-    }
-
-[data-icon]:before {
-    font-family: "untitled-font-1" !important;
-    content: attr(data-icon);
-    font-style: normal !important;
-    font-weight: normal !important;
-    font-variant: normal !important;
-    text-transform: none !important;
-    speak: none;
-    line-height: 1em;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale
-    }
-
-[class^="icon-"]:before, [class*=" icon-"]:before {
-    font-family: "untitled-font-1";
-    font-style: normal !important;
-    font-weight: normal !important;
-    font-variant: normal !important;
-    text-transform: none !important;
-    speak: none;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale
-    }
-
-.icon-facebook:before {
-    content: "a" !important
-    }
-
-.icon-twitter:before {
-    content: "b" !important
-    }
-
-.icon-instagram:before {
-    content: "c" !important
-    }
-
-.icon-pinterest:before {
-    content: "d" !important
-    }
-
-.icon-youtube-play:before {
-    content: "e" !important
-    }
-
-.icon-google-plus:before {
-    content: "f" !important
-    }
-
-.icon-align-justify:before {
-    content: "g" !important
-    }
-
-.icon-search-find:before {
-    content: "h" !important
-    }
-
-.icon-angle-left:before {
-    content: "i" !important
-    }
-
-.icon-angle-right:before {
-    content: "j" !important
-    }
-
-.icon-pinterest-1:before {
-    content: "k" !important
-    }
-
-.hamburger-menu-icon {
-    display: none !important
-    }
-
 .archertroy-blog-margin-top {
     background: none repeat scroll 0 0 #cfcfcf;
     height: 1px
@@ -5037,15 +2891,15 @@ textarea {
     background-image: linear-gradient(bottom, rgba(0,0,0,.65) 0%, rgba(0,0,0,0) 100%);
     bottom: 0;
     color: white;
-    font-family: optimaregular !important;
-    font-size: 2.5em;
+    font-family: optimaR !important;
+    font-size: 2em;
     height: 130px;
+    line-height: 220px;
     margin: 0;
     padding: 0 20px;
     position: absolute;
     text-transform: none !important;
     width: 100%;
-    line-height: 190px;
     }
 
 .blog-posts-header {
@@ -5060,8 +2914,8 @@ textarea {
     border-bottom: 1px solid #cfcfcf;
     border-right: 1px solid #cfcfcf;
     float: left;
-    font-family: trajanregular;
-    font-size: 1.2rem;
+    font-family: trajanR;
+    font-size: 1.15rem;
     height: 50px;
     line-height: 3.2em;
     text-align: left;
@@ -5075,7 +2929,7 @@ textarea {
     border-right: 1px solid #cfcfcf;
     display: inline-block;
     float: left;
-    font-family: optimaregular;
+    font-family: optimaR;
     height: 50px;
     margin: 0;
     padding: 0 20px;
@@ -5126,13 +2980,11 @@ textarea {
     background: none repeat scroll 0 0 rgb(255, 255, 255);
     color: #626161;
     display: block;
-    filter: alpha(opacity=0);
-    font-family: optimaregular;
+    font-family: optimaR;
     left: 0;
     right: 0;
     margin: 0 !important;
     max-width: 100%;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
     opacity: 0;
@@ -5142,7 +2994,7 @@ textarea {
     }
 
 .blog-wp-caption-text .caption-title, .wp-caption-text .caption-title {
-    font-family: optimaregular;
+    font-family: optimaR;
     font-size: 20px;
     height: 25px;
     left: 20px;
@@ -5154,7 +3006,7 @@ textarea {
 
 .blog-wp-caption-text .caption-date, .wp-caption-text .caption-date {
     bottom: 0;
-    font-family: optimaregular;
+    font-family: optimaR;
     font-size: 16px;
     font-style: italic;
     height: 20px;
@@ -5166,6 +3018,98 @@ textarea {
     width: 100%
     }
 
+/*
+ * Contacto
+ */
+#cntctfrm_contact_form > div {
+    font-family: optimaR;
+    letter-spacing: 1px
+    }
+
+#cntctfrm_contact_form input[type="text"], #cntctfrm_contact_form textarea, #cntctfrm_contact_form input[type="email"] {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color -moz-use-text-color #ccc #ccc;
+    -moz-border-image: none;
+    -ms-border-image: none;
+    -o-border-image: none;
+    -webkit-border-image: none;
+    border-image: none;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    border-style: none none solid solid;
+    border-width: medium medium 1px 1px;
+    color: #919191;
+    font-family: optimaR;
+    font-size: 1em;
+    margin: 0 0 20px 0 !important;
+    letter-spacing: 1px;
+    width: 90%
+    }
+
+#cntctfrm_contact_message {
+    width: 100%;
+    height: 50px
+    }
+
+.errorFirstLine {
+    font-family: trajanR;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    line-height: 24px;
+    margin: 40px auto 55px;
+    text-align: center;
+}
+.errorFirstLine b{
+    color: #636363;
+    font-family: trajanR !important;
+}
+.errorImg {
+    display: block;
+    margin: auto;
+    max-width: 500px !important;
+    width: 100%;
+}
+.errorSecondLine {
+    font-family: trajanR;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    line-height: 22px;
+    margin: 0 auto 55px;
+    text-align: center;
+}
+
+[data-icon]:before {
+    font-family: FontAwesome !important;
+    content: attr(data-icon);
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+    }
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+    font-family: FontAwesome;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+    }
+
+/*
+ * Carteles
+ */
 .carteles {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
@@ -5198,7 +3142,9 @@ textarea {
     margin-right: 0px !important;
 }
 
-
+/*
+ * Media queries
+ */
 @media screen and (min-width: 200px) and (max-width: 399px){
 
 .carteles {

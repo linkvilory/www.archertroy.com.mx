@@ -25,17 +25,14 @@ get_header(); ?>
       
       <div class='blog-posts-header'>
         <h2 class='texto-noticia'><a href='/blog' class='blog-link'>Blog</a></h2>
-        <div class='hamburger-menu-icon'>
-          <!-- div class="icon-align-justify"></div -->
-        </div>
         <?php get_search_form( ); ?>
       	<div class='header-social-links'>
-    			<a href='https://www.facebook.com/archertroy' class='icon-facebook' target='_blank'></a>
-    			<a href='https://twitter.com/ArcherTroy' class='icon-twitter' target='_blank'></a>
-    			<a href='http://instagram.com/archertroy' class='icon-instagram' target='_blank'></a>
-    			<a href='http://www.pinterest.com/archertroyp' class='icon-pinterest-1' target='_blank'></a>
-    			<a href='https://www.youtube.com/ConquistasArcher' class='icon-youtube-play' target='_blank'></a>
-    			<a href='https://plus.google.com/105080074709822071277/posts' class='icon-google-plus' target='_blank'></a>
+    			<a class="icon-facebook" target="_blank" href="https://www.facebook.com/archertroy"></a>
+          <a class="icon-twitter" target="_blank" href="https://twitter.com/ArcherTroy"></a>
+          <a class="icon-instagram" target="_blank" href="http://instagram.com/archertroy"></a>
+          <a class="icon-pinterest" target="_blank" href="http://www.pinterest.com/archertroyp"></a>
+          <a class="icon-youtube-play" target="_blank" href="https://www.youtube.com/ConquistasArcher"></a>
+          <a class="icon-linkedin" target="_blank" href="https://www.linkedin.com/company/archer-troy-publicidad-s-a-de-c-v-?trk=company_logo"></a>
     		</div>
       </div>
       

@@ -16,7 +16,11 @@
   </div>
   <div class='contenedor-texto'>
       <h1 class="titulo"><?php the_title(); ?></h1>
-        <p><?php echo substr(get_the_excerpt(), 0,203); ?>...</p>
+        <?php
+          $trimexcerpt = get_the_excerpt();
+          $shortexcerpt = wp_trim_words( $trimexcerpt, $num_words = 38, $more = '… ' ); 
+      ?>
+        <p><?php echo $shortexcerpt; ?></p>
         <div class='datos-extra'>
           <div class='fecha'><?php the_time('M.j.Y'); ?></div>  <a href='<?php echo get_post_meta($post->ID, 'url_noticia', true); ?>' class='boton-noticia' target='_blank'>VER MÁS</a>
         </div>

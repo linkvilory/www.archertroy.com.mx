@@ -20,9 +20,7 @@ get_header(); ?>
 				<div class="project-navigation">
 					<div class='entry-content-social-links'>
 						<a id="facebookPost" class="sficn icon-facebook" alt="Facebook" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=<?php echo the_title() . get_permalink() ?>"></a>
-						<a id="twitterPost" class="sficn icon-twitter" alt="Twitter" target="_blank" href="https://twitter.com/home?status=<?php echo get_permalink() ?>"></a>
-						<a id="pinterestPost" class="sficn icon-pinterest" alt="Pinterest" target="_blank" href="https://pinterest.com/pin/create/button/?url=<?php echo get_permalink() ?>&media=&description="></a>
-						<a id="googlePost" class="sficn icon-google-plus" alt="Google" target="_blank" href="https://plus.google.com/share?url=<?php echo get_permalink() ?>"></a>
+						<a id="twitterPost" class="sficn icon-twitter" alt="Twitter" target="_blank" href="https://twitter.com/home?status=<?php echo the_title() . get_permalink() ?>"></a>
 					</div>
 				<?php
 
@@ -59,15 +57,15 @@ get_header(); ?>
 						$siguienteProjecto = $orden + 1;
 					}
 					?>
-						<div class="alignleft"><a href="<?php echo $arrayProjectos[$anteriorProjecto][1] ?>"><i class="icon-angle-left"></i> Anterior</a></div>
-						<div class="alignright"><a href="<?php echo $arrayProjectos[$siguienteProjecto][1] ?>">Siguiente <i class="icon-angle-right"></i></a></div>
+						<div class="alignleft"><a href="<?php echo $arrayProjectos[$anteriorProjecto][1] ?>"><i class="icon-angle-left"></i> <span>Anterior</span></a></div>
+						<div class="alignright"><a href="<?php echo $arrayProjectos[$siguienteProjecto][1] ?>"><span>Siguiente</span> <i class="icon-angle-right"></i></a></div>
 
 				<?php	
 				}else{
 					if( get_adjacent_post(false, '', false) ) {
 					?>
 					
-					<div class="alignleft"><?php next_post_link( '%link', '<i class="icon-angle-left"></i> Anterior' . _x( '', 'Next post link', 'twentytwelve' ) . '' ); ?></div>
+					<div class="alignleft"><?php next_post_link( '%link', '<i class="icon-angle-left"></i> <span>Anterior</span>' . _x( '', 'Next post link', 'twentytwelve' ) . '' ); ?></div>
 					<?php	
 					//next_post_link('%link', '&larr; Anterior');
 					} else {
@@ -77,14 +75,14 @@ get_header(); ?>
 	                      'order' => 'ASC');
 					$last = new WP_Query($args); $last->the_post();
 					?>
-					<div class="alignleft"><a href="<?php echo get_permalink() ?>"><i class="icon-angle-left"></i> Anterior</a></div>
+					<div class="alignleft"><a href="<?php echo get_permalink() ?>"><i class="icon-angle-left"></i> <span>Anterior</span></a></div>
 					<?php
 					//echo '<a href="' . get_permalink() . '">&larr; Anterior</a>';
 					wp_reset_query();
 					}
 					if( get_adjacent_post(false, '', true) ) {
 					?>
-					<div class="alignright"><?php previous_post_link( '%link', '' . _x( '', 'Previous post link', 'twentytwelve' ) . 'Siguiente <i class="icon-angle-right"></i>' ); ?></div>
+					<div class="alignright"><?php previous_post_link( '%link', '' . _x( '', 'Previous post link', 'twentytwelve' ) . '<span>Siguiente</span> <i class="icon-angle-right"></i>' ); ?></div>
 					<?php	
 					//previous_post_link('%link', 'Siguiente &rarr;');
 					} else {
@@ -94,7 +92,7 @@ get_header(); ?>
 	                      'order' => 'DESC');
 					$first = new WP_Query($args); $first->the_post();
 					?>
-					<div class="alignright"><a href="<?php echo get_permalink() ?>">Siguiente <i class="icon-angle-right"></i></a></div>
+					<div class="alignright"><a href="<?php echo get_permalink() ?>"><span>Siguiente</span> <i class="icon-angle-right"></i></a></div>
 					<?php
 					//echo '<a href="' . get_permalink() . '">Siguiente &rarr;</a>';
 					wp_reset_query();

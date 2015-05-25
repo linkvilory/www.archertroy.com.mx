@@ -37,15 +37,15 @@ if($id == ""){
     $id = encryptor("decrypt", $id);
 
 	$servername = "localhost";
-	$username = "root";
-	$password = "root";
+	$username = "archer_sitio";
+	$password = "archer_sitio";
 
 	$handle = mysql_connect($servername, $username, $password);
-	$found = mysql_select_db("archertroy_contacto", $handle);
+	$found = mysql_select_db("archer_contacto", $handle);
 
 	if ($found) {
 
-		$sqlquery = "UPDATE `archertroy_contacto`.`contacto` SET `confirmado` = '1' WHERE `contacto`.`id` = ". $id .";";
+		$sqlquery = "UPDATE `archer_contacto`.`contacto` SET `confirmado` = '1' WHERE `contacto`.`id` = ". $id .";";
 		$resultado = mysql_query($sqlquery);
 
         header("Location: /contacto/?c=confirmado");

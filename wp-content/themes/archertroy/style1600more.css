@@ -3,8 +3,6 @@
 
 .site-header {
     height: 110px;
-    margin: auto;
-    max-width: 1600px;
     padding: 0;
     width: 100%
     }
@@ -12,7 +10,9 @@
 .main-navigation {
     height: 100%;
     text-align: center;
-    width: 100%
+    width: 100%;
+    margin: auto;
+    max-width: 1600px;
     }
 
 .sidebar {
@@ -41,9 +41,13 @@
     width: 100%
     }
 
+.main-navigation li a {
+    font-size: 1em;
+    }
+
 .main-navigation li {
     border: 0 none !important;
-    font-family: trajanregular;
+    font-family: trajanR;
     font-size: 1em !important;
     overflow: visible;
     padding: 10px 60px 0 0 !important;
@@ -52,19 +56,6 @@
     text-align: left;
     text-decoration: none;
     margin: 0
-    }
-
-.main-navigation li a {
-    border: 0 none !important;
-    font-family: trajanregular;
-    font-size: 0.9em !important;
-    line-height: 60px;
-    overflow: visible;
-    padding: 0 !important
-    }
-
-.main-navigation li ul li a {
-    font-size: 0.9em
     }
 
 #menu-item-658, #menu-item-31, #menu-item-30, #menu-item-443 {
@@ -122,7 +113,7 @@
     }
 
 .boton-Archer {
-    font-family: "optimaregular";
+    font-family: "optimaR";
     font-size: 18px;
     letter-spacing: 2px;
     position: relative;
@@ -157,13 +148,13 @@
     }
 
 .corchete1 {
-    margin-top: 60px;
+    margin-top: 50px;
     max-width: 470px !important;
     width: 100%
     }
 
 .corchete2 {
-    margin-top: 60px;
+    margin-top: 50px;
     max-width: 397px !important;
     width: 100%
     }
@@ -212,12 +203,14 @@
     display: table !important
     }
 
-.primerInnerPadding, #post-10, #post-12, #post-14, #innerProyectos, .archertroy-blog {
+.primerInnerPadding, #post-0, #post-10, #post-12, #post-14, #innerProyectos, .archertroy-blog {
+    -moz-box-sizing: unset;
+    box-sizing: unset;
+    margin: auto;
+    max-width: 1600px;
     padding: 0 20px;
     width: 100%;
-    -moz-box-sizing: unset;
-    box-sizing: unset
-    }
+}
 
 .brainbreakContainer {
     padding: 0 20px;
@@ -298,7 +291,7 @@
     }
 
 #main {
-    margin-top: 0;
+    padding-top: 110px;
     display: table;
     width: 100%
     }
@@ -365,10 +358,10 @@ footer.entry-meta {
     }
 
 .clientes > img {
-    width: 160px;
-    max-width: 160px;
-    height: 160px;
-    max-height: 160px
+    width: 163px;
+    max-width: 163px;
+    height: 163px;
+    max-height: 163px
     }
 
 .gente > div {
@@ -404,54 +397,6 @@ footer.entry-meta {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
     opacity: 0
-    }
-
-.datos-persona {
-    height: 100%;
-    width: 100%
-    }
-
-.datos-persona .persona, .datos-persona .handler {
-    font-family: optimaregular;
-    text-transform: none;
-    display: inline-block;
-    float: left
-    }
-
-.datos-persona .persona {
-    height: 100%;
-    padding-left: 5%;
-    text-align: left;
-    width: 60%
-    }
-
-.datos-persona .handler {
-    width: 40%;
-    padding-right: 5%;
-    height: 100%
-    }
-
-.datos-persona .persona .puesto-persona, .datos-persona .handler {
-    text-transform: none
-    }
-
-.datos-persona .persona .nombre-persona {
-    font-size: 14px;
-    line-height: 18px;
-    color: #626161
-    }
-
-.datos-persona .persona .puesto-persona {
-    font-size: 12px;
-    line-height: 16px;
-    color: #a3ada2
-    }
-
-.datos-persona .handler, .datos-persona .handler a {
-    line-height: 16px;
-    color: #252425;
-    font-size: 12px;
-    text-align: right
     }
 
 .proyectos-recientes, .ultimas-noticias, .proyectos {
@@ -500,7 +445,7 @@ footer.entry-meta {
     }
 
 #cntctfrm_contact_form input[type="submit"] {
-    font-family: "optimaregular";
+    font-family: "optimaR";
     font-size: 18px;
     letter-spacing: 2px;
     position: relative;
@@ -542,7 +487,7 @@ footer.entry-meta {
     }
 
 .ver-mapa {
-    font-family: "optimaregular";
+    font-family: "optimaR";
     font-size: 18px;
     letter-spacing: 2px;
     position: relative;
@@ -551,7 +496,7 @@ footer.entry-meta {
     min-height: 32px;
     background-color: #ccc;
     color: white;
-    margin-top: 62px;
+    margin-top: 66px;
     text-transform: uppercase;
     vertical-align: middle;
     -moz-transition: background-color 0.5s;
@@ -580,38 +525,8 @@ footer.entry-meta {
     text-align: center
     }
 
-.proyectos-recientes .wp-caption .wp-caption-text, .ultimas-noticias .wp-caption .wp-caption-text, .proyectos .wp-caption .wp-caption-text {
-    -moz-hyphens: none;
-    -webkit-hyphens: none;
-    hyphens: none;
-    bottom: 0;
-    height: 50px;
-    max-height: 160px;
-    padding: 5px 10px !important;
-    width: 100%;
-    word-wrap: normal;
-    background: none repeat scroll 0 0 rgb(255, 255, 255);
-    color: #626161;
-    display: block;
-    font-size: 13px;
-    font-family: optimaregular !important;
-    left: 0;
-    margin: 0 !important;
-    max-width: 100%;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: alpha(opacity=0);
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: alpha(opacity=0);
-    opacity: 0;
-    position: absolute;
-    right: 0;
-    text-align: left;
-    z-index: -1;
-    line-height: 17px
-    }
-
 .project-navigation {
-    font-family: optimaregular;
+    font-family: optimaR;
     display: block;
     clear: both;
     float: none;
@@ -646,94 +561,19 @@ br.cortar {
     }
 
 .texto {
-    -moz-hyphens: none;
-    -webkit-hyphens: none;
-    hyphens: none;
-    font-family: optimaregular;
     font-size: 0.9em;
-    word-wrap: normal
     }
+
+.filosofia .column .paragraph:nth-child(1) {
+    margin-top: 26px;
+}
+
+.metodologia .column .paragraph:nth-child(1) {
+    margin-top: 50px;
+}
 
 .second-tag-line > p {
     margin: 60px auto 0 !important
-    }
-
-.entry-content .legion-page-left-paragraph-one {
-    -moz-hyphens: none;
-    -webkit-hyphens: none;
-    hyphens: none;
-    color: #ccc;
-    font-family: trajanregular;
-    font-size: 1.2rem;
-    line-height: 2;
-    margin: 16px 0 0;
-    text-align: justify;
-    width: 100%;
-    word-wrap: normal
-    }
-
-.entry-content .legion-page-right-paragraph-one {
-    font-family: optimaregular !important;
-    font-size: 1.2rem;
-    font-weight: lighter;
-    margin: 16px 0 0 16px;
-    text-align: justify
-    }
-
-.entry-content .legion-page-left-paragraph-two {
-    display: inline-block;
-    font-family: optimaregular !important;
-    font-size: 1.2rem;
-    font-weight: lighter;
-    margin: 16px 0 0;
-    max-width: 1350px;
-    padding: 0;
-    text-align: justify
-    }
-
-.entry-content .legion-page-left-paragraph-two:nth-child(1) {
-    margin: 30px 0 0
-    }
-
-.entry-content .legion-page-right-paragraph-two {
-    display: inline-block;
-    font-family: optimaregular !important;
-    font-size: 1.2rem;
-    font-weight: lighter;
-    margin: 16px 0 0 16px;
-    max-width: 1350px;
-    padding: 0;
-    text-align: justify
-    }
-
-.entry-content .legion-page-right-paragraph-two:nth-child(1) {
-    margin: 30px 0 0 16px
-    }
-
-.entry-content .legion-page-left-paragraph-three {
-    display: inline-block;
-    font-family: optimaregular !important;
-    font-size: 1.2rem;
-    font-weight: lighter;
-    margin: 16px 0 0;
-    max-width: 1350px;
-    padding: 0;
-    text-align: justify
-    }
-
-.entry-content .legion-page-left-paragraph-three:nth-child(1) {
-    margin: 60px 0 0
-    }
-
-.entry-content .legion-page-right-paragraph-three {
-    display: inline-block;
-    font-family: optimaregular !important;
-    font-size: 1.2rem;
-    font-weight: lighter;
-    margin: 16px 0 0 16px;
-    max-width: 1350px;
-    padding: 0;
-    text-align: justify
     }
 
 .entry-content .legion-page-right-paragraph-three:nth-child(1) {
@@ -813,19 +653,6 @@ section.legion span.right-bracket {
     font-weight: 100
     }
 
-section.legion .column-right p, section.legion .column-right p:nth-child(2) {
-    -moz-hyphens: none;
-    -webkit-hyphens: none;
-    hyphens: none;
-    color: #8c8c8c !important;
-    font-family: optimaregular !important;
-    font-size: 1.2em !important;
-    line-height: 1.75;
-    text-align: justify;
-    width: 95% !important;
-    word-wrap: normal
-    }
-
 section.filosofia {
     display: table;
     height: auto;
@@ -870,34 +697,6 @@ section.filosofia div.column-right {
     float: right;
     width: 50%;
     display: table-row
-    }
-
-section.filosofia .column-left p, section.filosofia .column-left p:nth-child(2) {
-    -moz-hyphens: none;
-    -webkit-hyphens: none;
-    hyphens: none;
-    color: #8c8c8c !important;
-    font-family: optimaregular !important;
-    font-size: 1.2em !important;
-    line-height: 1.85;
-    padding: 0 !important;
-    text-align: justify;
-    width: 100% !important;
-    word-wrap: normal
-    }
-
-section.filosofia .column-right p, section.filosofia .column-right p:nth-child(2) {
-    -moz-hyphens: none;
-    -webkit-hyphens: none;
-    hyphens: none;
-    color: #8c8c8c !important;
-    font-family: optimaregular !important;
-    font-size: 1.2em !important;
-    line-height: 1.85;
-    padding: 0 !important;
-    width: 95% !important;
-    word-wrap: normal;
-    text-align: justify
     }
 
 section.metodologia {
@@ -946,53 +745,6 @@ section.metodologia div.column-right {
     display: table-row
     }
 
-section.metodologia .column-left p, section.metodologia .column-left p:nth-child(2) {
-    -moz-hyphens: none;
-    -webkit-hyphens: none;
-    hyphens: none;
-    color: #8c8c8c !important;
-    font-family: optimaregular !important;
-    font-size: 1.2em !important;
-    line-height: 1.85;
-    padding: 0 !important;
-    text-align: justify;
-    width: 100% !important;
-    word-wrap: normal
-    }
-
-section.metodologia .column-right p, section.metodologia .column-right p:nth-child(2) {
-    -moz-hyphens: none;
-    -webkit-hyphens: none;
-    hyphens: none;
-    color: #8c8c8c !important;
-    font-family: optimaregular !important;
-    font-size: 1.2em !important;
-    line-height: 1.85;
-    padding: 0 !important;
-    text-align: justify;
-    width: 95% !important;
-    word-wrap: normal
-    }
-
-section.metodologia .second-tag-line {
-    position: relative;
-    color: #B1BDAD;
-    width: 640px;
-    margin-left: 30px;
-    font-size: 36px;
-    line-height: 1.1;
-    text-align: justify
-    }
-
-section.metodologia span.upper {
-    word-spacing: 16px;
-    display: block
-    }
-
-section.metodologia span.lower {
-    display: block
-    }
-
 section.metodologia span.left-bracket {
     position: absolute;
     top: 50px;
@@ -1037,33 +789,6 @@ section.tactica h2.title-sub {
     line-height: 1
     }
 
-section.tactica p#parrafo-tactica {
-    -moz-hyphens: none;
-    -webkit-hyphens: none;
-    hyphens: none;
-    float: left;
-    font-size: 1.2em;
-    margin: 60px 0 0;
-    text-align: justify;
-    width: 50%;
-    word-wrap: normal;
-    font-family: optimaregular
-    }
-
-section.tactica p#parrafo-tactica-dos {
-    -moz-hyphens: none;
-    -webkit-hyphens: none;
-    hyphens: none;
-    color: #ccc;
-    float: left;
-    font-size: 1.2em;
-    margin: 20px 0 0;
-    text-align: justify;
-    width: 50%;
-    word-wrap: normal;
-    font-family: optimaregular
-    }
-
 section.tactica .seccion-arco {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -1099,7 +824,7 @@ section.tactica .seccion-arco {
     color: #9fad9f;
     display: inline-block;
     float: left;
-    font-family: "TrajanPro-Regular", "Lusitana", Times, serif;
+    font-family: trajanR;
     font-size: 48px;
     height: 100%;
     margin-right: 0.1em;
@@ -1110,7 +835,7 @@ section.tactica .seccion-arco {
 .seccion-arco .arco-1 .titulo {
     color: #8c8c8c;
     display: inline;
-    font-family: trajanregular;
+    font-family: trajanR;
     font-size: 1.1em;
     margin-right: 5px;
     text-align: center
@@ -1138,7 +863,7 @@ section.tactica .seccion-arco {
     color: #9fad9f;
     display: inline-block;
     float: left;
-    font-family: "TrajanPro-Regular", "Lusitana", Times, serif;
+    font-family: trajanR;
     font-size: 48px;
     height: 100%;
     margin-right: 5px;
@@ -1149,7 +874,7 @@ section.tactica .seccion-arco {
 .seccion-arco .arco-4 .titulo {
     color: #8c8c8c;
     display: inline;
-    font-family: trajanregular;
+    font-family: trajanR;
     font-size: 1.1em;
     margin-right: 5px;
     text-align: center
@@ -1157,12 +882,12 @@ section.tactica .seccion-arco {
 
 .arco-3 {
     display: none;
-    left: 80px;
+    left: 24px;
     margin: 0;
     position: absolute;
     top: 134px;
-    width: 345px
-    }
+    width: 395px;
+}
 
 .target-3 {
     position: absolute;
@@ -1176,7 +901,7 @@ section.tactica .seccion-arco {
     color: #9fad9f;
     display: inline-block;
     float: right;
-    font-family: "TrajanPro-Regular", "Lusitana", Times, serif;
+    font-family: trajanR;
     font-size: 48px;
     height: 100%;
     margin-left: 5px;
@@ -1187,7 +912,7 @@ section.tactica .seccion-arco {
 .seccion-arco .arco-3 .titulo {
     color: #8c8c8c;
     display: inline;
-    font-family: trajanregular;
+    font-family: trajanR;
     font-size: 1.1em;
     margin-right: 5px;
     text-align: center;
@@ -1196,12 +921,12 @@ section.tactica .seccion-arco {
 
 .arco-2 {
     display: none;
-    left: 43px;
+    left: 13px;
     margin: 0;
     position: absolute;
     top: 478px;
-    width: 358px
-    }
+    width: 388px;
+}
 
 .target-2 {
     position: absolute;
@@ -1216,7 +941,7 @@ section.tactica .seccion-arco {
     color: #9fad9f;
     display: inline-block;
     float: right;
-    font-family: "TrajanPro-Regular", "Lusitana", Times, serif;
+    font-family: trajanR;
     font-size: 48px;
     height: 100%;
     margin-left: 5px;
@@ -1227,7 +952,7 @@ section.tactica .seccion-arco {
 .seccion-arco .arco-2 .titulo {
     color: #8c8c8c;
     display: inline;
-    font-family: trajanregular;
+    font-family: trajanR;
     font-size: 1.1em;
     margin-right: 0.3em;
     text-align: center
@@ -1306,11 +1031,6 @@ section.interior span.archer {
     color: #8c8c8c
     }
 
-section.interior .seccion-caballo {
-    margin: 30px 0 0;
-    position: relative
-    }
-
 .seccion-caballo div.conquistar-interno {
     width: 283px;
     height: 283px;
@@ -1333,54 +1053,54 @@ section.interior .seccion-caballo {
 
 .seccion-caballo .mensaje-izquierda-1 {
     display: none;
-    font-family: trajanregular;
-    font-size: 1em;
+    font-family: trajanR;
+    font-size: 1em !important;
+    left: 6px;
     margin: 0;
-    left: 36px;
     position: absolute;
     text-align: right;
     top: 120px;
-    width: 245px;
-    z-index: 10
-    }
+    width: 295px;
+    z-index: 10;
+}
 
 .seccion-caballo .mensaje-izquierda-1 .barra-horizontal-1 {
     background: none repeat scroll 0 0 #93a49a;
+    display: unset;
     height: 2px;
-    left: 248px;
+    left: 293px;
     position: absolute;
     top: 10px;
-    width: 118px;
-    display: unset
-    }
+    width: 102px;
+}
 
 .seccion-caballo .mensaje-izquierda-2 {
     display: none;
-    font-family: trajanregular;
-    font-size: 1em;
-    margin: 0;
+    font-family: trajanR;
+    font-size: 1em !important;
     left: 0;
+    margin: 0;
     position: absolute;
     text-align: right;
     top: 195px;
-    width: 230px;
-    z-index: 10
-    }
+    width: 240px;
+    z-index: 10;
+}
 
 .seccion-caballo .mensaje-izquierda-2 .barra-horizontal-2 {
     background: none repeat scroll 0 0 #93a49a;
+    display: unset;
     height: 2px;
-    left: 234px;
+    left: 238px;
     position: absolute;
     top: 10px;
-    width: 149px;
-    display: unset
-    }
+    width: 144px;
+}
 
 .seccion-caballo .mensaje-izquierda-3 {
     display: none;
-    font-family: trajanregular;
-    font-size: 1em;
+    font-family: trajanR;
+    font-size: 1em!important;
     margin: 0;
     left: 52px;
     position: absolute;
@@ -1402,31 +1122,31 @@ section.interior .seccion-caballo {
 
 .seccion-caballo .mensaje-izquierda-4 {
     display: none;
-    font-family: trajanregular;
-    font-size: 1em;
-    margin: 0;
+    font-family: trajanR;
+    font-size: 1em !important;
     left: 0;
+    margin: 0;
     position: absolute;
     text-align: right;
     top: 490px;
-    width: 245px;
-    z-index: 10
-    }
+    width: 305px;
+    z-index: 10;
+}
 
 .seccion-caballo .mensaje-izquierda-4 .barra-horizontal-4 {
     background: none repeat scroll 0 0 #93a49a;
+    display: unset;
     height: 2px;
-    left: 250px;
+    left: 304px;
     position: absolute;
     top: 10px;
-    width: 103px;
-    display: unset
-    }
+    width: 48px;
+}
 
 .seccion-caballo .mensaje-derecha-1 {
     display: none;
-    font-family: trajanregular;
-    font-size: 1em;
+    font-family: trajanR;
+    font-size: 1em!important;
     margin: 0;
     left: 620px;
     position: absolute;
@@ -1446,8 +1166,8 @@ section.interior .seccion-caballo {
 
 .seccion-caballo .mensaje-derecha-2 {
     display: none;
-    font-family: trajanregular;
-    font-size: 1em;
+    font-family: trajanR;
+    font-size: 1em!important;
     margin: 0;
     left: 835px;
     position: absolute;
@@ -1467,24 +1187,24 @@ section.interior .seccion-caballo {
 
 .seccion-caballo .mensaje-derecha-3 {
     display: none;
-    font-family: trajanregular;
-    font-size: 1em;
+    font-family: trajanR;
+    font-size: 1em !important;
+    left: 864px;
     margin: 0;
-    left: 934px;
     position: absolute;
     top: 470px;
-    z-index: 10
-    }
+    z-index: 10;
+}
 
 .seccion-caballo .mensaje-derecha-3 .barra-horizontal-3 {
     background: none repeat scroll 0 0 #93a49a;
     display: unset;
     height: 2px;
-    left: -157px;
+    left: -85px;
     position: absolute;
     top: 10px;
-    width: 155px
-    }
+    width: 82px;
+}
 
 .seccion-caballo .linea-superior {
     color: #a6a6a6
@@ -1557,7 +1277,7 @@ section.interior .seccion-caballo {
     color: #9fad9f;
     display: inline-block;
     float: left;
-    font-family: optimaregular;
+    font-family: optimaR;
     height: 1.5em;
     letter-spacing: 1px;
     line-height: 1.7;
@@ -1581,7 +1301,7 @@ section.interior .seccion-caballo {
     border: medium none;
     color: white;
     display: block;
-    font-family: "optimaregular";
+    font-family: "optimaR";
     font-size: 18px;
     height: 32px;
     letter-spacing: 2px;

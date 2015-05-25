@@ -191,7 +191,6 @@ background-position: 0px; } }
     line-height: 1px;
     font-size: 20px;
     color: #9fad9f;
-    font-family: unset
     }
 
 .audio-player-button.icon-pause::before {

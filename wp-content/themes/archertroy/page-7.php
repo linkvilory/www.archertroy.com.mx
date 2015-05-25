@@ -29,7 +29,9 @@
     <link type="text/css" href="<?php echo get_template_directory_uri(); ?>/style960more.css?ver=4.1.1" rel="stylesheet">
     <link type="text/css" href="<?php echo get_template_directory_uri(); ?>/style1600more.css?ver=4.1.1" rel="stylesheet">
     <link type="text/css" href="<?php echo get_template_directory_uri(); ?>/style1800more.css?ver=4.1.1" rel="stylesheet">
-    <link type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/animate.css" rel="stylesheet">
+
+    <link type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/font-awesome.css?ver=4.1.1" rel="stylesheet">
+    <link type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/animate.css?ver=4.1.1" rel="stylesheet">
 		<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico">
 		<link rel="icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" type="image/x-icon">
 		<link rel="apple-touch-icon" sizes="57x57" href="<?php echo get_stylesheet_directory_uri(); ?>/apple-touch-icon-57x57.png">
@@ -118,9 +120,9 @@
           <a href='https://www.facebook.com/archertroy' class='icon-facebook' target='_blank'></a>
           <a href='https://twitter.com/ArcherTroy' class='icon-twitter' target='_blank'></a>
           <a href='http://instagram.com/archertroy' class='icon-instagram' target='_blank'></a>
-          <a href='http://www.pinterest.com/archertroyp' class='icon-pinterest-1' target='_blank'></a>
+          <a href='http://www.pinterest.com/archertroyp' class='icon-pinterest' target='_blank'></a>
           <a href='https://www.youtube.com/ConquistasArcher' class='icon-youtube-play' target='_blank'></a>
-          <a href='https://plus.google.com/105080074709822071277/posts' class='icon-google-plus' target='_blank'></a>
+          <a href='https://www.linkedin.com/company/archer-troy-publicidad-s-a-de-c-v-?trk=company_logo' class='icon-linkedin' target='_blank'></a>
         </div>
       </div>
       <img class="triangule" src="/wp-content/themes/archertroy/img/footer-triangule.png" />
@@ -149,6 +151,8 @@
       opciones_proyectos,
       opciones_noticias;
 
+      var idleInterval;
+
       <?php
 
       if($_SESSION["entro"] == 1){
@@ -175,7 +179,8 @@
         }
     
         $start.click(function (e) {
-          e.preventDefault();        
+          e.preventDefault();  
+          clearInterval(idleInterval);    
           cargar_home();
         });
 
@@ -220,6 +225,10 @@
       }
    
       window.onload = function () {
+
+        //Incrementa el contador cada minuto
+        idleInterval = setInterval(timerIncrement, 60000); // 1 minute
+
         if (es_movil()) {          
           imagesLoaded($landing, function() {
       
@@ -232,7 +241,6 @@
         }
         ajustar_footer();
         mover_footer_al_fondo();
-
       }
       
       $(window).on('resize', function () {

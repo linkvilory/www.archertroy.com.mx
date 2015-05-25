@@ -1,3 +1,4 @@
 [27-Mar-2015 17:23:03 America/Chicago] PHP Parse error:  syntax error, unexpected T_STRING in /home/archer/public_html/sitio/wp-config.php on line 32
 [16-Apr-2015 16:36:06 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/archer/public_html/wp-content/themes/archertroy/header.php on line 131
 [16-Apr-2015 16:36:11 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/archer/public_html/wp-content/themes/archertroy/header.php on line 131
+[21-Apr-2015 21:07:43 UTC] PHP Fatal error:  Call to undefined function strip_tag() in /home/archer/public_html/wp-content/themes/archertroy/header.php on line 186

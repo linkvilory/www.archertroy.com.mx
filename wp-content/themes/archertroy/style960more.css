@@ -1,30 +1,42 @@
 /* Minimum width of 960 pixels. */
 @media screen and (min-width: 960px) {
- 
+
+.animationBg.icon-angle-right{
+    display: none;
+} 
+
+.alignleft a span, .alignright a span {
+    display: inline;
+}
+
+.social-links a {
+    font-size: 16px;
+    line-height: 45px;
+}
+
+.innerArticuloProyecto p {
+}
+
+.project-navigation a.sficn {
+    font-size: 20px;
+    line-height: 40px;
+}
+
 .site-header {
     height: 110px;
     margin: auto;
     max-width: 100%;
     padding: 0 20px;
-    width: 100%
+    width: 100%;
+    position: fixed;
+    background: white;
+    z-index: 99;
     }
 
 .main-navigation {
     height: 100%;
     text-align: center;
     width: 100%
-    }
-
-.sidebar {
-    border: medium none;
-    height: 100%;
-    left: auto;
-    overflow: visible;
-    padding: 0;
-    position: relative;
-    top: auto;
-    width: 100%;
-    z-index: auto
     }
 
 .mini-logo, .mini-logo-internal {
@@ -47,7 +59,7 @@
 
 .main-navigation li {
     border: 0 none !important;
-    font-family: trajanregular;
+    font-family: trajanR;
     font-size: 1em !important;
     overflow: visible;
     padding: 10px 15px 0 0 !important;
@@ -59,11 +71,8 @@
     }
 
 .main-navigation li a {
-    border: 0 none !important;
-    font-family: trajanregular;
-    font-size: 0.9em !important;
+    font-size: 0.8em;
     line-height: 60px;
-    overflow: visible;
     padding: 0 !important
     }
 
@@ -118,19 +127,8 @@
     width: auto
     }
 
-.boton-Archer:focus {
-    outline: 0
-    }
-
-.boton-Archer::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0
-    }
-
 .boton-Archer {
-    font-family: "optimaregular";
+    font-family: "optimaR";
     font-size: 18px;
     letter-spacing: 2px;
     position: relative;
@@ -147,9 +145,9 @@
     transition: background-color 0.5s
     }
 
-.boton-Archer:hover {
-    background-color: #7F7F7F
-    }
+.coverPhotoFront{
+    background-position: center center;
+}
 
 .coverPhotoFront.Img {
     height: 520px !important
@@ -222,68 +220,6 @@
     display: table
     }
 
-.conquistaImg {
-    display: block !important;
-    max-width: 1160px !important;
-    width: 100%
-    }
-
-.corchete1 {
-    margin-top: 60px;
-    max-width: 470px !important;
-    width: 100%
-    }
-
-.corchete2 {
-    margin-top: 60px;
-    max-width: 397px !important;
-    width: 100%
-    }
-
-.corchete3 {
-    margin-top: 60px;
-    max-width: 547px !important;
-    width: 100%;
-    display: block !important;
-    margin: auto !important
-    }
-
-.firmImg {
-    display: block !important;
-    max-width: 300px !important;
-    width: 100%;
-    display: block;
-    margin: auto
-    }
-
-.filosofiaImg {
-    display: block !important;
-    max-width: 1160px !important;
-    width: 100%
-    }
-
-.metodologiaImg {
-    display: block !important;
-    max-width: 688px !important;
-    width: 100%
-    }
-
-.tacticaImg {
-    display: block !important;
-    max-width: 1175px !important;
-    width: 100%
-    }
-
-.admissionImg {
-    display: block !important;
-    max-width: 1159px !important;
-    width: 100%
-    }
-
-.seccion-legion p {
-    display: table !important
-    }
-
 .innerArticuloProyecto, .visualizador-noticias, .contacto {
     margin: auto;
     max-width: 960px;
@@ -303,7 +239,7 @@
     height: 500px
     }
 
-.primerInnerPadding, #post-10, #post-12, #post-14, #innerProyectos, .archertroy-blog {
+.primerInnerPadding, #post-0, #post-10, #post-12, #post-14, #innerProyectos, .archertroy-blog {
     padding: 0 20px;
     width: 100%;
     -moz-box-sizing: unset;
@@ -453,9 +389,9 @@
     }
 
 #main {
-    margin-top: 0;
     display: table;
-    width: 100%
+    padding-top: 110px;
+    width: 100%;
     }
 
 .main-navigation ul li:hover > ul, .main-navigation ul li:focus > ul, .main-navigation .focus > ul {
@@ -463,10 +399,10 @@
     }
 
 .proyectos-recientes > div, .proyectos-recientes a, .proyectos-recientes img, .ultimas-noticias > div, .ultimas-noticias a, .ultimas-noticias img, .proyectos > div, .proyectos a, .proyectos img {
-    width: 150px;
-    max-width: 150px;
-    height: 150px;
-    max-height: 150px;
+    width: 190px;
+    max-width: 190px;
+    height: 190px;
+    max-height: 190px;
     margin-bottom: 16px
     }
 
@@ -517,33 +453,8 @@ footer .site-info {
     }
 
 .proyectos-recientes .wp-caption .wp-caption-text, .ultimas-noticias .wp-caption .wp-caption-text, .proyectos .wp-caption .wp-caption-text {
-    -moz-hyphens: none;
-    -webkit-hyphens: none;
-    hyphens: none;
-    bottom: 0;
-    height: 50px;
-    max-height: 160px;
-    padding: 5px 10px !important;
-    width: 100%;
-    font-size: 10px;
-    word-wrap: normal;
-    background: none repeat scroll 0 0 rgb(255, 255, 255);
-    color: #626161;
-    display: block;
-    font-family: optimaregular !important;
-    left: 0;
-    margin: 0 !important;
-    max-width: 100%;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: alpha(opacity=0);
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: alpha(opacity=0);
-    opacity: 0;
-    position: absolute;
-    right: 0;
-    text-align: left;
-    z-index: -1;
-    line-height: 14px
+    font-size: 12px!important;
+    line-height: 20px;
     }
 
 .gente > div .wp-caption-text {
@@ -575,16 +486,6 @@ footer .site-info {
     margin-left: -1px
     }
 
-.boton-carteles:hover {
-    color: #d2d2d4 !important;
-    background: #fff;
-    -moz-border-radius: 0;
-    -webkit-border-radius: 0;
-    border-radius: 0;
-    border: 1px solid #d2d2d4;
-    color: #d2d2d4
-    }
-
 .site-content nav {
     margin: 1em auto;
     clear: both;
@@ -604,30 +505,28 @@ footer.entry-meta {
     }
 
 .clientes > img {
-    width: 150px;
-    max-width: 150px;
-    height: 150px;
-    max-height: 150px
+    width: 162px;
+    max-width: 162px;
+    height: 162px;
+    max-height: 162px
     }
 
 .gente > div {
-    width: 250px;
-    max-width: 250px;
-    height: 250px;
-    max-height: 250px;
+    width: 246px;
+    max-width: 246px;
+    height: 246px;
+    max-height: 246px;
     margin: 0 0 15px;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: alpha(opacity=0);
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
     opacity: 0
     }
 
 .gente div img {
-    height: 250px;
+    height: 246px;
     margin: 0;
     padding: 0;
-    width: 250px
+    width: 246px
     }
 
 .gente > div .wp-caption-text {
@@ -640,57 +539,7 @@ footer.entry-meta {
     width: 100%;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: alpha(opacity=0);
     opacity: 0
-    }
-
-.datos-persona {
-    height: 100%;
-    width: 100%
-    }
-
-.datos-persona .persona, .datos-persona .handler {
-    font-family: optimaregular;
-    text-transform: none;
-    display: inline-block;
-    float: left
-    }
-
-.datos-persona .persona {
-    width: 60%;
-    text-align: left;
-    padding-left: 5%;
-    height: 100%
-    }
-
-.datos-persona .handler {
-    width: 40%;
-    padding-right: 5%;
-    height: 100%
-    }
-
-.datos-persona .persona .puesto-persona, .datos-persona .handler {
-    text-transform: none
-    }
-
-.datos-persona .persona .nombre-persona {
-    font-size: 12px;
-    line-height: 16px;
-    color: #626161
-    }
-
-.datos-persona .persona .puesto-persona {
-    font-size: 10px;
-    line-height: 14px;
-    color: #a3ada2
-    }
-
-.datos-persona .handler, .datos-persona .handler a {
-    line-height: 14px;
-    color: #252425;
-    font-size: 10px;
-    text-align: right
     }
 
 .mini-post .entry-content > p:last-of-type {
@@ -710,7 +559,7 @@ footer.entry-meta {
 
 .lugar {
     float: left;
-    font-family: trajanregular;
+    font-family: trajanR;
     font-size: 1.15em;
     letter-spacing: 1px;
     line-height: 2.3em;
@@ -743,7 +592,7 @@ footer.entry-meta {
     }
 
 #cntctfrm_contact_form input[type="submit"] {
-    font-family: "optimaregular";
+    font-family: "optimaR";
     font-size: 18px;
     letter-spacing: 2px;
     position: relative;
@@ -773,19 +622,8 @@ footer.entry-meta {
     text-align: center !important
     }
 
-.ver-mapa:focus {
-    outline: 0
-    }
-
-.ver-mapa::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0
-    }
-
 .ver-mapa {
-    font-family: "optimaregular";
+    font-family: "optimaR";
     font-size: 18px;
     letter-spacing: 2px;
     position: relative;
@@ -794,17 +632,13 @@ footer.entry-meta {
     min-height: 32px;
     background-color: #ccc;
     color: white;
-    margin-top: 62px;
+    margin-top: 66px;
     text-transform: uppercase;
     vertical-align: middle;
     -moz-transition: background-color 0.5s;
     -o-transition: background-color 0.5s;
     -webkit-transition: background-color 0.5s;
     transition: background-color 0.5s
-    }
-
-.ver-mapa:hover {
-    background-color: #7F7F7F
     }
 
 .centrar p {
@@ -846,7 +680,7 @@ footer.entry-meta {
     }
 
 .project-navigation {
-    font-family: optimaregular;
+    font-family: optimaR;
     display: block;
     clear: both;
     float: none;
@@ -857,7 +691,7 @@ footer.entry-meta {
     }
 
 .post-info .post-date {
-    font-family: optimaregular;
+    font-family: optimaR;
     color: #626161;
     font-style: italic;
     float: right;
@@ -883,193 +717,40 @@ footer.entry-meta {
     margin: 0 auto !important
     }
 
-.agrandar-imagen-contacto {
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    -webkit-transform: scale(1);
-    transform: scale(1)
-    }
-
 .texto {
     -moz-hyphens: none;
     -webkit-hyphens: none;
     hyphens: none;
-    font-family: optimaregular;
-    font-size: 0.8em;
+    font-family: optimaR;
+    font-size: 0.75em;
     word-wrap: normal
     }
 
-.second-tag-line > p {
-    margin: 60px auto 0 !important
-    }
+.column.corchete {
+    clear: both;
+}
 
-.entry-content .legion-page-left-paragraph-one {
-    -moz-hyphens: none;
-    -webkit-hyphens: none;
-    hyphens: none;
-    color: #ccc;
-    font-family: trajanregular;
-    font-size: 1.2rem;
-    line-height: 2;
-    margin: 16px 0 0;
-    text-align: justify;
-    width: 100%;
-    word-wrap: normal
-    }
-
-.entry-content .legion-page-right-paragraph-one {
-    font-family: optimaregular !important;
-    font-size: 1.2rem;
-    font-weight: lighter;
-    margin: 16px 0 0 16px;
-    text-align: justify
-    }
-
-.entry-content .legion-page-left-paragraph-two {
-    display: inline-block;
-    font-family: optimaregular !important;
-    font-size: 1.2rem;
-    font-weight: lighter;
-    margin: 16px 0 0;
-    max-width: 1350px;
+div.column {
+    display: block;
+    float: left;
+    margin: 0;
     padding: 0;
-    text-align: justify
-    }
+    width: 48%!important;
+}
 
-.entry-content .legion-page-left-paragraph-two:nth-child(1) {
-    margin: 30px 0 0
-    }
+section div.column:nth-child(odd){
+    margin-left: 2%;
+}
 
-.entry-content .legion-page-right-paragraph-two {
-    display: inline-block;
-    font-family: optimaregular !important;
-    font-size: 1.2rem;
-    font-weight: lighter;
-    margin: 16px 0 0 16px;
-    max-width: 1350px;
-    padding: 0;
-    text-align: justify
-    }
-
-.entry-content .legion-page-right-paragraph-two:nth-child(1) {
-    margin: 30px 0 0 16px
-    }
-
-.entry-content .legion-page-left-paragraph-three {
-    display: inline-block;
-    font-family: optimaregular !important;
-    font-size: 1.2rem;
-    font-weight: lighter;
-    margin: 16px 0 0;
-    max-width: 1350px;
-    padding: 0;
-    text-align: justify
-    }
-
-.entry-content .legion-page-left-paragraph-three:nth-child(1) {
-    margin: 60px 0 0
-    }
-
-.entry-content .legion-page-right-paragraph-three {
-    display: inline-block;
-    font-family: optimaregular !important;
-    font-size: 1.2rem;
-    font-weight: lighter;
-    margin: 16px 0 0 16px;
-    max-width: 1350px;
-    padding: 0;
-    text-align: justify
-    }
-
-.entry-content .legion-page-right-paragraph-three:nth-child(1) {
-    margin: 60px 0 0 16px
-    }
+section.tactica p#parrafo-tactica, section.tactica p#parrafo-tactica-dos {
+    width: 50%!important;
+    margin-top: 50px;
+}
 
 section.legion {
     display: table;
     margin: 50px auto 0;
     width: 100%
-    }
-
-section.legion h4.title-super {
-    color: #d1d2d4;
-    text-transform: uppercase;
-    font-size: 45px;
-    line-height: 1;
-    margin: 0 !important
-    }
-
-section.legion h1.title {
-    color: #d1d2d4;
-    text-transform: uppercase;
-    font-size: 182px !important;
-    margin: 0 0 20px 0 !important
-    }
-
-section.legion div.column-left {
-    margin: 0;
-    padding: 0;
-    float: left;
-    width: 50%;
-    display: block
-    }
-
-section.legion div.column-right {
-    margin: 0;
-    padding: 0;
-    float: right;
-    width: 50%;
-    display: block
-    }
-
-section.legion ol.first-list {
-    font-size: 20px;
-    margin-top: 15px
-    }
-
-section.legion ol.first-list li {
-    margin: 0
-    }
-
-section.legion .first-tag-line {
-    position: relative;
-    color: #B1BDAD;
-    width: 94%;
-    font-size: 28px;
-    line-height: 1.1;
-    text-align: left
-    }
-
-section.legion span.left-bracket {
-    position: absolute;
-    top: 45%;
-    left: -2.5%;
-    font-weight: 100
-    }
-
-section.legion span.upper {
-    word-spacing: 9px
-    }
-
-section.legion span.right-bracket {
-    position: absolute;
-    top: 45%;
-    right: -0.5%;
-    font-weight: 100
-    }
-
-section.legion .column-right p, section.legion .column-right p:nth-child(2) {
-    -moz-hyphens: none;
-    -webkit-hyphens: none;
-    hyphens: none;
-    color: #8c8c8c !important;
-    font-family: optimaregular !important;
-    font-size: 1.2em !important;
-    line-height: 1.75;
-    text-align: justify;
-    width: 95% !important;
-    word-wrap: normal
     }
 
 section.filosofia {
@@ -1079,178 +760,11 @@ section.filosofia {
     width: 100%
     }
 
-section.filosofia h4.title-super {
-    color: #d1d2d4;
-    text-transform: uppercase;
-    font-size: 45px;
-    line-height: 1;
-    margin: 0 !important
-    }
-
-section.filosofia h1.title {
-    color: #d1d2d4;
-    text-transform: uppercase;
-    font-size: 182px !important;
-    margin: 0 !important;
-    line-height: 190px
-    }
-
-section.filosofia h2.title-sub {
-    color: #939598;
-    font-size: 90px;
-    margin: 0 0 90px 20px !important;
-    line-height: 0
-    }
-
-section.filosofia div.column-left {
-    margin: 0;
-    padding: 0;
-    float: left;
-    width: 50%;
-    display: table-row
-    }
-
-section.filosofia div.column-right {
-    margin: 0;
-    padding: 0;
-    float: right;
-    width: 50%;
-    display: table-row
-    }
-
-section.filosofia .column-left p, section.filosofia .column-left p:nth-child(2) {
-    -moz-hyphens: none;
-    -webkit-hyphens: none;
-    hyphens: none;
-    color: #8c8c8c !important;
-    font-family: optimaregular !important;
-    font-size: 1.2em !important;
-    line-height: 1.85;
-    padding: 0 !important;
-    text-align: justify;
-    width: 100% !important;
-    word-wrap: normal
-    }
-
-section.filosofia .column-right p, section.filosofia .column-right p:nth-child(2) {
-    -moz-hyphens: none;
-    -webkit-hyphens: none;
-    hyphens: none;
-    color: #8c8c8c !important;
-    font-family: optimaregular !important;
-    font-size: 1.2em !important;
-    line-height: 1.85;
-    padding: 0 !important;
-    width: 95% !important;
-    word-wrap: normal;
-    text-align: justify
-    }
-
 section.metodologia {
     display: table;
     height: auto;
     margin: 50px auto 0;
     width: 100%
-    }
-
-section.metodologia h4.title-super {
-    color: #d1d2d4;
-    text-transform: uppercase;
-    font-size: 45px;
-    line-height: 1;
-    margin: 0 0 10px 0 !important
-    }
-
-section.metodologia h1.title {
-    color: #d1d2d4;
-    text-transform: uppercase;
-    font-size: 182px !important;
-    margin: 0 !important;
-    line-height: 185px
-    }
-
-section.metodologia h2.title-sub {
-    color: #939598;
-    font-size: 90px;
-    margin: 0 0 90px 30px !important;
-    line-height: 0
-    }
-
-section.metodologia div.column-left {
-    margin: 0;
-    padding: 0;
-    float: left;
-    width: 50%;
-    display: table-row
-    }
-
-section.metodologia div.column-right {
-    margin: 0;
-    padding: 0;
-    float: right;
-    width: 50%;
-    display: table-row
-    }
-
-section.metodologia .column-left p, section.metodologia .column-left p:nth-child(2) {
-    -moz-hyphens: none;
-    -webkit-hyphens: none;
-    hyphens: none;
-    color: #8c8c8c !important;
-    font-family: optimaregular !important;
-    font-size: 1.2em !important;
-    line-height: 1.85;
-    padding: 0 !important;
-    text-align: justify;
-    width: 100% !important;
-    word-wrap: normal
-    }
-
-section.metodologia .column-right p, section.metodologia .column-right p:nth-child(2) {
-    -moz-hyphens: none;
-    -webkit-hyphens: none;
-    hyphens: none;
-    color: #8c8c8c !important;
-    font-family: optimaregular !important;
-    font-size: 1.2em !important;
-    line-height: 1.85;
-    padding: 0 !important;
-    text-align: justify;
-    width: 95% !important;
-    word-wrap: normal
-    }
-
-section.metodologia .second-tag-line {
-    position: relative;
-    color: #B1BDAD;
-    width: 640px;
-    margin-left: 30px;
-    font-size: 36px;
-    line-height: 1.1;
-    text-align: justify
-    }
-
-section.metodologia span.upper {
-    word-spacing: 16px;
-    display: block
-    }
-
-section.metodologia span.lower {
-    display: block
-    }
-
-section.metodologia span.left-bracket {
-    position: absolute;
-    top: 50px;
-    left: -25px;
-    font-size: 40px
-    }
-
-section.metodologia span.right-bracket {
-    position: absolute;
-    top: 50px;
-    right: -25px;
-    font-size: 40px
     }
 
 section.tactica {
@@ -1260,77 +774,14 @@ section.tactica {
     width: 100%
     }
 
-section.tactica h4.title-super {
-    color: #d1d2d4;
-    text-transform: uppercase;
-    font-size: 45px;
-    line-height: 1;
-    margin: 0 !important
-    }
-
-section.tactica h1.title {
-    color: #939598;
-    text-transform: uppercase;
-    font-size: 130px !important;
-    margin: 0 !important;
-    line-height: 120px
-    }
-
-section.tactica h2.title-sub {
-    color: #d1d3d4;
-    font-size: 45px;
-    margin: 0 0 90px 15px !important;
-    line-height: 1
-    }
-
-section.tactica p#parrafo-tactica {
-    -moz-hyphens: none;
-    -webkit-hyphens: none;
-    hyphens: none;
-    float: left;
-    font-size: 1.2em;
-    margin: 60px 0 0;
-    text-align: justify;
-    width: 50%;
-    word-wrap: normal;
-    font-family: optimaregular
-    }
-
-section.tactica p#parrafo-tactica-dos {
-    -moz-hyphens: none;
-    -webkit-hyphens: none;
-    hyphens: none;
-    color: #ccc;
-    float: left;
-    font-size: 1.2em;
-    margin: 20px 0 0;
-    text-align: justify;
-    width: 50%;
-    word-wrap: normal;
-    font-family: optimaregular
-    }
-
-section.tactica .seccion-arco {
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    clear: both;
-    color: #8c8c8c;
-    display: block;
-    font-size: 16px;
-    overflow: hidden;
-    padding: 30px 0 0;
-    position: relative;
-    width: 100%
-    }
-
 .seccion-arco .arco-1 {
     display: none;
     left: 632px;
     margin: 0;
     position: absolute;
-    top: 66px;
-    width: 260px
-    }
+    top: 58px;
+    width: 260px;
+}
 
 .seccion-arco .target-1 {
     position: absolute;
@@ -1345,8 +796,8 @@ section.tactica .seccion-arco {
     color: #9fad9f;
     display: inline-block;
     float: left;
-    font-family: "TrajanPro-Regular", "Lusitana", Times, serif;
-    font-size: 35px;
+    font-family: trajanR;
+    font-size: 25px;
     height: 100%;
     margin-right: 5px;
     text-align: center;
@@ -1356,7 +807,7 @@ section.tactica .seccion-arco {
 .seccion-arco .arco-1 .titulo {
     color: #8c8c8c;
     display: inline;
-    font-family: trajanregular;
+    font-family: trajanR;
     font-size: 1.1em;
     margin-right: 5px;
     text-align: center
@@ -1364,12 +815,12 @@ section.tactica .seccion-arco {
 
 .arco-4 {
     display: none;
-    left: 652px;
+    left: 648px;
     margin: 0;
     position: absolute;
-    top: 260px;
-    width: 260px
-    }
+    top: 251px;
+    width: 260px;
+}
 
 .target-4 {
     position: absolute;
@@ -1384,8 +835,8 @@ section.tactica .seccion-arco {
     color: #9fad9f;
     display: inline-block;
     float: left;
-    font-family: "TrajanPro-Regular", "Lusitana", Times, serif;
-    font-size: 35px;
+    font-family: trajanR;
+    font-size: 25px;
     height: 100%;
     margin-right: 5px;
     text-align: center;
@@ -1395,7 +846,7 @@ section.tactica .seccion-arco {
 .seccion-arco .arco-4 .titulo {
     color: #8c8c8c;
     display: inline;
-    font-family: trajanregular;
+    font-family: trajanR;
     font-size: 1.1em;
     margin-right: 5px;
     text-align: center
@@ -1403,12 +854,12 @@ section.tactica .seccion-arco {
 
 .arco-3 {
     display: none;
-    left: 38px;
+    left: 33px;
     margin: 0;
     position: absolute;
-    top: 118px;
-    width: 300px
-    }
+    top: 109px;
+    width: 300px;
+}
 
 .target-3 {
     position: absolute;
@@ -1422,8 +873,8 @@ section.tactica .seccion-arco {
     color: #9fad9f;
     display: inline-block;
     float: right;
-    font-family: "TrajanPro-Regular", "Lusitana", Times, serif;
-    font-size: 35px;
+    font-family: trajanR;
+    font-size: 25px;
     height: 100%;
     margin-left: 5px;
     text-align: center;
@@ -1433,7 +884,7 @@ section.tactica .seccion-arco {
 .seccion-arco .arco-3 .titulo {
     color: #8c8c8c;
     display: inline;
-    font-family: trajanregular;
+    font-family: trajanR;
     font-size: 1.1em;
     margin-right: 5px;
     text-align: center;
@@ -1442,12 +893,12 @@ section.tactica .seccion-arco {
 
 .arco-2 {
     display: none;
-    left: 16px;
+    left: 14px;
     margin: 0;
     position: absolute;
-    top: 383px;
-    width: 300px
-    }
+    top: 374px;
+    width: 300px;
+}
 
 .target-2 {
     position: absolute;
@@ -1462,8 +913,8 @@ section.tactica .seccion-arco {
     color: #9fad9f;
     display: inline-block;
     float: right;
-    font-family: "TrajanPro-Regular", "Lusitana", Times, serif;
-    font-size: 35px;
+    font-family: trajanR;
+    font-size: 25px;
     height: 100%;
     margin-left: 5px;
     text-align: center;
@@ -1473,88 +924,23 @@ section.tactica .seccion-arco {
 .seccion-arco .arco-2 .titulo {
     color: #8c8c8c;
     display: inline;
-    font-family: trajanregular;
+    font-family: trajanR;
     font-size: 1.1em;
     margin-right: 0.3em;
     text-align: center
     }
+
+.project-navigation i {
+    font-size: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+}
 
 section.interior {
     display: table;
     height: auto;
     margin: 50px auto 0;
     width: 100%
-    }
-
-section.interior h1.title {
-    color: #939598;
-    text-transform: uppercase;
-    font-size: 130px !important;
-    margin: 0 !important;
-    line-height: 120px
-    }
-
-section.interior h2.title-sub {
-    color: #d1d3d4;
-    font-size: 65px;
-    margin: 0 0 90px 10px !important;
-    line-height: 1
-    }
-
-section.interior .third-tag-line {
-    position: relative;
-    margin-top: 100px;
-    color: #B1BDAD;
-    font-size: 36px;
-    line-height: 1.1;
-    text-align: center
-    }
-
-section.interior span.left-bracket {
-    position: absolute;
-    top: 30px;
-    left: 260px;
-    font-size: 50px
-    }
-
-section.interior span.right-bracket {
-    position: absolute;
-    top: 30px;
-    right: 260px;
-    font-size: 50px
-    }
-
-section.interior span.upper {
-    display: block;
-    font-size: 26px;
-    line-height: 0
-    }
-
-section.interior span.lower {
-    display: block;
-    font-size: 53px;
-    line-height: 0
-    }
-
-section.interior div.born-archer {
-    margin: 0 auto;
-    text-align: center;
-    font-size: 65px
-    }
-
-section.interior span.born {
-    display: inline;
-    color: #bfbfbf
-    }
-
-section.interior span.archer {
-    display: inline;
-    color: #8c8c8c
-    }
-
-section.interior .seccion-caballo {
-    margin: 30px 0 0;
-    position: relative
     }
 
 .seccion-caballo div.conquistar-interno {
@@ -1579,104 +965,104 @@ section.interior .seccion-caballo {
 
 .seccion-caballo .mensaje-izquierda-1 {
     display: none;
-    font-family: trajanregular;
-    margin: 0;
-    font-size: 0.8em;
+    font-size: 0.75em !important;
     left: 0;
+    margin: 0;
+    overflow: visible;
     position: absolute;
     text-align: right;
     top: 116px;
-    width: 190px;
-    z-index: 10
-    }
+    width: 240px;
+    z-index: 10;
+}
 
 .seccion-caballo .mensaje-izquierda-1 .barra-horizontal-1 {
     background: none repeat scroll 0 0 #93a49a;
     display: unset;
     height: 2px;
-    left: 197px;
+    left: 240px;
     position: absolute;
     top: 10px;
-    width: 105px
+    width: 60px;
     }
 
 .seccion-caballo .mensaje-izquierda-2 {
     display: none;
-    font-family: trajanregular;
-    margin: 0;
-    font-size: 0.8em;
+    font-size: 0.75em !important;
     left: 20px;
+    margin: 0;
+    overflow: visible;
     position: absolute;
     text-align: right;
     top: 188px;
-    width: 160px;
-    z-index: 10
-    }
+    width: 200px;
+    z-index: 10;
+}
 
 .seccion-caballo .mensaje-izquierda-2 .barra-horizontal-2 {
     background: none repeat scroll 0 0 #93a49a;
     display: unset;
     height: 2px;
-    left: 164px;
+    left: 200px;
     position: absolute;
     top: 10px;
-    width: 101px
-    }
+    width: 63px;
+}
 
 .seccion-caballo .mensaje-izquierda-3 {
     display: none;
-    font-family: trajanregular;
-    margin: 0;
-    font-size: 0.8em;
+    font-size: 0.75em !important;
     left: 43px;
+    margin: 0;
+    overflow: visible;
     position: absolute;
     text-align: right;
     top: 353px;
     width: 190px;
-    z-index: 10
-    }
+    z-index: 10;
+}
 
 .seccion-caballo .mensaje-izquierda-3 .barra-horizontal-3 {
     background: none repeat scroll 0 0 #93a49a;
+    display: unset;
     height: 2px;
-    left: 196px;
+    left: 190px;
     position: absolute;
     top: 10px;
-    width: 132px;
-    display: unset
-    }
+    width: 136px;
+}
 
 .seccion-caballo .mensaje-izquierda-4 {
     display: none;
-    font-family: trajanregular;
+    font-size: 0.75em !important;
+    left: 0;
     margin: 0;
-    font-size: 0.8em;
-    left: 5px;
+    overflow: visible;
     position: absolute;
     text-align: right;
     top: 468px;
-    width: 190px;
-    z-index: 10
-    }
+    width: 235px;
+    z-index: 10;
+}
 
 .seccion-caballo .mensaje-izquierda-4 .barra-horizontal-4 {
     background: none repeat scroll 0 0 #93a49a;
+    display: unset;
     height: 2px;
-    left: 194px;
+    left: 233px;
     position: absolute;
     top: 10px;
-    width: 59px;
-    display: unset
-    }
+    width: 24px;
+}
 
 .seccion-caballo .mensaje-derecha-1 {
     display: none;
-    font-family: trajanregular;
     margin: 0;
-    font-size: 0.8em;
+    font-size: 0.75em !important;
     left: 504px;
     position: absolute;
     top: 45px;
+    overflow: visible;
     z-index: 10
     }
 
@@ -1692,12 +1078,12 @@ section.interior .seccion-caballo {
 
 .seccion-caballo .mensaje-derecha-2 {
     display: none;
-    font-family: trajanregular;
     margin: 0;
-    font-size: 0.8em;
+    font-size: 0.75em !important;
     left: 710px;
     position: absolute;
     top: 193px;
+    overflow: visible;
     z-index: 10
     }
 
@@ -1713,24 +1099,24 @@ section.interior .seccion-caballo {
 
 .seccion-caballo .mensaje-derecha-3 {
     display: none;
-    font-family: trajanregular;
+    font-size: 0.75em !important;
+    left: 690px;
     margin: 0;
-    font-size: 0.8em;
-    left: 745px;
+    overflow: visible;
     position: absolute;
     top: 444px;
-    z-index: 10
-    }
+    z-index: 10;
+}
 
 .seccion-caballo .mensaje-derecha-3 .barra-horizontal-3 {
     background: none repeat scroll 0 0 #93a49a;
+    display: unset;
     height: 2px;
-    left: -111px;
+    left: -56px;
     position: absolute;
     top: 10px;
-    width: 107px;
-    display: unset
-    }
+    width: 52px;
+}
 
 .seccion-caballo .linea-superior {
     color: #a6a6a6
@@ -1739,27 +1125,6 @@ section.interior .seccion-caballo {
 .seccion-caballo .linea-inferior {
     color: #b1bdad
     }
-
-.seccion-caballo .caballo-target {
-    position: absolute;
-    z-index: 2;
-    top: 194px;
-    left: 696px;
-    width: 55px;
-    height: 55px;
-    display: block;
-    cursor: pointer;
-    background: url(img/click-target.png) 42% 50% no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    -webkit-animation: girar_imagen 3s linear infinite;
-    -moz-animation: girar_imagen 3s linear infinite;
-    animation: girar_imagen 3s linear infinite
-    }
-
-@-moz-keyframes girar_imagen { 100% { -moz-transform: rotate(360deg); } }
-@-webkit-keyframes girar_imagen { 100% { -webkit-transform: rotate(360deg); } }
-@keyframes girar_imagen { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
 .seccion-caballo div.conquistar-externo {
     position: absolute;
@@ -1773,8 +1138,6 @@ section.interior .seccion-caballo {
     border-radius: 100%;
     border: 2px solid #fff;
     background: #fff;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-    filter: alpha(opacity=100);
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     filter: alpha(opacity=100);
     opacity: 1
@@ -1806,7 +1169,7 @@ section.interior .seccion-caballo {
     color: #9fad9f;
     display: inline-block;
     float: left;
-    font-family: optimaregular;
+    font-family: optimaR;
     height: 1.5em;
     letter-spacing: 1px;
     line-height: 1.7;
@@ -1830,7 +1193,7 @@ section.interior .seccion-caballo {
     border: medium none;
     color: white;
     display: block;
-    font-family: "optimaregular";
+    font-family: "optimaR";
     font-size: 18px;
     height: 32px;
     letter-spacing: 2px;
@@ -1896,37 +1259,16 @@ section.interior .seccion-caballo {
 .mini-post .entry-content .wp-caption:first-child img {
     margin: 0
     }
-
-.mini-post .entry-content > .wp-caption:first-child > .wp-caption-text {
-    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDk2MCAxNTAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0iaGF0MCIgZ3JhZGllbnRVbml0cz0ib2JqZWN0Qm91bmRpbmdCb3giIHgxPSI1MCUiIHkxPSIxMDAlIiB4Mj0iNTAlIiB5Mj0iLTEuNDIxMDg1NDcxNTIwMmUtMTQlIj4KPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMCIgc3RvcC1vcGFjaXR5PSIwLjgiLz4KPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDAwIiBzdG9wLW9wYWNpdHk9IjAiLz4KICAgPC9saW5lYXJHcmFkaWVudD4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSI5NjAiIGhlaWdodD0iMTUwIiBmaWxsPSJ1cmwoI2hhdDApIiAvPgo8L3N2Zz4=);
-    background-image: -moz-linear-gradient(bottom, rgba(0,0,0,.65) 0%, rgba(0,0,0,0) 100%);
-    background-image: -o-linear-gradient(bottom, rgba(0,0,0,.65) 0%, rgba(0,0,0,0) 100%);
-    background-image: -webkit-linear-gradient(bottom, rgba(0,0,0,.65) 0%, rgba(0,0,0,0) 100%);
-    background-image: linear-gradient(bottom, rgba(0,0,0,.65) 0%, rgba(0,0,0,0) 100%);
-    bottom: 0;
-    color: white;
-    font-family: optimaregular !important;
-    font-size: 2.5em;
-    height: 130px;
-    margin: 0;
-    padding: 0 20px;
-    position: absolute;
-    text-transform: none !important;
-    width: 100%;
-    line-height: 190px;
-    }
     
     .blog-wp-caption-text {
     background: none repeat scroll 0 0 rgb(255, 255, 255);
     color: #626161;
     display: block;
-    filter: alpha(opacity=0);
-    font-family: optimaregular;
+    font-family: optimaR;
     left: 0;
     right: 0;
     margin: 0 !important;
     max-width: 100%;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
     opacity: 0;
@@ -1936,7 +1278,7 @@ section.interior .seccion-caballo {
     }
 
 .blog-wp-caption-text .caption-title, .wp-caption-text .caption-title {
-    font-family: optimaregular;
+    font-family: optimaR;
     font-size: 20px;
     height: 25px;
     left: 20px;
@@ -1955,7 +1297,7 @@ section.interior .seccion-caballo {
 
 .blog-wp-caption-text .caption-date, .wp-caption-text .caption-date {
     bottom: 0;
-    font-family: optimaregular;
+    font-family: optimaR;
     font-size: 16px;
     font-style: italic;
     height: 20px;
@@ -1978,8 +1320,8 @@ section.interior .seccion-caballo {
 .blog-posts-header h2 {
     border-right: 1px solid #cfcfcf;
     float: left;
-    font-family: trajanregular;
-    font-size: 1.2rem;
+    font-family: trajanR;
+    font-size: 1.15rem;
     height: 100%;
     line-height: 3.2em;
     text-align: left;
@@ -1992,7 +1334,7 @@ section.interior .seccion-caballo {
     border-right: 1px solid #cfcfcf;
     display: inline-block;
     float: left;
-    font-family: optimaregular;
+    font-family: optimaR;
     height: 100%;
     margin: 0;
     padding: 0 20px;

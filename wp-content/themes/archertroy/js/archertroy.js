@@ -1,7 +1,84 @@
 /*
+ * Animaciones randomizadas
+ */
+function animRandom(){
+
+  var animaciones = ["", "bounce", "flash", "pulse", "rubberBand", "shake", "swing", "tada", "wobble"];
+  var rnd = Math.floor((Math.random() * 8) + 1); 
+  return animaciones[rnd];
+
+} 
+
+function animFront(){
+  $(".landing").addClass("animated pulse");
+  setTimeout(function(){
+        $(".landing").removeClass("animated pulse");
+    }, 2000);
+}
+
+function timerIncrement() {
+    animFront();
+}
+
+/*
  * Ejecucion de mostrar el contenido hasta que se cargue la pagina
  */
 $( document ).ready(function() {
+
+/*
+ * Acciones y animaciones para los botones de sociale media
+ */
+if($(".amazingcarousel-image img").length){
+
+  if ($(window).outerWidth() < 600) {          
+    $(".amazingcarousel-image img").click(function(){
+      imgUrl = $(this).attr("src");
+      window.open(imgUrl, "_blank");
+    });
+  }else{
+    
+  } 
+}
+
+
+if($(".animationBg.icon-angle-right").length){
+
+  $(".animationBg.icon-angle-right").click(function(){
+    var that = $(this).parent();
+    $(that).addClass("right");
+    setTimeout(function(){
+        $(that).removeClass("right");
+    }, 2000);
+  });
+
+}
+
+$(".clientes img").each(function(){
+  var anim = "pulse";
+  $(this).hover(function(){
+    $(this).addClass("animated " + anim);
+  }, function(){
+    $(this).removeClass("animated " + anim);
+  });
+
+});
+
+
+
+$(".alignleft a, .alignright a").hover(function(){
+  $(this).addClass("animated infinite tada ");
+}, function(){
+  $(this).removeClass("animated infinite tada ");
+})
+
+$(".social-links a, .entry-content-social-links a, .header-social-links a").hover(function(){
+  $(this).addClass("animated tada");
+}, function(){
+  $(this).removeClass("animated tada");
+})
+
+ /* End Social Media */
+
 
 if($(".formulario").length){
   jQuery.noConflict();
@@ -25,7 +102,7 @@ if($(".formulario").length){
           data: { nombre: nombre, mail: mail, mensaje: mensaje, newsletter: newsletter}
         })
         .done(function( msg ) {
-          $(".formulario").html("<h1>¡Gracias!</h1>");
+          $(".formulario").html("<h1>GRACIAS POR PONERTE EN CONTACTO CON NOSOTROS.</h1>");
       });
     
    }
@@ -454,63 +531,68 @@ var $full_width_header = $('.entry-content p:first-child img:first'),
   }
   
   function animar_texto_ballestas() {
-var espera_entre_animaciones = 300, 
-    espera_fade_in = 600;
+
+    if($(window).outerWidth() >= 600){
+
+      var espera_entre_animaciones = 300, espera_fade_in = 600;
+      $('.arco-1').fadeIn(espera_entre_animaciones, function () {
+        setTimeout(function () {
+          $('.arco-2').fadeIn(espera_entre_animaciones, function () {
+            setTimeout(function () {
+              $('.arco-3').fadeIn(espera_entre_animaciones, function () {
+                setTimeout(function () {
+                  $('.arco-4').fadeIn(espera_entre_animaciones);                  
+                }, espera_entre_animaciones);       
+              });
+            }, espera_entre_animaciones);       
+          });          
+        }, espera_entre_animaciones);       
+      });
+
+    }
     
-    $('.arco-1').fadeIn(espera_entre_animaciones, function () {
-      setTimeout(function () {
-        $('.arco-2').fadeIn(espera_entre_animaciones, function () {
-          setTimeout(function () {
-            $('.arco-3').fadeIn(espera_entre_animaciones, function () {
-              setTimeout(function () {
-                $('.arco-4').fadeIn(espera_entre_animaciones);                  
-              }, espera_entre_animaciones);       
-            });
-          }, espera_entre_animaciones);       
-        });          
-      }, espera_entre_animaciones);       
-    });
   }
   
   function animar_texto_caballo() {
-    var espera_entre_animaciones = 300, 
-        espera_fade_in = 600;
-    $('.mensaje-derecha-1').fadeIn(espera_fade_in, function () {
-      $(this).css("display","table");
-      setTimeout(function () {
-        $('.mensaje-izquierda-1').fadeIn(espera_fade_in, function () {
-          $(this).css("display","table");
-          setTimeout(function () {
-            $('.mensaje-derecha-2').fadeIn(espera_fade_in, function () {
-              $(this).css("display","table");
-              setTimeout(function () {
-                $('.mensaje-izquierda-2').fadeIn(espera_fade_in, function () {
-                  $(this).css("display","table");
-                 setTimeout(function () {
-                   $('.mensaje-derecha-3').fadeIn(espera_fade_in, function () {
+
+    if($(window).outerWidth() >= 600){
+      var espera_entre_animaciones = 300, espera_fade_in = 600;
+      $('.mensaje-derecha-1').fadeIn(espera_fade_in, function () {
+        $(this).css("display","table");
+        setTimeout(function () {
+          $('.mensaje-izquierda-1').fadeIn(espera_fade_in, function () {
+            $(this).css("display","table");
+            setTimeout(function () {
+              $('.mensaje-derecha-2').fadeIn(espera_fade_in, function () {
+                $(this).css("display","table");
+                setTimeout(function () {
+                  $('.mensaje-izquierda-2').fadeIn(espera_fade_in, function () {
                     $(this).css("display","table");
-                     setTimeout(function () {
-                       $('.mensaje-izquierda-3').fadeIn(espera_fade_in, function () {
-                        $(this).css("display","table");
-                         $('.mensaje-izquierda-4').fadeIn(espera_fade_in);
-                         $('.mensaje-izquierda-4').css("display","table");
-                       });
-                     }, espera_entre_animaciones);
-                   });
-                 }, espera_entre_animaciones);
-                }); 
-              }, espera_entre_animaciones);       
-            });
-          }, espera_entre_animaciones);       
-        });          
-      }, espera_entre_animaciones);       
-    });
+                   setTimeout(function () {
+                     $('.mensaje-derecha-3').fadeIn(espera_fade_in, function () {
+                      $(this).css("display","table");
+                       setTimeout(function () {
+                         $('.mensaje-izquierda-3').fadeIn(espera_fade_in, function () {
+                          $(this).css("display","table");
+                           $('.mensaje-izquierda-4').fadeIn(espera_fade_in);
+                           $('.mensaje-izquierda-4').css("display","table");
+                         });
+                       }, espera_entre_animaciones);
+                     });
+                   }, espera_entre_animaciones);
+                  }); 
+                }, espera_entre_animaciones);       
+              });
+            }, espera_entre_animaciones);       
+          });          
+        }, espera_entre_animaciones);       
+      });
+
+    }
+    
   }
   
-  
-  
 
-  
   function animaciones_legion() {
     if (window.location.pathname.search("legion") !== -1 && !$(window).outerWidth() < 599) {
 
@@ -536,8 +618,6 @@ var espera_entre_animaciones = 300,
           iniciada: false
         }
     ];
-
-$('.mensaje-derecha-1, .mensaje-derecha-2, .mensaje-derecha-3, .mensaje-izquierda-1, .mensaje-izquierda-2, .mensaje-izquierda-3, .mensaje-izquierda-4, .arco-1, .arco-2, .arco-3, .arco-4').hide();
 
       track_scroll(animaciones);
     
@@ -583,6 +663,9 @@ $('.mensaje-derecha-1, .mensaje-derecha-2, .mensaje-derecha-3, .mensaje-izquierd
    });
    $(".boton-Cartel").click(function(){
       window.location = "/?page_id=308";
+   });
+   $(".error404Contacto").click(function(){
+      window.location = "/contacto/";
    });
 
   $('body').on('mouseenter', '.post-content .wp-caption:not(:first-child)', mostrar_leyenda);

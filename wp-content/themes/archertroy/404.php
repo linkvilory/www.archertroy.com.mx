@@ -18,8 +18,10 @@ get_header(); ?>
 				</header>
 
 				<div class="entry-content">
-					<p><?php _e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'twentytwelve' ); ?></p>
-					<?php get_search_form(); ?>
+					<p class="errorFirstLine"><b>ERROR 404:</b> LO SENTIMOS LA PÁGINA QUE ESTÁS BUSCANDO NO EXISTE</p>
+					<img class="errorImg" src="/wp-content/uploads/error/error-404.png"/>
+					<p class="errorSecondLine">ESTÁS BUSCANDO ALGO EN ESPECÍFICO. TE AYUDAMOS A ENCONTRARLO</p>
+					<input class="error404Contacto" type="button" value="CONTACTO" />				
 				</div><!-- .entry-content -->
 			</article><!-- #post-0 -->
 

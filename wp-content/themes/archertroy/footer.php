@@ -24,9 +24,9 @@
           <a href='https://www.facebook.com/archertroy' class='icon-facebook' target='_blank'></a>
           <a href='https://twitter.com/ArcherTroy' class='icon-twitter' target='_blank'></a>
           <a href='http://instagram.com/archertroy' class='icon-instagram' target='_blank'></a>
-          <a href='http://www.pinterest.com/archertroyp' class='icon-pinterest-1' target='_blank'></a>
+          <a href='http://www.pinterest.com/archertroyp' class='icon-pinterest' target='_blank'></a>
           <a href='https://www.youtube.com/ConquistasArcher' class='icon-youtube-play' target='_blank'></a>
-          <a href='https://plus.google.com/105080074709822071277/posts' class='icon-google-plus' target='_blank'></a>
+          <a href='https://www.linkedin.com/company/archer-troy-publicidad-s-a-de-c-v-?trk=company_logo' class='icon-linkedin' target='_blank'></a>
         </div>
       </div>
       <img class="triangule" src="/wp-content/themes/archertroy/img/footer-triangule.png" />
@@ -58,7 +58,7 @@
 if(isset($_GET["c"])){
 ?>
 <script type="text/javascript">
-$(".formulario").html("<h1>¡Gracias!, Correo confirmado.</h1>");
+$(".formulario").html("<h1>AHORA ESTAMOS EN CONTACTO, ESPERA NUESTRAS NOTICIAS.</h1>");
 </script>
 <?php
 }
