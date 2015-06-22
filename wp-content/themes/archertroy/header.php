@@ -79,6 +79,14 @@
 	<meta property="og:description" content="Diariamente colaboramos con nuestros clientes para librar batallas y obtener la mejor posición en el mercado, dedicamos todos nuestros esfuerzos para ser reconocidos por un gran trabajo y hacemos que los consumidores se enamoren de las marcas. Por eso podemos afirmar que nuestro trabajo es la conquista. ¿De qué? No de los gustos, ni de las necesidades y mucho menos del bolsillo del consumidor. Nosotros conquistamos su mente y corazón a través de nuestra mejor arma: las ideas, y entre más grandes, más poderosas." />
 	<meta property="og:site_name" content="archertroy" />
 	<meta property="og:image" content="http://archertroy.com/wp-content/uploads/image-share/legion.png" />
+	
+	<meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Archer Troy - Legión" />
+    <meta name="twitter:description" content="Diariamente colaboramos con nuestros clientes para librar batallas y obtener la mejor posición en el mercado, dedicamos todos nuestros esfuerzos para ser reconocidos por un gran trabajo y hacemos que los consumidores se enamoren de las marcas. Por eso podemos afirmar que nuestro trabajo es la conquista. ¿De qué? No de los gustos, ni de las necesidades y mucho menos del bolsillo del consumidor. Nosotros conquistamos su mente y corazón a través de nuestra mejor arma: las ideas, y entre más grandes, más poderosas." />
+    <meta name="twitter:site" content="@archertroy" />
+    <meta name="twitter:creator" content="@archertroy" />
+    <meta name="twitter:domain" content="http://archertroy.com" />
+    <meta name="twitter:image:src" content="http://archertroy.com/wp-content/uploads/image-share/legion.png" />
 
 <?php
 
@@ -92,6 +100,14 @@
 	<meta property="og:site_name" content="archertroy" />
 	<meta property="og:image" content="http://archertroy.com/wp-content/uploads/image-share/image-share-proyectos.jpg" />
 
+	<meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Archer Troy - Proyectos" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:site" content="@archertroy" />
+    <meta name="twitter:creator" content="@archertroy" />
+    <meta name="twitter:domain" content="http://archertroy.com" />
+    <meta name="twitter:image:src" content="http://archertroy.com/wp-content/uploads/image-share/image-share-proyectos.jpg" />
+
 <?php
 
  }elseif($_SERVER['REQUEST_URI'] == "/clientes/"){
@@ -103,6 +119,14 @@
 	<meta property="og:description" content="" />
 	<meta property="og:site_name" content="archertroy" />
 	<meta property="og:image" content="http://archertroy.com/wp-content/uploads/image-share/image-share-clientes.jpg" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Archer Troy - Clientes" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:site" content="@archertroy" />
+    <meta name="twitter:creator" content="@archertroy" />
+    <meta name="twitter:domain" content="http://archertroy.com" />
+    <meta name="twitter:image:src" content="http://archertroy.com/wp-content/uploads/image-share/image-share-clientes.jpg" />
 
 <?php 
 
@@ -116,6 +140,14 @@
 	<meta property="og:site_name" content="archertroy" />
 	<meta property="og:image" content="http://archertroy.com/wp-content/uploads/image-share/image-share-gente.jpg" />
 
+	<meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Archer Troy - Gente" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:site" content="@archertroy" />
+    <meta name="twitter:creator" content="@archertroy" />
+    <meta name="twitter:domain" content="http://archertroy.com" />
+    <meta name="twitter:image:src" content="http://archertroy.com/wp-content/uploads/image-share/image-share-gente.jpg" />
+
 <?php
 
  }elseif($_SERVER['REQUEST_URI'] == "/contacto/"){
@@ -127,6 +159,14 @@
 	<meta property="og:description" content="" />
 	<meta property="og:site_name" content="archertroy" />
 	<meta property="og:image" content="http://archertroy.com/wp-content/uploads/image-share/image-share-contacto.jpg" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Archer Troy - Contacto" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:site" content="@archertroy" />
+    <meta name="twitter:creator" content="@archertroy" />
+    <meta name="twitter:domain" content="http://archertroy.com" />
+    <meta name="twitter:image:src" content="http://archertroy.com/wp-content/uploads/image-share/image-share-contacto.jpg" />
 
 <?php
 
@@ -140,6 +180,14 @@
 	<meta property="og:site_name" content="archertroy" />
 	<meta property="og:image" content="http://archertroy.com/wp-content/uploads/image-share/image-share-brain.jpg" />
 
+	<meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Archer Troy - Brain Break" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:site" content="@archertroy" />
+    <meta name="twitter:creator" content="@archertroy" />
+    <meta name="twitter:domain" content="http://archertroy.com" />
+    <meta name="twitter:image:src" content="http://archertroy.com/wp-content/uploads/image-share/image-share-brain.jpg" />
+
 <?php
 
  }elseif($_SERVER['REQUEST_URI'] == "/blog/"){
@@ -151,6 +199,14 @@
 	<meta property="og:description" content="" />
 	<meta property="og:site_name" content="archertroy" />
 
+	<meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Archer Troy - Blog" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:site" content="@archertroy" />
+    <meta name="twitter:creator" content="@archertroy" />
+    <meta name="twitter:domain" content="http://archertroy.com" />
+    <meta name="twitter:image:src" content="" />
+    
 <?php
 
  }elseif($_SERVER['REQUEST_URI'] == "/noticia/"){
@@ -161,6 +217,14 @@
 	<meta property="og:title" content="Archer Troy - Noticia" />
 	<meta property="og:description" content="" />
 	<meta property="og:site_name" content="archertroy" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Archer Troy - Noticia" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:site" content="@archertroy" />
+    <meta name="twitter:creator" content="@archertroy" />
+    <meta name="twitter:domain" content="http://archertroy.com" />
+    <meta name="twitter:image:src" content="" />
 
 <?php
 
@@ -174,6 +238,13 @@
 	<meta property="og:site_name" content="archertroy" />
 	<meta property="og:image" content="http://archertroy.com/wp-content/uploads/image-share/image-share-posters.jpg" />
 
+	<meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Archer Troy - Posters" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:site" content="@archertroy" />
+    <meta name="twitter:creator" content="@archertroy" />
+    <meta name="twitter:domain" content="http://archertroy.com" />
+    <meta name="twitter:image:src" content="http://archertroy.com/wp-content/uploads/image-share/image-share-posters.jpg" />
 
 <?php
 
@@ -190,6 +261,13 @@
 	<?php $fb_image = wp_get_attachment_image_src(get_post_thumbnail_id( get_the_ID() ), 'thumbnail'); ?>
 	<meta property="og:image" content="<?php echo $fb_image[0]; ?>" />
 
+	<meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="<?php the_title(); ?> - Proyecto" />
+    <meta name="twitter:description" content="<?php echo strip_tags($post->post_content); ?>" />
+    <meta name="twitter:site" content="@archertroy" />
+    <meta name="twitter:creator" content="@archertroy" />
+    <meta name="twitter:domain" content="http://archertroy.com" />
+    <meta name="twitter:image:src" content="<?php echo $fb_image[0]; ?>" />
 
 <?php
 

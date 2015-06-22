@@ -17,14 +17,14 @@
 // ** Ajustes de MySQL. Solicita estos datos a tu proveedor de alojamiento web. ** //
 /** El nombre de tu base de datos de WordPress */
 define('WP_CACHE', true); //Added by WP-Cache Manager
-define( 'WPCACHEHOME', '/Applications/MAMP/htdocs/wordpress/www.archertroy.com.mx/wp-content/plugins/wp-super-cache/' ); //Added by WP-Cache Manager
-define('DB_NAME', 'archertroy');
+define( 'WPCACHEHOME', '/home/archer/public_html/wp-content/plugins/wp-super-cache/' ); //Added by WP-Cache Manager
+define('DB_NAME', 'archer_sitio');
 
 /** Tu nombre de usuario de MySQL */
-define('DB_USER', 'root');
+define('DB_USER', 'archer_sitio');
 
 /** Tu contraseña de MySQL */
-define('DB_PASSWORD', 'root');
+define('DB_PASSWORD', 'archer_sitio');
 
 /** Host de MySQL (es muy probable que no necesites cambiarlo) */
 /* define('DB_HOST', 'localhost'); */

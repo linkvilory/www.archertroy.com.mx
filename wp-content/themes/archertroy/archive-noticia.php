@@ -43,7 +43,7 @@ get_header(); ?>
           'post_type' => 'noticia',
           'order' => 'DESC',
           'orderby' => 'date',
-          'posts_per_page' => 8
+          'posts_per_page' => 15
       	);
       	$my_query = new WP_Query($args);
 

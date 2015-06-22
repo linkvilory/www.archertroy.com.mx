@@ -14,13 +14,16 @@ get_header(); ?>
 		<div id="content" role="main">
 
 			<?php while ( have_posts() ) : the_post(); $actualId = get_the_ID(); ?>
-
+				<?php
+					$fb_image = wp_get_attachment_image_src(get_post_thumbnail_id( get_the_ID() ), 'thumbnail');
+				?>	
 				<?php get_template_part( 'content', 'proyecto' ); ?>
 
 				<div class="project-navigation">
 					<div class='entry-content-social-links'>
 						<a id="facebookPost" class="sficn icon-facebook" alt="Facebook" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=<?php echo the_title() . get_permalink() ?>"></a>
 						<a id="twitterPost" class="sficn icon-twitter" alt="Twitter" target="_blank" href="https://twitter.com/home?status=<?php echo the_title() . get_permalink() ?>"></a>
+						<a id="pinterestPost" class="sficn icon-pinterest" alt="Pinterest" target="_blank" href="https://pinterest.com/pin/create/button/?url=<?php echo get_permalink() ?>&media=<?php echo $fb_image[0]; ?>&description=<?php echo the_title(); ?>"></a>
 					</div>
 				<?php
 

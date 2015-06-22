@@ -66,15 +66,15 @@ $(".clientes img").each(function(){
 
 
 $(".alignleft a, .alignright a").hover(function(){
-  $(this).addClass("animated infinite tada ");
+  $(this).addClass("animated infinite pulse ");
 }, function(){
-  $(this).removeClass("animated infinite tada ");
+  $(this).removeClass("animated infinite pulse ");
 })
 
 $(".social-links a, .entry-content-social-links a, .header-social-links a").hover(function(){
-  $(this).addClass("animated tada");
+  $(this).addClass("animated pulse");
 }, function(){
-  $(this).removeClass("animated tada");
+  $(this).removeClass("animated pulse");
 })
 
  /* End Social Media */

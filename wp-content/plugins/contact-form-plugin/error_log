@@ -1,0 +1,2 @@
+[05-Jun-2015 05:34:24 America/Chicago] PHP Fatal error:  Call to undefined function register_activation_hook() in /home/archer/public_html/wp-content/plugins/contact-form-plugin/contact_form.php on line 2605
+[05-Jun-2015 05:34:28 America/Chicago] PHP Fatal error:  Call to undefined function register_activation_hook() in /home/archer/public_html/wp-content/plugins/contact-form-plugin/contact_form.php on line 2605

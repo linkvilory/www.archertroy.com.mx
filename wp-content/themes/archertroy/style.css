@@ -441,7 +441,7 @@ img.attachment-post-thumbnail.wp-post-image {
 /* Carruseles */
 .wonderplugincarousel {
     width: 100% !important;
-    max-width: 320px !important;
+    max-width: 300px !important;
     margin: 20px auto !important;
     overflow: visible
     }
@@ -1258,6 +1258,10 @@ img.wp-smiley, .rsswidget img {
     background-image: url(../../../wp-content/uploads/proyectos/print-images/Hasbro-PlayDoh-Cover.jpg);
     }
 
+.coverPhotoFront.Img.I00063 {
+    background-image: url(../../../wp-content/uploads/proyectos/integradas-images/Fast-Forward-Cover.jpg);
+    }  
+    
 .coverPhotoFront.Img.Home {
     display: none
     }

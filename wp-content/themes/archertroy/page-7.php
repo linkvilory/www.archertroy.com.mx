@@ -49,11 +49,21 @@
 		<link rel="icon" type="image/png" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon-16x16.png" sizes="16x16">
 		<meta name="msapplication-TileColor" content="#ffffff">
 		<meta name="msapplication-TileImage" content="mstile-144x144.png">
+
     <meta property="og:url" content="http://archertroy.com" />
     <meta property="og:title" content="Archer Troy - Sitio Oficial" />
     <meta property="og:description" content="Archer Troy es una agencia integral e independiente. Nuestra arma de conquista son las ideas, entre mas grandes, más poderosas: Ideas que Conquistan." />
     <meta property="og:site_name" content="archertroy" />
     <meta property="og:image" content="http://archertroy.com/wp-content/uploads/image-share/image-share-archer-troy.jpg" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Archer Troy - Sitio Oficial" />
+    <meta name="twitter:description" content="Archer Troy es una agencia integral e independiente. Nuestra arma de conquista son las ideas, entre mas grandes, más poderosas: Ideas que Conquistan." />
+    <meta name="twitter:site" content="@archertroy" />
+    <meta name="twitter:creator" content="@archertroy" />
+    <meta name="twitter:domain" content="http://archertroy.com" />
+    <meta name="twitter:image:src" content="http://archertroy.com/wp-content/uploads/image-share/image-share-archer-troy.jpg" />
+
 </head>
 <body <?php body_class(); ?>>
   <!-- Landing Page Content -->
@@ -151,8 +161,6 @@
       opciones_proyectos,
       opciones_noticias;
 
-      var idleInterval;
-
       <?php
 
       if($_SESSION["entro"] == 1){
@@ -179,8 +187,7 @@
         }
     
         $start.click(function (e) {
-          e.preventDefault();  
-          clearInterval(idleInterval);    
+          e.preventDefault();        
           cargar_home();
         });
 
@@ -225,10 +232,6 @@
       }
    
       window.onload = function () {
-
-        //Incrementa el contador cada minuto
-        idleInterval = setInterval(timerIncrement, 60000); // 1 minute
-
         if (es_movil()) {          
           imagesLoaded($landing, function() {
       

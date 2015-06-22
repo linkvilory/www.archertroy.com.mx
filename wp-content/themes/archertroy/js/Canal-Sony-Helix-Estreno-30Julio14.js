@@ -367,6 +367,24 @@
             type: "audio/wav"
           }
         ]
+      },
+      {
+        image: "/wp-content/uploads/proyectos/radio-audios/Canal-Sony-Helix-Estreno-30Julio14.png",
+        name: "Helix - Mantenimiento",
+        srcs: [
+          {
+            src: "/wp-content/uploads/proyectos/radio-audios/Canal-Sony-Helix-Mantenim-30Julio14.mp3",
+            type: "audio/mp3"
+          },
+          {
+            src: "/wp-content/uploads/proyectos/radio-audios/Canal-Sony-Helix-Mantenim-30Julio14.ogg",
+            type: "audio/ogg"
+          },
+          {
+            src: "/wp-content/uploads/proyectos/radio-audios/Canal-Sony-Helix-Mantenim-30Julio14.wav",
+            type: "audio/wav"
+          }
+        ]
       }
     ]
   });
